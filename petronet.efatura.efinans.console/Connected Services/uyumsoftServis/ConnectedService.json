@@ -1,0 +1,18 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.30730.948",
+  "ExtendedData": {
+    "inputs": [
+      "https://efatura-test.uyumsoft.com.tr/services/Integration"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, uyumsoftServis"
+    ],
+    "targetFramework": "netcoreapp3.0",
+    "typeReuseMode": "All"
+  }
+}
