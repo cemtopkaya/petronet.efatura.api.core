@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petronet.efatura.api.core", "petronet.efatura.api.core\petronet.efatura.api.core.csproj", "{6D7C1D2E-A13A-4B22-883F-D1D414A66C5C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petronet.efatura.efinans.console", "petronet.efatura.efinans.console\petronet.efatura.efinans.console.csproj", "{ECBC178F-2A5A-490F-A8C7-58BDC8BAF550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "petronet.efatura.api.core", "petronet.efatura.api.core\petronet.efatura.api.core.csproj", "{6D7C1D2E-A13A-4B22-883F-D1D414A66C5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{6D7C1D2E-A13A-4B22-883F-D1D414A66C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D7C1D2E-A13A-4B22-883F-D1D414A66C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D7C1D2E-A13A-4B22-883F-D1D414A66C5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECBC178F-2A5A-490F-A8C7-58BDC8BAF550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECBC178F-2A5A-490F-A8C7-58BDC8BAF550}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECBC178F-2A5A-490F-A8C7-58BDC8BAF550}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECBC178F-2A5A-490F-A8C7-58BDC8BAF550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

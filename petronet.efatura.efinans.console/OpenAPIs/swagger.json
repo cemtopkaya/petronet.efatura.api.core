@@ -1,0 +1,344 @@
+{
+  "x-generator": "NSwag v13.1.6.0 (NJsonSchema v10.0.28.0 (Newtonsoft.Json v11.0.0.0))",
+  "swagger": "2.0",
+  "info": {
+    "title": "My Title",
+    "version": "1.0.0"
+  },
+  "host": "localhost:60286",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/Invoice": {
+      "get": {
+        "tags": [
+          "Invoice"
+        ],
+        "operationId": "Invoice_Get",
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    },
+    "/TestInvoice": {
+      "post": {
+        "tags": [
+          "TestInvoice"
+        ],
+        "operationId": "TestInvoice_SendInvoice",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json",
+          "application/xml",
+          "text/xml",
+          "application/*+xml"
+        ],
+        "parameters": [
+          {
+            "name": "invoice",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/InvoiceInfo"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "WeatherForecast_Get",
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WeatherForecast"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "InvoiceInfo": {
+      "type": "object",
+      "properties": {
+        "xmlns": {
+          "$ref": "#/definitions/XmlSerializerNamespaces"
+        },
+        "invoice": {
+          "$ref": "#/definitions/InvoiceType"
+        }
+      }
+    },
+    "XmlSerializerNamespaces": {
+      "type": "object",
+      "required": [
+        "count"
+      ],
+      "properties": {
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "InvoiceType": {
+      "type": "object",
+      "properties": {
+        "ublVersionID": {
+          "$ref": "#/definitions/UBLVersionIDType"
+        },
+        "customizationID": {
+          "$ref": "#/definitions/CustomizationIDType"
+        },
+        "profileID": {
+          "$ref": "#/definitions/ProfileIDType"
+        },
+        "id": {
+          "$ref": "#/definitions/IDType"
+        },
+        "issueDate": {
+          "$ref": "#/definitions/IssueDateType"
+        },
+        "issueTime": {
+          "$ref": "#/definitions/IssueTimeType"
+        },
+        "invoiceTypeCode": {
+          "$ref": "#/definitions/InvoiceTypeCodeType"
+        }
+      }
+    },
+    "UBLVersionIDType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/IdentifierType1"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "IdentifierType1": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/IdentifierType"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "IdentifierType": {
+      "type": "object",
+      "properties": {
+        "schemeID": {
+          "type": "string"
+        },
+        "schemeName": {
+          "type": "string"
+        },
+        "schemeAgencyID": {
+          "type": "string"
+        },
+        "schemeAgencyName": {
+          "type": "string"
+        },
+        "schemeVersionID": {
+          "type": "string"
+        },
+        "schemeDataURI": {
+          "type": "string"
+        },
+        "schemeURI": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "CustomizationIDType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/IdentifierType1"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "ProfileIDType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/IdentifierType1"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "IDType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/IdentifierType1"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "IssueDateType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/DateType"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "DateType": {
+      "type": "object",
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "value": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "IssueTimeType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/TimeType"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "TimeType": {
+      "type": "object",
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "value": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "InvoiceTypeCodeType": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/CodeType1"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "CodeType1": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/CodeType"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "CodeType": {
+      "type": "object",
+      "properties": {
+        "listID": {
+          "type": "string"
+        },
+        "listAgencyID": {
+          "type": "string"
+        },
+        "listAgencyName": {
+          "type": "string"
+        },
+        "listName": {
+          "type": "string"
+        },
+        "listVersionID": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "languageID": {
+          "type": "string"
+        },
+        "listURI": {
+          "type": "string"
+        },
+        "listSchemeURI": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "WeatherForecast": {
+      "type": "object",
+      "required": [
+        "date",
+        "temperatureC",
+        "temperatureF"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "temperatureC": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "temperatureF": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "summary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

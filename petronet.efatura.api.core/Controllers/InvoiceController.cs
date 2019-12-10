@@ -4,24 +4,21 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using petronet.efatura.api.core.Model.Response;
 using uyumsoft;
 
-namespace petronet.efatura.api.core.Controllers
-{
-    [Route("[controller]")]
+namespace petronet.efatura.api.core.Controllers {
+
+    [ApiVersion("1.0")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class InvoiceController : ControllerBase
-    {
+    public class InvoiceController : ControllerBase {
         [HttpGet]
         [Produces("application/xml")]
-        public IActionResult Get()
-        {
-            var ii = new UBL.InvoiceInfo
-            {
-                Invoice = new UBL.InvoiceType
-                {
-                    ID = new UBL.IDType
-                    {
+        public IActionResult Get() {
+            var ii = new UBL.InvoiceInfo {
+                Invoice = new UBL.InvoiceType {
+                    ID = new UBL.IDType {
                         schemeID = "VKN",
                         Value = "123123"
                     },
@@ -34,6 +31,13 @@ namespace petronet.efatura.api.core.Controllers
                 }
             };
             return Ok(ii);
+        }
+
+        [HttpPost]
+        public SingleResponse<UBL.InvoiceInfo> Post([FromBody] UBL.InvoiceInfo invoice) {
+            return new SingleResponse<UBL.InvoiceInfo>() {
+                Model = invoice
+            };
         }
     }
 }
