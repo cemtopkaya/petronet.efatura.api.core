@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
-namespace petronet.efatura.api.core.UBL
-{
+namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(Namespace = "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class IdentifierType
@@ -31,7 +26,7 @@ namespace petronet.efatura.api.core.UBL
         [XmlAttribute(DataType = "anyURI")]
         public string schemeURI { get; set; }
 
-        [XmlTextAttribute(DataType = "normalizedString")]
+        [XmlText(DataType = "normalizedString")]
         public string Value { get; set; }
     }
 }

@@ -1,10 +1,8 @@
 ﻿using System.Xml.Serialization;
 
-namespace petronet.efatura.api.core.UBL
-{
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2")]
-    public partial class InvoiceType
-    {
+namespace petronet.efatura.api.core.Model.UBL {
+    [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2")]
+    public partial class InvoiceType {
 
         //private UBLExtensionType[] uBLExtensionsField;
 
@@ -96,7 +94,6 @@ namespace petronet.efatura.api.core.UBL
 
         //private string schemaLocationField;
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlArrayAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2", Order = 0)]
         //[System.Xml.Serialization.XmlArrayItemAttribute("UBLExtension", IsNullable = false)]
         //public UBLExtensionType[] UBLExtensions {
@@ -120,7 +117,18 @@ namespace petronet.efatura.api.core.UBL
         [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 4)]
         public IDType ID { get; set; }
 
-        ///// <remarks/>
+        //[System.Xml.Serialization.XmlElementAttribute("Note", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 10)]
+        //public NoteType[] Note {
+        //    get {
+        //        return this.noteField;
+        //    }
+        //    set {
+        //        this.noteField = value;
+        //    }
+        //}
+        [XmlElement("Note", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 10)]
+        public NoteType[] Note { get; set; }
+
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 5)]
         //public CopyIndicatorType CopyIndicator {
         //    get {
@@ -131,7 +139,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 6)]
         //public UUIDType UUID {
         //    get {
@@ -143,7 +150,7 @@ namespace petronet.efatura.api.core.UBL
         //}
 
         [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 7)]
-        public IssueDateType IssueDate {get;set;}
+        public IssueDateType IssueDate { get; set; }
 
         [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 8)]
         public IssueTimeType IssueTime { get; set; }
@@ -151,18 +158,9 @@ namespace petronet.efatura.api.core.UBL
         [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 9)]
         public InvoiceTypeCodeType InvoiceTypeCode { get; set; }
 
-        ///// <remarks/>
-        //[System.Xml.Serialization.XmlElementAttribute("Note", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 10)]
-        //public NoteType[] Note {
-        //    get {
-        //        return this.noteField;
-        //    }
-        //    set {
-        //        this.noteField = value;
-        //    }
-        //}
+        [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 11)]
+        public DocumentCurrencyCodeType DocumentCurrencyCode { get; set; }
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 11)]
         //public DocumentCurrencyCodeType DocumentCurrencyCode {
         //    get {
@@ -173,7 +171,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 12)]
         //public TaxCurrencyCodeType TaxCurrencyCode {
         //    get {
@@ -184,7 +181,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 13)]
         //public PricingCurrencyCodeType PricingCurrencyCode {
         //    get {
@@ -195,7 +191,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 14)]
         //public PaymentCurrencyCodeType PaymentCurrencyCode {
         //    get {
@@ -206,7 +201,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 15)]
         //public PaymentAlternativeCurrencyCodeType PaymentAlternativeCurrencyCode {
         //    get {
@@ -217,7 +211,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 16)]
         //public AccountingCostType AccountingCost {
         //    get {
@@ -228,7 +221,8 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
+        public LineCountNumericType LineCountNumeric { get; set; }
+
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order = 17)]
         //public LineCountNumericType LineCountNumeric {
         //    get {
@@ -239,7 +233,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 18)]
         //public PeriodType InvoicePeriod {
         //    get {
@@ -250,7 +243,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 19)]
         //public OrderReferenceType OrderReference {
         //    get {
@@ -261,7 +253,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("BillingReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 20)]
         //public BillingReferenceType[] BillingReference {
         //    get {
@@ -272,7 +263,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("DespatchDocumentReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 21)]
         //public DocumentReferenceType[] DespatchDocumentReference {
         //    get {
@@ -283,7 +273,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("ReceiptDocumentReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 22)]
         //public DocumentReferenceType[] ReceiptDocumentReference {
         //    get {
@@ -294,7 +283,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("OriginatorDocumentReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 23)]
         //public DocumentReferenceType[] OriginatorDocumentReference {
         //    get {
@@ -305,7 +293,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("ContractDocumentReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 24)]
         //public DocumentReferenceType[] ContractDocumentReference {
         //    get {
@@ -316,51 +303,18 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
-        //[System.Xml.Serialization.XmlElementAttribute("AdditionalDocumentReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 25)]
-        //public DocumentReferenceType[] AdditionalDocumentReference {
-        //    get {
-        //        return this.additionalDocumentReferenceField;
-        //    }
-        //    set {
-        //        this.additionalDocumentReferenceField = value;
-        //    }
-        //}
+        [XmlElement("AdditionalDocumentReference", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 25)]
+        public DocumentReferenceType[] AdditionalDocumentReference {get; set; }
 
-        ///// <remarks/>
-        //[System.Xml.Serialization.XmlElementAttribute("Signature", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 26)]
-        //public SignatureType1[] Signature {
-        //    get {
-        //        return this.signatureField;
-        //    }
-        //    set {
-        //        this.signatureField = value;
-        //    }
-        //}
+        [XmlElement("Signature", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 26)]
+        public SignatureType1[] Signature { get; set; }
 
-        ///// <remarks/>
-        //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 27)]
-        //public SupplierPartyType AccountingSupplierParty {
-        //    get {
-        //        return this.accountingSupplierPartyField;
-        //    }
-        //    set {
-        //        this.accountingSupplierPartyField = value;
-        //    }
-        //}
+        [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 27)]
+        public SupplierPartyType AccountingSupplierParty { get; set; }
 
-        ///// <remarks/>
-        //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 28)]
-        //public CustomerPartyType AccountingCustomerParty {
-        //    get {
-        //        return this.accountingCustomerPartyField;
-        //    }
-        //    set {
-        //        this.accountingCustomerPartyField = value;
-        //    }
-        //}
+        [XmlElement(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 28)]
+        public CustomerPartyType AccountingCustomerParty { get; set; }
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 29)]
         //public CustomerPartyType BuyerCustomerParty {
         //    get {
@@ -371,7 +325,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 30)]
         //public SupplierPartyType SellerSupplierParty {
         //    get {
@@ -382,7 +335,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 31)]
         //public PartyType TaxRepresentativeParty {
         //    get {
@@ -393,7 +345,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("Delivery", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 32)]
         //public DeliveryType[] Delivery {
         //    get {
@@ -404,7 +355,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("PaymentMeans", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 33)]
         //public PaymentMeansType[] PaymentMeans {
         //    get {
@@ -415,7 +365,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 34)]
         //public PaymentTermsType PaymentTerms {
         //    get {
@@ -426,7 +375,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("AllowanceCharge", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 35)]
         //public AllowanceChargeType[] AllowanceCharge {
         //    get {
@@ -437,7 +385,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 36)]
         //public ExchangeRateType TaxExchangeRate {
         //    get {
@@ -448,7 +395,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 37)]
         //public ExchangeRateType PricingExchangeRate {
         //    get {
@@ -459,7 +405,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 38)]
         //public ExchangeRateType PaymentExchangeRate {
         //    get {
@@ -470,7 +415,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 39)]
         //public ExchangeRateType PaymentAlternativeExchangeRate {
         //    get {
@@ -481,7 +425,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("TaxTotal", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 40)]
         //public TaxTotalType[] TaxTotal {
         //    get {
@@ -492,7 +435,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("WithholdingTaxTotal", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 41)]
         //public TaxTotalType[] WithholdingTaxTotal {
         //    get {
@@ -503,7 +445,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 42)]
         //public MonetaryTotalType LegalMonetaryTotal {
         //    get {
@@ -514,7 +455,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlElementAttribute("InvoiceLine", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", Order = 43)]
         //public InvoiceLineType[] InvoiceLine {
         //    get {
@@ -525,7 +465,6 @@ namespace petronet.efatura.api.core.UBL
         //    }
         //}
 
-        ///// <remarks/>
         //[System.Xml.Serialization.XmlAttributeAttribute()]
         //public string schemaLocation {
         //    get {

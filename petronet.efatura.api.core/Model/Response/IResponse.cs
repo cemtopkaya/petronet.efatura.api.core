@@ -1,7 +1,4 @@
-namespace petronet.efatura.api.core.Model.Response
-{
-    using System;
-
+namespace petronet.efatura.api.core.Model.Response {
     public interface IResponse
     {
         string Message { get; set; }

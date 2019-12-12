@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace petronet.efatura.api.core.UBL
+namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "http://tempuri.org/")]
     public partial class InvoiceInfo

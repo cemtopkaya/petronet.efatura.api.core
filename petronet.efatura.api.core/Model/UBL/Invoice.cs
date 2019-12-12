@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace petronet.efatura.api.core.UBL
-{
+﻿namespace petronet.efatura.api.core.Model.UBL {
     public class Invoice
     {
         public string UBLVersionID { get; set; }

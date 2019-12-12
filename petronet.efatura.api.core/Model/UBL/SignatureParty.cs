@@ -1,4 +1,4 @@
-﻿namespace petronet.efatura.api.core.UBL
+﻿namespace petronet.efatura.api.core.Model.UBL
 {
     public class SignatureParty
     {

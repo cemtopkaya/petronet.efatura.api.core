@@ -1,8 +1,5 @@
-namespace petronet.efatura.api.core.Model.Response
-{
-    using System;
+namespace petronet.efatura.api.core.Model.Response {
     using System.Collections.Generic;
-    using System.Runtime.CompilerServices;
 
     public class ListResponse<TModel> : IListResponse<TModel>, IResponse
     {

@@ -1,8 +1,4 @@
-﻿namespace petronet.efatura.api.core.Model.Response
-{
-    using System;
-    using System.Runtime.CompilerServices;
-
+﻿namespace petronet.efatura.api.core.Model.Response {
     public class SingleResponse<TModel> : ISingleResponse<TModel>, IResponse
     {
         public string Message { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace petronet.efatura.api.core.UBL
+namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class CodeType
