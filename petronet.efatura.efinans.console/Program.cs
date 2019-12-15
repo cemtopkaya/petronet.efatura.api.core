@@ -10,7 +10,7 @@ namespace petronet.efatura.efinans.console
             Console.WriteLine("Hello World!");
             var client = new HttpClient();
             //InvoiceClient ic = new InvoiceClient(client);
-            //TestInvoiceClient tic = new TestInvoiceClient(client);
+            // TestInvoiceClient tic = new TestInvoiceClient(client);
 
 
             var ii = new uyumsoftServis.InvoiceInfo {
