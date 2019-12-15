@@ -14,6 +14,6 @@ namespace petronet.efatura.api.core.Options {
         public string UygulamaAdi { get; set; }
 
         public SymmetricSecurityKey IssuerSigningKey =>
-            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(this.Secret));
+            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Secret));
     }
 }

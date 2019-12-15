@@ -4,16 +4,160 @@
         <name>petronet.efatura.api.core</name>
     </assembly>
     <members>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceLineType.ID">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceLineType.Amount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceLineType.AllowanceCharge">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.InvoiceDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.SelfBilledInvoiceDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.CreditNoteDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.SelfBilledCreditNoteDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.DebitNoteDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.ReminderDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.AdditionalDocumentReference">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.BillingReferenceType.BillingReferenceLine">
+            <remarks/>
+        </member>
         <member name="P:petronet.efatura.api.core.Model.UBL.CustomerPartyType.Party">
             <remarks/>
         </member>
         <member name="P:petronet.efatura.api.core.Model.UBL.CustomerPartyType.DeliveryContact">
             <remarks/>
         </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.ExchangeRateType.SourceCurrencyCode">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.ExchangeRateType.TargetCurrencyCode">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.ExchangeRateType.CalculationRate">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.ExchangeRateType.Date">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.LineExtensionAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.TaxExclusiveAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.TaxInclusiveAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.AllowanceTotalAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.ChargeTotalAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.PayableRoundingAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.MonetaryTotalType.PayableAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentMeansType.PaymentMeansCode">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentMeansType.PaymentDueDate">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentMeansType.PaymentChannelCode">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentMeansType.InstructionNote">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentMeansType.PayerFinancialAccount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentMeansType.PayeeFinancialAccount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentTermsType.Note">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentTermsType.PenaltySurchargePercent">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentTermsType.Amount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentTermsType.PenaltyAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentTermsType.PaymentDueDate">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.PaymentTermsType.SettlementPeriod">
+            <remarks/>
+        </member>
         <member name="P:petronet.efatura.api.core.Model.UBL.SupplierPartyType.Party">
             <remarks/>
         </member>
         <member name="P:petronet.efatura.api.core.Model.UBL.SupplierPartyType.DespatchContact">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxCategoryType.Name">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxCategoryType.TaxExemptionReasonCode">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxCategoryType.TaxExemptionReason">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxCategoryType.TaxScheme">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.TaxableAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.TaxAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.CalculationSequenceNumeric">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.TransactionCurrencyTaxAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.Percent">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.BaseUnitMeasure">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.PerUnitAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxSubtotalType.TaxCategory">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxTotalType.TaxAmount">
+            <remarks/>
+        </member>
+        <member name="P:petronet.efatura.api.core.Model.UBL.TaxTotalType.TaxSubtotal">
             <remarks/>
         </member>
     </members>

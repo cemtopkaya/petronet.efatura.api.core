@@ -24,7 +24,7 @@ namespace petronet.efatura.api.core {
         private IOrderedEnumerable<string> Versions {
             get {
                 if (_versions == null) {
-                    var types = this.GetType().Assembly.GetTypes();
+                    var types = GetType().Assembly.GetTypes();
                     var versionedControllers = types.Where(t => typeof(ControllerBase).IsAssignableFrom(t));
 
                     _versions = versionedControllers
@@ -132,7 +132,7 @@ namespace petronet.efatura.api.core {
 
             #region JSON Web Token ayarlarý
             var jwtSettings = new TokenSettings();
-            this.Configuration.Bind("jwtSettings", jwtSettings);
+            Configuration.Bind("jwtSettings", jwtSettings);
 
             services.AddAuthentication(opt => {
                 /**

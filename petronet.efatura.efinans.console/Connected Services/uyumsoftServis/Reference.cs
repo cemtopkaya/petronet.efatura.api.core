@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Xml.Serialization;
+
 namespace uyumsoftServis
 {
     
@@ -920,7 +922,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class DateResponse : Response
     {
         
@@ -968,7 +970,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DateResponse))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class Response
     {
         
@@ -1008,7 +1010,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class QueueInvoiceNotificationRequest
     {
         
@@ -1048,7 +1050,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class MailingInformation
     {
         
@@ -1152,7 +1154,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class MailAttachmentInformation
     {
         
@@ -1224,7 +1226,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class FileUploadRequest
     {
         
@@ -1264,7 +1266,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EArchiveCancelInvoiceContext
     {
         
@@ -1304,7 +1306,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class BinaryRequestData
     {
         
@@ -1344,7 +1346,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class LineResponseInfo
     {
         
@@ -1384,7 +1386,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class DocumentResponseInfo
     {
         
@@ -1455,7 +1457,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum DocumentResponseStatus
     {
         
@@ -1479,7 +1481,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemUserFilterContext))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class PagedQueryContext
     {
         
@@ -1521,7 +1523,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InboxInvoiceListQueryModel))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceListQueryModel : PagedQueryContext
     {
         
@@ -1672,7 +1674,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum InvoiceStatus
     {
         
@@ -1719,7 +1721,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class OutboxInvoiceListQueryModel : InvoiceListQueryModel
     {
         
@@ -1742,7 +1744,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum InvoiceScenarioType
     {
         
@@ -1756,7 +1758,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InboxInvoiceListQueryModel : InvoiceListQueryModel
     {
         
@@ -1781,7 +1783,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InboxInvoiceQueryModel))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceQueryModel : PagedQueryContext
     {
         
@@ -1853,7 +1855,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InboxInvoiceQueryModel : InvoiceQueryModel
     {
         
@@ -1894,7 +1896,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemUserFilterContext))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class FilterablePagedQueryContext : PagedQueryContext
     {
         
@@ -1918,7 +1920,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SystemUserFilterContext : FilterablePagedQueryContext
     {
         
@@ -1990,7 +1992,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class UserShortInfo
     {
         
@@ -2062,7 +2064,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class WhoAmIInfo
     {
         
@@ -2102,7 +2104,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class CustomerWithoutServiceInformation : EntityUpdatedHistory
     {
         
@@ -2525,7 +2527,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum CustomerType
     {
         
@@ -2538,7 +2540,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum CustomerOwnerType
     {
         
@@ -2554,7 +2556,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemUser))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public abstract partial class EntityUpdatedHistory : EntityCreateHistory
     {
     }
@@ -2565,7 +2567,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemUser))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public abstract partial class EntityCreateHistory : EntityBaseInt
     {
     }
@@ -2579,7 +2581,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemUser))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EntityBaseInt : EntityBase
     {
     }
@@ -2594,7 +2596,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemUser))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EntityBase
     {
     }
@@ -2602,7 +2604,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SystemUserAlias : EntityBaseInt
     {
         
@@ -2690,7 +2692,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SystemUserDefinition : EntityBaseInt
     {
         
@@ -2778,7 +2780,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SystemUser : EntityUpdatedHistory
     {
         
@@ -2914,7 +2916,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class MonthlyReportItem
     {
         
@@ -2970,7 +2972,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class Last10DaysReport
     {
         
@@ -3026,7 +3028,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class CustomerSummaryUsageReport
     {
         
@@ -3066,7 +3068,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EnvelopeData
     {
         
@@ -3137,7 +3139,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum EnvelopeStatus
     {
         
@@ -3262,7 +3264,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ClonedInvoiceInfo
     {
         
@@ -3303,7 +3305,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InvoiceLogItem))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class LogRecordItem
     {
         
@@ -3423,7 +3425,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceLogItem : LogRecordItem
     {
     }
@@ -3431,7 +3433,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceStatusWithLogInfo
     {
         
@@ -3551,7 +3553,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class VerificationResult
     {
         
@@ -3607,7 +3609,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ViewResult
     {
         
@@ -3663,7 +3665,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceIdentity
     {
         
@@ -3719,7 +3721,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceExportGtbInformation
     {
         
@@ -3791,7 +3793,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class PagedResponseOfOutboxInvoiceListItem
     {
         
@@ -3879,7 +3881,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class OutboxInvoiceListItem : InvoiceListItemBase
     {
         
@@ -3953,7 +3955,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InboxInvoiceListItem))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceListItemBase
     {
         
@@ -4408,7 +4410,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum InvoiceTypes
     {
         
@@ -4431,7 +4433,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InboxInvoiceListItem : InvoiceListItemBase
     {
         
@@ -4455,7 +4457,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class DocumentResponseStatusInfo
     {
         
@@ -4526,7 +4528,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum DocumentResponseEntityStatus
     {
         
@@ -4552,7 +4554,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceStatusInfo
     {
         
@@ -4624,7 +4626,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceData
     {
         
@@ -4696,7 +4698,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class PagedResponseOfInvoiceData
     {
         
@@ -4784,7 +4786,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class PagedResponseOfInboxInvoiceListItem
     {
         
@@ -4872,7 +4874,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SmsMessageInformation
     {
         
@@ -4912,7 +4914,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class NotificationInformation
     {
         
@@ -4952,7 +4954,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EArchiveWithHoldingInformation
     {
         
@@ -5008,7 +5010,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ShipmentCarier
     {
         
@@ -5048,7 +5050,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ShipmentInformation
     {
         
@@ -5088,7 +5090,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InternetSalesInformation
     {
         
@@ -5176,7 +5178,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class NewGenerationPaymentRecorderInformation
     {
         
@@ -5248,7 +5250,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EArchiveInvoiceInformation
     {
         
@@ -5319,7 +5321,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum InvoiceDeliveryType
     {
         
@@ -5333,7 +5335,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class CustomerInfo
     {
         
@@ -5389,7 +5391,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class MonetaryTotalType
     {
         
@@ -5509,7 +5511,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LineExtensionAmountType : AmountType1
     {
     }
@@ -5585,7 +5587,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CorporateStockAmountType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="AmountType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="AmountType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class AmountType1 : AmountType
     {
     }
@@ -5662,7 +5664,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CorporateStockAmountType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class AmountType
     {
         
@@ -5718,7 +5720,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentationFeeAmountType : AmountType1
     {
     }
@@ -5726,7 +5728,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeclaredStatisticsValueAmountType : AmountType1
     {
     }
@@ -5734,7 +5736,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedOverallContractAmountType : AmountType1
     {
     }
@@ -5742,7 +5744,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedAmountType : AmountType1
     {
     }
@@ -5750,7 +5752,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DebitLineAmountType : AmountType1
     {
     }
@@ -5758,7 +5760,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeclaredCarriageValueAmountType : AmountType1
     {
     }
@@ -5766,7 +5768,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeclaredForCarriageValueAmountType : AmountType1
     {
     }
@@ -5774,7 +5776,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeclaredCustomsValueAmountType : AmountType1
     {
     }
@@ -5782,7 +5784,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FaceValueAmountType : AmountType1
     {
     }
@@ -5790,7 +5792,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InventoryValueAmountType : AmountType1
     {
     }
@@ -5798,7 +5800,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InsuranceValueAmountType : AmountType1
     {
     }
@@ -5806,7 +5808,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LiabilityAmountType : AmountType1
     {
     }
@@ -5814,7 +5816,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FreeOnBoardValueAmountType : AmountType1
     {
     }
@@ -5822,7 +5824,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FeeAmountType : AmountType1
     {
     }
@@ -5830,7 +5832,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InsurancePremiumAmountType : AmountType1
     {
     }
@@ -5838,7 +5840,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HigherTenderAmountType : AmountType1
     {
     }
@@ -5846,7 +5848,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CreditLineAmountType : AmountType1
     {
     }
@@ -5854,7 +5856,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="AmountType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="AmountType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AmountType2 : AmountType1
     {
     }
@@ -5862,7 +5864,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AllowanceTotalAmountType : AmountType1
     {
     }
@@ -5870,7 +5872,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AverageAmountType : AmountType1
     {
     }
@@ -5878,7 +5880,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AnnualAverageAmountType : AmountType1
     {
     }
@@ -5886,7 +5888,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdvertisementAmountType : AmountType1
     {
     }
@@ -5894,7 +5896,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChargeTotalAmountType : AmountType1
     {
     }
@@ -5902,7 +5904,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CorrectionUnitAmountType : AmountType1
     {
     }
@@ -5910,7 +5912,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CorrectionAmountType : AmountType1
     {
     }
@@ -5918,7 +5920,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CallExtensionAmountType : AmountType1
     {
     }
@@ -5926,7 +5928,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BalanceAmountType : AmountType1
     {
     }
@@ -5934,7 +5936,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AverageSubsequentContractAmountType : AmountType1
     {
     }
@@ -5942,7 +5944,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CallBaseAmountType : AmountType1
     {
     }
@@ -5950,7 +5952,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BaseAmountType : AmountType1
     {
     }
@@ -5958,7 +5960,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalAmountType : AmountType1
     {
     }
@@ -5966,7 +5968,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ThresholdAmountType : AmountType1
     {
     }
@@ -5974,7 +5976,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalCreditAmountType : AmountType1
     {
     }
@@ -5982,7 +5984,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalBalanceAmountType : AmountType1
     {
     }
@@ -5990,7 +5992,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxableAmountType : AmountType1
     {
     }
@@ -5998,7 +6000,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxEnergyOnAccountAmountType : AmountType1
     {
     }
@@ -6006,7 +6008,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxEnergyBalanceAmountType : AmountType1
     {
     }
@@ -6014,7 +6016,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxInclusiveAmountType : AmountType1
     {
     }
@@ -6022,7 +6024,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxExclusiveAmountType : AmountType1
     {
     }
@@ -6030,7 +6032,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValueAmountType : AmountType1
     {
     }
@@ -6038,7 +6040,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransactionCurrencyTaxAmountType : AmountType1
     {
     }
@@ -6046,7 +6048,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumAmountType : AmountType1
     {
     }
@@ -6054,7 +6056,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalTaxAmountType : AmountType1
     {
     }
@@ -6062,7 +6064,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalInvoiceAmountType : AmountType1
     {
     }
@@ -6070,7 +6072,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalDebitAmountType : AmountType1
     {
     }
@@ -6078,7 +6080,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalTaskAmountType : AmountType1
     {
     }
@@ -6086,7 +6088,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalPaymentAmountType : AmountType1
     {
     }
@@ -6094,7 +6096,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxEnergyAmountType : AmountType1
     {
     }
@@ -6102,7 +6104,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PartyCapacityAmountType : AmountType1
     {
     }
@@ -6110,7 +6112,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaidAmountType : AmountType1
     {
     }
@@ -6118,7 +6120,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PayableAmountType : AmountType1
     {
     }
@@ -6126,7 +6128,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PayableAlternativeAmountType : AmountType1
     {
     }
@@ -6134,7 +6136,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumPaidAmountType : AmountType1
     {
     }
@@ -6142,7 +6144,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MarketValueAmountType : AmountType1
     {
     }
@@ -6150,7 +6152,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LowerTenderAmountType : AmountType1
     {
     }
@@ -6158,7 +6160,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumAmountType : AmountType1
     {
     }
@@ -6166,7 +6168,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumAdvertisementAmountType : AmountType1
     {
     }
@@ -6174,7 +6176,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RoundingAmountType : AmountType1
     {
     }
@@ -6182,7 +6184,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequiredFeeAmountType : AmountType1
     {
     }
@@ -6190,7 +6192,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxAmountType : AmountType1
     {
     }
@@ -6198,7 +6200,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SettlementDiscountAmountType : AmountType1
     {
     }
@@ -6206,7 +6208,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriceAmountType : AmountType1
     {
     }
@@ -6214,7 +6216,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PenaltyAmountType : AmountType1
     {
     }
@@ -6222,7 +6224,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PayableRoundingAmountType : AmountType1
     {
     }
@@ -6230,7 +6232,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrepaidAmountType : AmountType1
     {
     }
@@ -6238,7 +6240,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PerUnitAmountType : AmountType1
     {
     }
@@ -6246,7 +6248,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CorporateStockAmountType : AmountType1
     {
     }
@@ -6254,7 +6256,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ExchangeRateType
     {
         
@@ -6326,7 +6328,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SourceCurrencyCodeType : CodeType1
     {
     }
@@ -6548,7 +6550,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InvoiceTypeCodeType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="CodeType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="CodeType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class CodeType1 : CodeType
     {
     }
@@ -6771,7 +6773,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(InvoiceTypeCodeType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class CodeType
     {
         
@@ -6939,7 +6941,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionReasonCodeType : CodeType1
     {
     }
@@ -6947,7 +6949,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubscriberTypeCodeType : CodeType1
     {
     }
@@ -6955,7 +6957,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SupplyChainActivityTypeCodeType : CodeType1
     {
     }
@@ -6963,7 +6965,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubstitutionStatusCodeType : CodeType1
     {
     }
@@ -6971,7 +6973,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubmissionMethodCodeType : CodeType1
     {
     }
@@ -6979,7 +6981,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StatusCodeType : CodeType1
     {
     }
@@ -6987,7 +6989,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StatementTypeCodeType : CodeType1
     {
     }
@@ -6995,7 +6997,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubcontractingConditionsCodeType : CodeType1
     {
     }
@@ -7003,7 +7005,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StatusReasonCodeType : CodeType1
     {
     }
@@ -7011,7 +7013,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxLevelCodeType : CodeType1
     {
     }
@@ -7019,7 +7021,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxExemptionReasonCodeType : CodeType1
     {
     }
@@ -7027,7 +7029,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelecommunicationsServiceCallCodeType : CodeType1
     {
     }
@@ -7035,7 +7037,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxTypeCodeType : CodeType1
     {
     }
@@ -7043,7 +7045,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TariffClassCodeType : CodeType1
     {
     }
@@ -7051,7 +7053,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TargetCurrencyCodeType : CodeType1
     {
     }
@@ -7059,7 +7061,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxCurrencyCodeType : CodeType1
     {
     }
@@ -7067,7 +7069,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TariffCodeType : CodeType1
     {
     }
@@ -7075,7 +7077,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecificationTypeCodeType : CodeType1
     {
     }
@@ -7083,7 +7085,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RevisionStatusCodeType : CodeType1
     {
     }
@@ -7091,7 +7093,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RetailEventStatusCodeType : CodeType1
     {
     }
@@ -7099,7 +7101,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SealIssuerTypeCodeType : CodeType1
     {
     }
@@ -7107,7 +7109,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RoleCodeType : CodeType1
     {
     }
@@ -7115,7 +7117,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResidenceTypeCodeType : CodeType1
     {
     }
@@ -7123,7 +7125,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UtilityStatementTypeCodeType : CodeType1
     {
     }
@@ -7131,7 +7133,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResponseCodeType : CodeType1
     {
     }
@@ -7139,7 +7141,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResolutionCodeType : CodeType1
     {
     }
@@ -7147,7 +7149,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ShortageActionCodeType : CodeType1
     {
     }
@@ -7155,7 +7157,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ShippingPriorityLevelCodeType : CodeType1
     {
     }
@@ -7163,7 +7165,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SizeTypeCodeType : CodeType1
     {
     }
@@ -7171,7 +7173,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SecurityClassificationCodeType : CodeType1
     {
     }
@@ -7179,7 +7181,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SealStatusCodeType : CodeType1
     {
     }
@@ -7187,7 +7189,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ServiceTypeCodeType : CodeType1
     {
     }
@@ -7195,7 +7197,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ServiceInformationPreferenceCodeType : CodeType1
     {
     }
@@ -7203,7 +7205,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportServiceCodeType : CodeType1
     {
     }
@@ -7211,7 +7213,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportModeCodeType : CodeType1
     {
     }
@@ -7219,7 +7221,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TypeCodeType : CodeType1
     {
     }
@@ -7227,7 +7229,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportationStatusTypeCodeType : CodeType1
     {
     }
@@ -7235,7 +7237,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportExecutionStatusCodeType : CodeType1
     {
     }
@@ -7243,7 +7245,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportEventTypeCodeType : CodeType1
     {
     }
@@ -7251,7 +7253,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportMeansTypeCodeType : CodeType1
     {
     }
@@ -7259,7 +7261,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportHandlingUnitTypeCodeType : CodeType1
     {
     }
@@ -7267,7 +7269,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WorkPhaseCodeType : CodeType1
     {
     }
@@ -7275,7 +7277,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WeightingAlgorithmCodeType : CodeType1
     {
     }
@@ -7283,7 +7285,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UrgencyCodeType : CodeType1
     {
     }
@@ -7291,7 +7293,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UNDGCodeType : CodeType1
     {
     }
@@ -7299,7 +7301,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WeekDayCodeType : CodeType1
     {
     }
@@ -7307,7 +7309,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidationResultCodeType : CodeType1
     {
     }
@@ -7315,7 +7317,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportEquipmentTypeCodeType : CodeType1
     {
     }
@@ -7323,7 +7325,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TendererRequirementTypeCodeType : CodeType1
     {
     }
@@ -7331,7 +7333,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TenderTypeCodeType : CodeType1
     {
     }
@@ -7339,7 +7341,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ThresholdValueComparisonCodeType : CodeType1
     {
     }
@@ -7347,7 +7349,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TendererRoleCodeType : CodeType1
     {
     }
@@ -7355,7 +7357,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelecommunicationsSupplyTypeCodeType : CodeType1
     {
     }
@@ -7363,7 +7365,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelecommunicationsServiceCategoryCodeType : CodeType1
     {
     }
@@ -7371,7 +7373,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TenderResultCodeType : CodeType1
     {
     }
@@ -7379,7 +7381,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TenderEnvelopeTypeCodeType : CodeType1
     {
     }
@@ -7387,7 +7389,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransitDirectionCodeType : CodeType1
     {
     }
@@ -7395,7 +7397,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TradeServiceCodeType : CodeType1
     {
     }
@@ -7403,7 +7405,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportEmergencyCardCodeType : CodeType1
     {
     }
@@ -7411,7 +7413,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportAuthorizationCodeType : CodeType1
     {
     }
@@ -7419,7 +7421,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TimingComplaintCodeType : CodeType1
     {
     }
@@ -7427,7 +7429,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TimeFrequencyCodeType : CodeType1
     {
     }
@@ -7435,7 +7437,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TradeItemPackingLabelingTypeCodeType : CodeType1
     {
     }
@@ -7443,7 +7445,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TrackingDeviceCodeType : CodeType1
     {
     }
@@ -7451,7 +7453,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LineStatusCodeType : CodeType1
     {
     }
@@ -7459,7 +7461,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LifeCycleStatusCodeType : CodeType1
     {
     }
@@ -7467,7 +7469,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LocationTypeCodeType : CodeType1
     {
     }
@@ -7475,7 +7477,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LocaleCodeType : CodeType1
     {
     }
@@ -7483,7 +7485,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ItemClassificationCodeType : CodeType1
     {
     }
@@ -7491,7 +7493,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatitudeDirectionCodeType : CodeType1
     {
     }
@@ -7499,7 +7501,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestMeterReadingMethodCodeType : CodeType1
     {
     }
@@ -7507,7 +7509,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LongitudeDirectionCodeType : CodeType1
     {
     }
@@ -7515,7 +7517,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterReadingTypeCodeType : CodeType1
     {
     }
@@ -7523,7 +7525,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterConstantCodeType : CodeType1
     {
     }
@@ -7531,7 +7533,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MiscellaneousEventTypeCodeType : CodeType1
     {
     }
@@ -7539,7 +7541,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MimeCodeType : CodeType1
     {
     }
@@ -7547,7 +7549,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MandateTypeCodeType : CodeType1
     {
     }
@@ -7555,7 +7557,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LossRiskResponsibilityCodeType : CodeType1
     {
     }
@@ -7563,7 +7565,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MedicalFirstAidGuideCodeType : CodeType1
     {
     }
@@ -7571,7 +7573,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MathematicOperatorCodeType : CodeType1
     {
     }
@@ -7579,7 +7581,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InspectionMethodCodeType : CodeType1
     {
     }
@@ -7587,7 +7589,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FullnessIndicationCodeType : CodeType1
     {
     }
@@ -7595,7 +7597,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FreightRateClassCodeType : CodeType1
     {
     }
@@ -7603,7 +7605,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GenderCodeType : CodeType1
     {
     }
@@ -7611,7 +7613,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FundingProgramCodeType : CodeType1
     {
     }
@@ -7619,7 +7621,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ForecastPurposeCodeType : CodeType1
     {
     }
@@ -7627,7 +7629,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FinancingInstrumentCodeType : CodeType1
     {
     }
@@ -7635,7 +7637,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FormatCodeType : CodeType1
     {
     }
@@ -7643,7 +7645,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ForecastTypeCodeType : CodeType1
     {
     }
@@ -7651,7 +7653,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GuaranteeTypeCodeType : CodeType1
     {
     }
@@ -7659,7 +7661,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ImportanceCodeType : CodeType1
     {
     }
@@ -7667,7 +7669,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IdentificationCodeType : CodeType1
     {
     }
@@ -7675,7 +7677,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InhalationToxicityZoneCodeType : CodeType1
     {
     }
@@ -7683,7 +7685,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IndustryClassificationCodeType : CodeType1
     {
     }
@@ -7691,7 +7693,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HazardousCategoryCodeType : CodeType1
     {
     }
@@ -7699,7 +7701,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HandlingCodeType : CodeType1
     {
     }
@@ -7707,7 +7709,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HeatingTypeCodeType : CodeType1
     {
     }
@@ -7715,7 +7717,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HazardousRegulationCodeType : CodeType1
     {
     }
@@ -7723,7 +7725,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NameCodeType : CodeType1
     {
     }
@@ -7731,7 +7733,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousMeterReadingMethodCodeType : CodeType1
     {
     }
@@ -7739,7 +7741,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousCancellationReasonCodeType : CodeType1
     {
     }
@@ -7747,7 +7749,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriceTypeCodeType : CodeType1
     {
     }
@@ -7755,7 +7757,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriceEvaluationCodeType : CodeType1
     {
     }
@@ -7763,7 +7765,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PerformanceMetricTypeCodeType : CodeType1
     {
     }
@@ -7771,7 +7773,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentPurposeCodeType : CodeType1
     {
     }
@@ -7779,7 +7781,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreferenceCriterionCodeType : CodeType1
     {
     }
@@ -7787,7 +7789,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PositionCodeType : CodeType1
     {
     }
@@ -7795,7 +7797,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PricingCurrencyCodeType : CodeType1
     {
     }
@@ -7803,7 +7805,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProfileStatusCodeType : CodeType1
     {
     }
@@ -7811,7 +7813,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProcurementTypeCodeType : CodeType1
     {
     }
@@ -7819,7 +7821,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProviderTypeCodeType : CodeType1
     {
     }
@@ -7827,7 +7829,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PromotionalEventTypeCodeType : CodeType1
     {
     }
@@ -7835,7 +7837,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProcedureCodeType : CodeType1
     {
     }
@@ -7843,7 +7845,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrivacyCodeType : CodeType1
     {
     }
@@ -7851,7 +7853,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProcurementSubTypeCodeType : CodeType1
     {
     }
@@ -7859,7 +7861,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProcessReasonCodeType : CodeType1
     {
     }
@@ -7867,7 +7869,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentMeansCodeType : CodeType1
     {
     }
@@ -7875,7 +7877,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OwnerTypeCodeType : CodeType1
     {
     }
@@ -7883,7 +7885,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderTypeCodeType : CodeType1
     {
     }
@@ -7891,7 +7893,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackageLevelCodeType : CodeType1
     {
     }
@@ -7899,7 +7901,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackLevelCodeType : CodeType1
     {
     }
@@ -7907,7 +7909,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NotificationTypeCodeType : CodeType1
     {
     }
@@ -7915,7 +7917,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NatureCodeType : CodeType1
     {
     }
@@ -7923,7 +7925,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderResponseCodeType : CodeType1
     {
     }
@@ -7931,7 +7933,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OneTimeChargeTypeCodeType : CodeType1
     {
     }
@@ -7939,7 +7941,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackagingTypeCodeType : CodeType1
     {
     }
@@ -7947,7 +7949,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentChannelCodeType : CodeType1
     {
     }
@@ -7955,7 +7957,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentAlternativeCurrencyCodeType : CodeType1
     {
     }
@@ -7963,7 +7965,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentFrequencyCodeType : CodeType1
     {
     }
@@ -7971,7 +7973,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentCurrencyCodeType : CodeType1
     {
     }
@@ -7979,7 +7981,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ParentDocumentTypeCodeType : CodeType1
     {
     }
@@ -7987,7 +7989,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackingCriteriaCodeType : CodeType1
     {
     }
@@ -7995,7 +7997,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PartyTypeCodeType : CodeType1
     {
     }
@@ -8003,7 +8005,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PartPresentationCodeType : CodeType1
     {
     }
@@ -8011,7 +8013,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FeatureTacticTypeCodeType : CodeType1
     {
     }
@@ -8019,7 +8021,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CertificateTypeCodeType : CodeType1
     {
     }
@@ -8027,7 +8029,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CargoTypeCodeType : CodeType1
     {
     }
@@ -8035,7 +8037,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CharacterSetCodeType : CodeType1
     {
     }
@@ -8043,7 +8045,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChannelCodeType : CodeType1
     {
     }
@@ -8051,7 +8053,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CapabilityTypeCodeType : CodeType1
     {
     }
@@ -8059,7 +8061,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CalculationMethodCodeType : CodeType1
     {
     }
@@ -8067,7 +8069,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CardTypeCodeType : CodeType1
     {
     }
@@ -8075,7 +8077,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CardChipCodeType : CodeType1
     {
     }
@@ -8083,7 +8085,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CollaborationPriorityCodeType : CodeType1
     {
     }
@@ -8091,7 +8093,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConditionCodeType : CodeType1
     {
     }
@@ -8099,7 +8101,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ComparisonDataSourceCodeType : CodeType1
     {
     }
@@ -8107,7 +8109,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumerIncentiveTacticTypeCodeType : CodeType1
     {
     }
@@ -8115,7 +8117,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConstitutionCodeType : CodeType1
     {
     }
@@ -8123,7 +8125,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CompanyLegalFormCodeType : CodeType1
     {
     }
@@ -8131,7 +8133,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CommodityCodeType : CodeType1
     {
     }
@@ -8139,7 +8141,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ComparisonDataCodeType : CodeType1
     {
     }
@@ -8147,7 +8149,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CompanyLiquidationStatusCodeType : CodeType1
     {
     }
@@ -8155,7 +8157,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CalculationExpressionCodeType : CodeType1
     {
     }
@@ -8163,7 +8165,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AccountingCostCodeType : CodeType1
     {
     }
@@ -8171,7 +8173,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AccountTypeCodeType : CodeType1
     {
     }
@@ -8179,7 +8181,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActivityTypeCodeType : CodeType1
     {
     }
@@ -8187,7 +8189,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActionCodeType : CodeType1
     {
     }
@@ -8195,7 +8197,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AccountFormatCodeType : CodeType1
     {
     }
@@ -8203,7 +8205,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AddressFormatCodeType : CodeType1
     {
     }
@@ -8211,7 +8213,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AvailabilityStatusCodeType : CodeType1
     {
     }
@@ -8219,7 +8221,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ApplicationStatusCodeType : CodeType1
     {
     }
@@ -8227,7 +8229,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AwardingMethodTypeCodeType : CodeType1
     {
     }
@@ -8235,7 +8237,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AwardingCriterionTypeCodeType : CodeType1
     {
     }
@@ -8243,7 +8245,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdjustmentReasonCodeType : CodeType1
     {
     }
@@ -8251,7 +8253,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AddressTypeCodeType : CodeType1
     {
     }
@@ -8259,7 +8261,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AllowanceChargeReasonCodeType : CodeType1
     {
     }
@@ -8267,7 +8269,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdmissionCodeType : CodeType1
     {
     }
@@ -8275,7 +8277,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumersEnergyLevelCodeType : CodeType1
     {
     }
@@ -8283,7 +8285,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DutyCodeType : CodeType1
     {
     }
@@ -8291,7 +8293,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentTypeCodeType : CodeType1
     {
     }
@@ -8299,7 +8301,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EncodingCodeType : CodeType1
     {
     }
@@ -8307,7 +8309,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EmergencyProceduresCodeType : CodeType1
     {
     }
@@ -8315,7 +8317,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentCurrencyCodeType : CodeType1
     {
     }
@@ -8323,7 +8325,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DispositionCodeType : CodeType1
     {
     }
@@ -8331,7 +8333,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentStatusReasonCodeType : CodeType1
     {
     }
@@ -8339,7 +8341,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentStatusCodeType : CodeType1
     {
     }
@@ -8347,7 +8349,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EnvironmentalEmissionTypeCodeType : CodeType1
     {
     }
@@ -8355,7 +8357,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExemptionReasonCodeType : CodeType1
     {
     }
@@ -8363,7 +8365,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExecutionRequirementCodeType : CodeType1
     {
     }
@@ -8371,7 +8373,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpressionCodeType : CodeType1
     {
     }
@@ -8379,7 +8381,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpenseCodeType : CodeType1
     {
     }
@@ -8387,7 +8389,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EvidenceTypeCodeType : CodeType1
     {
     }
@@ -8395,7 +8397,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EvaluationCriterionTypeCodeType : CodeType1
     {
     }
@@ -8403,7 +8405,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExceptionStatusCodeType : CodeType1
     {
     }
@@ -8411,7 +8413,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExceptionResolutionCodeType : CodeType1
     {
     }
@@ -8419,7 +8421,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DisplayTacticTypeCodeType : CodeType1
     {
     }
@@ -8427,7 +8429,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CorporateRegistrationTypeCodeType : CodeType1
     {
     }
@@ -8435,7 +8437,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CoordinateSystemCodeType : CodeType1
     {
     }
@@ -8443,7 +8445,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CountrySubentityCodeType : CodeType1
     {
     }
@@ -8451,7 +8453,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CorrectionTypeCodeType : CodeType1
     {
     }
@@ -8459,7 +8461,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionTypeCodeType : CodeType1
     {
     }
@@ -8467,7 +8469,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionLevelCodeType : CodeType1
     {
     }
@@ -8475,7 +8477,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractingSystemCodeType : CodeType1
     {
     }
@@ -8483,7 +8485,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractTypeCodeType : CodeType1
     {
     }
@@ -8491,7 +8493,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CreditNoteTypeCodeType : CodeType1
     {
     }
@@ -8499,7 +8501,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DescriptionCodeType : CodeType1
     {
     }
@@ -8507,7 +8509,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeclarationTypeCodeType : CodeType1
     {
     }
@@ -8515,7 +8517,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DirectionCodeType : CodeType1
     {
     }
@@ -8523,7 +8525,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DespatchAdviceTypeCodeType : CodeType1
     {
     }
@@ -8531,7 +8533,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CurrentChargeTypeCodeType : CodeType1
     {
     }
@@ -8539,7 +8541,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CurrencyCodeType : CodeType1
     {
     }
@@ -8547,7 +8549,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DataSourceCodeType : CodeType1
     {
     }
@@ -8555,7 +8557,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomsStatusCodeType : CodeType1
     {
     }
@@ -8563,7 +8565,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReceiptAdviceTypeCodeType : CodeType1
     {
     }
@@ -8571,7 +8573,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class QuantityDiscrepancyCodeType : CodeType1
     {
     }
@@ -8579,7 +8581,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class QualityControlCodeType : CodeType1
     {
     }
@@ -8587,7 +8589,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReferenceEventCodeType : CodeType1
     {
     }
@@ -8595,7 +8597,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RejectReasonCodeType : CodeType1
     {
     }
@@ -8603,7 +8605,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReminderTypeCodeType : CodeType1
     {
     }
@@ -8611,7 +8613,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RejectActionCodeType : CodeType1
     {
     }
@@ -8619,7 +8621,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequestedInvoiceCurrencyCodeType : CodeType1
     {
     }
@@ -8627,7 +8629,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PurposeCodeType : CodeType1
     {
     }
@@ -8635,7 +8637,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InvoiceTypeCodeType : CodeType1
     {
     }
@@ -8643,7 +8645,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CalculationRateType : RateType
     {
     }
@@ -8657,7 +8659,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AmountRateType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class RateType : NumericType
     {
     }
@@ -8706,7 +8708,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(LineCountNumericType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class NumericType
     {
         
@@ -8746,7 +8748,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ValueType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="ValueType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class ValueType1 : NumericType
     {
     }
@@ -8768,7 +8770,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(HumidityPercentType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class PercentType : NumericType
     {
     }
@@ -8776,7 +8778,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TargetServicePercentType : PercentType
     {
     }
@@ -8784,7 +8786,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TierRatePercentType : PercentType
     {
     }
@@ -8792,7 +8794,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SettlementDiscountPercentType : PercentType
     {
     }
@@ -8800,7 +8802,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AirFlowPercentType : PercentType
     {
     }
@@ -8808,7 +8810,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReliabilityPercentType : PercentType
     {
     }
@@ -8816,7 +8818,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PartecipationPercentType : PercentType
     {
     }
@@ -8824,7 +8826,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumPercentType : PercentType
     {
     }
@@ -8832,7 +8834,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ParticipationPercentType : PercentType
     {
     }
@@ -8840,7 +8842,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PenaltySurchargePercentType : PercentType
     {
     }
@@ -8848,7 +8850,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentPercentType : PercentType
     {
     }
@@ -8856,7 +8858,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="PercentType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="PercentType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PercentType1 : PercentType
     {
     }
@@ -8864,7 +8866,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProgressPercentType : PercentType
     {
     }
@@ -8872,7 +8874,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumPercentType : PercentType
     {
     }
@@ -8880,7 +8882,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HumidityPercentType : PercentType
     {
     }
@@ -8905,7 +8907,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(LineCountNumericType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="NumericType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="NumericType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class NumericType1 : NumericType
     {
     }
@@ -8913,7 +8915,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderIntervalDaysNumericType : NumericType1
     {
     }
@@ -8921,7 +8923,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderQuantityIncrementNumericType : NumericType1
     {
     }
@@ -8929,7 +8931,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MultiplierFactorNumericType : NumericType1
     {
     }
@@ -8937,7 +8939,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumPaymentInstructionsNumericType : NumericType1
     {
     }
@@ -8945,7 +8947,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumNumberNumericType : NumericType1
     {
     }
@@ -8953,7 +8955,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackSizeNumericType : NumericType1
     {
     }
@@ -8961,7 +8963,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WeightNumericType : NumericType1
     {
     }
@@ -8969,7 +8971,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SequenceNumericType : NumericType1
     {
     }
@@ -8977,7 +8979,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReminderSequenceNumericType : NumericType1
     {
     }
@@ -8985,7 +8987,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResidentOccupantsNumericType : NumericType1
     {
     }
@@ -8993,7 +8995,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BudgetYearNumericType : NumericType1
     {
     }
@@ -9001,7 +9003,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CalculationSequenceNumericType : NumericType1
     {
     }
@@ -9009,7 +9011,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumCopiesNumericType : NumericType1
     {
     }
@@ -9017,7 +9019,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumNumberNumericType : NumericType1
     {
     }
@@ -9025,7 +9027,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LineNumberNumericType : NumericType1
     {
     }
@@ -9033,7 +9035,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FrozenPeriodDaysNumericType : NumericType1
     {
     }
@@ -9041,7 +9043,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LineCountNumericType : NumericType1
     {
     }
@@ -9049,7 +9051,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SourceCurrencyBaseRateType : RateType
     {
     }
@@ -9057,7 +9059,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TargetCurrencyBaseRateType : RateType
     {
     }
@@ -9065,7 +9067,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderableUnitFactorRateType : RateType
     {
     }
@@ -9073,7 +9075,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="RateType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="RateType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RateType1 : RateType
     {
     }
@@ -9081,7 +9083,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AmountRateType : RateType
     {
     }
@@ -9089,7 +9091,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="DateType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="DateType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DateType1 : DateType
     {
     }
@@ -9151,7 +9153,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(IssueDateType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class DateType
     {
         
@@ -9175,7 +9177,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RevisionDateType : DateType
     {
     }
@@ -9183,7 +9185,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SourceForecastIssueDateType : DateType
     {
     }
@@ -9191,7 +9193,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResponseDateType : DateType
     {
     }
@@ -9199,7 +9201,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequestedPublicationDateType : DateType
     {
     }
@@ -9207,7 +9209,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResolutionDateType : DateType
     {
     }
@@ -9215,7 +9217,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequiredDeliveryDateType : DateType
     {
     }
@@ -9223,7 +9225,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReceivedDateType : DateType
     {
     }
@@ -9231,7 +9233,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReferenceDateType : DateType
     {
     }
@@ -9239,7 +9241,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PlannedDateType : DateType
     {
     }
@@ -9247,7 +9249,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousMeterReadingDateType : DateType
     {
     }
@@ -9255,7 +9257,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegisteredDateType : DateType
     {
     }
@@ -9263,7 +9265,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequestedDeliveryDateType : DateType
     {
     }
@@ -9271,7 +9273,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequestedDespatchDateType : DateType
     {
     }
@@ -9279,7 +9281,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegistrationDateType : DateType
     {
     }
@@ -9287,7 +9289,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegistrationExpirationDateType : DateType
     {
     }
@@ -9295,7 +9297,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StartDateType : DateType
     {
     }
@@ -9303,7 +9305,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ComparisonForecastIssueDateType : DateType
     {
     }
@@ -9311,7 +9313,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CallDateType : DateType
     {
     }
@@ -9319,7 +9321,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DueDateType : DateType
     {
     }
@@ -9327,7 +9329,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AwardDateType : DateType
     {
     }
@@ -9335,7 +9337,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AvailabilityDateType : DateType
     {
     }
@@ -9343,7 +9345,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BirthDateType : DateType
     {
     }
@@ -9351,7 +9353,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BestBeforeDateType : DateType
     {
     }
@@ -9359,7 +9361,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EarliestPickupDateType : DateType
     {
     }
@@ -9367,7 +9369,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ApprovalDateType : DateType
     {
     }
@@ -9375,7 +9377,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxPointDateType : DateType
     {
     }
@@ -9383,7 +9385,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubmissionDateType : DateType
     {
     }
@@ -9391,7 +9393,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubmissionDueDateType : DateType
     {
     }
@@ -9399,7 +9401,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EndDateType : DateType
     {
     }
@@ -9407,7 +9409,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EffectiveDateType : DateType
     {
     }
@@ -9415,7 +9417,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidationDateType : DateType
     {
     }
@@ -9423,7 +9425,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidityStartDateType : DateType
     {
     }
@@ -9431,7 +9433,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualDespatchDateType : DateType
     {
     }
@@ -9439,7 +9441,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualDeliveryDateType : DateType
     {
     }
@@ -9447,7 +9449,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualPickupDateType : DateType
     {
     }
@@ -9455,7 +9457,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InstallmentDueDateType : DateType
     {
     }
@@ -9463,7 +9465,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GuaranteedDespatchDateType : DateType
     {
     }
@@ -9471,7 +9473,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpiryDateType : DateType
     {
     }
@@ -9479,7 +9481,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedDespatchDateType : DateType
     {
     }
@@ -9487,7 +9489,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedDeliveryDateType : DateType
     {
     }
@@ -9495,7 +9497,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FirstShipmentAvailibilityDateType : DateType
     {
     }
@@ -9503,7 +9505,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LastRevisionDateType : DateType
     {
     }
@@ -9511,7 +9513,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ManufactureDateType : DateType
     {
     }
@@ -9519,7 +9521,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestSecurityClearanceDateType : DateType
     {
     }
@@ -9527,7 +9529,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestProposalAcceptanceDateType : DateType
     {
     }
@@ -9535,7 +9537,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NominationDateType : DateType
     {
     }
@@ -9543,7 +9545,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaidDateType : DateType
     {
     }
@@ -9551,7 +9553,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OccurrenceDateType : DateType
     {
     }
@@ -9559,7 +9561,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentDueDateType : DateType
     {
     }
@@ -9567,7 +9569,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestPickupDateType : DateType
     {
     }
@@ -9575,7 +9577,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestDeliveryDateType : DateType
     {
     }
@@ -9583,7 +9585,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestMeterReadingDateType : DateType
     {
     }
@@ -9591,7 +9593,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IssueDateType : DateType
     {
     }
@@ -9599,7 +9601,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PaymentTermsType
     {
         
@@ -9703,7 +9705,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NoteType : TextType1
     {
     }
@@ -9900,7 +9902,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NoteType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="TextType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="TextType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class TextType1 : TextType
     {
     }
@@ -10122,7 +10124,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NoteType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class TextType
     {
         
@@ -10201,7 +10203,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NameType1))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class NameType : TextType
     {
     }
@@ -10209,7 +10211,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CityNameType : NameType
     {
     }
@@ -10217,7 +10219,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CategoryNameType : NameType
     {
     }
@@ -10225,7 +10227,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BuildingNameType : NameType
     {
     }
@@ -10233,7 +10235,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FileNameType : NameType
     {
     }
@@ -10241,7 +10243,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FamilyNameType : NameType
     {
     }
@@ -10249,7 +10251,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CitySubdivisionNameType : NameType
     {
     }
@@ -10257,7 +10259,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BrandNameType : NameType
     {
     }
@@ -10265,7 +10267,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BlockNameType : NameType
     {
     }
@@ -10273,7 +10275,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AliasNameType : NameType
     {
     }
@@ -10281,7 +10283,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ServiceNameType : NameType
     {
     }
@@ -10289,7 +10291,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RoamingPartnerNameType : NameType
     {
     }
@@ -10297,7 +10299,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RetailEventNameType : NameType
     {
     }
@@ -10305,7 +10307,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class VesselNameType : NameType
     {
     }
@@ -10313,7 +10315,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TechnicalNameType : NameType
     {
     }
@@ -10321,7 +10323,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StreetNameType : NameType
     {
     }
@@ -10329,7 +10331,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegistrationNameType : NameType
     {
     }
@@ -10337,7 +10339,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MiddleNameType : NameType
     {
     }
@@ -10345,7 +10347,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HolderNameType : NameType
     {
     }
@@ -10353,7 +10355,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FirstNameType : NameType
     {
     }
@@ -10361,7 +10363,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OtherNameType : NameType
     {
     }
@@ -10369,7 +10371,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ModelNameType : NameType
     {
     }
@@ -10377,7 +10379,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdditionalStreetNameType : NameType
     {
     }
@@ -10385,7 +10387,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="NameType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="NameType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NameType1 : NameType
     {
     }
@@ -10393,7 +10395,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionAgencyNameType : TextType1
     {
     }
@@ -10401,7 +10403,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionReasonType : TextType1
     {
     }
@@ -10409,7 +10411,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InhouseMailType : TextType1
     {
     }
@@ -10417,7 +10419,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InstructionNoteType : TextType1
     {
     }
@@ -10425,7 +10427,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InstructionsType : TextType1
     {
     }
@@ -10433,7 +10435,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HaulageInstructionsType : TextType1
     {
     }
@@ -10441,7 +10443,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HeatingTypeType : TextType1
     {
     }
@@ -10449,7 +10451,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InformationType : TextType1
     {
     }
@@ -10457,7 +10459,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InvoicingPartyReferenceType : TextType1
     {
     }
@@ -10465,7 +10467,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class KeywordType : TextType1
     {
     }
@@ -10473,7 +10475,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestMeterReadingMethodType : TextType1
     {
     }
@@ -10481,7 +10483,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LegalReferenceType : TextType1
     {
     }
@@ -10489,7 +10491,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class JobTitleType : TextType1
     {
     }
@@ -10497,7 +10499,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class JustificationDescriptionType : TextType1
     {
     }
@@ -10505,7 +10507,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class JustificationType : TextType1
     {
     }
@@ -10513,7 +10515,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HashAlgorithmMethodType : TextType1
     {
     }
@@ -10521,7 +10523,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExclusionReasonType : TextType1
     {
     }
@@ -10529,7 +10531,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExemptionReasonType : TextType1
     {
     }
@@ -10537,7 +10539,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpressionType : TextType1
     {
     }
@@ -10545,7 +10547,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DutyType : TextType1
     {
     }
@@ -10553,7 +10555,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ElectronicDeviceDescriptionType : TextType1
     {
     }
@@ -10561,7 +10563,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ElectronicMailType : TextType1
     {
     }
@@ -10569,7 +10571,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExtensionType : TextType1
     {
     }
@@ -10577,7 +10579,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FrequencyType : TextType1
     {
     }
@@ -10585,7 +10587,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FundingProgramType : TextType1
     {
     }
@@ -10593,7 +10595,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HandlingInstructionsType : TextType1
     {
     }
@@ -10601,7 +10603,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FeeDescriptionType : TextType1
     {
     }
@@ -10609,7 +10611,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FloorType : TextType1
     {
     }
@@ -10617,7 +10619,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ForwarderServiceInstructionsType : TextType1
     {
     }
@@ -10625,7 +10627,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MonetaryScopeType : TextType1
     {
     }
@@ -10633,7 +10635,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MovieTitleType : TextType1
     {
     }
@@ -10641,7 +10643,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NameSuffixType : TextType1
     {
     }
@@ -10649,7 +10651,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterReadingTypeType : TextType1
     {
     }
@@ -10657,7 +10659,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumImprovementBidType : TextType1
     {
     }
@@ -10665,7 +10667,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumValueType : TextType1
     {
     }
@@ -10673,7 +10675,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NegotiationDescriptionType : TextType1
     {
     }
@@ -10681,7 +10683,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderableUnitType : TextType1
     {
     }
@@ -10689,7 +10691,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrganizationDepartmentType : TextType1
     {
     }
@@ -10697,7 +10699,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OtherInstructionType : TextType1
     {
     }
@@ -10705,7 +10707,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OneTimeChargeTypeType : TextType1
     {
     }
@@ -10713,7 +10715,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OptionsDescriptionType : TextType1
     {
     }
@@ -10721,7 +10723,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterReadingCommentsType : TextType1
     {
     }
@@ -10729,7 +10731,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LocationType : TextType1
     {
     }
@@ -10737,7 +10739,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LoginType : TextType1
     {
     }
@@ -10745,7 +10747,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LossRiskType : TextType1
     {
     }
@@ -10753,7 +10755,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LimitationDescriptionType : TextType1
     {
     }
@@ -10761,7 +10763,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LineType : TextType1
     {
     }
@@ -10769,7 +10771,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ListValueType : TextType1
     {
     }
@@ -10777,7 +10779,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LowTendersDescriptionType : TextType1
     {
     }
@@ -10785,7 +10787,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterConstantType : TextType1
     {
     }
@@ -10793,7 +10795,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterNameType : TextType1
     {
     }
@@ -10801,7 +10803,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeterNumberType : TextType1
     {
     }
@@ -10809,7 +10811,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MarkAttentionType : TextType1
     {
     }
@@ -10817,7 +10819,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MarkCareType : TextType1
     {
     }
@@ -10825,7 +10827,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumValueType : TextType1
     {
     }
@@ -10833,7 +10835,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentTypeType : TextType1
     {
     }
@@ -10841,7 +10843,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CalculationExpressionType : TextType1
     {
     }
@@ -10849,7 +10851,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CancellationNoteType : TextType1
     {
     }
@@ -10857,7 +10859,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CandidateStatementType : TextType1
     {
     }
@@ -10865,7 +10867,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BirthplaceNameType : TextType1
     {
     }
@@ -10873,7 +10875,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BuildingNumberType : TextType1
     {
     }
@@ -10881,7 +10883,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BuyerReferenceType : TextType1
     {
     }
@@ -10889,7 +10891,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="CanonicalizationMethodType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="CanonicalizationMethodType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CanonicalizationMethodType1 : TextType1
     {
     }
@@ -10897,7 +10899,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChannelType : TextType1
     {
     }
@@ -10905,7 +10907,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CharacteristicsType : TextType1
     {
     }
@@ -10913,7 +10915,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CodeValueType : TextType1
     {
     }
@@ -10921,7 +10923,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CarrierServiceInstructionsType : TextType1
     {
     }
@@ -10929,7 +10931,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CertificateTypeType : TextType1
     {
     }
@@ -10937,7 +10939,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChangeConditionsType : TextType1
     {
     }
@@ -10945,7 +10947,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BackorderReasonType : TextType1
     {
     }
@@ -10953,7 +10955,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AcceptedVariantsDescriptionType : TextType1
     {
     }
@@ -10961,7 +10963,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AccountingCostType : TextType1
     {
     }
@@ -10969,7 +10971,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActivityTypeType : TextType1
     {
     }
@@ -10977,7 +10979,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AllowanceChargeReasonType : TextType1
     {
     }
@@ -10985,7 +10987,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ApprovalStatusType : TextType1
     {
     }
@@ -10993,7 +10995,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AwardingCriterionDescriptionType : TextType1
     {
     }
@@ -11001,7 +11003,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdditionalConditionsType : TextType1
     {
     }
@@ -11009,7 +11011,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdditionalInformationType : TextType1
     {
     }
@@ -11017,7 +11019,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AgencyNameType : TextType1
     {
     }
@@ -11025,7 +11027,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DamageRemarksType : TextType1
     {
     }
@@ -11033,7 +11035,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DataSendingCapabilityType : TextType1
     {
     }
@@ -11041,7 +11043,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeliveryInstructionsType : TextType1
     {
     }
@@ -11049,7 +11051,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CurrentChargeTypeType : TextType1
     {
     }
@@ -11057,7 +11059,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomerReferenceType : TextType1
     {
     }
@@ -11065,7 +11067,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomsClearanceServiceInstructionsType : TextType1
     {
     }
@@ -11073,7 +11075,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DemurrageInstructionsType : TextType1
     {
     }
@@ -11081,7 +11083,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentDescriptionType : TextType1
     {
     }
@@ -11089,7 +11091,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentHashType : TextType1
     {
     }
@@ -11097,7 +11099,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentStatusReasonDescriptionType : TextType1
     {
     }
@@ -11105,7 +11107,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DepartmentType : TextType1
     {
     }
@@ -11113,7 +11115,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DescriptionType : TextType1
     {
     }
@@ -11121,7 +11123,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DistrictType : TextType1
     {
     }
@@ -11129,7 +11131,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CountrySubentityType : TextType1
     {
     }
@@ -11137,7 +11139,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConditionsDescriptionType : TextType1
     {
     }
@@ -11145,7 +11147,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConditionsType : TextType1
     {
     }
@@ -11153,7 +11155,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumersEnergyLevelType : TextType1
     {
     }
@@ -11161,7 +11163,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CommentType : TextType1
     {
     }
@@ -11169,7 +11171,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CompanyLegalFormType : TextType1
     {
     }
@@ -11177,7 +11179,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConditionType : TextType1
     {
     }
@@ -11185,7 +11187,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionLevelType : TextType1
     {
     }
@@ -11193,7 +11195,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractSubdivisionType : TextType1
     {
     }
@@ -11201,7 +11203,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractTypeType : TextType1
     {
     }
@@ -11209,7 +11211,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CorrectionTypeType : TextType1
     {
     }
@@ -11217,7 +11219,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionTypeType : TextType1
     {
     }
@@ -11225,7 +11227,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContentType : TextType1
     {
     }
@@ -11233,7 +11235,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractNameType : TextType1
     {
     }
@@ -11241,7 +11243,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OutstandingReasonType : TextType1
     {
     }
@@ -11249,7 +11251,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportationServiceDescriptionType : TextType1
     {
     }
@@ -11257,7 +11259,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidateProcessType : TextType1
     {
     }
@@ -11265,7 +11267,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidateToolType : TextType1
     {
     }
@@ -11273,7 +11275,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportServiceProviderSpecialTermsType : TextType1
     {
     }
@@ -11281,7 +11283,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportUserRemarksType : TextType1
     {
     }
@@ -11289,7 +11291,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportUserSpecialTermsType : TextType1
     {
     }
@@ -11297,7 +11299,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidateToolVersionType : TextType1
     {
     }
@@ -11305,7 +11307,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WeightType : TextType1
     {
     }
@@ -11313,7 +11315,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WorkPhaseType : TextType1
     {
     }
@@ -11321,7 +11323,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class XPathType : TextType1
     {
     }
@@ -11329,7 +11331,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValueQualifierType : TextType1
     {
     }
@@ -11337,7 +11339,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValueType : TextType1
     {
     }
@@ -11345,7 +11347,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WarrantyInformationType : TextType1
     {
     }
@@ -11353,7 +11355,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportServiceProviderRemarksType : TextType1
     {
     }
@@ -11361,7 +11363,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelefaxType : TextType1
     {
     }
@@ -11369,7 +11371,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelephoneType : TextType1
     {
     }
@@ -11377,7 +11379,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TestMethodType : TextType1
     {
     }
@@ -11385,7 +11387,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelecommunicationsServiceCallType : TextType1
     {
     }
@@ -11393,7 +11395,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelecommunicationsServiceCategoryType : TextType1
     {
     }
@@ -11401,7 +11403,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TelecommunicationsSupplyTypeType : TextType1
     {
     }
@@ -11409,7 +11411,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="TextType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="TextType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TextType2 : TextType1
     {
     }
@@ -11417,7 +11419,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TimingComplaintType : TextType1
     {
     }
@@ -11425,7 +11427,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TitleType : TextType1
     {
     }
@@ -11433,7 +11435,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TradingRestrictionsType : TextType1
     {
     }
@@ -11441,7 +11443,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TierRangeType : TextType1
     {
     }
@@ -11449,7 +11451,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TimeAmountType : TextType1
     {
     }
@@ -11457,7 +11459,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TimezoneOffsetType : TextType1
     {
     }
@@ -11465,7 +11467,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriceRevisionFormulaDescriptionType : TextType1
     {
     }
@@ -11473,7 +11475,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriceTypeType : TextType1
     {
     }
@@ -11481,7 +11483,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrintQualifierType : TextType1
     {
     }
@@ -11489,7 +11491,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PostboxType : TextType1
     {
     }
@@ -11497,7 +11499,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousMeterReadingMethodType : TextType1
     {
     }
@@ -11505,7 +11507,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriceChangeReasonType : TextType1
     {
     }
@@ -11513,7 +11515,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PriorityType : TextType1
     {
     }
@@ -11521,7 +11523,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PurposeType : TextType1
     {
     }
@@ -11529,7 +11531,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RankType : TextType1
     {
     }
@@ -11537,7 +11539,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ReferenceType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="ReferenceType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReferenceType1 : TextType1
     {
     }
@@ -11545,7 +11547,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrizeDescriptionType : TextType1
     {
     }
@@ -11553,7 +11555,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProcessDescriptionType : TextType1
     {
     }
@@ -11561,7 +11563,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProcessReasonType : TextType1
     {
     }
@@ -11569,7 +11571,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PostalZoneType : TextType1
     {
     }
@@ -11577,7 +11579,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PayPerViewType : TextType1
     {
     }
@@ -11585,7 +11587,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PayerReferenceType : TextType1
     {
     }
@@ -11593,7 +11595,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentDescriptionType : TextType1
     {
     }
@@ -11601,7 +11603,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackingMaterialType : TextType1
     {
     }
@@ -11609,7 +11611,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PartyTypeType : TextType1
     {
     }
@@ -11617,7 +11619,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PasswordType : TextType1
     {
     }
@@ -11625,7 +11627,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentNoteType : TextType1
     {
     }
@@ -11633,7 +11635,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PlacardEndorsementType : TextType1
     {
     }
@@ -11641,7 +11643,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PlacardNotationType : TextType1
     {
     }
@@ -11649,7 +11651,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PlotIdentificationType : TextType1
     {
     }
@@ -11657,7 +11659,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentOrderReferenceType : TextType1
     {
     }
@@ -11665,7 +11667,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PersonalSituationType : TextType1
     {
     }
@@ -11673,7 +11675,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PhoneNumberType : TextType1
     {
     }
@@ -11681,7 +11683,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecialInstructionsType : TextType1
     {
     }
@@ -11689,7 +11691,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecialServiceInstructionsType : TextType1
     {
     }
@@ -11697,7 +11699,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecialTermsType : TextType1
     {
     }
@@ -11705,7 +11707,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ShippingMarksType : TextType1
     {
     }
@@ -11713,7 +11715,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ShipsRequirementsType : TextType1
     {
     }
@@ -11721,7 +11723,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="SignatureMethodType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="SignatureMethodType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SignatureMethodType1 : TextType1
     {
     }
@@ -11729,7 +11731,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecialTransportRequirementsType : TextType1
     {
     }
@@ -11737,7 +11739,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TariffDescriptionType : TextType1
     {
     }
@@ -11745,7 +11747,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxExemptionReasonType : TextType1
     {
     }
@@ -11753,7 +11755,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TechnicalCommitteeDescriptionType : TextType1
     {
     }
@@ -11761,7 +11763,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StatusReasonType : TextType1
     {
     }
@@ -11769,7 +11771,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubscriberTypeType : TextType1
     {
     }
@@ -11777,7 +11779,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SummaryDescriptionType : TextType1
     {
     }
@@ -11785,7 +11787,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ServiceTypeType : TextType1
     {
     }
@@ -11793,7 +11795,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RejectReasonType : TextType1
     {
     }
@@ -11801,7 +11803,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RejectionNoteType : TextType1
     {
     }
@@ -11809,7 +11811,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RemarksType : TextType1
     {
     }
@@ -11817,7 +11819,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegionType : TextType1
     {
     }
@@ -11825,7 +11827,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegistrationNationalityType : TextType1
     {
     }
@@ -11833,7 +11835,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegulatoryDomainType : TextType1
     {
     }
@@ -11841,7 +11843,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReplenishmentOwnerDescriptionType : TextType1
     {
     }
@@ -11849,7 +11851,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RoomType : TextType1
     {
     }
@@ -11857,7 +11859,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SealingPartyTypeType : TextType1
     {
     }
@@ -11865,7 +11867,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ServiceNumberCalledType : TextType1
     {
     }
@@ -11873,7 +11875,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResidenceTypeType : TextType1
     {
     }
@@ -11881,7 +11883,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResolutionType : TextType1
     {
     }
@@ -11889,7 +11891,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RoleDescriptionType : TextType1
     {
     }
@@ -11897,7 +11899,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PeriodType
     {
         
@@ -12001,7 +12003,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StartTimeType : TimeType
     {
     }
@@ -12040,7 +12042,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(IssueTimeType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class TimeType
     {
         
@@ -12064,7 +12066,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EffectiveTimeType : TimeType
     {
     }
@@ -12072,7 +12074,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EndTimeType : TimeType
     {
     }
@@ -12080,7 +12082,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ComparisonForecastIssueTimeType : TimeType
     {
     }
@@ -12088,7 +12090,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EarliestPickupTimeType : TimeType
     {
     }
@@ -12096,7 +12098,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedDeliveryTimeType : TimeType
     {
     }
@@ -12104,7 +12106,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LastRevisionTimeType : TimeType
     {
     }
@@ -12112,7 +12114,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpiryTimeType : TimeType
     {
     }
@@ -12120,7 +12122,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GuaranteedDespatchTimeType : TimeType
     {
     }
@@ -12128,7 +12130,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualDeliveryTimeType : TimeType
     {
     }
@@ -12136,7 +12138,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AwardTimeType : TimeType
     {
     }
@@ -12144,7 +12146,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CallTimeType : TimeType
     {
     }
@@ -12152,7 +12154,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualDespatchTimeType : TimeType
     {
     }
@@ -12160,7 +12162,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualPickupTimeType : TimeType
     {
     }
@@ -12168,7 +12170,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestDeliveryTimeType : TimeType
     {
     }
@@ -12176,7 +12178,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResponseTimeType : TimeType
     {
     }
@@ -12184,7 +12186,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RevisionTimeType : TimeType
     {
     }
@@ -12192,7 +12194,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequiredDeliveryTimeType : TimeType
     {
     }
@@ -12200,7 +12202,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ResolutionTimeType : TimeType
     {
     }
@@ -12208,7 +12210,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidationTimeType : TimeType
     {
     }
@@ -12216,7 +12218,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedDespatchTimeType : TimeType
     {
     }
@@ -12224,7 +12226,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SourceForecastIssueTimeType : TimeType
     {
     }
@@ -12232,7 +12234,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequestedDespatchTimeType : TimeType
     {
     }
@@ -12240,7 +12242,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NominationTimeType : TimeType
     {
     }
@@ -12248,7 +12250,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OccurrenceTimeType : TimeType
     {
     }
@@ -12256,7 +12258,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestPickupTimeType : TimeType
     {
     }
@@ -12264,7 +12266,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ManufactureTimeType : TimeType
     {
     }
@@ -12272,7 +12274,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReferenceTimeType : TimeType
     {
     }
@@ -12280,7 +12282,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegisteredTimeType : TimeType
     {
     }
@@ -12288,7 +12290,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaidTimeType : TimeType
     {
     }
@@ -12296,7 +12298,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IssueTimeType : TimeType
     {
     }
@@ -12304,7 +12306,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DurationMeasureType : MeasureType1
     {
     }
@@ -12338,7 +12340,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DurationMeasureType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="MeasureType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="MeasureType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class MeasureType1 : MeasureType
     {
     }
@@ -12373,7 +12375,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DurationMeasureType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class MeasureType
     {
         
@@ -12429,7 +12431,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumMeasureType : MeasureType1
     {
     }
@@ -12437,7 +12439,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="MeasureType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="MeasureType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MeasureType2 : MeasureType1
     {
     }
@@ -12445,7 +12447,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NetNetWeightMeasureType : MeasureType1
     {
     }
@@ -12453,7 +12455,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LoadingLengthMeasureType : MeasureType1
     {
     }
@@ -12461,7 +12463,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LongitudeDegreesMeasureType : MeasureType1
     {
     }
@@ -12469,7 +12471,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LeadTimeMeasureType : MeasureType1
     {
     }
@@ -12477,7 +12479,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumMeasureType : MeasureType1
     {
     }
@@ -12485,7 +12487,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LongitudeMinutesMeasureType : MeasureType1
     {
     }
@@ -12493,7 +12495,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NetTonnageMeasureType : MeasureType1
     {
     }
@@ -12501,7 +12503,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TareWeightMeasureType : MeasureType1
     {
     }
@@ -12509,7 +12511,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SourceValueMeasureType : MeasureType1
     {
     }
@@ -12517,7 +12519,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValueMeasureType : MeasureType1
     {
     }
@@ -12525,7 +12527,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NetWeightMeasureType : MeasureType1
     {
     }
@@ -12533,7 +12535,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NetVolumeMeasureType : MeasureType1
     {
     }
@@ -12541,7 +12543,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreEventNotificationDurationMeasureType : MeasureType1
     {
     }
@@ -12549,7 +12551,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PostEventNotificationDurationMeasureType : MeasureType1
     {
     }
@@ -12557,7 +12559,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatitudeMinutesMeasureType : MeasureType1
     {
     }
@@ -12565,7 +12567,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AltitudeMeasureType : MeasureType1
     {
     }
@@ -12573,7 +12575,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BaseUnitMeasureType : MeasureType1
     {
     }
@@ -12581,7 +12583,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChargeableWeightMeasureType : MeasureType1
     {
     }
@@ -12589,7 +12591,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GrossWeightMeasureType : MeasureType1
     {
     }
@@ -12597,7 +12599,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GrossVolumeMeasureType : MeasureType1
     {
     }
@@ -12605,7 +12607,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatitudeDegreesMeasureType : MeasureType1
     {
     }
@@ -12613,7 +12615,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GrossTonnageMeasureType : MeasureType1
     {
     }
@@ -12621,7 +12623,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ComparedValueMeasureType : MeasureType1
     {
     }
@@ -12629,7 +12631,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PaymentMeansType
     {
         
@@ -12733,7 +12735,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class FinancialAccountType
     {
         
@@ -12805,7 +12807,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IDType : IdentifierType1
     {
     }
@@ -12926,7 +12928,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(UBLVersionIDType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="IdentifierType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="IdentifierType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class IdentifierType1 : IdentifierType
     {
     }
@@ -13048,7 +13050,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(UBLVersionIDType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class IdentifierType
     {
         
@@ -13184,7 +13186,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2")]
     public partial class ReferencedSignatureIDType : IdentifierType1
     {
     }
@@ -13192,7 +13194,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionAgencyURIType : IdentifierType1
     {
     }
@@ -13200,7 +13202,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionAgencyIDType : IdentifierType1
     {
     }
@@ -13208,7 +13210,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionVersionIDType : IdentifierType1
     {
     }
@@ -13216,7 +13218,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionURIType : IdentifierType1
     {
     }
@@ -13224,7 +13226,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LoadingSequenceIDType : IdentifierType1
     {
     }
@@ -13232,7 +13234,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExtendedIDType : IdentifierType1
     {
     }
@@ -13240,7 +13242,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LineIDType : IdentifierType1
     {
     }
@@ -13248,7 +13250,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LicensePlateIDType : IdentifierType1
     {
     }
@@ -13256,7 +13258,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LanguageIDType : IdentifierType1
     {
     }
@@ -13264,7 +13266,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class JourneyIDType : IdentifierType1
     {
     }
@@ -13272,7 +13274,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IdentificationIDType : IdentifierType1
     {
     }
@@ -13280,7 +13282,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FreightForwarderAssignedIDType : IdentifierType1
     {
     }
@@ -13288,7 +13290,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HazardClassIDType : IdentifierType1
     {
     }
@@ -13296,7 +13298,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ImmobilizationCertificateIDType : IdentifierType1
     {
     }
@@ -13304,7 +13306,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IssueNumberIDType : IdentifierType1
     {
     }
@@ -13312,7 +13314,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IssuerIDType : IdentifierType1
     {
     }
@@ -13320,7 +13322,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InformationURIType : IdentifierType1
     {
     }
@@ -13328,7 +13330,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InstructionIDType : IdentifierType1
     {
     }
@@ -13336,7 +13338,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NetworkIDType : IdentifierType1
     {
     }
@@ -13344,7 +13346,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OntologyURIType : IdentifierType1
     {
     }
@@ -13352,7 +13354,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ParentDocumentVersionIDType : IdentifierType1
     {
     }
@@ -13360,7 +13362,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NationalityIDType : IdentifierType1
     {
     }
@@ -13368,7 +13370,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OpenTenderIDType : IdentifierType1
     {
     }
@@ -13376,7 +13378,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ParentDocumentIDType : IdentifierType1
     {
     }
@@ -13384,7 +13386,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ParentDocumentLineReferenceIDType : IdentifierType1
     {
     }
@@ -13392,7 +13394,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OriginalContractingSystemIDType : IdentifierType1
     {
     }
@@ -13400,7 +13402,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OriginalJobIDType : IdentifierType1
     {
     }
@@ -13408,7 +13410,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LogoReferenceIDType : IdentifierType1
     {
     }
@@ -13416,7 +13418,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LotNumberIDType : IdentifierType1
     {
     }
@@ -13424,7 +13426,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PerformingCarrierAssignedIDType : IdentifierType1
     {
     }
@@ -13432,7 +13434,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LocationIDType : IdentifierType1
     {
     }
@@ -13440,7 +13442,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LowerOrangeHazardPlacardIDType : IdentifierType1
     {
     }
@@ -13448,7 +13450,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentMeansIDType : IdentifierType1
     {
     }
@@ -13456,7 +13458,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentIDType : IdentifierType1
     {
     }
@@ -13464,7 +13466,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MarkingIDType : IdentifierType1
     {
     }
@@ -13472,7 +13474,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PaymentTermsDetailsURIType : IdentifierType1
     {
     }
@@ -13480,7 +13482,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExchangeMarketIDType : IdentifierType1
     {
     }
@@ -13488,7 +13490,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AwardingCriterionIDType : IdentifierType1
     {
     }
@@ -13496,7 +13498,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BarcodeSymbologyIDType : IdentifierType1
     {
     }
@@ -13504,7 +13506,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AttributeIDType : IdentifierType1
     {
     }
@@ -13512,7 +13514,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AuctionURIType : IdentifierType1
     {
     }
@@ -13520,7 +13522,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BusinessIdentityEvidenceIDType : IdentifierType1
     {
     }
@@ -13528,7 +13530,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BuyerEventIDType : IdentifierType1
     {
     }
@@ -13536,7 +13538,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BrokerAssignedIDType : IdentifierType1
     {
     }
@@ -13544,7 +13546,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BusinessClassificationEvidenceIDType : IdentifierType1
     {
     }
@@ -13552,7 +13554,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AircraftIDType : IdentifierType1
     {
     }
@@ -13560,7 +13562,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdditionalAccountIDType : IdentifierType1
     {
     }
@@ -13568,7 +13570,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AgencyIDType : IdentifierType1
     {
     }
@@ -13576,7 +13578,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AccountIDType : IdentifierType1
     {
     }
@@ -13584,7 +13586,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractedCarrierAssignedIDType : IdentifierType1
     {
     }
@@ -13592,7 +13594,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomerAssignedAccountIDType : IdentifierType1
     {
     }
@@ -13600,7 +13602,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionReportIDType : IdentifierType1
     {
     }
@@ -13608,7 +13610,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContractFolderIDType : IdentifierType1
     {
     }
@@ -13616,7 +13618,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EconomicOperatorRegistryURIType : IdentifierType1
     {
     }
@@ -13624,7 +13626,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EndpointIDType : IdentifierType1
     {
     }
@@ -13632,7 +13634,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomizationIDType : IdentifierType1
     {
     }
@@ -13640,7 +13642,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DocumentIDType : IdentifierType1
     {
     }
@@ -13648,7 +13650,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionIDType : IdentifierType1
     {
     }
@@ -13656,7 +13658,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CV2IDType : IdentifierType1
     {
     }
@@ -13664,7 +13666,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CarrierAssignedIDType : IdentifierType1
     {
     }
@@ -13672,7 +13674,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BuyerProfileURIType : IdentifierType1
     {
     }
@@ -13680,7 +13682,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SequenceNumberIDType : IdentifierType1
     {
     }
@@ -13688,7 +13690,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsigneeAssignedIDType : IdentifierType1
     {
     }
@@ -13696,7 +13698,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsignorAssignedIDType : IdentifierType1
     {
     }
@@ -13704,7 +13706,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChipApplicationIDType : IdentifierType1
     {
     }
@@ -13712,7 +13714,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CompanyIDType : IdentifierType1
     {
     }
@@ -13720,7 +13722,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrepaidPaymentReferenceIDType : IdentifierType1
     {
     }
@@ -13728,7 +13730,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportExecutionPlanReferenceIDType : IdentifierType1
     {
     }
@@ -13736,7 +13738,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TrainIDType : IdentifierType1
     {
     }
@@ -13744,7 +13746,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TrackingIDType : IdentifierType1
     {
     }
@@ -13752,7 +13754,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class URIType : IdentifierType1
     {
     }
@@ -13760,7 +13762,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TransportationServiceDetailsURIType : IdentifierType1
     {
     }
@@ -13768,7 +13770,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SuccessiveSequenceIDType : IdentifierType1
     {
     }
@@ -13776,7 +13778,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SubscriberIDType : IdentifierType1
     {
     }
@@ -13784,7 +13786,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecificationIDType : IdentifierType1
     {
     }
@@ -13792,7 +13794,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TraceIDType : IdentifierType1
     {
     }
@@ -13800,7 +13802,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TenderEnvelopeIDType : IdentifierType1
     {
     }
@@ -13808,7 +13810,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SupplierAssignedAccountIDType : IdentifierType1
     {
     }
@@ -13816,7 +13818,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class WebsiteURIType : IdentifierType1
     {
     }
@@ -13824,7 +13826,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValidatorIDType : IdentifierType1
     {
     }
@@ -13832,7 +13834,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UpperOrangeHazardPlacardIDType : IdentifierType1
     {
     }
@@ -13840,7 +13842,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UUIDType : IdentifierType1
     {
     }
@@ -13848,7 +13850,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class VesselIDType : IdentifierType1
     {
     }
@@ -13856,7 +13858,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class VersionIDType : IdentifierType1
     {
     }
@@ -13864,7 +13866,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class VariantIDType : IdentifierType1
     {
     }
@@ -13872,7 +13874,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SignatureIDType : IdentifierType1
     {
     }
@@ -13880,7 +13882,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReferenceIDType : IdentifierType1
     {
     }
@@ -13888,7 +13890,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RailCarIDType : IdentifierType1
     {
     }
@@ -13896,7 +13898,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RadioCallSignIDType : IdentifierType1
     {
     }
@@ -13904,7 +13906,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegistrationNationalityIDType : IdentifierType1
     {
     }
@@ -13912,7 +13914,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RegistrationIDType : IdentifierType1
     {
     }
@@ -13920,7 +13922,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReferencedConsignmentIDType : IdentifierType1
     {
     }
@@ -13928,7 +13930,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrimaryAccountNumberIDType : IdentifierType1
     {
     }
@@ -13936,7 +13938,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousVersionIDType : IdentifierType1
     {
     }
@@ -13944,7 +13946,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousJobIDType : IdentifierType1
     {
     }
@@ -13952,7 +13954,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProfileIDType : IdentifierType1
     {
     }
@@ -13960,7 +13962,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProfileExecutionIDType : IdentifierType1
     {
     }
@@ -13968,7 +13970,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ProductTraceIDType : IdentifierType1
     {
     }
@@ -13976,7 +13978,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SellerEventIDType : IdentifierType1
     {
     }
@@ -13984,7 +13986,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SecurityIDType : IdentifierType1
     {
     }
@@ -13992,7 +13994,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SchemeURIType : IdentifierType1
     {
     }
@@ -14000,7 +14002,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ShippingOrderIDType : IdentifierType1
     {
     }
@@ -14008,7 +14010,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SerialIDType : IdentifierType1
     {
     }
@@ -14016,7 +14018,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SequenceIDType : IdentifierType1
     {
     }
@@ -14024,7 +14026,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequiredCustomsIDType : IdentifierType1
     {
     }
@@ -14032,7 +14034,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequestForQuotationLineIDType : IdentifierType1
     {
     }
@@ -14040,7 +14042,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReleaseIDType : IdentifierType1
     {
     }
@@ -14048,7 +14050,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SalesOrderLineIDType : IdentifierType1
     {
     }
@@ -14056,7 +14058,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SalesOrderIDType : IdentifierType1
     {
     }
@@ -14064,7 +14066,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RevisedForecastLineIDType : IdentifierType1
     {
     }
@@ -14072,7 +14074,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UBLVersionIDType : IdentifierType1
     {
     }
@@ -14080,7 +14082,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class BranchType
     {
         
@@ -14120,7 +14122,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class FinancialInstitutionType
     {
         
@@ -14144,7 +14146,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class CustomsDeclarationType
     {
         
@@ -14184,7 +14186,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PartyType
     {
         
@@ -14384,7 +14386,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PartyIdentificationType
     {
         
@@ -14408,7 +14410,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PartyNameType
     {
         
@@ -14416,7 +14418,7 @@ namespace uyumsoftServis
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2", Order=0)]
-        public NameType1 Name
+        public NameType1 NamTaxTotalTypee
         {
             get
             {
@@ -14432,7 +14434,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class AddressType
     {
         
@@ -14648,7 +14650,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class CountryType
     {
         
@@ -14688,7 +14690,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="LocationType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(TypeName="LocationType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class LocationType1
     {
         
@@ -14728,7 +14730,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PartyTaxSchemeType
     {
         
@@ -14784,7 +14786,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TaxSchemeType
     {
         
@@ -14840,7 +14842,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PartyLegalEntityType
     {
         
@@ -14976,7 +14978,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SoleProprietorshipIndicatorType : IndicatorType
     {
     }
@@ -15044,7 +15046,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CopyIndicatorType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class IndicatorType
     {
         
@@ -15068,7 +15070,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PowerIndicatorType : IndicatorType
     {
     }
@@ -15076,7 +15078,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreCarriageIndicatorType : IndicatorType
     {
     }
@@ -15084,7 +15086,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OtherConditionsIndicatorType : IndicatorType
     {
     }
@@ -15092,7 +15094,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PartialDeliveryIndicatorType : IndicatorType
     {
     }
@@ -15100,7 +15102,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrizeIndicatorType : IndicatorType
     {
     }
@@ -15108,7 +15110,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChargeIndicatorType : IndicatorType
     {
     }
@@ -15116,7 +15118,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PrepaidIndicatorType : IndicatorType
     {
     }
@@ -15124,7 +15126,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PricingUpdateRequestIndicatorType : IndicatorType
     {
     }
@@ -15132,7 +15134,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LivestockIndicatorType : IndicatorType
     {
     }
@@ -15140,7 +15142,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MarkAttentionIndicatorType : IndicatorType
     {
     }
@@ -15148,7 +15150,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ItemUpdateRequestIndicatorType : IndicatorType
     {
     }
@@ -15156,7 +15158,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LegalStatusIndicatorType : IndicatorType
     {
     }
@@ -15164,7 +15166,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OptionalLineItemIndicatorType : IndicatorType
     {
     }
@@ -15172,7 +15174,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OrderableIndicatorType : IndicatorType
     {
     }
@@ -15180,7 +15182,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MarkCareIndicatorType : IndicatorType
     {
     }
@@ -15188,7 +15190,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OnCarriageIndicatorType : IndicatorType
     {
     }
@@ -15196,7 +15198,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxEvidenceIndicatorType : IndicatorType
     {
     }
@@ -15204,7 +15206,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TaxIncludedIndicatorType : IndicatorType
     {
     }
@@ -15212,7 +15214,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SplitConsignmentIndicatorType : IndicatorType
     {
     }
@@ -15220,7 +15222,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class StatusAvailableIndicatorType : IndicatorType
     {
     }
@@ -15228,7 +15230,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class UnknownPriceIndicatorType : IndicatorType
     {
     }
@@ -15236,7 +15238,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class VariantConstraintIndicatorType : IndicatorType
     {
     }
@@ -15244,7 +15246,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ThirdPartyPayerIndicatorType : IndicatorType
     {
     }
@@ -15252,7 +15254,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ToOrderIndicatorType : IndicatorType
     {
     }
@@ -15260,7 +15262,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RefrigerationOnIndicatorType : IndicatorType
     {
     }
@@ -15268,7 +15270,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RequiredCurriculaIndicatorType : IndicatorType
     {
     }
@@ -15276,7 +15278,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PublishAwardIndicatorType : IndicatorType
     {
     }
@@ -15284,7 +15286,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RefrigeratedIndicatorType : IndicatorType
     {
     }
@@ -15292,7 +15294,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SpecialSecurityIndicatorType : IndicatorType
     {
     }
@@ -15300,7 +15302,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReturnabilityIndicatorType : IndicatorType
     {
     }
@@ -15308,7 +15310,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReturnableMaterialIndicatorType : IndicatorType
     {
     }
@@ -15316,7 +15318,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class IndicationIndicatorType : IndicatorType
     {
     }
@@ -15324,7 +15326,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BalanceBroughtForwardIndicatorType : IndicatorType
     {
     }
@@ -15332,7 +15334,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BackOrderAllowedIndicatorType : IndicatorType
     {
     }
@@ -15340,7 +15342,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AuctionConstraintIndicatorType : IndicatorType
     {
     }
@@ -15348,7 +15350,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BasedOnConsensusIndicatorType : IndicatorType
     {
     }
@@ -15356,7 +15358,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CandidateReductionConstraintIndicatorType : IndicatorType
     {
     }
@@ -15364,7 +15366,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BulkCargoIndicatorType : IndicatorType
     {
     }
@@ -15372,7 +15374,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BindingOnBuyerIndicatorType : IndicatorType
     {
     }
@@ -15380,7 +15382,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AnimalFoodIndicatorType : IndicatorType
     {
     }
@@ -15388,7 +15390,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AnimalFoodApprovedIndicatorType : IndicatorType
     {
     }
@@ -15396,7 +15398,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AdValoremIndicatorType : IndicatorType
     {
     }
@@ -15404,7 +15406,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class AcceptedIndicatorType : IndicatorType
     {
     }
@@ -15412,7 +15414,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CatalogueIndicatorType : IndicatorType
     {
     }
@@ -15420,7 +15422,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GeneralCargoIndicatorType : IndicatorType
     {
     }
@@ -15428,7 +15430,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FullyPaidSharesIndicatorType : IndicatorType
     {
     }
@@ -15436,7 +15438,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FrozenDocumentIndicatorType : IndicatorType
     {
     }
@@ -15444,7 +15446,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GovernmentAgreementConstraintIndicatorType : IndicatorType
     {
     }
@@ -15452,7 +15454,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HumanFoodIndicatorType : IndicatorType
     {
     }
@@ -15460,7 +15462,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HumanFoodApprovedIndicatorType : IndicatorType
     {
     }
@@ -15468,7 +15470,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class HazardousRiskIndicatorType : IndicatorType
     {
     }
@@ -15476,7 +15478,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FreeOfChargeIndicatorType : IndicatorType
     {
     }
@@ -15484,7 +15486,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContainerizedIndicatorType : IndicatorType
     {
     }
@@ -15492,7 +15494,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsolidatableIndicatorType : IndicatorType
     {
     }
@@ -15500,7 +15502,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CompletionIndicatorType : IndicatorType
     {
     }
@@ -15508,7 +15510,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class FollowupContractIndicatorType : IndicatorType
     {
     }
@@ -15516,7 +15518,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DangerousGoodsApprovedIndicatorType : IndicatorType
     {
     }
@@ -15524,7 +15526,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomsImportClassifiedIndicatorType : IndicatorType
     {
     }
@@ -15532,7 +15534,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CopyIndicatorType : IndicatorType
     {
     }
@@ -15540,7 +15542,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class CorporateRegistrationSchemeType
     {
         
@@ -15612,7 +15614,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ContactType
     {
         
@@ -15732,7 +15734,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class CommunicationType
     {
         
@@ -15788,7 +15790,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PersonType
     {
         
@@ -15924,7 +15926,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class DocumentReferenceType
     {
         
@@ -16060,7 +16062,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class AttachmentType
     {
         
@@ -16100,7 +16102,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EmbeddedDocumentBinaryObjectType : BinaryObjectType1
     {
     }
@@ -16109,7 +16111,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EmbeddedDocumentBinaryObjectType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="BinaryObjectType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="BinaryObjectType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class BinaryObjectType1 : BinaryObjectType
     {
     }
@@ -16123,7 +16125,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EmbeddedDocumentBinaryObjectType))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class BinaryObjectType
     {
         
@@ -16243,7 +16245,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class PictureType : BinaryObjectType
     {
     }
@@ -16251,7 +16253,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class SoundType : BinaryObjectType
     {
     }
@@ -16259,7 +16261,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class VideoType : BinaryObjectType
     {
     }
@@ -16267,7 +16269,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class GraphicType : BinaryObjectType
     {
     }
@@ -16275,7 +16277,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ExternalReferenceType
     {
         
@@ -16299,7 +16301,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class HazardousGoodsTransitType
     {
         
@@ -16419,7 +16421,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TemperatureType
     {
         
@@ -16475,7 +16477,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TransportEquipmentType
     {
         
@@ -16531,7 +16533,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PackageType
     {
         
@@ -16683,7 +16685,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="QuantityType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(TypeName="QuantityType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class QuantityType2 : QuantityType1
     {
     }
@@ -16756,7 +16758,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(QuantityType2))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="QuantityType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
+    [XmlType(TypeName="QuantityType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
     public partial class QuantityType1 : QuantityType
     {
     }
@@ -16830,7 +16832,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(QuantityType2))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
+    [XmlType(Namespace="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
     public partial class QuantityType
     {
         
@@ -16918,7 +16920,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedConsumedQuantityType : QuantityType1
     {
     }
@@ -16926,7 +16928,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EmployeeQuantityType : QuantityType1
     {
     }
@@ -16934,7 +16936,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class EstimatedOverallContractQuantityType : QuantityType1
     {
     }
@@ -16942,7 +16944,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DifferenceTemperatureReductionQuantityType : QuantityType1
     {
     }
@@ -16950,7 +16952,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CustomsTariffQuantityType : QuantityType1
     {
     }
@@ -16958,7 +16960,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CrewQuantityType : QuantityType1
     {
     }
@@ -16966,7 +16968,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DeliveredQuantityType : QuantityType1
     {
     }
@@ -16974,7 +16976,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class DebitedQuantityType : QuantityType1
     {
     }
@@ -16982,7 +16984,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumOperatorQuantityType : QuantityType1
     {
     }
@@ -16990,7 +16992,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumBackorderQuantityType : QuantityType1
     {
     }
@@ -16998,7 +17000,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumQuantityType : QuantityType1
     {
     }
@@ -17006,7 +17008,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumOrderQuantityType : QuantityType1
     {
     }
@@ -17014,7 +17016,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class LatestMeterQuantityType : QuantityType1
     {
     }
@@ -17022,7 +17024,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpectedQuantityType : QuantityType1
     {
     }
@@ -17030,7 +17032,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ExpectedOperatorQuantityType : QuantityType1
     {
     }
@@ -17038,7 +17040,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class InvoicedQuantityType : QuantityType1
     {
     }
@@ -17046,7 +17048,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class GasPressureQuantityType : QuantityType1
     {
     }
@@ -17054,7 +17056,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ActualTemperatureReductionQuantityType : QuantityType1
     {
     }
@@ -17062,7 +17064,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BasicConsumedQuantityType : QuantityType1
     {
     }
@@ -17070,7 +17072,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BackorderQuantityType : QuantityType1
     {
     }
@@ -17078,7 +17080,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BaseQuantityType : QuantityType1
     {
     }
@@ -17086,7 +17088,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class BatchQuantityType : QuantityType1
     {
     }
@@ -17094,7 +17096,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionWaterQuantityType : QuantityType1
     {
     }
@@ -17102,7 +17104,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumptionEnergyQuantityType : QuantityType1
     {
     }
@@ -17110,7 +17112,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class CreditedQuantityType : QuantityType1
     {
     }
@@ -17118,7 +17120,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ContentUnitQuantityType : QuantityType1
     {
     }
@@ -17126,7 +17128,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChildConsignmentQuantityType : QuantityType1
     {
     }
@@ -17134,7 +17136,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ChargeableQuantityType : QuantityType1
     {
     }
@@ -17142,7 +17144,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsumerUnitQuantityType : QuantityType1
     {
     }
@@ -17150,7 +17152,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ConsignmentQuantityType : QuantityType1
     {
     }
@@ -17158,7 +17160,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MaximumVariantQuantityType : QuantityType1
     {
     }
@@ -17166,7 +17168,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalTransportHandlingUnitQuantityType : QuantityType1
     {
     }
@@ -17174,7 +17176,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ValueQuantityType : QuantityType1
     {
     }
@@ -17182,7 +17184,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalPackageQuantityType : QuantityType1
     {
     }
@@ -17190,7 +17192,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalPackagesQuantityType : QuantityType1
     {
     }
@@ -17198,7 +17200,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReturnableQuantityType : QuantityType1
     {
     }
@@ -17206,7 +17208,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class RejectedQuantityType : QuantityType1
     {
     }
@@ -17214,7 +17216,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class VarianceQuantityType : QuantityType1
     {
     }
@@ -17222,7 +17224,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalMeteredQuantityType : QuantityType1
     {
     }
@@ -17230,7 +17232,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TimeDeltaDaysQuantityType : QuantityType1
     {
     }
@@ -17238,7 +17240,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ThresholdQuantityType : QuantityType1
     {
     }
@@ -17246,7 +17248,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalDeliveredQuantityType : QuantityType1
     {
     }
@@ -17254,7 +17256,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalConsumedQuantityType : QuantityType1
     {
     }
@@ -17262,7 +17264,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class SharesNumberQuantityType : QuantityType1
     {
     }
@@ -17270,7 +17272,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TotalGoodsItemQuantityType : QuantityType1
     {
     }
@@ -17278,7 +17280,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class TargetInventoryQuantityType : QuantityType1
     {
     }
@@ -17286,7 +17288,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ShortQuantityType : QuantityType1
     {
     }
@@ -17294,7 +17296,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReceivedTenderQuantityType : QuantityType1
     {
     }
@@ -17302,7 +17304,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OperatingYearsQuantityType : QuantityType1
     {
     }
@@ -17310,7 +17312,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class NormalTemperatureReductionQuantityType : QuantityType1
     {
     }
@@ -17318,7 +17320,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OutstandingQuantityType : QuantityType1
     {
     }
@@ -17326,7 +17328,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PackQuantityType : QuantityType1
     {
     }
@@ -17334,7 +17336,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class OversupplyQuantityType : QuantityType1
     {
     }
@@ -17342,7 +17344,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumInventoryQuantityType : QuantityType1
     {
     }
@@ -17350,7 +17352,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumBackorderQuantityType : QuantityType1
     {
     }
@@ -17358,7 +17360,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumOrderQuantityType : QuantityType1
     {
     }
@@ -17366,7 +17368,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MultipleOrderQuantityType : QuantityType1
     {
     }
@@ -17374,7 +17376,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class MinimumQuantityType : QuantityType1
     {
     }
@@ -17382,7 +17384,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReceivedElectronicTenderQuantityType : QuantityType1
     {
     }
@@ -17390,7 +17392,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReceivedQuantityType : QuantityType1
     {
     }
@@ -17398,7 +17400,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class ReceivedForeignTenderQuantityType : QuantityType1
     {
     }
@@ -17406,7 +17408,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PreviousMeterQuantityType : QuantityType1
     {
     }
@@ -17414,7 +17416,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PerformanceValueQuantityType : QuantityType1
     {
     }
@@ -17422,7 +17424,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
     public partial class PassengerQuantityType : QuantityType1
     {
     }
@@ -17430,7 +17432,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class GoodsItemType
     {
         
@@ -17886,7 +17888,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ItemType
     {
         
@@ -18086,7 +18088,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ItemIdentificationType
     {
         
@@ -18110,7 +18112,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class CommodityClassificationType
     {
         
@@ -18134,7 +18136,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ItemInstanceType
     {
         
@@ -18270,7 +18272,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ItemPropertyType
     {
         
@@ -18486,7 +18488,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ItemPropertyGroupType
     {
         
@@ -18542,7 +18544,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class DimensionType
     {
         
@@ -18630,7 +18632,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ItemPropertyRangeType
     {
         
@@ -18670,7 +18672,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class LotIdentificationType
     {
         
@@ -18726,7 +18728,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class AllowanceChargeType
     {
         
@@ -18846,7 +18848,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class InvoiceLineType
     {
         
@@ -19078,7 +19080,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class OrderLineReferenceType
     {
         
@@ -19166,7 +19168,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class OrderReferenceType
     {
         
@@ -19254,7 +19256,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class LineReferenceType
     {
         
@@ -19310,7 +19312,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class DeliveryType
     {
         
@@ -19558,7 +19560,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class DespatchType
     {
         
@@ -19694,7 +19696,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class DeliveryTermsType
     {
         
@@ -19750,7 +19752,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ShipmentType
     {
         
@@ -20110,7 +20112,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class ShipmentStageType
     {
         
@@ -20246,7 +20248,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TransportMeansType
     {
         
@@ -20462,7 +20464,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class StowageType
     {
         
@@ -20518,7 +20520,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class AirTransportType
     {
         
@@ -20542,7 +20544,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class RoadTransportType
     {
         
@@ -20566,7 +20568,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class RailTransportType
     {
         
@@ -20606,7 +20608,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class MaritimeTransportType
     {
         
@@ -20742,7 +20744,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TransportHandlingUnitType
     {
         
@@ -21070,7 +21072,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TaxTotalType
     {
         
@@ -21110,7 +21112,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TaxSubtotalType
     {
         
@@ -21246,7 +21248,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class TaxCategoryType
     {
         
@@ -21318,7 +21320,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class PriceType
     {
         
@@ -21342,7 +21344,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class CustomerPartyType
     {
         
@@ -21382,7 +21384,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class SupplierPartyType
     {
         
@@ -21422,7 +21424,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="SignatureType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(TypeName="SignatureType", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class SignatureType1
     {
         
@@ -21478,7 +21480,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class BillingReferenceLineType
     {
         
@@ -21534,7 +21536,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
     public partial class BillingReferenceType
     {
         
@@ -21670,7 +21672,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class ObjectType
     {
         
@@ -21743,7 +21745,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class DSAKeyValueType
     {
         
@@ -21863,7 +21865,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class RSAKeyValueType
     {
         
@@ -21903,7 +21905,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class KeyValueType
     {
         
@@ -21945,7 +21947,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class SPKIDataType
     {
         
@@ -21985,7 +21987,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class RetrievalMethodType
     {
         
@@ -22042,7 +22044,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class TransformType
     {
         
@@ -22099,7 +22101,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class X509IssuerSerialType
     {
         
@@ -22139,7 +22141,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class X509DataType
     {
         
@@ -22185,7 +22187,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
     public enum ItemsChoiceType1
     {
         
@@ -22212,7 +22214,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class PGPDataType
     {
         
@@ -22255,7 +22257,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
     public enum ItemsChoiceType
     {
         
@@ -22273,7 +22275,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class KeyInfoType
     {
         
@@ -22353,7 +22355,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
     public enum ItemsChoiceType2
     {
         
@@ -22386,7 +22388,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class SignatureValueType
     {
         
@@ -22426,7 +22428,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class DigestMethodType
     {
         
@@ -22467,7 +22469,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class ReferenceType
     {
         
@@ -22572,7 +22574,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class SignatureMethodType
     {
         
@@ -22629,7 +22631,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class CanonicalizationMethodType
     {
         
@@ -22670,7 +22672,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class SignedInfoType
     {
         
@@ -22742,7 +22744,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#")]
+    [XmlType(Namespace="http://www.w3.org/2000/09/xmldsig#")]
     public partial class SignatureType
     {
         
@@ -22830,7 +22832,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class ExtensionContentType
     {
         
@@ -22854,7 +22856,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")]
     public partial class UBLExtensionType
     {
         
@@ -22878,7 +22880,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2")]
+    [XmlType(Namespace="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2")]
     public partial class InvoiceType
     {
         
@@ -23607,7 +23609,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceInfo
     {
         
@@ -23726,7 +23728,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum InvoiceScenarioChoosen
     {
         
@@ -23746,7 +23748,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class PagedResponseOfInvoiceInfo
     {
         
@@ -23834,7 +23836,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SystemUserWithAlias
     {
         
@@ -23922,7 +23924,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class PagedResponseOfSystemUser
     {
         
@@ -24010,7 +24012,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ResponseOfWhoAmIInfo : Response
     {
         
@@ -24034,7 +24036,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SummaryReportResponse : Response
     {
         
@@ -24059,7 +24061,7 @@ namespace uyumsoftServis
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnvelopeResponse))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ResponseOfEnvelopeData : Response
     {
         
@@ -24083,7 +24085,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class EnvelopeResponse : ResponseOfEnvelopeData
     {
     }
@@ -24091,7 +24093,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class ByteArrayResponse : Response
     {
         
@@ -24115,7 +24117,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class CloneInvoiceServiceResponse : Response
     {
         
@@ -24139,7 +24141,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceStatusWithLogResponse : Response
     {
         
@@ -24163,7 +24165,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceViewResponse : Response
     {
         
@@ -24187,7 +24189,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceIdentitiesResponse : Response
     {
         
@@ -24211,7 +24213,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceGtbInfoResponse : Response
     {
         
@@ -24235,7 +24237,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class OutboxInvoiceListResponse : Response
     {
         
@@ -24259,7 +24261,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class DocumentResponseStatusResponse : Response
     {
         
@@ -24283,7 +24285,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceStatusResponse : Response
     {
         
@@ -24307,7 +24309,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceDataResponse : Response
     {
         
@@ -24331,7 +24333,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoicesDataResponse : Response
     {
         
@@ -24355,7 +24357,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoiceResponse : Response
     {
         
@@ -24379,7 +24381,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InboxInvoiceListResponse : Response
     {
         
@@ -24403,7 +24405,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class InvoicesResponse : Response
     {
         
@@ -24427,7 +24429,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class StringElementResponse : Response
     {
         
@@ -24451,7 +24453,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class UserAliassesResponse : Response
     {
         
@@ -24475,7 +24477,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class SystemUsersResponse : Response
     {
         
@@ -24499,7 +24501,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class FlagResponse : Response
     {
         
@@ -24523,7 +24525,7 @@ namespace uyumsoftServis
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public partial class StringResponse : Response
     {
         
@@ -24546,7 +24548,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum XsltViewType
     {
         
@@ -24604,7 +24606,7 @@ namespace uyumsoftServis
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/")]
+    [XmlType(Namespace="http://tempuri.org/")]
     public enum AliasType
     {
         
