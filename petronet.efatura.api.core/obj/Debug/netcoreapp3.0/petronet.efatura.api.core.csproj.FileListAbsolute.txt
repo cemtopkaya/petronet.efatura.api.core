@@ -137,5 +137,6 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcor
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.0\AutoMapper.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\obj\Debug\netcoreapp3.0\petronet.efatura.api.core.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\obj\Debug\netcoreapp3.0\petronet.efatura.api.core.MvcApplicationPartsAssemblyInfo.cache

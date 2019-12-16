@@ -3,6 +3,6 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class TransportAuthorizationCodeType : CodeType1 {
+    public class TransportAuthorizationCodeType : CodeType1 {
     }
 }

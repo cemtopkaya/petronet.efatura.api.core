@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(Namespace = "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
-    public partial class IdentifierType
+    public class IdentifierType
     {
         [XmlAttribute(DataType = "normalizedString")]
         public string schemeID { get; set; }

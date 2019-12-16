@@ -3,6 +3,6 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class NetWeightMeasureType : MeasureType1 {
+    public class NetWeightMeasureType : MeasureType1 {
     }
 }

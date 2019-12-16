@@ -4,6 +4,6 @@ namespace petronet.efatura.api.core.Model.UBL {
 
 
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class ValueType : TextType1 {
+    public class ValueType : TextType1 {
     }
 }

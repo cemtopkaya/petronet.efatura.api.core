@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "http://www.w3.org/2000/09/xmldsig#")]
-    public partial class PGPDataType {
+    public class PGPDataType {
 
         [XmlAnyElement(Order = 0)]
         [XmlElement("PGPKeyID", typeof(byte[]), DataType = "base64Binary", Order = 0)]

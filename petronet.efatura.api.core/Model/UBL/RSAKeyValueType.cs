@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "http://www.w3.org/2000/09/xmldsig#")]
-    public partial class RSAKeyValueType {
+    public class RSAKeyValueType {
 
         [XmlElement(DataType = "base64Binary", Order = 0)]
         public byte[] Modulus { get; set; }

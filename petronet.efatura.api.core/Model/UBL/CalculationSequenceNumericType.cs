@@ -2,7 +2,7 @@
 
 namespace petronet.efatura.api.core.Model.UBL {
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class CalculationSequenceNumericType : NumericType1 {
+    public class CalculationSequenceNumericType : NumericType1 {
     }
 
 }

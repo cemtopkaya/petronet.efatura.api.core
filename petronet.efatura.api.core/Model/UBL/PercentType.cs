@@ -3,6 +3,6 @@
 namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
-    public partial class PercentType : NumericType {
+    public class PercentType : NumericType {
     }
 }

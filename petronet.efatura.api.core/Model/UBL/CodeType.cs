@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
-    public partial class CodeType
+    public class CodeType
     {        
         [XmlAttribute(DataType = "normalizedString")]
         public string listID { get; set; }

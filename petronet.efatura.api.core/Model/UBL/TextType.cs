@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(Namespace = "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
-    public partial class TextType {
+    public class TextType {
 
         [XmlAttribute(DataType = "language")]
         public string languageID { get; set; }

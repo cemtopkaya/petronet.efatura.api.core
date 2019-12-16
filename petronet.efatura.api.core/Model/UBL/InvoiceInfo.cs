@@ -3,8 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "http://tempuri.org/")]
-    public partial class InvoiceInfo
-    {
+    public class InvoiceInfo {
         private XmlSerializerNamespaces xmlns;
 
         [XmlNamespaceDeclarations]

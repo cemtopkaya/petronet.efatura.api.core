@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -51,7 +52,8 @@ namespace petronet.efatura.api.core {
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllers()
-                    .AddXmlSerializerFormatters();
+                    .AddXmlSerializerFormatters()
+                    .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             #region Api Versiyonlama
             services.AddApiVersioning(v => {
@@ -102,11 +104,15 @@ namespace petronet.efatura.api.core {
             });
             #endregion
 
-            services.AddApiVersioning(v => {
-                v.ReportApiVersions = true;
-                v.AssumeDefaultVersionWhenUnspecified = true;
-                v.DefaultApiVersion = new ApiVersion(1, 0);
+
+            #region Automapper Conf.
+            var mappingConfig = new MapperConfiguration(mc => {
+                mc.AddProfile(new Configuration.Mappings.Uyumsoft());
             });
+
+            var mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+            #endregion
 
             #region Swagger için JSON Web Token Ayarlarý
             services.AddSwaggerGen(c => {

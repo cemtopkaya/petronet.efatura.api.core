@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class NameSuffixType : TextType1 {
+    public class NameSuffixType : TextType1 {
     }
 
 }

@@ -1,7 +1,17 @@
 ﻿using System;
+using System.IO;
+using System.Net;
+using System.ServiceModel;
+using System.ServiceModel.Channels;
+using System.ServiceModel.Description;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using UBL = petronet.efatura.api.core.Model.UBL;
 using petronet.efatura.api.core.Model.Response;
+using uyumsoft;
+
 //using uyumsoft;
 
 namespace petronet.efatura.api.core.Controllers {
@@ -10,6 +20,12 @@ namespace petronet.efatura.api.core.Controllers {
     [Route("api/[controller]")]
     [ApiController]
     public class InvoiceController : ControllerBase {
+        private IMapper _mapper;
+
+        public InvoiceController(IMapper mapper) {
+            this._mapper = mapper;
+        }
+
         [HttpGet]
         [DisableRequestSizeLimit]
         [Produces("application/xml")]
@@ -241,10 +257,140 @@ namespace petronet.efatura.api.core.Controllers {
         }
 
         [HttpPost]
-        public SingleResponse<UBL.InvoiceInfo> Post([FromBody] UBL.InvoiceInfo invoice) {
-            return new SingleResponse<UBL.InvoiceInfo>() {
-                Model = invoice
+        [Consumes("application/xml")]
+        [Produces("application/xml")]
+        public IActionResult Post([FromBody] UBL.InvoiceType invoice) {
+            if (!ModelState.IsValid) {
+                foreach (var modelState in ModelState.Values)
+                    foreach (var error in modelState.Errors)
+                        Console.WriteLine(error);
+                throw new Exception("Oluşan hata sayısı: " + ModelState.ErrorCount);
+            }
+
+            var uyumsoftInvoiceType = _mapper.Map<InvoiceType>(invoice);
+
+            var serviceProxy = GetUyumsoftClient(false);
+            //var serviceProxy = GetUyumsoftServiceProxy();
+            //var serviceProxy = GetUyumsoftServiceClient(false);
+
+            
+
+            try {
+                //var result = serviceProxy.GetInboxInvoice("7420061812");
+
+                //var aa = serviceProxy.GetInboxInvoice("5f7c6161-37a8-4aef-9595-f8b445d03b9c");
+                var result = serviceProxy.SaveAsDraft(new[]
+                {
+                    new InvoiceInfo()
+                    {
+                        Invoice = uyumsoftInvoiceType
+                    }
+                });
+                
+                //var aa = await ic.SaveAsDraftAsync(new[]
+                //{
+                //    new uyumsoft.InvoiceInfo()
+                //    {
+                //        Invoice = result
+                //    }
+                //});
+
+                return Ok(result.Value);
+                //var result = await serviceProxy.getSomethingAsync("id").ConfigureAwait(false);
+            } finally {
+            }
+        }
+
+        private static uyumsoftservice.lib.WCFService.IntegrationClient GetUyumsoftServiceClient(bool isProduction) {
+            var serviceAddress = isProduction
+                ? "https://efatura.uyumsoft.com.tr/Services/Integration"
+                : "https://efatura-test.uyumsoft.com.tr/Services/Integration";
+            //: "http://efatura-test.uyumsoft.com.tr/services/BasicIntegration";
+            var binding = new BasicHttpBinding() {
+                MaxReceivedMessageSize = int.MaxValue,
+                Security =
+                {
+                    Transport = new HttpTransportSecurity() {
+                        ClientCredentialType = HttpClientCredentialType.None
+                    },
+                    Mode = BasicHttpSecurityMode.TransportWithMessageCredential
+                },
             };
+
+            //binding.Security.Mode = BasicHttpSecurityMode.TransportWithMessageCredential;
+            //binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;
+            var endPointTest = new EndpointAddress(serviceAddress);
+
+            //var client = new uyumsoft.IntegrationClient(binding, endPointTest);
+            //client.Endpoint.Contract = new ContractDescription("uyumsoft.IIntegration");
+
+            var client = new uyumsoftservice.lib.WCFService.IntegrationClient(binding, endPointTest);
+            client.ClientCredentials.UserName.UserName = "Uyumsoft";
+            client.ClientCredentials.UserName.Password = "Uyumsoft";
+
+            return client;
+        }
+
+        private static IIntegration GetUyumsoftServiceProxy() {
+            BasicHttpBinding basicHttpBinding = null;
+            EndpointAddress endpointAddress = null;
+            ChannelFactory<uyumsoft.IIntegration> factory = null;
+            uyumsoft.IIntegration serviceProxy = null;
+
+            //uyumsoft.IntegrationClient ic = GetUyumsoftClient(false);
+            basicHttpBinding = new BasicHttpBinding(BasicHttpSecurityMode.TransportWithMessageCredential);
+            basicHttpBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
+
+            factory = new ChannelFactory<uyumsoft.IIntegration>(basicHttpBinding,
+                new EndpointAddress(new Uri("https://efatura-test.uyumsoft.com.tr/Services/Integration")));
+            factory.Credentials.UserName.UserName = "Uyumsoft";
+            factory.Credentials.UserName.Password = "Uyumsoft";
+            serviceProxy = factory.CreateChannel();
+            ((ICommunicationObject)serviceProxy).Open();
+            var opContext = new OperationContext((IClientChannel)serviceProxy);
+            var prevOpContext = OperationContext.Current; // Optional if there's no way this might already be set
+            OperationContext.Current = opContext;
+            return serviceProxy;
+        }
+
+        private IntegrationClient GetUyumsoftClient(bool isProduction) {
+            var serviceAddress = isProduction
+                ? "https://efatura.uyumsoft.com.tr/Services/Integration"
+                : "https://efatura-test.uyumsoft.com.tr/Services/Integration";
+            //: "http://efatura-test.uyumsoft.com.tr/services/BasicIntegration";
+
+
+            var binding = new BasicHttpBinding() {
+                MaxReceivedMessageSize = int.MaxValue,
+                Security =
+                {
+                    Transport = new HttpTransportSecurity() {
+                        ClientCredentialType = HttpClientCredentialType.None
+                    },
+                    Mode = BasicHttpSecurityMode.TransportWithMessageCredential
+                },
+            };
+
+            var endPointTest = new EndpointAddress(serviceAddress);
+
+            var client = new uyumsoft.IntegrationClient(binding, endPointTest);
+            client.ClientCredentials.UserName.UserName = "Uyumsoft";
+            client.ClientCredentials.UserName.Password = "Uyumsoft";
+            return client;
+        }
+
+        [HttpGet("{id}")]
+        [Consumes("application/xml")]
+        [Produces("application/xml")]
+        public IActionResult Get(int id) {
+            XmlSerializer ser = new XmlSerializer(typeof(UBL.InvoiceType));
+            using (var stream = System.IO.File.Open(@"C:\Users\cemt\Downloads\9b9d0c93-5e18-4b65-88e9-39e47cf6e651.xml",
+                FileMode.Open)) {
+                var obj = ser.Deserialize(stream) as UBL.InvoiceType;
+                obj.UBLVersionID.Value = "3333";
+                stream.Close();
+                return Ok(obj);
+            }
         }
     }
 }

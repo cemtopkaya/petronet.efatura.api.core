@@ -4,7 +4,7 @@ namespace petronet.efatura.api.core.Model.UBL {
 
 
     [XmlType(Namespace = "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2")]
-    public partial class BinaryObjectType {
+    public class BinaryObjectType {
 
         [XmlAttribute()]
         public string format { get; set; }

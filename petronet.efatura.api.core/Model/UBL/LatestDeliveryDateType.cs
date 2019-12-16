@@ -3,6 +3,6 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class LatestDeliveryDateType : DateType {
+    public class LatestDeliveryDateType : DateType {
     }
 }

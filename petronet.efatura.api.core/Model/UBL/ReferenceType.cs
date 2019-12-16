@@ -3,7 +3,7 @@
 namespace petronet.efatura.api.core.Model.UBL
 {
     [XmlType(Namespace = "http://www.w3.org/2000/09/xmldsig#")]
-    public partial class ReferenceType {
+    public class ReferenceType {
 
         [XmlArray(Order = 0)]
         [XmlArrayItem("Transform", IsNullable = false)]
@@ -13,7 +13,7 @@ namespace petronet.efatura.api.core.Model.UBL
         public DigestMethodType DigestMethod { get; set; }
 
         [XmlType(Namespace = "http://www.w3.org/2000/09/xmldsig#")]
-        public partial class DigestMethodType {
+        public class DigestMethodType {
 
             [XmlText()]
             [XmlAnyElement(Order = 0)]

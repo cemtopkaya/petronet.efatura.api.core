@@ -3,6 +3,6 @@
 namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(TypeName = "MeasureType", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2")]
-    public partial class MeasureType1 : MeasureType {
+    public class MeasureType1 : MeasureType {
     }
 }

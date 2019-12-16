@@ -3,6 +3,6 @@
 namespace petronet.efatura.api.core.Model.UBL {
 
     [XmlType(TypeName = "PercentType", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
-    public partial class PercentType1 : PercentType {
+    public class PercentType1 : PercentType {
     }
 }
