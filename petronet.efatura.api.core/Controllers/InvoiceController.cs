@@ -271,9 +271,6 @@ namespace petronet.efatura.api.core.Controllers {
 
             var serviceProxy = GetUyumsoftClient(false);
             //var serviceProxy = GetUyumsoftServiceProxy();
-            //var serviceProxy = GetUyumsoftServiceClient(false);
-
-            
 
             try {
                 //var result = serviceProxy.GetInboxInvoice("7420061812");
@@ -300,37 +297,7 @@ namespace petronet.efatura.api.core.Controllers {
             } finally {
             }
         }
-
-        private static uyumsoftservice.lib.WCFService.IntegrationClient GetUyumsoftServiceClient(bool isProduction) {
-            var serviceAddress = isProduction
-                ? "https://efatura.uyumsoft.com.tr/Services/Integration"
-                : "https://efatura-test.uyumsoft.com.tr/Services/Integration";
-            //: "http://efatura-test.uyumsoft.com.tr/services/BasicIntegration";
-            var binding = new BasicHttpBinding() {
-                MaxReceivedMessageSize = int.MaxValue,
-                Security =
-                {
-                    Transport = new HttpTransportSecurity() {
-                        ClientCredentialType = HttpClientCredentialType.None
-                    },
-                    Mode = BasicHttpSecurityMode.TransportWithMessageCredential
-                },
-            };
-
-            //binding.Security.Mode = BasicHttpSecurityMode.TransportWithMessageCredential;
-            //binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;
-            var endPointTest = new EndpointAddress(serviceAddress);
-
-            //var client = new uyumsoft.IntegrationClient(binding, endPointTest);
-            //client.Endpoint.Contract = new ContractDescription("uyumsoft.IIntegration");
-
-            var client = new uyumsoftservice.lib.WCFService.IntegrationClient(binding, endPointTest);
-            client.ClientCredentials.UserName.UserName = "Uyumsoft";
-            client.ClientCredentials.UserName.Password = "Uyumsoft";
-
-            return client;
-        }
-
+        
         private static IIntegration GetUyumsoftServiceProxy() {
             BasicHttpBinding basicHttpBinding = null;
             EndpointAddress endpointAddress = null;
