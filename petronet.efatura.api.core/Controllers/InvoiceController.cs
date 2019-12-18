@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using petronet.efatura.api.core.Integration.Command;
 using UBL = petronet.efatura.api.core.Model.UBL;
 using petronet.efatura.api.core.Model.Response;
+using petronet.efatura.api.core.Options;
 using uyumsoft;
 
 //using uyumsoft;
@@ -21,9 +24,11 @@ namespace petronet.efatura.api.core.Controllers {
     [ApiController]
     public class InvoiceController : ControllerBase {
         private IMapper _mapper;
+        private IOptions<WCFServiceSettings> _wcfServiceSettings;
 
-        public InvoiceController(IMapper mapper) {
+        public InvoiceController(IMapper mapper, IOptions<WCFServiceSettings> wcfServiceSettings) {
             this._mapper = mapper;
+            this._wcfServiceSettings = wcfServiceSettings;
         }
 
         [HttpGet]
@@ -259,7 +264,7 @@ namespace petronet.efatura.api.core.Controllers {
         [HttpPost]
         [Consumes("application/xml")]
         [Produces("application/xml")]
-        public IActionResult Post([FromBody] UBL.InvoiceType invoice) {
+        public async Task<IActionResult> Post([FromBody] UBL.InvoiceType invoice) {
             if (!ModelState.IsValid) {
                 foreach (var modelState in ModelState.Values)
                     foreach (var error in modelState.Errors)
@@ -268,36 +273,28 @@ namespace petronet.efatura.api.core.Controllers {
             }
 
             var uyumsoftInvoiceType = _mapper.Map<InvoiceType>(invoice);
+            var serviceProxy = this._wcfServiceSettings?.Value.GetUyumsoftServiceProxy<IIntegration>();
 
-            var serviceProxy = GetUyumsoftClient(false);
-            //var serviceProxy = GetUyumsoftServiceProxy();
-
-            try {
-                //var result = serviceProxy.GetInboxInvoice("7420061812");
-
-                //var aa = serviceProxy.GetInboxInvoice("5f7c6161-37a8-4aef-9595-f8b445d03b9c");
+            UyumsoftSendEInvoice cmd = new UyumsoftSendEInvoice(serviceProxy, invoice, this._mapper);
+            cmd.Execute();
+            var res = await cmd.TaskResult();
+            try
+            {
                 var result = serviceProxy.SaveAsDraft(new[]
                 {
                     new InvoiceInfo()
                     {
-                        Invoice = uyumsoftInvoiceType
+                        Invoice = uyumsoftInvoiceType,
+                        LocalDocumentId = "localBelgeAydisi",
                     }
                 });
-                
-                //var aa = await ic.SaveAsDraftAsync(new[]
-                //{
-                //    new uyumsoft.InvoiceInfo()
-                //    {
-                //        Invoice = result
-                //    }
-                //});
 
-                return Ok(result.Value);
-                //var result = await serviceProxy.getSomethingAsync("id").ConfigureAwait(false);
+                return Ok(result);
             } finally {
+                (serviceProxy as ICommunicationObject)?.Close();
             }
         }
-        
+
         private static IIntegration GetUyumsoftServiceProxy() {
             BasicHttpBinding basicHttpBinding = null;
             EndpointAddress endpointAddress = null;
@@ -320,7 +317,7 @@ namespace petronet.efatura.api.core.Controllers {
             return serviceProxy;
         }
 
-        private IntegrationClient GetUyumsoftClient(bool isProduction) {
+        private IntegrationClient GetUyumsoftClient(bool isProduction, int timeout) {
             var serviceAddress = isProduction
                 ? "https://efatura.uyumsoft.com.tr/Services/Integration"
                 : "https://efatura-test.uyumsoft.com.tr/Services/Integration";
@@ -339,6 +336,7 @@ namespace petronet.efatura.api.core.Controllers {
             };
 
             var endPointTest = new EndpointAddress(serviceAddress);
+            binding.CloseTimeout = TimeSpan.MaxValue;
 
             var client = new uyumsoft.IntegrationClient(binding, endPointTest);
             client.ClientCredentials.UserName.UserName = "Uyumsoft";

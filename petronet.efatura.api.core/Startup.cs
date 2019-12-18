@@ -62,8 +62,7 @@ namespace petronet.efatura.api.core {
                 v.DefaultApiVersion = new ApiVersion(1, 0);
             });
             #endregion
-
-
+            
             #region Swagger 2.0 - OpenApi 3.0
             services.AddSwaggerGen(c => {
                 #region SwaggerDocument Nesnelerini Yarat
@@ -103,8 +102,7 @@ namespace petronet.efatura.api.core {
                 c.IncludeXmlComments(xmlPath);
             });
             #endregion
-
-
+            
             #region Automapper Conf.
             var mappingConfig = new MapperConfiguration(mc => {
                 mc.AddProfile(new Configuration.Mappings.Uyumsoft());
@@ -194,6 +192,13 @@ namespace petronet.efatura.api.core {
                     }
                 };
             });
+            #endregion
+
+            services.AddOptions();
+
+            #region Integrator's Configuration Injection
+            var section = Configuration.GetSection("UyumsoftEInvoiceTestServiceSettings");
+            services.Configure<WCFServiceSettings>(section); 
             #endregion
         }
 

@@ -137,9 +137,7 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\obj\Debug\netcor
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\SoapHttpClient.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\obj\Debug\netcoreapp3.1\petronet.efatura.api.core.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\obj\Debug\netcoreapp3.1\petronet.efatura.api.core.MvcApplicationPartsAssemblyInfo.cache
-D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\petronet.efatura.uyumsoftservice.lib.dll
-D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\petronet.efatura.uyumsoftservice.lib.pdb
-D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\petronet.efatura.uyumsoftservice.lib.dll.config
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\Connected Services\InnovaEFaturaServis\ConnectedService.json

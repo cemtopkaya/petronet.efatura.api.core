@@ -20,40 +20,6 @@ namespace petronet.efatura.api.core.Configuration.Mappings {
                     }
                 }
             }
-
-
-            CreateMap<UBL.InvoiceType, uyumsoft.InvoiceType>();
-            CreateMap<uyumsoft.InvoiceType, UBL.InvoiceType>();
-
-            CreateMap<UBL.UBLExtensionType, uyumsoft.UBLExtensionType>();
-            CreateMap<uyumsoft.UBLExtensionType,UBL.UBLExtensionType>();
-
-            CreateMap<UBL.ExtensionContentType, uyumsoft.ExtensionContentType>();
-            CreateMap<uyumsoft.ExtensionContentType, UBL.ExtensionContentType>();
-
-            CreateMap<UBL.SignatureType, uyumsoft.SignatureType>();
-            CreateMap<uyumsoft.SignatureType, UBL.SignatureType>();
-            
-            CreateMap<uyumsoft.SignatureValueType, UBL.SignatureValueType>();
-            CreateMap<UBL.SignatureValueType, uyumsoft.SignatureValueType>();
-            
-            CreateMap<uyumsoft.ObjectType, UBL.ObjectType>();
-            CreateMap<UBL.ObjectType, uyumsoft.ObjectType>();
-
-            CreateMap<uyumsoft.SignedInfoType, UBL.SignedInfoType>();
-            CreateMap<UBL.SignedInfoType, uyumsoft.SignedInfoType>();
-            
-            CreateMap<uyumsoft.KeyInfoType, UBL.KeyInfoType>();
-            CreateMap<UBL.KeyInfoType, uyumsoft.KeyInfoType>();
-            
-            CreateMap<uyumsoft.CanonicalizationMethodType, UBL.CanonicalizationMethodType>();
-            CreateMap<UBL.CanonicalizationMethodType, uyumsoft.CanonicalizationMethodType>();
-            
-            CreateMap<uyumsoft.SignatureMethodType, UBL.SignatureMethodType>();
-            CreateMap<UBL.SignatureMethodType, uyumsoft.SignatureMethodType>();
-            
-            CreateMap<uyumsoft.ReferenceType, UBL.ReferenceType>();
-            CreateMap<UBL.ReferenceType, uyumsoft.ReferenceType>();
         }
     }
 }
