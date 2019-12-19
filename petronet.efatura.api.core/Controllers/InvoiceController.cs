@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Net;
 using System.ServiceModel;
@@ -7,28 +8,30 @@ using System.ServiceModel.Description;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using AutoMapper;
+using DijitalPlanet.EFaturaEArsiv;
+using EFinans.EFatura;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using petronet.efatura.api.core.Integration.Command;
 using UBL = petronet.efatura.api.core.Model.UBL;
 using petronet.efatura.api.core.Model.Response;
 using petronet.efatura.api.core.Options;
+using petronet.efatura.api.core.ViewModel;
 using uyumsoft;
-
-//using uyumsoft;
+using Exception = System.Exception;
 
 namespace petronet.efatura.api.core.Controllers {
-
     [ApiVersion("1.0")]
     [Route("api/[controller]")]
     [ApiController]
     public class InvoiceController : ControllerBase {
         private IMapper _mapper;
-        private IOptions<WCFServiceSettings> _wcfServiceSettings;
+        private IConfiguration Configuration;
 
-        public InvoiceController(IMapper mapper, IOptions<WCFServiceSettings> wcfServiceSettings) {
+        public InvoiceController(IConfiguration configuration, IMapper mapper) {
             this._mapper = mapper;
-            this._wcfServiceSettings = wcfServiceSettings;
+            this.Configuration = configuration;
         }
 
         [HttpGet]
@@ -263,8 +266,11 @@ namespace petronet.efatura.api.core.Controllers {
 
         [HttpPost]
         [Consumes("application/xml")]
-        [Produces("application/xml")]
-        public async Task<IActionResult> Post([FromBody] UBL.InvoiceType invoice) {
+        //[Produces("application/xml")]
+        public async Task<IActionResult> Post([FromBody] UBL.InvoiceType invoice, [FromHeader] ServiceInfo serviceInfo) {
+            WCFServiceSettings serviceSettings = null;
+            ICommandSendEInvoice cmd = null;
+
             if (!ModelState.IsValid) {
                 foreach (var modelState in ModelState.Values)
                     foreach (var error in modelState.Errors)
@@ -272,27 +278,50 @@ namespace petronet.efatura.api.core.Controllers {
                 throw new Exception("Oluşan hata sayısı: " + ModelState.ErrorCount);
             }
 
-            var uyumsoftInvoiceType = _mapper.Map<InvoiceType>(invoice);
-            var serviceProxy = this._wcfServiceSettings?.Value.GetUyumsoftServiceProxy<IIntegration>();
+            switch (serviceInfo.Integrator) {
+                case Integrator.Uyumsoft:
+                    serviceSettings = Configuration.GetSection("UyumsoftEInvoiceTestServiceSettings").Get<WCFServiceSettings>();
+                    var serviceProxyUyumsoft = serviceSettings?.GetServiceProxy<IIntegration>(
+                        serviceInfo.ServiceUrl,
+                        serviceInfo.UserName,
+                        serviceInfo.Password);
+                    cmd = new UyumsoftSendEInvoice<IIntegration>(serviceProxyUyumsoft, invoice, this._mapper);
+                    break;
 
-            UyumsoftSendEInvoice cmd = new UyumsoftSendEInvoice(serviceProxy, invoice, this._mapper);
-            cmd.Execute();
-            var res = await cmd.TaskResult();
-            try
-            {
-                var result = serviceProxy.SaveAsDraft(new[]
-                {
-                    new InvoiceInfo()
-                    {
-                        Invoice = uyumsoftInvoiceType,
-                        LocalDocumentId = "localBelgeAydisi",
-                    }
-                });
+                case Integrator.EFinans:
+                    serviceSettings = Configuration.GetSection("EFinansTestServiceSettings").Get<WCFServiceSettings>();
+                    var serviceProxyEFinans = serviceSettings?.GetServiceProxy<EFinans.EFatura.ConnectorService>(
+                        serviceInfo.ServiceUrl,
+                        serviceInfo.UserName,
+                        serviceInfo.Password);
+                    cmd = new EFinansSendEInvoice<EFinans.EFatura.ConnectorService>(serviceProxyEFinans, invoice, this._mapper);
+                    break;
 
-                return Ok(result);
-            } finally {
-                (serviceProxy as ICommunicationObject)?.Close();
+                case Integrator.DigitalPlanet:
+                    if (string.IsNullOrEmpty(serviceInfo.ReceiverPostboxName)) throw new ArgumentNullException("Dijital planet üstünden fatura gönderebilmek için ReceiverPostboxName bilgisi gönderilmelidir!");
+                    
+                    serviceSettings = Configuration.GetSection("EFinansTestServiceSettings").Get<WCFServiceSettings>();
+                    var serviceProxyDP = serviceSettings?.GetServiceProxy<IntegrationServiceSoap>(
+                        serviceInfo.ServiceUrl,
+                        serviceInfo.UserName,
+                        serviceInfo.Password);
+                    cmd = new DijitalPlanetSendEInvoice<IntegrationServiceSoap>(serviceProxyDP, invoice, this._mapper);
+                    var cmdDP = (cmd as DijitalPlanetSendEInvoice<IntegrationServiceSoap>);
+                    cmdDP.UserName = serviceInfo.UserName;
+                    cmdDP.UserName = serviceInfo.Password;
+                    cmdDP.CorporateCode = serviceInfo.CorporateCode;
+                    break;
+
+                default:
+                    throw new ArgumentNullException("Command null kalmış. Demek entegratör tanımlı değil.");
+                    break;
             }
+
+
+            cmd.Execute();
+            var result = await cmd.TaskResult();
+            return Ok(result);
+
         }
 
         private static IIntegration GetUyumsoftServiceProxy() {

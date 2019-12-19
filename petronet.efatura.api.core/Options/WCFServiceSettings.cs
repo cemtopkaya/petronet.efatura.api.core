@@ -13,17 +13,17 @@ namespace petronet.efatura.api.core.Options {
         public string Password { get; set; }
 
 
-        public T GetUyumsoftServiceProxy<T>() {
+        public T GetServiceProxy<T>(string url = null, string username = null, string password = null) {
             BasicHttpBinding basicHttpBinding = null;
             EndpointAddress endpointAddress = null;
             ChannelFactory<T> factory = null;
 
             basicHttpBinding = new BasicHttpBinding(BasicHttpSecurityMode.TransportWithMessageCredential);
-            basicHttpBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
+            basicHttpBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;
 
-            factory = new ChannelFactory<T>(basicHttpBinding, new EndpointAddress(new Uri(this.Address)));
-            factory.Credentials.UserName.UserName = this.UserName;
-            factory.Credentials.UserName.Password = this.Password;
+            factory = new ChannelFactory<T>(basicHttpBinding, new EndpointAddress(new Uri(url ?? this.Address)));
+            factory.Credentials.UserName.UserName = username ?? this.UserName;
+            factory.Credentials.UserName.Password = password ?? this.Password;
             var serviceProxy = factory.CreateChannel();
             ((ICommunicationObject)serviceProxy).Open();
 

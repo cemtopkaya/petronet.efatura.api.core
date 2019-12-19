@@ -141,3 +141,5 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcor
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\Connected Services\InnovaEFaturaServis\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\Connected Services\EFinans.EArsiv\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.api.core\bin\Debug\netcoreapp3.1\Connected Services\EFinans.EFatura\ConnectedService.json

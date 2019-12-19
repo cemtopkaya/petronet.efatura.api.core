@@ -160,6 +160,1734 @@
         <member name="P:petronet.efatura.api.core.Model.UBL.TaxTotalType.TaxSubtotal">
             <remarks/>
         </member>
+        <member name="T:EFinans.EArsiv.earsivServiceResult">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.earsivServiceResult.resultCode">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.earsivServiceResult.resultExtra">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.earsivServiceResult.resultText">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.earsivServiceResultEntry">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.earsivServiceResultEntry.key">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.earsivServiceResultEntry.value">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaOlusturExt">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaOlusturExt.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaOlusturExt.fatura">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.belge">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.belge.belgeFormati">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.belge.belgeFormatiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.belge.belgeIcerigi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.belgeFormatiEnum">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.UBL">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.CSXML">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.HTML">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.PDF">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.CUSTOM">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.PDF_CUSTOM">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.PDF_UBL">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.CSXML1">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.CSXML2">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.CSXML3">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.PDF_CSXML1">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.PDF_CSXML2">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.belgeFormatiEnum.PDF_CSXML3">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.topluFaturaPaketDosyasiSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketDosyasiSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumRaporNoGuncelleImzalaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumRaporNoGuncelleImzalaResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumRaporNoGuncelleImzala">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumRaporNoGuncelleImzala.bolumRaporNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumListesiSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumListesiSorgula.donem">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.topluFaturaPaketSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.topluFaturaPaketOnaylaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketOnaylaResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.topluFaturaPaketOnayla">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketOnayla.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.yapilandirmaAyarlariAlResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.yapilandirmaAyarlariAlResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.yapilandirmaAyarlariAlResponse.outputYapilandirma">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.yapilandirmaAyarlariAl">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.yapilandirmaAyarlariAl.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporDurumSorgulaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporDurumSorgulaResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporDurumSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporDurumSorgula.donem">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.smsGonderResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsGonderResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.smsGonder">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsGonder.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsGonder.ilaveTelefonNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsGonder.tanimliTelefonNoyaGonder">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.kontorBilgisiGetirResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.kontorBilgisiGetirResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.kontorBilgisiGetir">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.kontorBilgisiGetir.vknTckn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.kontorBilgisiGetir.kontorTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.kontorBilgisiGetir.kontorBirimi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaOnizleme">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaOnizleme.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaOnizleme.fatura">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslaktanOlustur">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslaktanOlustur.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.okcRaporOlusturGonderResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.okcRaporOlusturGonderResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.okcRaporOlusturGonder">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.okcRaporOlusturGonder.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakSorgulaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakSorgulaResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakSorgulaResponse.output">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaDTO">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.arsiv">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.creationTime">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.currency">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.dokumanFormati">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.durum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.durumSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.duzenlenmeZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.epostaGonderimDurumu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.epostaGonderimDurumuSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.erpKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.faturaSiraNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.faturaSiraNoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.faturaZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.ilkKayitZmani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.indirildi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.indirildiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.invoiceId">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.invoiceTypeCode">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.iptalRaporTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.iptalTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.iptalTarihiExcel">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.islemId">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.issueDate">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.kagitFatura">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.kagitFaturaSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.kasa">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.kaynak">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.kepDurum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.kepDurumSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.okundu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.okunduSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.payableAmount">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.payableAmountSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.profileId">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.raporTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.receiverContact">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.receiverIdentifier">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.receiverIdentifierTxt">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.receiverName">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.senderContact">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.senderName">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.sonGuncellemeZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.sube">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.telNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.toplamTutar">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.toplamTutarSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.uuid">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.vergilerToplami">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.vergilerToplamiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.versiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.versiyonSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.yazdirildi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.yazdirildiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaDTO.yerelFaturaNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaListeSorgulaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaListeSorgulaResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaListeSorgulaResponse.output">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaListeSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaListeSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumBilgisiAlResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumBilgisiAlResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumBilgisiAl">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumBilgisiAl.bolumRaporNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporGonderResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporGonderResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporGonder">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporGonder.donem">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.efaturaKullanicisiKontrolResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.efaturaKullanicisiKontrolResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.efaturaKullanicisiKontrol">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.efaturaKullanicisiKontrol.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaIptaliKaldirResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaIptaliKaldirResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaIptaliKaldir">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaIptaliKaldir.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumDTO">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.baslangicTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.bitisTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.bolumNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.bolumNoSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.bolumRaporNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.durum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.durumAciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.durumKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumDTO.sonIslemeZamani">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumListesiDetayliSorgulaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumListesiDetayliSorgulaResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumListesiDetayliSorgulaResponse.output">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumListesiDetayliSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumListesiDetayliSorgula.donem">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaIptalEtResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaIptalEtResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaIptalEt">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaIptalEt.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.smsDurumSorgulaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsDurumSorgulaResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsDurumSorgulaResponse.outputDurum">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.smsDurumSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.smsDurumSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakSilResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakSilResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakSil">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakSil.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumleriOlusturResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumleriOlusturResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumleriOlustur">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumleriOlustur.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumleriOlustur.donem">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumleriOlustur.sonGun">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaZipiAlResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaZipiAlResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaZipiAlResponse.output">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaZipiAl">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaZipiAl.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakOlusturResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakOlusturResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakOlustur">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakOlustur.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakOlustur.fatura">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaSorgulaExt">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaSorgulaExt.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.stringOutputWrapper">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.stringOutputWrapper.output">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.stringOutputWrapper.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaNoUret">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaNoUret.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.ePostaGonderResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.ePostaGonderResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.ePostaGonder">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.ePostaGonder.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.ePostaGonder.ilaveEposta">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.ePostaGonder.tanimliEpostayaGonder">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.rapordaFaturaSorgulaResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.rapordaFaturaSorgulaResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.rapordaFaturaSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.rapordaFaturaSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumAl">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumAl.bolumRaporNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumSilResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumSilResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.raporBolumSil">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.raporBolumSil.bolumRaporNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaListeSorgulaPortalResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaListeSorgulaPortalResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaListeSorgulaPortalResponse.output">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaListeSorgulaPortal">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaListeSorgulaPortal.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakOnizlemeResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakOnizlemeResponse.return">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakOnizlemeResponse.output">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaTaslakOnizleme">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaTaslakOnizleme.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.serviceReturnType">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.eFaturaKullanici">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.eFaturaKullanici.etiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.eFaturaKullanici.kamuKurulusu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.eFaturaKullanici.kayitZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.eFaturaKullanici.unvan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.eFaturaKullanici.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.eFaturaKayitliKullaniciListele">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.eFaturaKayitliKullaniciListele.kayitZamani">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.servisSaglayicidanEpostaDurumSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.servisSaglayicidanEpostaDurumSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.doubleStringOutputWrapper">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.doubleStringOutputWrapper.outputDurum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.doubleStringOutputWrapper.outputEposta">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.doubleStringOutputWrapper.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.ePostaDurumSorgula">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.ePostaDurumSorgula.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.efaturaKullanicisiResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.efaturaKullanicisiResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.efaturaKullanicisi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.efaturaKullanicisi.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.faturaOlustur">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaOlustur.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.faturaOlustur.fatura">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.aliciEpostaEkleSilGuncelleResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.aliciEpostaEkleSilGuncelleResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.aliciEpostaEkleSilGuncelle">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.aliciEpostaEkleSilGuncelle.inputGuncellenecekEposta">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.aliciEpostaEkleSilGuncelle.inputSilinecekEposta">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.topluFaturaPaketDosyaGonderResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketDosyaGonderResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.topluFaturaPaketDosyaGonder">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketDosyaGonder.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.topluFaturaPaketDosyaGonder.paketDosyasiZip">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.okcRaporKaydetResponse">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.okcRaporKaydetResponse.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.dosyaInput">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.dosyaInput.belgeIcerigi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.dosyaInput.genelBelgeFormatEnum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.dosyaInput.genelBelgeFormatEnumSpecified">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.genelBelgeFormatEnum">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.genelBelgeFormatEnum.XML">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EArsiv.genelBelgeFormatEnum.CSV">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.okcRaporKaydet">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.okcRaporKaydet.input">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.okcRaporKaydet.rapor">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.belgeOutputWrapper">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.belgeOutputWrapper.output">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.belgeOutputWrapper.return">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EArsiv.okcRaporBolumAl">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EArsiv.okcRaporBolumAl.input">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.Exception">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.Exception.message">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeParametreleri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.alanEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.belgeFormati">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.belgeVersiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.donusTipiVersiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.entegrasyonHedefi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.erpKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.faturaTarihiBaslangic">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.faturaTarihiBitis">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.gelisTarihiBaslangic">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.gelisTarihiBitis">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.gonderenEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.onayDurum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.sonAlinanBelgeSiraNumarasi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.subeKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeParametreleri.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeParametreleri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.alanEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.belgeHash">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.belgeVersiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.donusTipiVersiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.erpKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.gonderenEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.mimeType">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.subeKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.veri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.xsltAdi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeParametreleri.xsltVeri">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.eFaturaKayitliKullaniciHistory">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKayitliKullaniciHistory.etiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKayitliKullaniciHistory.etiketOlusturulmaZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKayitliKullaniciHistory.silinmeZamani">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.serviceReturnType">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.eIrsaliyeKullanici">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eIrsaliyeKullanici.etiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eIrsaliyeKullanici.kamuKurulusu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eIrsaliyeKullanici.kayitZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eIrsaliyeKullanici.unvan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eIrsaliyeKullanici.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeleriListelePortalData">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.alanEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.alanSubeKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.alanVergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.belgeTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.belgeTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.erpKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.gonderenEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.gonderenSubeKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.gonderimZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.islemYapanVkn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.kaynak">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalData.kullaniciKodu">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeleriListelePortalDatav2">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalDatav2.yanitEttn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeTutarBilgileri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.belgeTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.kdvToplamTutari">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.kdvToplamTutariDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.malHizmetToplamTutari">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.malHizmetToplamTutariDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.odenecekTutar">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeTutarBilgileri.odenecekTutarDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeTutarBilgileri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.belgeTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.kdvToplamTutari">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.kdvToplamTutariDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.malHizmetToplamTutari">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.malHizmetToplamTutariDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.odenecekTutar">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeTutarBilgileri.odenecekTutarDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.irsaliyeTarihcesiData">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.bagliKayitId">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.irsaliyeEttn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.islem">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.islemAciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.islemKanali">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.islemKanaliAciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.islemSonucu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.islemZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.kullanici">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.kullaniciIp">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.irsaliyeTarihcesiData.zarfEttn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.kontorAzaltResp">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.kanalTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.kontorAzaldi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.kontorTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.miktar">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.miktarSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.odemeTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kontorAzaltResp.paketTipi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.faturaTarihcesiData">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.bagliKayitId">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.faturaEttn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.islem">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.islemAciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.islemKanali">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.islemKanaliAciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.islemSonucu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.islemZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.kullanici">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.kullaniciIp">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.faturaTarihcesiData.zarfEttn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeleriListeleData">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.alimDurumu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.alimZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.belgeOid">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.hataMesaji">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.islemYapanVkn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.kaynak">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.kullaniciKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleData.yerelBelgeNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeDurum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.alimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.yanitDetayi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.yanitDurumu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.yanitGonderimCevabiDetayi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.yanitGonderimCevabiKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.yanitGonderimDurumu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurum.yanitGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeDurumv2">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurumv2.siraNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurumv2.yereleAktarimDurumu">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeDurumv3">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurumv3.kepDurum">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeDurumv4">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeDurumv4.gibIptalDurum">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.aciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.alimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.durum">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.gonderimCevabiDetayi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.gonderimCevabiKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.gonderimDurumu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.gonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.olusturulmaTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.yanitDetayi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.yanitDurumu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurum.yanitTarihi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurumv2">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv2.ulastiMi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv2.yenidenGonderilebilirMi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurumv3">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv3.yerelBelgeOid">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurumv4">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv4.gtbFiiliIhracatTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv4.gtbGcbTescilNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv4.gtbRefNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurumv5">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv5.yanitEttn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv5.yanitVerilenBelgeEttn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurumv6">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumv6.kepDurum">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.eFaturaKullaniciExtended">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.etiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.etiketOlusturulmaZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.hesapTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.hesapTipiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.kamuKurulusu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.kamuKurulusuSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.kayitZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.tip">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.tipSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.unvan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullaniciExtended.eFaturaKayitliKullaniciHistoryList">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.eFaturaKullanici">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullanici.etiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullanici.kamuKurulusu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullanici.kayitZamani">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullanici.unvan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.eFaturaKullanici.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belge">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.belgeSiraNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.belgeTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.belgeVerisi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.ettn">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.gonderenEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belge.gonderenVknTckn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belgev2">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.alanEtiket">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.aliciUnvan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.belgeVersiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.belgeXmlZipped">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.ekBilgiler">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.saticiUnvan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.subeKodu">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.zarfId">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.zarfVerisi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2.zarfXml">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belgev2Entry">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2Entry.key">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev2Entry.value">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belgev3">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev3.odenecekTutar">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev3.odenecekTutarDovizCinsi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belgev4">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev4.arsivlenmis">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev4.belgeHash">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belgev5">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev5.faturaGelisTarihi">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.belgev6">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.belgev6.profileId">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.baslangicGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.belgeEttnListesi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.belgeFormati">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.bitisGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.faturaBaslangicTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.faturaBitisTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.kaynak">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.pageCount">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriIndirPortalParametreleri.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.mukellefEFaturaKayit">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.mukellefEFaturaKayit.efaturaKullaniciListesi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.mukellefEFaturaKayit.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeleriListeleParametreleri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleParametreleri.baslangicGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleParametreleri.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleParametreleri.bitisGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListeleParametreleri.vkn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.baslangicGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.belgeEttnListesi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.belgeVersiyon">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.bitisGonderimTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.faturaBaslangicTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.faturaBitisTarihi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.kaynak">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.pageCount">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeleriListelePortalParametreleri.vergiTcKimlikNo">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gidenBelgeDurumParametreleri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumParametreleri.belgeNo">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumParametreleri.belgeNoList">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumParametreleri.belgeNoTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumParametreleri.belgeTuru">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gidenBelgeDurumParametreleri.donusTipiVersiyon">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.gelenBelgeleriAlExt2Entry">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeleriAlExt2Entry.key">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.gelenBelgeleriAlExt2Entry.value">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.kalanKontorBilgisi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.kalan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.kalanSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.kontorBirimi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.kontorBirimiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.kontorTipi">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.kontorTipiSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.limitAsimMiktari">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.limitAsimMiktariSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.toplamAlinan">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.toplamAlinanSpecified">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.kalanKontorBilgisi.vknTckn">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.kontorBirimi">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorBirimi.ADET">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorBirimi.TL">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorBirimi.MB">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.kontorTipi">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.FATURA">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.DEFTER">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.KEP">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.KEPSMS">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.ARSIV">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.ARSIVSMS">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.IRSALIYE">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.SMM">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.MMK">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.PORTAL">
+            <remarks/>
+        </member>
+        <member name="F:EFinans.EFatura.kontorTipi.OKC">
+            <remarks/>
+        </member>
+        <member name="T:EFinans.EFatura.erpBilgileri">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.erpBilgileri.aciklama">
+            <remarks/>
+        </member>
+        <member name="P:EFinans.EFatura.erpBilgileri.kod">
+            <remarks/>
+        </member>
         <member name="T:uyumsoft.DateResponse">
             <remarks/>
         </member>
