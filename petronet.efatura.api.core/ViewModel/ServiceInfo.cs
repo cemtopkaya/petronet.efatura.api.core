@@ -38,5 +38,14 @@ namespace petronet.efatura.api.core.ViewModel
         [FromHeader]
         [Required]
         public Integrator Integrator { get; set; }
+
+        /// <summary>
+        /// EFinans için kullanıcı doğrulama servisinin adresidir!
+        /// </summary>
+        [FromHeader]
+        public string UserServiceUrl { get; set; }
+
+        [FromHeader]
+        public string SupplierVkn { get; set; }
     }
 }

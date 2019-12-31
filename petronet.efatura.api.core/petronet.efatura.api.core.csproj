@@ -36,4 +36,8 @@
   <ItemGroup>
 	<DotNetCliToolReference Include="dotnet-svcutil" Version="1.0.*" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Integration\Command\GetInvoiceList\" />
+    <Folder Include="Integration\Command\GetInvoice\" />
+  </ItemGroup>
 </Project>

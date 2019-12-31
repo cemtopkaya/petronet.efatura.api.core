@@ -2932,11 +2932,11 @@
           "lib/netstandard2.0/System.ServiceModel.Duplex.dll": {}
         }
       },
-      "System.ServiceModel.Http/4.6.0": {
+      "System.ServiceModel.Http/4.5.3": {
         "type": "package",
         "dependencies": {
-          "System.Private.ServiceModel": "4.6.0",
-          "System.ServiceModel.Primitives": "4.6.0"
+          "System.Private.ServiceModel": "4.5.3",
+          "System.ServiceModel.Primitives": "4.5.3"
         },
         "compile": {
           "ref/netstandard2.0/System.ServiceModel.Http.dll": {}
@@ -8889,10 +8889,10 @@
         "system.servicemodel.duplex.nuspec"
       ]
     },
-    "System.ServiceModel.Http/4.6.0": {
-      "sha512": "TEe1dnAABRZFfGs868BYF1ix+L7z+FWbBqMtw6HgmIYGZeM9Of+A1QvnKsdvuVF6sy1T4r9usVEJJp3TqiMEyg==",
+    "System.ServiceModel.Http/4.5.3": {
+      "sha512": "zxR4z6G/FFK/uAUbo7+3IJOqm0w4/lyfHSQDf+hhUHRTc7XSeReGS5iKQq95gyl1ighHEuayqOiB7iacrB6ZUg==",
       "type": "package",
-      "path": "system.servicemodel.http/4.6.0",
+      "path": "system.servicemodel.http/4.5.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8903,12 +8903,11 @@
         "lib/net45/_._",
         "lib/net46/System.ServiceModel.Http.dll",
         "lib/net461/System.ServiceModel.Http.dll",
-        "lib/net461/System.ServiceModel.Http.pdb",
         "lib/netcore50/System.ServiceModel.Http.dll",
         "lib/netstandard1.3/System.ServiceModel.Http.dll",
         "lib/netstandard2.0/System.ServiceModel.Http.dll",
-        "lib/netstandard2.0/System.ServiceModel.Http.pdb",
         "lib/portable-net45+win8+wp8/_._",
+        "lib/uap10.0.16300/System.ServiceModel.Http.dll",
         "lib/win8/_._",
         "lib/wp8/_._",
         "lib/xamarinios10/_._",
@@ -8926,14 +8925,16 @@
         "ref/netstandard1.3/System.ServiceModel.Http.dll",
         "ref/netstandard2.0/System.ServiceModel.Http.dll",
         "ref/portable-net45+win8+wp8/_._",
+        "ref/uap10.0.16300/System.ServiceModel.Http.dll",
         "ref/win8/_._",
         "ref/wp8/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.servicemodel.http.4.6.0.nupkg.sha512",
-        "system.servicemodel.http.nuspec"
+        "system.servicemodel.http.4.5.3.nupkg.sha512",
+        "system.servicemodel.http.nuspec",
+        "version.txt"
       ]
     },
     "System.ServiceModel.NetTcp/4.6.0": {
@@ -9839,7 +9840,7 @@
       "SoapHttpClient >= 3.0.0",
       "Swashbuckle.AspNetCore >= 5.0.0-rc4",
       "System.ServiceModel.Duplex >= 4.6.0",
-      "System.ServiceModel.Http >= 4.6.0",
+      "System.ServiceModel.Http >= 4.5.3",
       "System.ServiceModel.NetTcp >= 4.6.0",
       "System.ServiceModel.Security >= 4.6.0"
     ]
@@ -9937,7 +9938,7 @@
           },
           "System.ServiceModel.Http": {
             "target": "Package",
-            "version": "[4.6.0, )"
+            "version": "[4.5.3, )"
           },
           "System.ServiceModel.NetTcp": {
             "target": "Package",

@@ -1,24 +1,17 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 using System.IO;
-using System.Net;
 using System.ServiceModel;
-using System.ServiceModel.Channels;
-using System.ServiceModel.Description;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using AutoMapper;
-using DijitalPlanet.EFaturaEArsiv;
-using EFinans.EFatura;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
 using petronet.efatura.api.core.Integration.Command;
+using petronet.efatura.api.core.Integration.Command.Interfaces;
+using petronet.efatura.api.core.Integration.Command.SendInvoice;
 using UBL = petronet.efatura.api.core.Model.UBL;
-using petronet.efatura.api.core.Model.Response;
 using petronet.efatura.api.core.Options;
 using petronet.efatura.api.core.ViewModel;
-using uyumsoft;
 using Exception = System.Exception;
 
 namespace petronet.efatura.api.core.Controllers {
@@ -268,110 +261,128 @@ namespace petronet.efatura.api.core.Controllers {
         [Consumes("application/xml")]
         //[Produces("application/xml")]
         public async Task<IActionResult> Post([FromBody] UBL.InvoiceType invoice, [FromHeader] ServiceInfo serviceInfo) {
-            WCFServiceSettings serviceSettings = null;
+
             ICommandSendEInvoice cmd = null;
 
             if (!ModelState.IsValid) {
                 foreach (var modelState in ModelState.Values)
-                    foreach (var error in modelState.Errors)
-                        Console.WriteLine(error);
+                foreach (var error in modelState.Errors)
+                    Console.WriteLine(error);
                 throw new Exception("Oluşan hata sayısı: " + ModelState.ErrorCount);
+            }
+            
+            var validationErrors = ValidateReceivedData(serviceInfo.Integrator, serviceInfo);
+            if (!string.IsNullOrEmpty(validationErrors)) {
+                return BadRequest(validationErrors);
             }
 
             switch (serviceInfo.Integrator) {
                 case Integrator.Uyumsoft:
-                    serviceSettings = Configuration.GetSection("UyumsoftEInvoiceTestServiceSettings").Get<WCFServiceSettings>();
-                    var serviceProxyUyumsoft = serviceSettings?.GetServiceProxy<IIntegration>(
-                        serviceInfo.ServiceUrl,
-                        serviceInfo.UserName,
-                        serviceInfo.Password);
-                    cmd = new UyumsoftSendEInvoice<IIntegration>(serviceProxyUyumsoft, invoice, this._mapper);
+                    cmd = new UyumsoftSendEInvoice(invoice, this._mapper);
                     break;
 
                 case Integrator.EFinans:
-                    serviceSettings = Configuration.GetSection("EFinansTestServiceSettings").Get<WCFServiceSettings>();
-                    var serviceProxyEFinans = serviceSettings?.GetServiceProxy<EFinans.EFatura.ConnectorService>(
-                        serviceInfo.ServiceUrl,
-                        serviceInfo.UserName,
-                        serviceInfo.Password);
-                    cmd = new EFinansSendEInvoice<EFinans.EFatura.ConnectorService>(serviceProxyEFinans, invoice, this._mapper);
+                    cmd = new EFinansSendEInvoice(invoice, this._mapper);
                     break;
 
+                case Integrator.ING:
+                    throw new NotImplementedException("ING uygulanmadı");
+
                 case Integrator.DigitalPlanet:
-                    if (string.IsNullOrEmpty(serviceInfo.ReceiverPostboxName)) throw new ArgumentNullException("Dijital planet üstünden fatura gönderebilmek için ReceiverPostboxName bilgisi gönderilmelidir!");
-                    
-                    serviceSettings = Configuration.GetSection("EFinansTestServiceSettings").Get<WCFServiceSettings>();
-                    var serviceProxyDP = serviceSettings?.GetServiceProxy<IntegrationServiceSoap>(
-                        serviceInfo.ServiceUrl,
-                        serviceInfo.UserName,
-                        serviceInfo.Password);
-                    cmd = new DijitalPlanetSendEInvoice<IntegrationServiceSoap>(serviceProxyDP, invoice, this._mapper);
-                    var cmdDP = (cmd as DijitalPlanetSendEInvoice<IntegrationServiceSoap>);
-                    cmdDP.UserName = serviceInfo.UserName;
-                    cmdDP.UserName = serviceInfo.Password;
-                    cmdDP.CorporateCode = serviceInfo.CorporateCode;
+                    cmd = new DijitalPlanetSendEInvoice(invoice, this._mapper);
                     break;
+
+                case Integrator.IsNet:
+                    throw new NotImplementedException("ISNET uygulanmadı");
 
                 default:
                     throw new ArgumentNullException("Command null kalmış. Demek entegratör tanımlı değil.");
                     break;
             }
 
-
+            cmd.ServiceInfo = serviceInfo;
             cmd.Execute();
             var result = await cmd.TaskResult();
+
             return Ok(result);
-
         }
 
-        private static IIntegration GetUyumsoftServiceProxy() {
-            BasicHttpBinding basicHttpBinding = null;
-            EndpointAddress endpointAddress = null;
-            ChannelFactory<uyumsoft.IIntegration> factory = null;
-            uyumsoft.IIntegration serviceProxy = null;
+        private string ValidateReceivedData(Integrator serviceInfoIntegrator, ServiceInfo serviceInfo) {
+            string errors = string.Empty;
+            switch (serviceInfo.Integrator) {
+                case Integrator.Uyumsoft:
+                    break;
 
-            //uyumsoft.IntegrationClient ic = GetUyumsoftClient(false);
-            basicHttpBinding = new BasicHttpBinding(BasicHttpSecurityMode.TransportWithMessageCredential);
-            basicHttpBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
+                case Integrator.EFinans:
+                    break;
 
-            factory = new ChannelFactory<uyumsoft.IIntegration>(basicHttpBinding,
-                new EndpointAddress(new Uri("https://efatura-test.uyumsoft.com.tr/Services/Integration")));
-            factory.Credentials.UserName.UserName = "Uyumsoft";
-            factory.Credentials.UserName.Password = "Uyumsoft";
-            serviceProxy = factory.CreateChannel();
-            ((ICommunicationObject)serviceProxy).Open();
-            var opContext = new OperationContext((IClientChannel)serviceProxy);
-            var prevOpContext = OperationContext.Current; // Optional if there's no way this might already be set
-            OperationContext.Current = opContext;
-            return serviceProxy;
+                case Integrator.ING:
+                    break;
+
+                case Integrator.DigitalPlanet:
+                    if (string.IsNullOrEmpty(serviceInfo.ReceiverPostboxName))
+                        errors += "Dijital planet üstünden fatura gönderebilmek için ReceiverPostboxName bilgisi gönderilmelidir!";
+                    break;
+
+                case Integrator.IsNet:
+                    break;
+
+                default:
+                    errors = string.Empty;
+                    break;
+            }
+
+            return errors;
         }
 
-        private IntegrationClient GetUyumsoftClient(bool isProduction, int timeout) {
-            var serviceAddress = isProduction
-                ? "https://efatura.uyumsoft.com.tr/Services/Integration"
-                : "https://efatura-test.uyumsoft.com.tr/Services/Integration";
-            //: "http://efatura-test.uyumsoft.com.tr/services/BasicIntegration";
+        //private static IIntegration GetUyumsoftServiceProxy() {
+        //    BasicHttpBinding basicHttpBinding = null;
+        //    EndpointAddress endpointAddress = null;
+        //    ChannelFactory<uyumsoft.IIntegration> factory = null;
+        //    uyumsoft.IIntegration serviceProxy = null;
+
+        //    //uyumsoft.IntegrationClient ic = GetUyumsoftClient(false);
+        //    basicHttpBinding = new BasicHttpBinding(BasicHttpSecurityMode.TransportWithMessageCredential);
+        //    basicHttpBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
+
+        //    factory = new ChannelFactory<uyumsoft.IIntegration>(basicHttpBinding,
+        //        new EndpointAddress(new Uri("https://efatura-test.uyumsoft.com.tr/Services/Integration")));
+        //    factory.Credentials.UserName.UserName = "Uyumsoft";
+        //    factory.Credentials.UserName.Password = "Uyumsoft";
+        //    serviceProxy = factory.CreateChannel();
+        //    ((ICommunicationObject)serviceProxy).Open();
+        //    var opContext = new OperationContext((IClientChannel)serviceProxy);
+        //    var prevOpContext = OperationContext.Current; // Optional if there's no way this might already be set
+        //    OperationContext.Current = opContext;
+        //    return serviceProxy;
+        //}
+
+        //private IntegrationClient GetUyumsoftClient(bool isProduction, int timeout) {
+        //    var serviceAddress = isProduction
+        //        ? "https://efatura.uyumsoft.com.tr/Services/Integration"
+        //        : "https://efatura-test.uyumsoft.com.tr/Services/Integration";
+        //    //: "http://efatura-test.uyumsoft.com.tr/services/BasicIntegration";
 
 
-            var binding = new BasicHttpBinding() {
-                MaxReceivedMessageSize = int.MaxValue,
-                Security =
-                {
-                    Transport = new HttpTransportSecurity() {
-                        ClientCredentialType = HttpClientCredentialType.None
-                    },
-                    Mode = BasicHttpSecurityMode.TransportWithMessageCredential
-                },
-            };
+        //    var binding = new BasicHttpBinding() {
+        //        MaxReceivedMessageSize = int.MaxValue,
+        //        Security =
+        //        {
+        //            Transport = new HttpTransportSecurity() {
+        //                ClientCredentialType = HttpClientCredentialType.None
+        //            },
+        //            Mode = BasicHttpSecurityMode.TransportWithMessageCredential
+        //        },
+        //    };
 
-            var endPointTest = new EndpointAddress(serviceAddress);
-            binding.CloseTimeout = TimeSpan.MaxValue;
+        //    var endPointTest = new EndpointAddress(serviceAddress);
+        //    binding.CloseTimeout = TimeSpan.MaxValue;
 
-            var client = new uyumsoft.IntegrationClient(binding, endPointTest);
-            client.ClientCredentials.UserName.UserName = "Uyumsoft";
-            client.ClientCredentials.UserName.Password = "Uyumsoft";
-            return client;
-        }
+        //    var client = new uyumsoft.IntegrationClient(binding, endPointTest);
+        //    client.ClientCredentials.UserName.UserName = "Uyumsoft";
+        //    client.ClientCredentials.UserName.Password = "Uyumsoft";
+        //    return client;
+        //}
 
         [HttpGet("{id}")]
         [Consumes("application/xml")]

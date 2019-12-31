@@ -94,7 +94,7 @@
             },
             "System.ServiceModel.Http": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[4.5.3, )"
             },
             "System.ServiceModel.NetTcp": {
               "target": "Package",

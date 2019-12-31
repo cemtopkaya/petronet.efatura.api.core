@@ -1,6 +1,5 @@
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\uyumsoft\ConnectedService.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\OpenAPI.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\petronet.efatura.api.core.exe
@@ -56,7 +55,6 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
@@ -122,9 +120,6 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
-D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
-D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
@@ -137,3 +132,16 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\obj\Debug
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\obj\Debug\netcoreapp3.1\petronet.efatura.efinans.console.csproj.CopyComplete
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\obj\Debug\netcoreapp3.1\petronet.efatura.efinans.console.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\obj\Debug\netcoreapp3.1\petronet.efatura.efinans.console.pdb
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\DijitalPlanet.EFaturaEArsiv\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\EFinans.EArsiv\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\InnovaEFaturaServis\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\IsnetEFatura\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\SoapHttpClient.dll
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\EFinans.EFatura.UserService\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\EFinans.EFatura.ConnectorService\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\ING.EFatura\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\Microsoft WCF Web Service Reference Provider\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\Uyumsoft.EFatura\ConnectedService.json

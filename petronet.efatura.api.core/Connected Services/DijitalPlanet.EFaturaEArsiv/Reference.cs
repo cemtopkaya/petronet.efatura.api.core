@@ -18,406 +18,725 @@ namespace DijitalPlanet.EFaturaEArsiv
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableApplicationResponses", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ApplicationResponsePackResult GetAvailableApplicationResponses(string Ticket, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableApplicationResponses", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ApplicationResponsePackResult> GetAvailableApplicationResponsesAsync(string Ticket, string CorporateCode);
         
+        // CODEGEN: Parameter 'ApplicationResponseData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendApplicationResponse", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendApplicationResponseResponse SendApplicationResponse(DijitalPlanet.EFaturaEArsiv.SendApplicationResponseRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendApplicationResponse", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendApplicationResponseResponse> SendApplicationResponseAsync(DijitalPlanet.EFaturaEArsiv.SendApplicationResponseRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendMailQueueAgainResponse", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ApplicationResponseResult SendMailQueueAgainResponse(string Ticket, string UUID, string CorporateCode, string ReceiverEmail);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendMailQueueAgainResponse", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ApplicationResponseResult> SendMailQueueAgainResponseAsync(string Ticket, string UUID, string CorporateCode, string ReceiverEmail);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendInvoiceData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendInvoiceDataResponse SendInvoiceData(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendInvoiceData", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendInvoiceDataResponse> SendInvoiceDataAsync(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataRequest request);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendEArchiveData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendEArchiveDataResponse SendEArchiveData(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendEArchiveData", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendEArchiveDataResponse> SendEArchiveDataAsync(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringEArchiveData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveStateResult SendBase64StringEArchiveData(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringEArchiveData", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveStateResult> SendBase64StringEArchiveDataAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ReSendInvoiceData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataResponse ReSendInvoiceData(DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ReSendInvoiceData", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataResponse> ReSendInvoiceDataAsync(DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataRequest request);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendInvoiceDataWithTemplateCode", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeResponse SendInvoiceDataWithTemplateCode(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendInvoiceDataWithTemplateCode", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeResponse> SendInvoiceDataWithTemplateCodeAsync(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeRequest request);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendEArchiveDataWithTemplateCode", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeResponse SendEArchiveDataWithTemplateCode(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendEArchiveDataWithTemplateCode", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeResponse> SendEArchiveDataWithTemplateCodeAsync(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringEArchiveDataWithTemplateCode", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveStateResult SendBase64StringEArchiveDataWithTemplateCode(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string TemplateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringEArchiveDataWithTemplateCode", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveStateResult> SendBase64StringEArchiveDataWithTemplateCodeAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string TemplateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelEArchiveInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelEArchiveInvoice(string Ticket, string Value, string Type, decimal TotalAmount, System.DateTime CancelDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelEArchiveInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelEArchiveInvoiceAsync(string Ticket, string Value, string Type, decimal TotalAmount, System.DateTime CancelDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelInvoiceNumber", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.CancelInvoiceNumberResult CancelInvoiceNumber(string Ticket, string ReceiptBarcode, int Year);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelInvoiceNumber", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CancelInvoiceNumberResult> CancelInvoiceNumberAsync(string Ticket, string ReceiptBarcode, int Year);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelEArchiveInvoiceStringDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelEArchiveInvoiceStringDate(string Ticket, string Value, string Type, decimal TotalAmount, string CancelDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelEArchiveInvoiceStringDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelEArchiveInvoiceStringDateAsync(string Ticket, string Value, string Type, decimal TotalAmount, string CancelDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelEArchiveInvoiceStringDateAndAmount", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelEArchiveInvoiceStringDateAndAmount(string Ticket, string Value, string Type, string TotalAmount, string CancelDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelEArchiveInvoiceStringDateAndAmount", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelEArchiveInvoiceStringDateAndAmountAsync(string Ticket, string Value, string Type, string TotalAmount, string CancelDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendBase64StringInvoice(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> SendBase64StringInvoiceAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringInvoiceWithTemplateCode", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendBase64StringInvoiceWithTemplateCode(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName, string TemplateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendBase64StringInvoiceWithTemplateCode", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> SendBase64StringInvoiceWithTemplateCodeAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName, string TemplateCode);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendXmlInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceResponse SendXmlInvoice(DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendXmlInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceResponse> SendXmlInvoiceAsync(DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceRequest request);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendUBLInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceResponse SendUBLInvoice(DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendUBLInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceResponse> SendUBLInvoiceAsync(DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveOutgoing", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveOutgoing(string Ticket, string InvoiceRawData, string CorporateCode, string ReceiverPostboxName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveOutgoing", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveOutgoingAsync(string Ticket, string InvoiceRawData, string CorporateCode, string ReceiverPostboxName);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveUBLOutgoing", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingResponse UploadFromArchiveUBLOutgoing(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveUBLOutgoing", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingResponse> UploadFromArchiveUBLOutgoingAsync(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEnvelopeOutgoing", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveEnvelopeOutgoing(string Ticket, string Envelope, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEnvelopeOutgoing", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveEnvelopeOutgoingAsync(string Ticket, string Envelope, string CorporateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveIncoming", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveIncoming(string Ticket, string data, string instanceidentifier, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveIncoming", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveIncomingAsync(string Ticket, string data, string instanceidentifier, string CorporateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveUBLIncoming", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveUBLIncoming(string Ticket, string Ubl, string instanceidentifier, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveUBLIncoming", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveUBLIncomingAsync(string Ticket, string Ubl, string instanceidentifier, string CorporateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEnvelopeIncoming", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveEnvelopeIncoming(string Ticket, string Envelope, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEnvelopeIncoming", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveEnvelopeIncomingAsync(string Ticket, string Envelope, string CorporateCode);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendCumulativeInvoiceData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataResponse SendCumulativeInvoiceData(DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendCumulativeInvoiceData", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataResponse> SendCumulativeInvoiceDataAsync(DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckGibStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.GibStatusResult CheckGibStatus(string Ticket, string Guid, string GuidType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckGibStatus", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.GibStatusResult> CheckGibStatusAsync(string Ticket, string Guid, string GuidType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceSenderListUpdates", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult GetEInvoiceSenderListUpdates(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceSenderListUpdates", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult> GetEInvoiceSenderListUpdatesAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceReceiverListUpdates", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult GetEInvoiceReceiverListUpdates(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceReceiverListUpdates", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult> GetEInvoiceReceiverListUpdatesAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/AcceptInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ResponseResult AcceptInvoice(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/AcceptInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ResponseResult> AcceptInvoiceAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RejectInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ResponseResult RejectInvoice(string Ticket, string UUID, string Description);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RejectInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ResponseResult> RejectInvoiceAsync(string Ticket, string UUID, string Description);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RejectInvoiceWithNotify", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ResponseResult RejectInvoiceWithNotify(string Ticket, string UUID, string Description, string NotifyType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RejectInvoiceWithNotify", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ResponseResult> RejectInvoiceWithNotifyAsync(string Ticket, string UUID, string Description, string NotifyType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckInvoiceState", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceStateResult CheckInvoiceState(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckInvoiceState", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> CheckInvoiceStateAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoiceReturnStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceStateResult GetAvailableInvoiceReturnStatus(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoiceReturnStatus", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> GetAvailableInvoiceReturnStatusAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceByInvoiceID", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetInvoiceByInvoiceID(string Ticket, string InvoiceID, DijitalPlanet.EFaturaEArsiv.Direction Direction);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceByInvoiceID", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetInvoiceByInvoiceIDAsync(string Ticket, string InvoiceID, DijitalPlanet.EFaturaEArsiv.Direction Direction);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInboundInvoiceByMapCode", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInboundInvoiceByMapCode(string Ticket, string UUID, string MapCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInboundInvoiceByMapCode", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInboundInvoiceByMapCodeAsync(string Ticket, string UUID, string MapCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckEArchiveInvoiceState", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveInvoiceStateResult CheckEArchiveInvoiceState(string Ticket, string InvoiceNumber, string InvoiceNumberType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckEArchiveInvoiceState", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveInvoiceStateResult> CheckEArchiveInvoiceStateAsync(string Ticket, string InvoiceNumber, string InvoiceNumberType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckEArchiveReportState", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveReportStateResult CheckEArchiveReportState(string Ticket, string ReportNo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckEArchiveReportState", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportStateResult> CheckEArchiveReportStateAsync(string Ticket, string ReportNo);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DeleteEArchiveInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult DeleteEArchiveInvoice(string Ticket, string InvoiceNumber, string InvoiceNumberType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DeleteEArchiveInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> DeleteEArchiveInvoiceAsync(string Ticket, string InvoiceNumber, string InvoiceNumberType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DeleteEArchiveReport", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveReportResult DeleteEArchiveReport(string Ticket, string ReportNo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DeleteEArchiveReport", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportResult> DeleteEArchiveReportAsync(string Ticket, string ReportNo);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckInvoiceStateWithReconciliationID", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceStateResult CheckInvoiceStateWithReconciliationID(string Ticket, string ReconciliationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckInvoiceStateWithReconciliationID", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> CheckInvoiceStateWithReconciliationIDAsync(string Ticket, string ReconciliationId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckEnvelopeState", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult CheckEnvelopeState(string Ticket, string InstanceIdentifier);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckEnvelopeState", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> CheckEnvelopeStateAsync(string Ticket, string InstanceIdentifier);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEnvelope", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadResult GetEnvelope(string Ticket, string ReferenceId, DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadDocumentType EnvelopeDownloadDocumentType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEnvelope", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadResult> GetEnvelopeAsync(string Ticket, string ReferenceId, DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadDocumentType EnvelopeDownloadDocumentType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoices", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoices(string Ticket, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoices", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesAsync(string Ticket, string CorporateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoicesPW", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoicesPW(string Ticket, string ErpCode, string LoginName, DijitalPlanet.EFaturaEArsiv.Direction direction);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoicesPW", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesPWAsync(string Ticket, string ErpCode, string LoginName, DijitalPlanet.EFaturaEArsiv.Direction direction);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableCompletedInvoices", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableCompletedInvoices(string Ticket, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableCompletedInvoices", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableCompletedInvoicesAsync(string Ticket, string CorporateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoicesByDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoicesByDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoicesByDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesByDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoicesWithDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoicesWithDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableInvoicesWithDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesWithDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetIncomingInvoicesByIssueDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetIncomingInvoicesByIssueDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetIncomingInvoicesByIssueDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetIncomingInvoicesByIssueDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveReportList", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult GetEArchiveReportList(string Ticket, string CorporateCode);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveReportList", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult> GetEArchiveReportListAsync(string Ticket, string CorporateCode);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveReportListWithPeriod", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult GetEArchiveReportListWithPeriod(string Ticket, string CorporateCode, int Year, int Month, DijitalPlanet.EFaturaEArsiv.EArchiveReportStatusListType listType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveReportListWithPeriod", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult> GetEArchiveReportListWithPeriodAsync(string Ticket, string CorporateCode, int Year, int Month, DijitalPlanet.EFaturaEArsiv.EArchiveReportStatusListType listType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoice(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePW", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePW(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction direction);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePW", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePWAsync(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction direction);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceAllDirection", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceAllDirection(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceAllDirection", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceAllDirectionAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePDF", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePDF(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePDF", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePDFAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePDFByInvoiceId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePDFByInvoiceId(string ticket, string InvoiceId, DijitalPlanet.EFaturaEArsiv.Direction Direction);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePDFByInvoiceId", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePDFByInvoiceIdAsync(string ticket, string InvoiceId, DijitalPlanet.EFaturaEArsiv.Direction Direction);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePDFByInvoiceIdWithoutDirection", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePDFByInvoiceIdWithoutDirection(string ticket, string InvoiceId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoicePDFByInvoiceIdWithoutDirection", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePDFByInvoiceIdWithoutDirectionAsync(string ticket, string InvoiceId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceImage", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceImage(string Ticket, string UUID, string ImageFormat);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceImage", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceImageAsync(string Ticket, string UUID, string ImageFormat);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceTemplate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.CorporateTemplateResult GetInvoiceTemplate(string Ticket, string TemplateCode, int InvoiceType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceTemplate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CorporateTemplateResult> GetInvoiceTemplateAsync(string Ticket, string TemplateCode, int InvoiceType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetEArchiveInvoice(string Ticket, string Value, string ValueType, string FileType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetEArchiveInvoiceAsync(string Ticket, string Value, string ValueType, string FileType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveIncomingInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveIncomingInvoice(string Ticket, string Value, string ValueType, string FileType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveIncomingInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveIncomingInvoiceAsync(string Ticket, string Value, string ValueType, string FileType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveReport", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EArchiveReportResult GetEArchiveReport(string Ticket, string ReportNo, string FileType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveReport", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportResult> GetEArchiveReportAsync(string Ticket, string ReportNo, string FileType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceXML", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceXML(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceXML", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceXMLAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceXMLWithOutFlag", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceXMLWithOutFlag(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceXMLWithOutFlag", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceXMLWithOutFlagAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceWithOutFlag", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceWithOutFlag(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceWithOutFlag", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceWithOutFlagAsync(string Ticket, string UUID);
         
+        // CODEGEN: Parameter 'FileData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckTaxIdListFromExcelFile", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileResponse CheckTaxIdListFromExcelFile(DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckTaxIdListFromExcelFile", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileResponse> CheckTaxIdListFromExcelFileAsync(DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckCustomerTaxId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult CheckCustomerTaxId(string Ticket, string TaxIdOrPersonalId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckCustomerTaxId", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> CheckCustomerTaxIdAsync(string Ticket, string TaxIdOrPersonalId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckCustomerTaxIdbyDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult CheckCustomerTaxIdbyDate(string Ticket, string TaxIdOrPersonalId, System.DateTime issueDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CheckCustomerTaxIdbyDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> CheckCustomerTaxIdbyDateAsync(string Ticket, string TaxIdOrPersonalId, System.DateTime issueDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetTaxIdListbyDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult GetTaxIdListbyDate(string Ticket, System.DateTime StartDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetTaxIdListbyDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> GetTaxIdListbyDateAsync(string Ticket, System.DateTime StartDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceCustomerListByDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult GetEInvoiceCustomerListByDate(string Ticket, string StartDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceCustomerListByDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> GetEInvoiceCustomerListByDateAsync(string Ticket, string StartDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceCustomerFullList", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerFullListResult GetEInvoiceCustomerFullList(string Ticket);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEInvoiceCustomerFullList", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerFullListResult> GetEInvoiceCustomerFullListAsync(string Ticket);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetFormsAuthenticationTicket", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        string GetFormsAuthenticationTicket(string CorporateCode, string LoginName, string Password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetFormsAuthenticationTicket", ReplyAction="*")]
         System.Threading.Tasks.Task<string> GetFormsAuthenticationTicketAsync(string CorporateCode, string LoginName, string Password);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetFormsAuthenticationTicketPW", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        string GetFormsAuthenticationTicketPW(string ErpCode, string LoginName, string Password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetFormsAuthenticationTicketPW", ReplyAction="*")]
         System.Threading.Tasks.Task<string> GetFormsAuthenticationTicketPWAsync(string ErpCode, string LoginName, string Password);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelInvoice(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelInvoiceAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ReSendInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceStateResult ReSendInvoice(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ReSendInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> ReSendInvoiceAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceSummary", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult GetInvoiceSummary(string Ticket);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceSummary", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult> GetInvoiceSummaryAsync(string Ticket);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceSummaryWithDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult GetInvoiceSummaryWithDate(string Ticket, System.DateTime startDate, System.DateTime endDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceSummaryWithDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult> GetInvoiceSummaryWithDateAsync(string Ticket, System.DateTime startDate, System.DateTime endDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceCountWithDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceCountResultWithDate GetInvoiceCountWithDate(string Ticket, System.DateTime startDate, System.DateTime endDate, int dateType, bool getDraftInvoiceCount, bool withStatus);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceCountWithDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceCountResultWithDate> GetInvoiceCountWithDateAsync(string Ticket, System.DateTime startDate, System.DateTime endDate, int dateType, bool getDraftInvoiceCount, bool withStatus);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetCustomerDifferenceXml", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.CustomerInfoResult GetCustomerDifferenceXml(string Ticket, string xmlData);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetCustomerDifferenceXml", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CustomerInfoResult> GetCustomerDifferenceXmlAsync(string Ticket, string xmlData);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetCustomerDifferenceBase64Xml", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.CustomerInfoResult GetCustomerDifferenceBase64Xml(string Ticket, string xmlData);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetCustomerDifferenceBase64Xml", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CustomerInfoResult> GetCustomerDifferenceBase64XmlAsync(string Ticket, string xmlData);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/LogServerStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ServerStatusResult LogServerStatus(System.DateTime accessDate, string corpCode, string message, string messageDescriptor);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/LogServerStatus", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ServerStatusResult> LogServerStatusAsync(System.DateTime accessDate, string corpCode, string message, string messageDescriptor);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableSentInvoicesByDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableSentInvoicesByDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableSentInvoicesByDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableSentInvoicesByDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableSentInvoicesByIssueDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableSentInvoicesByIssueDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAvailableSentInvoicesByIssueDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableSentInvoicesByIssueDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate);
         
+        // CODEGEN: Parameter 'fileContent' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ProcessDataWithCode", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeResponse ProcessDataWithCode(DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ProcessDataWithCode", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeResponse> ProcessDataWithCodeAsync(DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetHashOfInvoice", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.GetHashOfInvoiceResult GetHashOfInvoice(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction InvoiceDirection);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetHashOfInvoice", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.GetHashOfInvoiceResult> GetHashOfInvoiceAsync(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction InvoiceDirection);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesByDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesByDate(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesByDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesByDateAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesWithDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesWithDate(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesWithDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesWithDateAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesWithIssueDateAndTaxNumber", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesWithIssueDateAndTaxNumber(string Ticket, System.DateTime StartDate, System.DateTime EndDate, string TaxId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesWithIssueDateAndTaxNumber", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesWithIssueDateAndTaxNumberAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate, string TaxId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceHTML", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceHTML(string Ticket, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetInvoiceHTML", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceHTMLAsync(string Ticket, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesByReportNo", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesByReportNo(string ticket, string reportNo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetEArchiveInvoicesByReportNo", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesByReportNoAsync(string ticket, string reportNo);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendInvoiceAsEmail", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendEMailResult SendInvoiceAsEmail(string ticket, string sender, string receiver, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendInvoiceAsEmail", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendEMailResult> SendInvoiceAsEmailAsync(string ticket, string sender, string receiver, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetNewInvoiceId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoiceIdResult GetNewInvoiceId(string Ticket, string TemplateCode, int Year, int InvoiceType, string reconciliationid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetNewInvoiceId", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceIdResult> GetNewInvoiceIdAsync(string Ticket, string TemplateCode, int Year, int InvoiceType, string reconciliationid);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetReconciliationEArchiveByDate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult GetReconciliationEArchiveByDate(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetReconciliationEArchiveByDate", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult> GetReconciliationEArchiveByDateAsync(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetReconciliationEArchiveByDateExtended", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult GetReconciliationEArchiveByDateExtended(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate, string StoreNumber, string WorkStation);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetReconciliationEArchiveByDateExtended", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult> GetReconciliationEArchiveByDateExtendedAsync(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate, string StoreNumber, string WorkStation);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetGTBRefAndRegisterNumber", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.GTBRefAndRegNoResult GetGTBRefAndRegisterNumber(string Ticket, string invoiceuuid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetGTBRefAndRegisterNumber", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.GTBRefAndRegNoResult> GetGTBRefAndRegisterNumberAsync(string Ticket, string invoiceuuid);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendTaxFreeInvoiceData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataResponse SendTaxFreeInvoiceData(DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/SendTaxFreeInvoiceData", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataResponse> SendTaxFreeInvoiceDataAsync(DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataRequest request);
         
+        // CODEGEN: Parameter 'CancelInvoiceDateTime' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelInvoiceDataForTaxFree", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeResponse CancelInvoiceDataForTaxFree(DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CancelInvoiceDataForTaxFree", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeResponse> CancelInvoiceDataForTaxFreeAsync(DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeRequest request);
         
+        // CODEGEN: Parameter 'InvoiceRawData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEArchive", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveResponse UploadFromArchiveEArchive(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEArchive", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveResponse> UploadFromArchiveEArchiveAsync(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveRequest request);
         
+        // CODEGEN: Parameter 'reportData' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'Microsoft.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEArchiveReport", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportResponse UploadFromArchiveEArchiveReport(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UploadFromArchiveEArchiveReport", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportResponse> UploadFromArchiveEArchiveReportAsync(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetIncomingInvoiceBranchInfo", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicesInfoResult GetIncomingInvoiceBranchInfo(string Ticket, DijitalPlanet.EFaturaEArsiv.InvoiceInfoQuery[] Invoices);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetIncomingInvoiceBranchInfo", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicesInfoResult> GetIncomingInvoiceBranchInfoAsync(string Ticket, DijitalPlanet.EFaturaEArsiv.InvoiceInfoQuery[] Invoices);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UpdateEnvelopeStatusFromGib", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.InvoicePackResult UpdateEnvelopeStatusFromGib(string Ticket, string UUID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/UpdateEnvelopeStatusFromGib", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> UpdateEnvelopeStatusFromGibAsync(string Ticket, string UUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/OutSidersSendEmail", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        DijitalPlanet.EFaturaEArsiv.OutSidersEMailResult OutSidersSendEmail(string ticket, DijitalPlanet.EFaturaEArsiv.OutsiderMailMessage message);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/OutSidersSendEmail", ReplyAction="*")]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.OutSidersEMailResult> OutSidersSendEmailAsync(string ticket, DijitalPlanet.EFaturaEArsiv.OutsiderMailMessage message);
     }
     
@@ -5924,9 +6243,31 @@ namespace DijitalPlanet.EFaturaEArsiv
         {
         }
         
+        public DijitalPlanet.EFaturaEArsiv.ApplicationResponsePackResult GetAvailableApplicationResponses(string Ticket, string CorporateCode)
+        {
+            return base.Channel.GetAvailableApplicationResponses(Ticket, CorporateCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ApplicationResponsePackResult> GetAvailableApplicationResponsesAsync(string Ticket, string CorporateCode)
         {
             return base.Channel.GetAvailableApplicationResponsesAsync(Ticket, CorporateCode);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendApplicationResponseResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendApplicationResponse(DijitalPlanet.EFaturaEArsiv.SendApplicationResponseRequest request)
+        {
+            return base.Channel.SendApplicationResponse(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.ApplicationResponseResult SendApplicationResponse(string Ticket, string UUID, string CorporateCode, byte[] ApplicationResponseData)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendApplicationResponseRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendApplicationResponseRequest();
+            inValue.Ticket = Ticket;
+            inValue.UUID = UUID;
+            inValue.CorporateCode = CorporateCode;
+            inValue.ApplicationResponseData = ApplicationResponseData;
+            DijitalPlanet.EFaturaEArsiv.SendApplicationResponseResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendApplicationResponse(inValue);
+            return retVal.SendApplicationResponseResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -5945,9 +6286,33 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendApplicationResponseAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.ApplicationResponseResult SendMailQueueAgainResponse(string Ticket, string UUID, string CorporateCode, string ReceiverEmail)
+        {
+            return base.Channel.SendMailQueueAgainResponse(Ticket, UUID, CorporateCode, ReceiverEmail);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ApplicationResponseResult> SendMailQueueAgainResponseAsync(string Ticket, string UUID, string CorporateCode, string ReceiverEmail)
         {
             return base.Channel.SendMailQueueAgainResponseAsync(Ticket, UUID, CorporateCode, ReceiverEmail);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendInvoiceDataResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendInvoiceData(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataRequest request)
+        {
+            return base.Channel.SendInvoiceData(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendInvoiceData(string Ticket, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendInvoiceDataRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendInvoiceDataRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            DijitalPlanet.EFaturaEArsiv.SendInvoiceDataResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendInvoiceData(inValue);
+            return retVal.SendInvoiceDataResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -5969,6 +6334,24 @@ namespace DijitalPlanet.EFaturaEArsiv
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendEArchiveDataResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendEArchiveData(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataRequest request)
+        {
+            return base.Channel.SendEArchiveData(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveStateResult SendEArchiveData(string Ticket, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode, string MapCode)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendEArchiveDataRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendEArchiveDataRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            DijitalPlanet.EFaturaEArsiv.SendEArchiveDataResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendEArchiveData(inValue);
+            return retVal.SendEArchiveDataResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendEArchiveDataResponse> DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendEArchiveDataAsync(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataRequest request)
         {
             return base.Channel.SendEArchiveDataAsync(request);
@@ -5985,9 +6368,34 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendEArchiveDataAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EArchiveStateResult SendBase64StringEArchiveData(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode)
+        {
+            return base.Channel.SendBase64StringEArchiveData(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveStateResult> SendBase64StringEArchiveDataAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode)
         {
             return base.Channel.SendBase64StringEArchiveDataAsync(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.ReSendInvoiceData(DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataRequest request)
+        {
+            return base.Channel.ReSendInvoiceData(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult ReSendInvoiceData(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
+        {
+            DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataRequest inValue = new DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataRequest();
+            inValue.Ticket = Ticket;
+            inValue.UUID = UUID;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            DijitalPlanet.EFaturaEArsiv.ReSendInvoiceDataResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).ReSendInvoiceData(inValue);
+            return retVal.ReSendInvoiceDataResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6010,6 +6418,26 @@ namespace DijitalPlanet.EFaturaEArsiv
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendInvoiceDataWithTemplateCode(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeRequest request)
+        {
+            return base.Channel.SendInvoiceDataWithTemplateCode(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendInvoiceDataWithTemplateCode(string Ticket, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName, string TemplateCode)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            inValue.TemplateCode = TemplateCode;
+            DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendInvoiceDataWithTemplateCode(inValue);
+            return retVal.SendInvoiceDataWithTemplateCodeResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeResponse> DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendInvoiceDataWithTemplateCodeAsync(DijitalPlanet.EFaturaEArsiv.SendInvoiceDataWithTemplateCodeRequest request)
         {
             return base.Channel.SendInvoiceDataWithTemplateCodeAsync(request);
@@ -6026,6 +6454,25 @@ namespace DijitalPlanet.EFaturaEArsiv
             inValue.ReceiverPostboxName = ReceiverPostboxName;
             inValue.TemplateCode = TemplateCode;
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendInvoiceDataWithTemplateCodeAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendEArchiveDataWithTemplateCode(DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeRequest request)
+        {
+            return base.Channel.SendEArchiveDataWithTemplateCode(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveStateResult SendEArchiveDataWithTemplateCode(string Ticket, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode, string MapCode, string TemplateCode)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.TemplateCode = TemplateCode;
+            DijitalPlanet.EFaturaEArsiv.SendEArchiveDataWithTemplateCodeResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendEArchiveDataWithTemplateCode(inValue);
+            return retVal.SendEArchiveDataWithTemplateCodeResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6046,9 +6493,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendEArchiveDataWithTemplateCodeAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EArchiveStateResult SendBase64StringEArchiveDataWithTemplateCode(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string TemplateCode)
+        {
+            return base.Channel.SendBase64StringEArchiveDataWithTemplateCode(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode, TemplateCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveStateResult> SendBase64StringEArchiveDataWithTemplateCodeAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string TemplateCode)
         {
             return base.Channel.SendBase64StringEArchiveDataWithTemplateCodeAsync(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode, TemplateCode);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelEArchiveInvoice(string Ticket, string Value, string Type, decimal TotalAmount, System.DateTime CancelDate)
+        {
+            return base.Channel.CancelEArchiveInvoice(Ticket, Value, Type, TotalAmount, CancelDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelEArchiveInvoiceAsync(string Ticket, string Value, string Type, decimal TotalAmount, System.DateTime CancelDate)
@@ -6056,9 +6513,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.CancelEArchiveInvoiceAsync(Ticket, Value, Type, TotalAmount, CancelDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.CancelInvoiceNumberResult CancelInvoiceNumber(string Ticket, string ReceiptBarcode, int Year)
+        {
+            return base.Channel.CancelInvoiceNumber(Ticket, ReceiptBarcode, Year);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CancelInvoiceNumberResult> CancelInvoiceNumberAsync(string Ticket, string ReceiptBarcode, int Year)
         {
             return base.Channel.CancelInvoiceNumberAsync(Ticket, ReceiptBarcode, Year);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelEArchiveInvoiceStringDate(string Ticket, string Value, string Type, decimal TotalAmount, string CancelDate)
+        {
+            return base.Channel.CancelEArchiveInvoiceStringDate(Ticket, Value, Type, TotalAmount, CancelDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelEArchiveInvoiceStringDateAsync(string Ticket, string Value, string Type, decimal TotalAmount, string CancelDate)
@@ -6066,9 +6533,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.CancelEArchiveInvoiceStringDateAsync(Ticket, Value, Type, TotalAmount, CancelDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelEArchiveInvoiceStringDateAndAmount(string Ticket, string Value, string Type, string TotalAmount, string CancelDate)
+        {
+            return base.Channel.CancelEArchiveInvoiceStringDateAndAmount(Ticket, Value, Type, TotalAmount, CancelDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelEArchiveInvoiceStringDateAndAmountAsync(string Ticket, string Value, string Type, string TotalAmount, string CancelDate)
         {
             return base.Channel.CancelEArchiveInvoiceStringDateAndAmountAsync(Ticket, Value, Type, TotalAmount, CancelDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendBase64StringInvoice(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
+        {
+            return base.Channel.SendBase64StringInvoice(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode, ReceiverPostboxName);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> SendBase64StringInvoiceAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
@@ -6076,9 +6553,32 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.SendBase64StringInvoiceAsync(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode, ReceiverPostboxName);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendBase64StringInvoiceWithTemplateCode(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName, string TemplateCode)
+        {
+            return base.Channel.SendBase64StringInvoiceWithTemplateCode(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode, ReceiverPostboxName, TemplateCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> SendBase64StringInvoiceWithTemplateCodeAsync(string Ticket, string FileType, string InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName, string TemplateCode)
         {
             return base.Channel.SendBase64StringInvoiceWithTemplateCodeAsync(Ticket, FileType, InvoiceRawData, CorporateCode, MapCode, ReceiverPostboxName, TemplateCode);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendXmlInvoice(DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceRequest request)
+        {
+            return base.Channel.SendXmlInvoice(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendXmlInvoice(string Ticket, byte[] InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceRequest();
+            inValue.Ticket = Ticket;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            DijitalPlanet.EFaturaEArsiv.SendXmlInvoiceResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendXmlInvoice(inValue);
+            return retVal.SendXmlInvoiceResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6099,6 +6599,24 @@ namespace DijitalPlanet.EFaturaEArsiv
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendUBLInvoice(DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceRequest request)
+        {
+            return base.Channel.SendUBLInvoice(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendUBLInvoice(string Ticket, byte[] InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceRequest();
+            inValue.Ticket = Ticket;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendUBLInvoice(inValue);
+            return retVal.SendUBLInvoiceResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceResponse> DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendUBLInvoiceAsync(DijitalPlanet.EFaturaEArsiv.SendUBLInvoiceRequest request)
         {
             return base.Channel.SendUBLInvoiceAsync(request);
@@ -6115,9 +6633,31 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendUBLInvoiceAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveOutgoing(string Ticket, string InvoiceRawData, string CorporateCode, string ReceiverPostboxName)
+        {
+            return base.Channel.UploadFromArchiveOutgoing(Ticket, InvoiceRawData, CorporateCode, ReceiverPostboxName);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveOutgoingAsync(string Ticket, string InvoiceRawData, string CorporateCode, string ReceiverPostboxName)
         {
             return base.Channel.UploadFromArchiveOutgoingAsync(Ticket, InvoiceRawData, CorporateCode, ReceiverPostboxName);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.UploadFromArchiveUBLOutgoing(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingRequest request)
+        {
+            return base.Channel.UploadFromArchiveUBLOutgoing(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveUBLOutgoing(string Ticket, byte[] InvoiceRawData, string CorporateCode, string ReceiverPostboxName)
+        {
+            DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingRequest inValue = new DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingRequest();
+            inValue.Ticket = Ticket;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            DijitalPlanet.EFaturaEArsiv.UploadFromArchiveUBLOutgoingResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).UploadFromArchiveUBLOutgoing(inValue);
+            return retVal.UploadFromArchiveUBLOutgoingResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6136,9 +6676,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).UploadFromArchiveUBLOutgoingAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveEnvelopeOutgoing(string Ticket, string Envelope, string CorporateCode)
+        {
+            return base.Channel.UploadFromArchiveEnvelopeOutgoing(Ticket, Envelope, CorporateCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveEnvelopeOutgoingAsync(string Ticket, string Envelope, string CorporateCode)
         {
             return base.Channel.UploadFromArchiveEnvelopeOutgoingAsync(Ticket, Envelope, CorporateCode);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveIncoming(string Ticket, string data, string instanceidentifier, string CorporateCode)
+        {
+            return base.Channel.UploadFromArchiveIncoming(Ticket, data, instanceidentifier, CorporateCode);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveIncomingAsync(string Ticket, string data, string instanceidentifier, string CorporateCode)
@@ -6146,14 +6696,43 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.UploadFromArchiveIncomingAsync(Ticket, data, instanceidentifier, CorporateCode);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveUBLIncoming(string Ticket, string Ubl, string instanceidentifier, string CorporateCode)
+        {
+            return base.Channel.UploadFromArchiveUBLIncoming(Ticket, Ubl, instanceidentifier, CorporateCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveUBLIncomingAsync(string Ticket, string Ubl, string instanceidentifier, string CorporateCode)
         {
             return base.Channel.UploadFromArchiveUBLIncomingAsync(Ticket, Ubl, instanceidentifier, CorporateCode);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult UploadFromArchiveEnvelopeIncoming(string Ticket, string Envelope, string CorporateCode)
+        {
+            return base.Channel.UploadFromArchiveEnvelopeIncoming(Ticket, Envelope, CorporateCode);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> UploadFromArchiveEnvelopeIncomingAsync(string Ticket, string Envelope, string CorporateCode)
         {
             return base.Channel.UploadFromArchiveEnvelopeIncomingAsync(Ticket, Envelope, CorporateCode);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendCumulativeInvoiceData(DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataRequest request)
+        {
+            return base.Channel.SendCumulativeInvoiceData(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult[] SendCumulativeInvoiceData(string Ticket, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode, string MapCode, string ReceiverPostboxName)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.MapCode = MapCode;
+            inValue.ReceiverPostboxName = ReceiverPostboxName;
+            DijitalPlanet.EFaturaEArsiv.SendCumulativeInvoiceDataResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendCumulativeInvoiceData(inValue);
+            return retVal.SendCumulativeInvoiceDataResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6174,9 +6753,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendCumulativeInvoiceDataAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.GibStatusResult CheckGibStatus(string Ticket, string Guid, string GuidType)
+        {
+            return base.Channel.CheckGibStatus(Ticket, Guid, GuidType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.GibStatusResult> CheckGibStatusAsync(string Ticket, string Guid, string GuidType)
         {
             return base.Channel.CheckGibStatusAsync(Ticket, Guid, GuidType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult GetEInvoiceSenderListUpdates(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetEInvoiceSenderListUpdates(Ticket, StartDate, EndDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult> GetEInvoiceSenderListUpdatesAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
@@ -6184,9 +6773,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEInvoiceSenderListUpdatesAsync(Ticket, StartDate, EndDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult GetEInvoiceReceiverListUpdates(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetEInvoiceReceiverListUpdates(Ticket, StartDate, EndDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListUpdateResult> GetEInvoiceReceiverListUpdatesAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
         {
             return base.Channel.GetEInvoiceReceiverListUpdatesAsync(Ticket, StartDate, EndDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.ResponseResult AcceptInvoice(string Ticket, string UUID)
+        {
+            return base.Channel.AcceptInvoice(Ticket, UUID);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ResponseResult> AcceptInvoiceAsync(string Ticket, string UUID)
@@ -6194,9 +6793,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.AcceptInvoiceAsync(Ticket, UUID);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.ResponseResult RejectInvoice(string Ticket, string UUID, string Description)
+        {
+            return base.Channel.RejectInvoice(Ticket, UUID, Description);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ResponseResult> RejectInvoiceAsync(string Ticket, string UUID, string Description)
         {
             return base.Channel.RejectInvoiceAsync(Ticket, UUID, Description);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.ResponseResult RejectInvoiceWithNotify(string Ticket, string UUID, string Description, string NotifyType)
+        {
+            return base.Channel.RejectInvoiceWithNotify(Ticket, UUID, Description, NotifyType);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ResponseResult> RejectInvoiceWithNotifyAsync(string Ticket, string UUID, string Description, string NotifyType)
@@ -6204,9 +6813,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.RejectInvoiceWithNotifyAsync(Ticket, UUID, Description, NotifyType);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceStateResult CheckInvoiceState(string Ticket, string UUID)
+        {
+            return base.Channel.CheckInvoiceState(Ticket, UUID);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> CheckInvoiceStateAsync(string Ticket, string UUID)
         {
             return base.Channel.CheckInvoiceStateAsync(Ticket, UUID);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceStateResult GetAvailableInvoiceReturnStatus(string Ticket, string UUID)
+        {
+            return base.Channel.GetAvailableInvoiceReturnStatus(Ticket, UUID);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> GetAvailableInvoiceReturnStatusAsync(string Ticket, string UUID)
@@ -6214,9 +6833,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetAvailableInvoiceReturnStatusAsync(Ticket, UUID);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetInvoiceByInvoiceID(string Ticket, string InvoiceID, DijitalPlanet.EFaturaEArsiv.Direction Direction)
+        {
+            return base.Channel.GetInvoiceByInvoiceID(Ticket, InvoiceID, Direction);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetInvoiceByInvoiceIDAsync(string Ticket, string InvoiceID, DijitalPlanet.EFaturaEArsiv.Direction Direction)
         {
             return base.Channel.GetInvoiceByInvoiceIDAsync(Ticket, InvoiceID, Direction);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInboundInvoiceByMapCode(string Ticket, string UUID, string MapCode)
+        {
+            return base.Channel.GetInboundInvoiceByMapCode(Ticket, UUID, MapCode);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInboundInvoiceByMapCodeAsync(string Ticket, string UUID, string MapCode)
@@ -6224,9 +6853,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInboundInvoiceByMapCodeAsync(Ticket, UUID, MapCode);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EArchiveInvoiceStateResult CheckEArchiveInvoiceState(string Ticket, string InvoiceNumber, string InvoiceNumberType)
+        {
+            return base.Channel.CheckEArchiveInvoiceState(Ticket, InvoiceNumber, InvoiceNumberType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveInvoiceStateResult> CheckEArchiveInvoiceStateAsync(string Ticket, string InvoiceNumber, string InvoiceNumberType)
         {
             return base.Channel.CheckEArchiveInvoiceStateAsync(Ticket, InvoiceNumber, InvoiceNumberType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveReportStateResult CheckEArchiveReportState(string Ticket, string ReportNo)
+        {
+            return base.Channel.CheckEArchiveReportState(Ticket, ReportNo);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportStateResult> CheckEArchiveReportStateAsync(string Ticket, string ReportNo)
@@ -6234,9 +6873,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.CheckEArchiveReportStateAsync(Ticket, ReportNo);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult DeleteEArchiveInvoice(string Ticket, string InvoiceNumber, string InvoiceNumberType)
+        {
+            return base.Channel.DeleteEArchiveInvoice(Ticket, InvoiceNumber, InvoiceNumberType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> DeleteEArchiveInvoiceAsync(string Ticket, string InvoiceNumber, string InvoiceNumberType)
         {
             return base.Channel.DeleteEArchiveInvoiceAsync(Ticket, InvoiceNumber, InvoiceNumberType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveReportResult DeleteEArchiveReport(string Ticket, string ReportNo)
+        {
+            return base.Channel.DeleteEArchiveReport(Ticket, ReportNo);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportResult> DeleteEArchiveReportAsync(string Ticket, string ReportNo)
@@ -6244,9 +6893,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.DeleteEArchiveReportAsync(Ticket, ReportNo);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceStateResult CheckInvoiceStateWithReconciliationID(string Ticket, string ReconciliationId)
+        {
+            return base.Channel.CheckInvoiceStateWithReconciliationID(Ticket, ReconciliationId);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> CheckInvoiceStateWithReconciliationIDAsync(string Ticket, string ReconciliationId)
         {
             return base.Channel.CheckInvoiceStateWithReconciliationIDAsync(Ticket, ReconciliationId);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult CheckEnvelopeState(string Ticket, string InstanceIdentifier)
+        {
+            return base.Channel.CheckEnvelopeState(Ticket, InstanceIdentifier);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult> CheckEnvelopeStateAsync(string Ticket, string InstanceIdentifier)
@@ -6254,9 +6913,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.CheckEnvelopeStateAsync(Ticket, InstanceIdentifier);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadResult GetEnvelope(string Ticket, string ReferenceId, DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadDocumentType EnvelopeDownloadDocumentType)
+        {
+            return base.Channel.GetEnvelope(Ticket, ReferenceId, EnvelopeDownloadDocumentType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadResult> GetEnvelopeAsync(string Ticket, string ReferenceId, DijitalPlanet.EFaturaEArsiv.EnvelopeDownloadDocumentType EnvelopeDownloadDocumentType)
         {
             return base.Channel.GetEnvelopeAsync(Ticket, ReferenceId, EnvelopeDownloadDocumentType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoices(string Ticket, string CorporateCode)
+        {
+            return base.Channel.GetAvailableInvoices(Ticket, CorporateCode);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesAsync(string Ticket, string CorporateCode)
@@ -6264,9 +6933,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetAvailableInvoicesAsync(Ticket, CorporateCode);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoicesPW(string Ticket, string ErpCode, string LoginName, DijitalPlanet.EFaturaEArsiv.Direction direction)
+        {
+            return base.Channel.GetAvailableInvoicesPW(Ticket, ErpCode, LoginName, direction);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesPWAsync(string Ticket, string ErpCode, string LoginName, DijitalPlanet.EFaturaEArsiv.Direction direction)
         {
             return base.Channel.GetAvailableInvoicesPWAsync(Ticket, ErpCode, LoginName, direction);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableCompletedInvoices(string Ticket, string CorporateCode)
+        {
+            return base.Channel.GetAvailableCompletedInvoices(Ticket, CorporateCode);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableCompletedInvoicesAsync(string Ticket, string CorporateCode)
@@ -6274,9 +6953,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetAvailableCompletedInvoicesAsync(Ticket, CorporateCode);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoicesByDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetAvailableInvoicesByDate(Ticket, CorporateCode, StartDate, EndDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesByDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
         {
             return base.Channel.GetAvailableInvoicesByDateAsync(Ticket, CorporateCode, StartDate, EndDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableInvoicesWithDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetAvailableInvoicesWithDate(Ticket, CorporateCode, StartDate, EndDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableInvoicesWithDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
@@ -6284,9 +6973,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetAvailableInvoicesWithDateAsync(Ticket, CorporateCode, StartDate, EndDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetIncomingInvoicesByIssueDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetIncomingInvoicesByIssueDate(Ticket, CorporateCode, StartDate, EndDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetIncomingInvoicesByIssueDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
         {
             return base.Channel.GetIncomingInvoicesByIssueDateAsync(Ticket, CorporateCode, StartDate, EndDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult GetEArchiveReportList(string Ticket, string CorporateCode)
+        {
+            return base.Channel.GetEArchiveReportList(Ticket, CorporateCode);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult> GetEArchiveReportListAsync(string Ticket, string CorporateCode)
@@ -6294,9 +6993,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEArchiveReportListAsync(Ticket, CorporateCode);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult GetEArchiveReportListWithPeriod(string Ticket, string CorporateCode, int Year, int Month, DijitalPlanet.EFaturaEArsiv.EArchiveReportStatusListType listType)
+        {
+            return base.Channel.GetEArchiveReportListWithPeriod(Ticket, CorporateCode, Year, Month, listType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportPackResult> GetEArchiveReportListWithPeriodAsync(string Ticket, string CorporateCode, int Year, int Month, DijitalPlanet.EFaturaEArsiv.EArchiveReportStatusListType listType)
         {
             return base.Channel.GetEArchiveReportListWithPeriodAsync(Ticket, CorporateCode, Year, Month, listType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoice(string Ticket, string UUID)
+        {
+            return base.Channel.GetInvoice(Ticket, UUID);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceAsync(string Ticket, string UUID)
@@ -6304,9 +7013,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoiceAsync(Ticket, UUID);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePW(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction direction)
+        {
+            return base.Channel.GetInvoicePW(Ticket, UUID, direction);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePWAsync(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction direction)
         {
             return base.Channel.GetInvoicePWAsync(Ticket, UUID, direction);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceAllDirection(string Ticket, string UUID)
+        {
+            return base.Channel.GetInvoiceAllDirection(Ticket, UUID);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceAllDirectionAsync(string Ticket, string UUID)
@@ -6314,9 +7033,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoiceAllDirectionAsync(Ticket, UUID);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePDF(string Ticket, string UUID)
+        {
+            return base.Channel.GetInvoicePDF(Ticket, UUID);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePDFAsync(string Ticket, string UUID)
         {
             return base.Channel.GetInvoicePDFAsync(Ticket, UUID);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePDFByInvoiceId(string ticket, string InvoiceId, DijitalPlanet.EFaturaEArsiv.Direction Direction)
+        {
+            return base.Channel.GetInvoicePDFByInvoiceId(ticket, InvoiceId, Direction);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePDFByInvoiceIdAsync(string ticket, string InvoiceId, DijitalPlanet.EFaturaEArsiv.Direction Direction)
@@ -6324,9 +7053,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoicePDFByInvoiceIdAsync(ticket, InvoiceId, Direction);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoicePDFByInvoiceIdWithoutDirection(string ticket, string InvoiceId)
+        {
+            return base.Channel.GetInvoicePDFByInvoiceIdWithoutDirection(ticket, InvoiceId);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoicePDFByInvoiceIdWithoutDirectionAsync(string ticket, string InvoiceId)
         {
             return base.Channel.GetInvoicePDFByInvoiceIdWithoutDirectionAsync(ticket, InvoiceId);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceImage(string Ticket, string UUID, string ImageFormat)
+        {
+            return base.Channel.GetInvoiceImage(Ticket, UUID, ImageFormat);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceImageAsync(string Ticket, string UUID, string ImageFormat)
@@ -6334,9 +7073,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoiceImageAsync(Ticket, UUID, ImageFormat);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.CorporateTemplateResult GetInvoiceTemplate(string Ticket, string TemplateCode, int InvoiceType)
+        {
+            return base.Channel.GetInvoiceTemplate(Ticket, TemplateCode, InvoiceType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CorporateTemplateResult> GetInvoiceTemplateAsync(string Ticket, string TemplateCode, int InvoiceType)
         {
             return base.Channel.GetInvoiceTemplateAsync(Ticket, TemplateCode, InvoiceType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetEArchiveInvoice(string Ticket, string Value, string ValueType, string FileType)
+        {
+            return base.Channel.GetEArchiveInvoice(Ticket, Value, ValueType, FileType);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetEArchiveInvoiceAsync(string Ticket, string Value, string ValueType, string FileType)
@@ -6344,9 +7093,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEArchiveInvoiceAsync(Ticket, Value, ValueType, FileType);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveIncomingInvoice(string Ticket, string Value, string ValueType, string FileType)
+        {
+            return base.Channel.GetEArchiveIncomingInvoice(Ticket, Value, ValueType, FileType);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveIncomingInvoiceAsync(string Ticket, string Value, string ValueType, string FileType)
         {
             return base.Channel.GetEArchiveIncomingInvoiceAsync(Ticket, Value, ValueType, FileType);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveReportResult GetEArchiveReport(string Ticket, string ReportNo, string FileType)
+        {
+            return base.Channel.GetEArchiveReport(Ticket, ReportNo, FileType);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EArchiveReportResult> GetEArchiveReportAsync(string Ticket, string ReportNo, string FileType)
@@ -6354,9 +7113,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEArchiveReportAsync(Ticket, ReportNo, FileType);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceXML(string Ticket, string UUID)
+        {
+            return base.Channel.GetInvoiceXML(Ticket, UUID);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceXMLAsync(string Ticket, string UUID)
         {
             return base.Channel.GetInvoiceXMLAsync(Ticket, UUID);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceXMLWithOutFlag(string Ticket, string UUID)
+        {
+            return base.Channel.GetInvoiceXMLWithOutFlag(Ticket, UUID);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceXMLWithOutFlagAsync(string Ticket, string UUID)
@@ -6364,9 +7133,30 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoiceXMLWithOutFlagAsync(Ticket, UUID);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceWithOutFlag(string Ticket, string UUID)
+        {
+            return base.Channel.GetInvoiceWithOutFlag(Ticket, UUID);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceWithOutFlagAsync(string Ticket, string UUID)
         {
             return base.Channel.GetInvoiceWithOutFlagAsync(Ticket, UUID);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.CheckTaxIdListFromExcelFile(DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileRequest request)
+        {
+            return base.Channel.CheckTaxIdListFromExcelFile(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult CheckTaxIdListFromExcelFile(string Ticket, byte[] FileData, string FileName)
+        {
+            DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileRequest inValue = new DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileData = FileData;
+            inValue.FileName = FileName;
+            DijitalPlanet.EFaturaEArsiv.CheckTaxIdListFromExcelFileResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).CheckTaxIdListFromExcelFile(inValue);
+            return retVal.CheckTaxIdListFromExcelFileResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6384,9 +7174,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).CheckTaxIdListFromExcelFileAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult CheckCustomerTaxId(string Ticket, string TaxIdOrPersonalId)
+        {
+            return base.Channel.CheckCustomerTaxId(Ticket, TaxIdOrPersonalId);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> CheckCustomerTaxIdAsync(string Ticket, string TaxIdOrPersonalId)
         {
             return base.Channel.CheckCustomerTaxIdAsync(Ticket, TaxIdOrPersonalId);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult CheckCustomerTaxIdbyDate(string Ticket, string TaxIdOrPersonalId, System.DateTime issueDate)
+        {
+            return base.Channel.CheckCustomerTaxIdbyDate(Ticket, TaxIdOrPersonalId, issueDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> CheckCustomerTaxIdbyDateAsync(string Ticket, string TaxIdOrPersonalId, System.DateTime issueDate)
@@ -6394,9 +7194,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.CheckCustomerTaxIdbyDateAsync(Ticket, TaxIdOrPersonalId, issueDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult GetTaxIdListbyDate(string Ticket, System.DateTime StartDate)
+        {
+            return base.Channel.GetTaxIdListbyDate(Ticket, StartDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> GetTaxIdListbyDateAsync(string Ticket, System.DateTime StartDate)
         {
             return base.Channel.GetTaxIdListbyDateAsync(Ticket, StartDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult GetEInvoiceCustomerListByDate(string Ticket, string StartDate)
+        {
+            return base.Channel.GetEInvoiceCustomerListByDate(Ticket, StartDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerListResult> GetEInvoiceCustomerListByDateAsync(string Ticket, string StartDate)
@@ -6404,9 +7214,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEInvoiceCustomerListByDateAsync(Ticket, StartDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerFullListResult GetEInvoiceCustomerFullList(string Ticket)
+        {
+            return base.Channel.GetEInvoiceCustomerFullList(Ticket);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.EInvoiceCustomerFullListResult> GetEInvoiceCustomerFullListAsync(string Ticket)
         {
             return base.Channel.GetEInvoiceCustomerFullListAsync(Ticket);
+        }
+        
+        public string GetFormsAuthenticationTicket(string CorporateCode, string LoginName, string Password)
+        {
+            return base.Channel.GetFormsAuthenticationTicket(CorporateCode, LoginName, Password);
         }
         
         public System.Threading.Tasks.Task<string> GetFormsAuthenticationTicketAsync(string CorporateCode, string LoginName, string Password)
@@ -6414,9 +7234,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetFormsAuthenticationTicketAsync(CorporateCode, LoginName, Password);
         }
         
+        public string GetFormsAuthenticationTicketPW(string ErpCode, string LoginName, string Password)
+        {
+            return base.Channel.GetFormsAuthenticationTicketPW(ErpCode, LoginName, Password);
+        }
+        
         public System.Threading.Tasks.Task<string> GetFormsAuthenticationTicketPWAsync(string ErpCode, string LoginName, string Password)
         {
             return base.Channel.GetFormsAuthenticationTicketPWAsync(ErpCode, LoginName, Password);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult CancelInvoice(string Ticket, string UUID)
+        {
+            return base.Channel.CancelInvoice(Ticket, UUID);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> CancelInvoiceAsync(string Ticket, string UUID)
@@ -6424,9 +7254,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.CancelInvoiceAsync(Ticket, UUID);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceStateResult ReSendInvoice(string Ticket, string UUID)
+        {
+            return base.Channel.ReSendInvoice(Ticket, UUID);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceStateResult> ReSendInvoiceAsync(string Ticket, string UUID)
         {
             return base.Channel.ReSendInvoiceAsync(Ticket, UUID);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult GetInvoiceSummary(string Ticket)
+        {
+            return base.Channel.GetInvoiceSummary(Ticket);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult> GetInvoiceSummaryAsync(string Ticket)
@@ -6434,9 +7274,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoiceSummaryAsync(Ticket);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult GetInvoiceSummaryWithDate(string Ticket, System.DateTime startDate, System.DateTime endDate)
+        {
+            return base.Channel.GetInvoiceSummaryWithDate(Ticket, startDate, endDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceSummaryResult> GetInvoiceSummaryWithDateAsync(string Ticket, System.DateTime startDate, System.DateTime endDate)
         {
             return base.Channel.GetInvoiceSummaryWithDateAsync(Ticket, startDate, endDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceCountResultWithDate GetInvoiceCountWithDate(string Ticket, System.DateTime startDate, System.DateTime endDate, int dateType, bool getDraftInvoiceCount, bool withStatus)
+        {
+            return base.Channel.GetInvoiceCountWithDate(Ticket, startDate, endDate, dateType, getDraftInvoiceCount, withStatus);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceCountResultWithDate> GetInvoiceCountWithDateAsync(string Ticket, System.DateTime startDate, System.DateTime endDate, int dateType, bool getDraftInvoiceCount, bool withStatus)
@@ -6444,9 +7294,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetInvoiceCountWithDateAsync(Ticket, startDate, endDate, dateType, getDraftInvoiceCount, withStatus);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.CustomerInfoResult GetCustomerDifferenceXml(string Ticket, string xmlData)
+        {
+            return base.Channel.GetCustomerDifferenceXml(Ticket, xmlData);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CustomerInfoResult> GetCustomerDifferenceXmlAsync(string Ticket, string xmlData)
         {
             return base.Channel.GetCustomerDifferenceXmlAsync(Ticket, xmlData);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.CustomerInfoResult GetCustomerDifferenceBase64Xml(string Ticket, string xmlData)
+        {
+            return base.Channel.GetCustomerDifferenceBase64Xml(Ticket, xmlData);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.CustomerInfoResult> GetCustomerDifferenceBase64XmlAsync(string Ticket, string xmlData)
@@ -6454,9 +7314,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetCustomerDifferenceBase64XmlAsync(Ticket, xmlData);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.ServerStatusResult LogServerStatus(System.DateTime accessDate, string corpCode, string message, string messageDescriptor)
+        {
+            return base.Channel.LogServerStatus(accessDate, corpCode, message, messageDescriptor);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.ServerStatusResult> LogServerStatusAsync(System.DateTime accessDate, string corpCode, string message, string messageDescriptor)
         {
             return base.Channel.LogServerStatusAsync(accessDate, corpCode, message, messageDescriptor);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableSentInvoicesByDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetAvailableSentInvoicesByDate(Ticket, CorporateCode, StartDate, EndDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableSentInvoicesByDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
@@ -6464,9 +7334,32 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetAvailableSentInvoicesByDateAsync(Ticket, CorporateCode, StartDate, EndDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetAvailableSentInvoicesByIssueDate(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetAvailableSentInvoicesByIssueDate(Ticket, CorporateCode, StartDate, EndDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetAvailableSentInvoicesByIssueDateAsync(string Ticket, string CorporateCode, System.DateTime StartDate, System.DateTime EndDate)
         {
             return base.Channel.GetAvailableSentInvoicesByIssueDateAsync(Ticket, CorporateCode, StartDate, EndDate);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.ProcessDataWithCode(DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeRequest request)
+        {
+            return base.Channel.ProcessDataWithCode(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.DBJobProcessResult ProcessDataWithCode(string Ticket, byte[] fileContent, DijitalPlanet.EFaturaEArsiv.UUIDFileType fileType, string code, DijitalPlanet.EFaturaEArsiv.Direction direction)
+        {
+            DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeRequest inValue = new DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeRequest();
+            inValue.Ticket = Ticket;
+            inValue.fileContent = fileContent;
+            inValue.fileType = fileType;
+            inValue.code = code;
+            inValue.direction = direction;
+            DijitalPlanet.EFaturaEArsiv.ProcessDataWithCodeResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).ProcessDataWithCode(inValue);
+            return retVal.ProcessDataWithCodeResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6486,9 +7379,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).ProcessDataWithCodeAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.GetHashOfInvoiceResult GetHashOfInvoice(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction InvoiceDirection)
+        {
+            return base.Channel.GetHashOfInvoice(Ticket, UUID, InvoiceDirection);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.GetHashOfInvoiceResult> GetHashOfInvoiceAsync(string Ticket, string UUID, DijitalPlanet.EFaturaEArsiv.Direction InvoiceDirection)
         {
             return base.Channel.GetHashOfInvoiceAsync(Ticket, UUID, InvoiceDirection);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesByDate(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetEArchiveInvoicesByDate(Ticket, StartDate, EndDate);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesByDateAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
@@ -6496,9 +7399,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEArchiveInvoicesByDateAsync(Ticket, StartDate, EndDate);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesWithDate(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetEArchiveInvoicesWithDate(Ticket, StartDate, EndDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesWithDateAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate)
         {
             return base.Channel.GetEArchiveInvoicesWithDateAsync(Ticket, StartDate, EndDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesWithIssueDateAndTaxNumber(string Ticket, System.DateTime StartDate, System.DateTime EndDate, string TaxId)
+        {
+            return base.Channel.GetEArchiveInvoicesWithIssueDateAndTaxNumber(Ticket, StartDate, EndDate, TaxId);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesWithIssueDateAndTaxNumberAsync(string Ticket, System.DateTime StartDate, System.DateTime EndDate, string TaxId)
@@ -6506,9 +7419,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEArchiveInvoicesWithIssueDateAndTaxNumberAsync(Ticket, StartDate, EndDate, TaxId);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult GetInvoiceHTML(string Ticket, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction)
+        {
+            return base.Channel.GetInvoiceHTML(Ticket, uuid, direction);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceInfoResult> GetInvoiceHTMLAsync(string Ticket, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction)
         {
             return base.Channel.GetInvoiceHTMLAsync(Ticket, uuid, direction);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult GetEArchiveInvoicesByReportNo(string ticket, string reportNo)
+        {
+            return base.Channel.GetEArchiveInvoicesByReportNo(ticket, reportNo);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> GetEArchiveInvoicesByReportNoAsync(string ticket, string reportNo)
@@ -6516,9 +7439,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetEArchiveInvoicesByReportNoAsync(ticket, reportNo);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.SendEMailResult SendInvoiceAsEmail(string ticket, string sender, string receiver, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction)
+        {
+            return base.Channel.SendInvoiceAsEmail(ticket, sender, receiver, uuid, direction);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.SendEMailResult> SendInvoiceAsEmailAsync(string ticket, string sender, string receiver, string uuid, DijitalPlanet.EFaturaEArsiv.Direction direction)
         {
             return base.Channel.SendInvoiceAsEmailAsync(ticket, sender, receiver, uuid, direction);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.InvoiceIdResult GetNewInvoiceId(string Ticket, string TemplateCode, int Year, int InvoiceType, string reconciliationid)
+        {
+            return base.Channel.GetNewInvoiceId(Ticket, TemplateCode, Year, InvoiceType, reconciliationid);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoiceIdResult> GetNewInvoiceIdAsync(string Ticket, string TemplateCode, int Year, int InvoiceType, string reconciliationid)
@@ -6526,9 +7459,19 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetNewInvoiceIdAsync(Ticket, TemplateCode, Year, InvoiceType, reconciliationid);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult GetReconciliationEArchiveByDate(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate)
+        {
+            return base.Channel.GetReconciliationEArchiveByDate(Ticket, CorporateCode, eArchiveInvoices, StartDate, EndDate);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult> GetReconciliationEArchiveByDateAsync(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate)
         {
             return base.Channel.GetReconciliationEArchiveByDateAsync(Ticket, CorporateCode, eArchiveInvoices, StartDate, EndDate);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult GetReconciliationEArchiveByDateExtended(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate, string StoreNumber, string WorkStation)
+        {
+            return base.Channel.GetReconciliationEArchiveByDateExtended(Ticket, CorporateCode, eArchiveInvoices, StartDate, EndDate, StoreNumber, WorkStation);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationPackResult> GetReconciliationEArchiveByDateExtendedAsync(string Ticket, string CorporateCode, DijitalPlanet.EFaturaEArsiv.eArchiveReconciliationInvoices[] eArchiveInvoices, System.DateTime StartDate, System.DateTime EndDate, string StoreNumber, string WorkStation)
@@ -6536,9 +7479,31 @@ namespace DijitalPlanet.EFaturaEArsiv
             return base.Channel.GetReconciliationEArchiveByDateExtendedAsync(Ticket, CorporateCode, eArchiveInvoices, StartDate, EndDate, StoreNumber, WorkStation);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.GTBRefAndRegNoResult GetGTBRefAndRegisterNumber(string Ticket, string invoiceuuid)
+        {
+            return base.Channel.GetGTBRefAndRegisterNumber(Ticket, invoiceuuid);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.GTBRefAndRegNoResult> GetGTBRefAndRegisterNumberAsync(string Ticket, string invoiceuuid)
         {
             return base.Channel.GetGTBRefAndRegisterNumberAsync(Ticket, invoiceuuid);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.SendTaxFreeInvoiceData(DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataRequest request)
+        {
+            return base.Channel.SendTaxFreeInvoiceData(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EnvelopeStateResult SendTaxFreeInvoiceData(string Ticket, byte[] InvoiceRawData, string CorporateCode, string TemplateCode)
+        {
+            DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataRequest inValue = new DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataRequest();
+            inValue.Ticket = Ticket;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            inValue.TemplateCode = TemplateCode;
+            DijitalPlanet.EFaturaEArsiv.SendTaxFreeInvoiceDataResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendTaxFreeInvoiceData(inValue);
+            return retVal.SendTaxFreeInvoiceDataResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6555,6 +7520,24 @@ namespace DijitalPlanet.EFaturaEArsiv
             inValue.CorporateCode = CorporateCode;
             inValue.TemplateCode = TemplateCode;
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).SendTaxFreeInvoiceDataAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.CancelInvoiceDataForTaxFree(DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeRequest request)
+        {
+            return base.Channel.CancelInvoiceDataForTaxFree(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.ResponseResult CancelInvoiceDataForTaxFree(string Ticket, string UUID, System.Nullable<System.DateTime> CancelInvoiceDateTime, string ExpenseSlipNumber, System.Nullable<System.DateTime> ExpenseSlipDate)
+        {
+            DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeRequest inValue = new DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeRequest();
+            inValue.Ticket = Ticket;
+            inValue.UUID = UUID;
+            inValue.CancelInvoiceDateTime = CancelInvoiceDateTime;
+            inValue.ExpenseSlipNumber = ExpenseSlipNumber;
+            inValue.ExpenseSlipDate = ExpenseSlipDate;
+            DijitalPlanet.EFaturaEArsiv.CancelInvoiceDataForTaxFreeResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).CancelInvoiceDataForTaxFree(inValue);
+            return retVal.CancelInvoiceDataForTaxFreeResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6575,6 +7558,23 @@ namespace DijitalPlanet.EFaturaEArsiv
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.UploadFromArchiveEArchive(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveRequest request)
+        {
+            return base.Channel.UploadFromArchiveEArchive(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveStateResult UploadFromArchiveEArchive(string Ticket, DijitalPlanet.EFaturaEArsiv.File FileType, byte[] InvoiceRawData, string CorporateCode)
+        {
+            DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveRequest inValue = new DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveRequest();
+            inValue.Ticket = Ticket;
+            inValue.FileType = FileType;
+            inValue.InvoiceRawData = InvoiceRawData;
+            inValue.CorporateCode = CorporateCode;
+            DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).UploadFromArchiveEArchive(inValue);
+            return retVal.UploadFromArchiveEArchiveResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveResponse> DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.UploadFromArchiveEArchiveAsync(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveRequest request)
         {
             return base.Channel.UploadFromArchiveEArchiveAsync(request);
@@ -6588,6 +7588,22 @@ namespace DijitalPlanet.EFaturaEArsiv
             inValue.InvoiceRawData = InvoiceRawData;
             inValue.CorporateCode = CorporateCode;
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).UploadFromArchiveEArchiveAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportResponse DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap.UploadFromArchiveEArchiveReport(DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportRequest request)
+        {
+            return base.Channel.UploadFromArchiveEArchiveReport(request);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.EArchiveStateResult UploadFromArchiveEArchiveReport(string Ticket, byte[] reportData, string CorporateCode)
+        {
+            DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportRequest inValue = new DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportRequest();
+            inValue.Ticket = Ticket;
+            inValue.reportData = reportData;
+            inValue.CorporateCode = CorporateCode;
+            DijitalPlanet.EFaturaEArsiv.UploadFromArchiveEArchiveReportResponse retVal = ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).UploadFromArchiveEArchiveReport(inValue);
+            return retVal.UploadFromArchiveEArchiveReportResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -6605,14 +7621,29 @@ namespace DijitalPlanet.EFaturaEArsiv
             return ((DijitalPlanet.EFaturaEArsiv.IntegrationServiceSoap)(this)).UploadFromArchiveEArchiveReportAsync(inValue);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicesInfoResult GetIncomingInvoiceBranchInfo(string Ticket, DijitalPlanet.EFaturaEArsiv.InvoiceInfoQuery[] Invoices)
+        {
+            return base.Channel.GetIncomingInvoiceBranchInfo(Ticket, Invoices);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicesInfoResult> GetIncomingInvoiceBranchInfoAsync(string Ticket, DijitalPlanet.EFaturaEArsiv.InvoiceInfoQuery[] Invoices)
         {
             return base.Channel.GetIncomingInvoiceBranchInfoAsync(Ticket, Invoices);
         }
         
+        public DijitalPlanet.EFaturaEArsiv.InvoicePackResult UpdateEnvelopeStatusFromGib(string Ticket, string UUID)
+        {
+            return base.Channel.UpdateEnvelopeStatusFromGib(Ticket, UUID);
+        }
+        
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.InvoicePackResult> UpdateEnvelopeStatusFromGibAsync(string Ticket, string UUID)
         {
             return base.Channel.UpdateEnvelopeStatusFromGibAsync(Ticket, UUID);
+        }
+        
+        public DijitalPlanet.EFaturaEArsiv.OutSidersEMailResult OutSidersSendEmail(string ticket, DijitalPlanet.EFaturaEArsiv.OutsiderMailMessage message)
+        {
+            return base.Channel.OutSidersSendEmail(ticket, message);
         }
         
         public System.Threading.Tasks.Task<DijitalPlanet.EFaturaEArsiv.OutSidersEMailResult> OutSidersSendEmailAsync(string ticket, DijitalPlanet.EFaturaEArsiv.OutsiderMailMessage message)
