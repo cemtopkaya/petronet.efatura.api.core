@@ -38,6 +38,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Integration\Command\GetInvoiceList\" />
-    <Folder Include="Integration\Command\GetInvoice\" />
   </ItemGroup>
 </Project>

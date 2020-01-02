@@ -1,20 +1,19 @@
 ﻿using System;
 using System.IO;
-using System.ServiceModel;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using petronet.efatura.api.core.Integration.Command;
+using petronet.efatura.api.core.Integration.Command.GetUBL;
 using petronet.efatura.api.core.Integration.Command.Interfaces;
-using petronet.efatura.api.core.Integration.Command.SendInvoice;
 using UBL = petronet.efatura.api.core.Model.UBL;
-using petronet.efatura.api.core.Options;
 using petronet.efatura.api.core.ViewModel;
 using Exception = System.Exception;
 
 namespace petronet.efatura.api.core.Controllers {
+
     [ApiVersion("1.0")]
     [Route("api/[controller]")]
     [ApiController]
@@ -257,20 +256,61 @@ namespace petronet.efatura.api.core.Controllers {
             return Ok(ii);
         }
 
+
+        [HttpPost("uuid:string")]
+        public async Task<IActionResult> Get(string uuid, [FromHeader] ServiceInfo serviceInfo) {
+            ICommandGetUBL cmd = null;
+
+            if (!ModelState.IsValid) {
+                foreach (var modelState in ModelState.Values)
+                    foreach (var error in modelState.Errors)
+                        Console.WriteLine(error);
+                throw new Exception("Oluşan hata sayısı: " + ModelState.ErrorCount);
+            }
+
+            switch (serviceInfo.Integrator) {
+                case Integrator.Uyumsoft:
+                    throw new NotImplementedException("Uyumsoft yapılmadı");
+
+                case Integrator.EFinans:
+                    throw new NotImplementedException("EFinans yapılmadı");
+
+                case Integrator.ING:
+                    cmd = new IngGetUBL(new[] { uuid }, this._mapper);
+                    break;
+
+                case Integrator.DigitalPlanet:
+                    throw new NotImplementedException("DP yapılmadı");
+
+                case Integrator.IsNet:
+                    throw new NotImplementedException("ISNET uygulanmadı");
+
+                default:
+                    throw new ArgumentNullException("Command null kalmış. Demek entegratör tanımlı değil.");
+                    break;
+            }
+
+            cmd.ServiceInfo = serviceInfo;
+            await cmd.Execute();
+            var result = await cmd.Result;
+
+            return Ok(result);
+        }
+
         [HttpPost]
         [Consumes("application/xml")]
         //[Produces("application/xml")]
         public async Task<IActionResult> Post([FromBody] UBL.InvoiceType invoice, [FromHeader] ServiceInfo serviceInfo) {
 
-            ICommandSendEInvoice cmd = null;
+            ICommandSendUBL cmd = null;
 
             if (!ModelState.IsValid) {
                 foreach (var modelState in ModelState.Values)
-                foreach (var error in modelState.Errors)
-                    Console.WriteLine(error);
+                    foreach (var error in modelState.Errors)
+                        Console.WriteLine(error);
                 throw new Exception("Oluşan hata sayısı: " + ModelState.ErrorCount);
             }
-            
+
             var validationErrors = ValidateReceivedData(serviceInfo.Integrator, serviceInfo);
             if (!string.IsNullOrEmpty(validationErrors)) {
                 return BadRequest(validationErrors);
@@ -282,18 +322,20 @@ namespace petronet.efatura.api.core.Controllers {
                     break;
 
                 case Integrator.EFinans:
-                    cmd = new EFinansSendEInvoice(invoice, this._mapper);
+                    cmd = new EFinansSendEInvoice(invoice);
                     break;
 
                 case Integrator.ING:
-                    throw new NotImplementedException("ING uygulanmadı");
+                    cmd = new IngSendEInvoice(invoice);
+                    break;
 
                 case Integrator.DigitalPlanet:
-                    cmd = new DijitalPlanetSendEInvoice(invoice, this._mapper);
+                    cmd = new DijitalPlanetSendEInvoice(invoice);
                     break;
 
                 case Integrator.IsNet:
-                    throw new NotImplementedException("ISNET uygulanmadı");
+                    cmd = new IsnetSendEInvoice(invoice);
+                    break;
 
                 default:
                     throw new ArgumentNullException("Command null kalmış. Demek entegratör tanımlı değil.");
@@ -301,8 +343,8 @@ namespace petronet.efatura.api.core.Controllers {
             }
 
             cmd.ServiceInfo = serviceInfo;
-            cmd.Execute();
-            var result = await cmd.TaskResult();
+            await cmd.Execute();
+            var result = await cmd.Result;
 
             return Ok(result);
         }

@@ -135,7 +135,6 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\obj\Debug
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\DijitalPlanet.EFaturaEArsiv\ConnectedService.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\EFinans.EArsiv\ConnectedService.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\InnovaEFaturaServis\ConnectedService.json
-D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\IsnetEFatura\ConnectedService.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\SoapHttpClient.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
@@ -145,3 +144,4 @@ D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\ING.EFatura\ConnectedService.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\Microsoft WCF Web Service Reference Provider\ConnectedService.json
 D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\Uyumsoft.EFatura\ConnectedService.json
+D:\Projects\petronet.efatura.api.core\petronet.efatura.efinans.console\bin\Debug\netcoreapp3.1\Connected Services\IsNet.EFatura\ConnectedService.json

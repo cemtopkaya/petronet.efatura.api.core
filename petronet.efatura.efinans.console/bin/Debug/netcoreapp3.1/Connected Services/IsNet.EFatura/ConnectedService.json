@@ -10,7 +10,7 @@
       "System.Collections.Generic.Dictionary`2"
     ],
     "namespaceMappings": [
-      "*, IsnetEFatura"
+      "*, IsNet.EFatura"
     ],
     "references": [
       "AutoMapper, {AutoMapper, 9.0.0}",
@@ -161,6 +161,7 @@
       "System.Xml.ReaderWriter, {System.Xml.ReaderWriter, 4.3.0}",
       "System.Xml.XDocument, {System.Xml.XDocument, 4.3.0}"
     ],
+    "sync": true,
     "targetFramework": "netcoreapp3.1",
     "typeReuseMode": "All"
   }

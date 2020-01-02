@@ -47,5 +47,11 @@ namespace petronet.efatura.api.core.ViewModel
 
         [FromHeader]
         public string SupplierVkn { get; set; }
+
+        [FromHeader]
+        public string SupplierPB { get; set; }
+        
+        [FromHeader]
+        public string CustomerPB { get; set; }
     }
 }

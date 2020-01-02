@@ -1,6 +1,9 @@
 ﻿{
   "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
   "Version": "15.0.31022.994",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
   "ExtendedData": {
     "inputs": [
       "../../../../E-Fatura/ING/Bulut e-Fatura WS API v2.2/EK1 - Teknik Belgeler/ClientEInvoiceServices-2.1.wsdl"

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IsnetEFatura
+namespace IsNet.EFatura
 {
     using System.Runtime.Serialization;
     
@@ -15,39 +15,39 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="BaseRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceXmlRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceXmlWithoutInvoiceNumberRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceXmlRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceReplyRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.UpdateInvoiceStateRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.DirectInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchAllInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchExternalInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchArchiveInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.ArchiveInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.DeArchiveInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.CancelArchiveInvoiceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceReportRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchArchiveInvoiceReportRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceMailRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.CreateReturnReceiptRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendDespatchAdviceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendDespatchAdviceXmlRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchDespatchAdviceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendReceiptAdviceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendReceiptAdviceXmlRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchReceiptAdviceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendESMMRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendESMMXmlRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchESMMRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.CancelESMMRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.GetBalanceRequest))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceXmlRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceXmlRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceReplyRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.UpdateInvoiceStateRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.DirectInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchAllInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchExternalInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchArchiveInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.ArchiveInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.DeArchiveInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.CancelArchiveInvoiceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceReportRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchArchiveInvoiceReportRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceMailRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.CreateReturnReceiptRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendDespatchAdviceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendDespatchAdviceXmlRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchDespatchAdviceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendReceiptAdviceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendReceiptAdviceXmlRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchReceiptAdviceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendESMMRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendESMMXmlRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchESMMRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.CancelESMMRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.GetBalanceRequest))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceRequest))]
     public partial class BaseRequest : object
     {
     }
@@ -55,13 +55,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceXmlRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceXmlRequest : IsnetEFatura.BaseRequest
+    public partial class SendInvoiceXmlRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.InvoiceXml[] InvoicesField;
+        private IsNet.EFatura.InvoiceXml[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceXml[] Invoices
+        public IsNet.EFatura.InvoiceXml[] Invoices
         {
             get
             {
@@ -77,12 +77,12 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceXmlWithoutInvoiceNumberRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceXmlWithoutInvoiceNumberRequest : IsnetEFatura.BaseRequest
+    public partial class SendInvoiceXmlWithoutInvoiceNumberRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.InvoiceXml[] InvoicesField;
+        private IsNet.EFatura.InvoiceXml[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyVendorNumber
@@ -98,7 +98,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceXml[] Invoices
+        public IsNet.EFatura.InvoiceXml[] Invoices
         {
             get
             {
@@ -114,17 +114,17 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class SendArchiveInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.ArchiveInvoice[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoice[] ArchiveInvoicesField;
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoice[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoice[] ArchiveInvoices
         {
             get
             {
@@ -166,13 +166,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceXmlRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceXmlRequest : IsnetEFatura.BaseRequest
+    public partial class SendArchiveInvoiceXmlRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.ArchiveInvoiceXml[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoiceXml[] ArchiveInvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceXml[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoiceXml[] ArchiveInvoices
         {
             get
             {
@@ -188,15 +188,15 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceXmlWithoutInvoiceNumberRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceXmlWithoutInvoiceNumberRequest : IsnetEFatura.BaseRequest
+    public partial class SendArchiveInvoiceXmlWithoutInvoiceNumberRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.ArchiveInvoiceXml[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoiceXml[] ArchiveInvoicesField;
         
         private string CompanyVendorNumberField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceXml[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoiceXml[] ArchiveInvoices
         {
             get
             {
@@ -225,14 +225,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceReplyRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceReplyRequest : IsnetEFatura.BaseRequest
+    public partial class SendInvoiceReplyRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.InvoiceReply[] InvoiceRepliesField;
+        private IsNet.EFatura.InvoiceReply[] InvoiceRepliesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -261,7 +261,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceReply[] InvoiceReplies
+        public IsNet.EFatura.InvoiceReply[] InvoiceReplies
         {
             get
             {
@@ -277,17 +277,17 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="UpdateInvoiceStateRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class UpdateInvoiceStateRequest : IsnetEFatura.BaseRequest
+    public partial class UpdateInvoiceStateRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.BaseInvoiceReply[] BaseInvoiceRepliesField;
+        private IsNet.EFatura.BaseInvoiceReply[] BaseInvoiceRepliesField;
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.BaseInvoiceReply[] BaseInvoiceReplies
+        public IsNet.EFatura.BaseInvoiceReply[] BaseInvoiceReplies
         {
             get
             {
@@ -329,7 +329,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="DirectInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class DirectInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class DirectInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -396,7 +396,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class SearchInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -411,19 +411,19 @@ namespace IsnetEFatura
         
         private string EttnField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
         
-        private IsnetEFatura.InvoiceStatus[] ExcludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] ExcludeStatusListField;
         
         private string ExternalInvoiceCodeField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
         
-        private IsnetEFatura.InvoiceStatus[] IncludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] IncludeStatusListField;
         
-        private IsnetEFatura.InvoiceDirectionType InvoiceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType InvoiceDirectionField;
         
-        private System.Nullable<IsnetEFatura.InvoiceType> InvoiceTypeField;
+        private System.Nullable<IsNet.EFatura.InvoiceType> InvoiceTypeField;
         
         private System.Nullable<bool> IsInvoicePaidField;
         
@@ -461,15 +461,15 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.PaginationInfoRequest PagingRequestField;
+        private IsNet.EFatura.PaginationInfoRequest PagingRequestField;
         
         private string ReceiverNameField;
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.InvoiceResultSet ResultSetField;
+        private IsNet.EFatura.InvoiceResultSet ResultSetField;
         
-        private System.Nullable<IsnetEFatura.ScenarioType> ScenarioTypeField;
+        private System.Nullable<IsNet.EFatura.ScenarioType> ScenarioTypeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -550,7 +550,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
         {
             get
             {
@@ -563,7 +563,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] ExcludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] ExcludeStatusList
         {
             get
             {
@@ -589,7 +589,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusList
         {
             get
             {
@@ -602,7 +602,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] IncludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] IncludeStatusList
         {
             get
             {
@@ -615,7 +615,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType InvoiceDirection
+        public IsNet.EFatura.InvoiceDirectionType InvoiceDirection
         {
             get
             {
@@ -628,7 +628,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceType> InvoiceType
+        public System.Nullable<IsNet.EFatura.InvoiceType> InvoiceType
         {
             get
             {
@@ -875,7 +875,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoRequest PagingRequest
+        public IsNet.EFatura.PaginationInfoRequest PagingRequest
         {
             get
             {
@@ -914,7 +914,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceResultSet ResultSet
+        public IsNet.EFatura.InvoiceResultSet ResultSet
         {
             get
             {
@@ -927,7 +927,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ScenarioType> ScenarioType
+        public System.Nullable<IsNet.EFatura.ScenarioType> ScenarioType
         {
             get
             {
@@ -943,7 +943,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchAllInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchAllInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class SearchAllInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -956,27 +956,27 @@ namespace IsnetEFatura
         
         private string[] ExcludeCompanyVendorNumberListField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
         
         private string[] ExcludeReceiverTaxCodeListField;
         
-        private IsnetEFatura.InvoiceStatus[] ExcludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] ExcludeStatusListField;
         
         private string ExternalInvoiceCodeField;
         
         private string[] IncludeCompanyVendorNumberListField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
         
         private System.Nullable<bool> IncludeMainCompanyField;
         
         private string[] IncludeReceiverTaxCodeListField;
         
-        private IsnetEFatura.InvoiceStatus[] IncludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] IncludeStatusListField;
         
-        private IsnetEFatura.InvoiceDirectionType InvoiceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType InvoiceDirectionField;
         
-        private System.Nullable<IsnetEFatura.InvoiceType> InvoiceTypeField;
+        private System.Nullable<IsNet.EFatura.InvoiceType> InvoiceTypeField;
         
         private System.Nullable<bool> IsInvoicePaidField;
         
@@ -1018,15 +1018,15 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.PaginationInfoRequest PagingRequestField;
+        private IsNet.EFatura.PaginationInfoRequest PagingRequestField;
         
         private string ReceiverNameField;
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.InvoiceResultSet ResultSetField;
+        private IsNet.EFatura.InvoiceResultSet ResultSetField;
         
-        private System.Nullable<IsnetEFatura.ScenarioType> ScenarioTypeField;
+        private System.Nullable<IsNet.EFatura.ScenarioType> ScenarioTypeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -1094,7 +1094,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
         {
             get
             {
@@ -1120,7 +1120,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] ExcludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] ExcludeStatusList
         {
             get
             {
@@ -1159,7 +1159,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusList
         {
             get
             {
@@ -1198,7 +1198,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] IncludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] IncludeStatusList
         {
             get
             {
@@ -1211,7 +1211,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType InvoiceDirection
+        public IsNet.EFatura.InvoiceDirectionType InvoiceDirection
         {
             get
             {
@@ -1224,7 +1224,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceType> InvoiceType
+        public System.Nullable<IsNet.EFatura.InvoiceType> InvoiceType
         {
             get
             {
@@ -1497,7 +1497,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoRequest PagingRequest
+        public IsNet.EFatura.PaginationInfoRequest PagingRequest
         {
             get
             {
@@ -1536,7 +1536,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceResultSet ResultSet
+        public IsNet.EFatura.InvoiceResultSet ResultSet
         {
             get
             {
@@ -1549,7 +1549,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ScenarioType> ScenarioType
+        public System.Nullable<IsNet.EFatura.ScenarioType> ScenarioType
         {
             get
             {
@@ -1565,14 +1565,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchExternalInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchExternalInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class SearchExternalInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.InvoiceDirectionType InvoiceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType InvoiceDirectionField;
         
         private string InvoiceNumberField;
         
@@ -1607,7 +1607,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType InvoiceDirection
+        public IsNet.EFatura.InvoiceDirectionType InvoiceDirection
         {
             get
             {
@@ -1662,7 +1662,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchArchiveInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchArchiveInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class SearchArchiveInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -1673,29 +1673,29 @@ namespace IsnetEFatura
         
         private string EttnField;
         
-        private IsnetEFatura.ArchiveInvoiceApprovalStatus[] ExcludeApprovalStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceApprovalStatus[] ExcludeApprovalStatusListField;
         
-        private IsnetEFatura.CanceledArchiveInvoiceReportSendingStatus[] ExcludeCancellationReportSendingStatusListField;
+        private IsNet.EFatura.CanceledArchiveInvoiceReportSendingStatus[] ExcludeCancellationReportSendingStatusListField;
         
-        private IsnetEFatura.ArchiveInvoiceReportSendingStatus[] ExcludeReportSendingStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceReportSendingStatus[] ExcludeReportSendingStatusListField;
         
-        private IsnetEFatura.ArchiveInvoiceSendingStatus[] ExcludeSendingStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceSendingStatus[] ExcludeSendingStatusListField;
         
-        private IsnetEFatura.ArchiveInvoiceStatus[] ExcludeStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceStatus[] ExcludeStatusListField;
         
         private string ExternalArchiveInvoiceCodeField;
         
-        private IsnetEFatura.ArchiveInvoiceApprovalStatus[] IncludeApprovalStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceApprovalStatus[] IncludeApprovalStatusListField;
         
-        private IsnetEFatura.CanceledArchiveInvoiceReportSendingStatus[] IncludeCancellationReportSendingStatusListField;
+        private IsNet.EFatura.CanceledArchiveInvoiceReportSendingStatus[] IncludeCancellationReportSendingStatusListField;
         
-        private IsnetEFatura.ArchiveInvoiceReportSendingStatus[] IncludeReportSendingStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceReportSendingStatus[] IncludeReportSendingStatusListField;
         
-        private IsnetEFatura.ArchiveInvoiceSendingStatus[] IncludeSendingStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceSendingStatus[] IncludeSendingStatusListField;
         
-        private IsnetEFatura.ArchiveInvoiceStatus[] IncludeStatusListField;
+        private IsNet.EFatura.ArchiveInvoiceStatus[] IncludeStatusListField;
         
-        private System.Nullable<IsnetEFatura.InvoiceType> InvoiceTypeField;
+        private System.Nullable<IsNet.EFatura.InvoiceType> InvoiceTypeField;
         
         private System.Nullable<bool> IsCancelledField;
         
@@ -1735,15 +1735,15 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.PaginationInfoRequest PagingRequestField;
+        private IsNet.EFatura.PaginationInfoRequest PagingRequestField;
         
         private string ReceiverNameField;
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.InvoiceResultSet ResultSetField;
+        private IsNet.EFatura.InvoiceResultSet ResultSetField;
         
-        private System.Nullable<IsnetEFatura.SendingType> SendingTypeField;
+        private System.Nullable<IsNet.EFatura.SendingType> SendingTypeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -1798,7 +1798,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceApprovalStatus[] ExcludeApprovalStatusList
+        public IsNet.EFatura.ArchiveInvoiceApprovalStatus[] ExcludeApprovalStatusList
         {
             get
             {
@@ -1811,7 +1811,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CanceledArchiveInvoiceReportSendingStatus[] ExcludeCancellationReportSendingStatusList
+        public IsNet.EFatura.CanceledArchiveInvoiceReportSendingStatus[] ExcludeCancellationReportSendingStatusList
         {
             get
             {
@@ -1824,7 +1824,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReportSendingStatus[] ExcludeReportSendingStatusList
+        public IsNet.EFatura.ArchiveInvoiceReportSendingStatus[] ExcludeReportSendingStatusList
         {
             get
             {
@@ -1837,7 +1837,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceSendingStatus[] ExcludeSendingStatusList
+        public IsNet.EFatura.ArchiveInvoiceSendingStatus[] ExcludeSendingStatusList
         {
             get
             {
@@ -1850,7 +1850,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceStatus[] ExcludeStatusList
+        public IsNet.EFatura.ArchiveInvoiceStatus[] ExcludeStatusList
         {
             get
             {
@@ -1876,7 +1876,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceApprovalStatus[] IncludeApprovalStatusList
+        public IsNet.EFatura.ArchiveInvoiceApprovalStatus[] IncludeApprovalStatusList
         {
             get
             {
@@ -1889,7 +1889,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CanceledArchiveInvoiceReportSendingStatus[] IncludeCancellationReportSendingStatusList
+        public IsNet.EFatura.CanceledArchiveInvoiceReportSendingStatus[] IncludeCancellationReportSendingStatusList
         {
             get
             {
@@ -1902,7 +1902,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReportSendingStatus[] IncludeReportSendingStatusList
+        public IsNet.EFatura.ArchiveInvoiceReportSendingStatus[] IncludeReportSendingStatusList
         {
             get
             {
@@ -1915,7 +1915,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceSendingStatus[] IncludeSendingStatusList
+        public IsNet.EFatura.ArchiveInvoiceSendingStatus[] IncludeSendingStatusList
         {
             get
             {
@@ -1928,7 +1928,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceStatus[] IncludeStatusList
+        public IsNet.EFatura.ArchiveInvoiceStatus[] IncludeStatusList
         {
             get
             {
@@ -1941,7 +1941,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceType> InvoiceType
+        public System.Nullable<IsNet.EFatura.InvoiceType> InvoiceType
         {
             get
             {
@@ -2201,7 +2201,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoRequest PagingRequest
+        public IsNet.EFatura.PaginationInfoRequest PagingRequest
         {
             get
             {
@@ -2240,7 +2240,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceResultSet ResultSet
+        public IsNet.EFatura.InvoiceResultSet ResultSet
         {
             get
             {
@@ -2253,7 +2253,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.SendingType> SendingType
+        public System.Nullable<IsNet.EFatura.SendingType> SendingType
         {
             get
             {
@@ -2269,14 +2269,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ArchiveInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class ArchiveInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class ArchiveInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.InvoiceDirectionType InvoiceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType InvoiceDirectionField;
         
         private string[] InvoiceETTNListField;
         
@@ -2307,7 +2307,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType InvoiceDirection
+        public IsNet.EFatura.InvoiceDirectionType InvoiceDirection
         {
             get
             {
@@ -2336,14 +2336,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="DeArchiveInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class DeArchiveInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class DeArchiveInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.InvoiceDirectionType InvoiceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType InvoiceDirectionField;
         
         private string[] InvoiceETTNListField;
         
@@ -2374,7 +2374,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType InvoiceDirection
+        public IsNet.EFatura.InvoiceDirectionType InvoiceDirection
         {
             get
             {
@@ -2403,17 +2403,17 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CancelArchiveInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class CancelArchiveInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class CancelArchiveInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.ArchiveInvoiceCancellation[] ArchiveInvoiceListField;
+        private IsNet.EFatura.ArchiveInvoiceCancellation[] ArchiveInvoiceListField;
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceCancellation[] ArchiveInvoiceList
+        public IsNet.EFatura.ArchiveInvoiceCancellation[] ArchiveInvoiceList
         {
             get
             {
@@ -2455,7 +2455,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceReportRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceReportRequest : IsnetEFatura.BaseRequest
+    public partial class SendArchiveInvoiceReportRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -2507,7 +2507,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchArchiveInvoiceReportRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchArchiveInvoiceReportRequest : IsnetEFatura.BaseRequest
+    public partial class SearchArchiveInvoiceReportRequest : IsNet.EFatura.BaseRequest
     {
         
         private string ArchiveInvoiceReportGroupNumberField;
@@ -2574,7 +2574,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceMailRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceMailRequest : IsnetEFatura.BaseRequest
+    public partial class SendArchiveInvoiceMailRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -2626,7 +2626,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CreateReturnReceiptRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class CreateReturnReceiptRequest : IsnetEFatura.BaseRequest
+    public partial class CreateReturnReceiptRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -2873,14 +2873,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendDespatchAdviceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendDespatchAdviceRequest : IsnetEFatura.BaseRequest
+    public partial class SendDespatchAdviceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.DespatchAdvice[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdvice[] DespatchAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -2909,7 +2909,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdvice[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdvice[] DespatchAdvices
         {
             get
             {
@@ -2925,13 +2925,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendDespatchAdviceXmlRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendDespatchAdviceXmlRequest : IsnetEFatura.BaseRequest
+    public partial class SendDespatchAdviceXmlRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.DespatchAdviceXml[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdviceXml[] DespatchAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceXml[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdviceXml[] DespatchAdvices
         {
             get
             {
@@ -2947,12 +2947,12 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest : IsnetEFatura.BaseRequest
+    public partial class SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.DespatchAdviceXml[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdviceXml[] DespatchAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyVendorNumber
@@ -2968,7 +2968,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceXml[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdviceXml[] DespatchAdvices
         {
             get
             {
@@ -2984,7 +2984,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchDespatchAdviceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchDespatchAdviceRequest : IsnetEFatura.BaseRequest
+    public partial class SearchDespatchAdviceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -2993,25 +2993,25 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.InvoiceDirectionType DespatchAdviceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType DespatchAdviceDirectionField;
         
         private string[] DespatchAdviceNumberListField;
         
-        private System.Nullable<IsnetEFatura.DespatchAdviceType> DespatchAdviceTypeField;
+        private System.Nullable<IsNet.EFatura.DespatchAdviceType> DespatchAdviceTypeField;
         
         private string EnvelopeIdField;
         
         private string EttnField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
         
-        private IsnetEFatura.InvoiceStatus[] ExcludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] ExcludeStatusListField;
         
         private string ExternalDespatchAdviceCodeField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
         
-        private IsnetEFatura.InvoiceStatus[] IncludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] IncludeStatusListField;
         
         private System.Nullable<System.DateTime> MaxDespatchAdviceCreationDateField;
         
@@ -3031,15 +3031,15 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.PaginationInfoRequest PagingRequestField;
+        private IsNet.EFatura.PaginationInfoRequest PagingRequestField;
         
         private string ReceiverNameField;
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.DespatchAdviceResultSet ResultSetField;
+        private IsNet.EFatura.DespatchAdviceResultSet ResultSetField;
         
-        private System.Nullable<IsnetEFatura.DespatchAdviceScenarioType> ScenarioTypeField;
+        private System.Nullable<IsNet.EFatura.DespatchAdviceScenarioType> ScenarioTypeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -3081,7 +3081,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType DespatchAdviceDirection
+        public IsNet.EFatura.InvoiceDirectionType DespatchAdviceDirection
         {
             get
             {
@@ -3107,7 +3107,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DespatchAdviceType> DespatchAdviceType
+        public System.Nullable<IsNet.EFatura.DespatchAdviceType> DespatchAdviceType
         {
             get
             {
@@ -3146,7 +3146,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
         {
             get
             {
@@ -3159,7 +3159,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] ExcludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] ExcludeStatusList
         {
             get
             {
@@ -3185,7 +3185,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusList
         {
             get
             {
@@ -3198,7 +3198,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] IncludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] IncludeStatusList
         {
             get
             {
@@ -3328,7 +3328,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoRequest PagingRequest
+        public IsNet.EFatura.PaginationInfoRequest PagingRequest
         {
             get
             {
@@ -3367,7 +3367,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceResultSet ResultSet
+        public IsNet.EFatura.DespatchAdviceResultSet ResultSet
         {
             get
             {
@@ -3380,7 +3380,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DespatchAdviceScenarioType> ScenarioType
+        public System.Nullable<IsNet.EFatura.DespatchAdviceScenarioType> ScenarioType
         {
             get
             {
@@ -3396,14 +3396,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendReceiptAdviceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendReceiptAdviceRequest : IsnetEFatura.BaseRequest
+    public partial class SendReceiptAdviceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.ReceiptAdvice[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdvice[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -3432,7 +3432,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdvice[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdvice[] ReceiptAdvices
         {
             get
             {
@@ -3448,13 +3448,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendReceiptAdviceXmlRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendReceiptAdviceXmlRequest : IsnetEFatura.BaseRequest
+    public partial class SendReceiptAdviceXmlRequest : IsNet.EFatura.BaseRequest
     {
         
-        private IsnetEFatura.ReceiptAdviceXml[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdviceXml[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceXml[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdviceXml[] ReceiptAdvices
         {
             get
             {
@@ -3470,12 +3470,12 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest : IsnetEFatura.BaseRequest
+    public partial class SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.ReceiptAdviceXml[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdviceXml[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyVendorNumber
@@ -3491,7 +3491,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceXml[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdviceXml[] ReceiptAdvices
         {
             get
             {
@@ -3507,7 +3507,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchReceiptAdviceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchReceiptAdviceRequest : IsnetEFatura.BaseRequest
+    public partial class SearchReceiptAdviceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -3520,15 +3520,15 @@ namespace IsnetEFatura
         
         private string EttnField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusListField;
         
-        private IsnetEFatura.InvoiceStatus[] ExcludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] ExcludeStatusListField;
         
         private string ExternalReceiptAdviceCodeField;
         
-        private IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
+        private IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusListField;
         
-        private IsnetEFatura.InvoiceStatus[] IncludeStatusListField;
+        private IsNet.EFatura.InvoiceStatus[] IncludeStatusListField;
         
         private System.Nullable<System.DateTime> MaxOrderDateField;
         
@@ -3548,19 +3548,19 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.PaginationInfoRequest PagingRequestField;
+        private IsNet.EFatura.PaginationInfoRequest PagingRequestField;
         
-        private IsnetEFatura.InvoiceDirectionType ReceiptAdviceDirectionField;
+        private IsNet.EFatura.InvoiceDirectionType ReceiptAdviceDirectionField;
         
-        private System.Nullable<IsnetEFatura.ReceiptAdviceType> ReceiptAdviceTypeField;
+        private System.Nullable<IsNet.EFatura.ReceiptAdviceType> ReceiptAdviceTypeField;
         
         private string ReceiverNameField;
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.ReceiptAdviceResultSet ResultSetField;
+        private IsNet.EFatura.ReceiptAdviceResultSet ResultSetField;
         
-        private System.Nullable<IsnetEFatura.DespatchAdviceScenarioType> ScenarioTypeField;
+        private System.Nullable<IsNet.EFatura.DespatchAdviceScenarioType> ScenarioTypeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -3628,7 +3628,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] ExcludeDetailStatusList
         {
             get
             {
@@ -3641,7 +3641,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] ExcludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] ExcludeStatusList
         {
             get
             {
@@ -3667,7 +3667,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetailStatus[] IncludeDetailStatusList
+        public IsNet.EFatura.InvoiceDetailStatus[] IncludeDetailStatusList
         {
             get
             {
@@ -3680,7 +3680,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceStatus[] IncludeStatusList
+        public IsNet.EFatura.InvoiceStatus[] IncludeStatusList
         {
             get
             {
@@ -3810,7 +3810,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoRequest PagingRequest
+        public IsNet.EFatura.PaginationInfoRequest PagingRequest
         {
             get
             {
@@ -3823,7 +3823,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDirectionType ReceiptAdviceDirection
+        public IsNet.EFatura.InvoiceDirectionType ReceiptAdviceDirection
         {
             get
             {
@@ -3836,7 +3836,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ReceiptAdviceType> ReceiptAdviceType
+        public System.Nullable<IsNet.EFatura.ReceiptAdviceType> ReceiptAdviceType
         {
             get
             {
@@ -3875,7 +3875,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceResultSet ResultSet
+        public IsNet.EFatura.ReceiptAdviceResultSet ResultSet
         {
             get
             {
@@ -3888,7 +3888,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DespatchAdviceScenarioType> ScenarioType
+        public System.Nullable<IsNet.EFatura.DespatchAdviceScenarioType> ScenarioType
         {
             get
             {
@@ -3904,14 +3904,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendESMMRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendESMMRequest : IsnetEFatura.BaseRequest
+    public partial class SendESMMRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.ESMM ESMMField;
+        private IsNet.EFatura.ESMM ESMMField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -3940,7 +3940,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ESMM ESMM
+        public IsNet.EFatura.ESMM ESMM
         {
             get
             {
@@ -3956,7 +3956,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendESMMXmlRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendESMMXmlRequest : IsnetEFatura.BaseRequest
+    public partial class SendESMMXmlRequest : IsNet.EFatura.BaseRequest
     {
         
         private byte[] ESMMField;
@@ -3978,7 +3978,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchESMMRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchESMMRequest : IsnetEFatura.BaseRequest
+    public partial class SearchESMMRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -3989,27 +3989,27 @@ namespace IsnetEFatura
         
         private string EttnField;
         
-        private IsnetEFatura.DocumentApprovalStatus[] ExcludeApprovalStatusListField;
+        private IsNet.EFatura.DocumentApprovalStatus[] ExcludeApprovalStatusListField;
         
-        private IsnetEFatura.CanceledDocumentReportSendingStatus[] ExcludeCancellationReportSendingStatusListField;
+        private IsNet.EFatura.CanceledDocumentReportSendingStatus[] ExcludeCancellationReportSendingStatusListField;
         
-        private IsnetEFatura.DocumentReportSendingStatus[] ExcludeReportSendingStatusListField;
+        private IsNet.EFatura.DocumentReportSendingStatus[] ExcludeReportSendingStatusListField;
         
-        private IsnetEFatura.DocumentSendingStatus[] ExcludeSendingStatusListField;
+        private IsNet.EFatura.DocumentSendingStatus[] ExcludeSendingStatusListField;
         
-        private IsnetEFatura.DocumentStatus[] ExcludeStatusListField;
+        private IsNet.EFatura.DocumentStatus[] ExcludeStatusListField;
         
         private string ExternalDocumentNumberField;
         
-        private IsnetEFatura.DocumentApprovalStatus[] IncludeApprovalStatusListField;
+        private IsNet.EFatura.DocumentApprovalStatus[] IncludeApprovalStatusListField;
         
-        private IsnetEFatura.CanceledDocumentReportSendingStatus[] IncludeCancellationReportSendingStatusListField;
+        private IsNet.EFatura.CanceledDocumentReportSendingStatus[] IncludeCancellationReportSendingStatusListField;
         
-        private IsnetEFatura.DocumentReportSendingStatus[] IncludeReportSendingStatusListField;
+        private IsNet.EFatura.DocumentReportSendingStatus[] IncludeReportSendingStatusListField;
         
-        private IsnetEFatura.DocumentSendingStatus[] IncludeSendingStatusListField;
+        private IsNet.EFatura.DocumentSendingStatus[] IncludeSendingStatusListField;
         
-        private IsnetEFatura.DocumentStatus[] IncludeStatusListField;
+        private IsNet.EFatura.DocumentStatus[] IncludeStatusListField;
         
         private System.Nullable<System.DateTime> MaxDocumentCreationDateField;
         
@@ -4019,9 +4019,9 @@ namespace IsnetEFatura
         
         private System.Nullable<System.DateTime> MinDocumentDateField;
         
-        private IsnetEFatura.PaginationInfoRequest PagingRequestField;
+        private IsNet.EFatura.PaginationInfoRequest PagingRequestField;
         
-        private IsnetEFatura.ESMMResultSet ResultSetField;
+        private IsNet.EFatura.ESMMResultSet ResultSetField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -4076,7 +4076,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentApprovalStatus[] ExcludeApprovalStatusList
+        public IsNet.EFatura.DocumentApprovalStatus[] ExcludeApprovalStatusList
         {
             get
             {
@@ -4089,7 +4089,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CanceledDocumentReportSendingStatus[] ExcludeCancellationReportSendingStatusList
+        public IsNet.EFatura.CanceledDocumentReportSendingStatus[] ExcludeCancellationReportSendingStatusList
         {
             get
             {
@@ -4102,7 +4102,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReportSendingStatus[] ExcludeReportSendingStatusList
+        public IsNet.EFatura.DocumentReportSendingStatus[] ExcludeReportSendingStatusList
         {
             get
             {
@@ -4115,7 +4115,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentSendingStatus[] ExcludeSendingStatusList
+        public IsNet.EFatura.DocumentSendingStatus[] ExcludeSendingStatusList
         {
             get
             {
@@ -4128,7 +4128,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentStatus[] ExcludeStatusList
+        public IsNet.EFatura.DocumentStatus[] ExcludeStatusList
         {
             get
             {
@@ -4154,7 +4154,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentApprovalStatus[] IncludeApprovalStatusList
+        public IsNet.EFatura.DocumentApprovalStatus[] IncludeApprovalStatusList
         {
             get
             {
@@ -4167,7 +4167,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CanceledDocumentReportSendingStatus[] IncludeCancellationReportSendingStatusList
+        public IsNet.EFatura.CanceledDocumentReportSendingStatus[] IncludeCancellationReportSendingStatusList
         {
             get
             {
@@ -4180,7 +4180,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReportSendingStatus[] IncludeReportSendingStatusList
+        public IsNet.EFatura.DocumentReportSendingStatus[] IncludeReportSendingStatusList
         {
             get
             {
@@ -4193,7 +4193,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentSendingStatus[] IncludeSendingStatusList
+        public IsNet.EFatura.DocumentSendingStatus[] IncludeSendingStatusList
         {
             get
             {
@@ -4206,7 +4206,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentStatus[] IncludeStatusList
+        public IsNet.EFatura.DocumentStatus[] IncludeStatusList
         {
             get
             {
@@ -4271,7 +4271,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoRequest PagingRequest
+        public IsNet.EFatura.PaginationInfoRequest PagingRequest
         {
             get
             {
@@ -4284,7 +4284,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ESMMResultSet ResultSet
+        public IsNet.EFatura.ESMMResultSet ResultSet
         {
             get
             {
@@ -4300,14 +4300,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CancelESMMRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class CancelESMMRequest : IsnetEFatura.BaseRequest
+    public partial class CancelESMMRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.ESMMCancellation ESMMField;
+        private IsNet.EFatura.ESMMCancellation ESMMField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -4336,7 +4336,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ESMMCancellation ESMM
+        public IsNet.EFatura.ESMMCancellation ESMM
         {
             get
             {
@@ -4352,7 +4352,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="GetBalanceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class GetBalanceRequest : IsnetEFatura.BaseRequest
+    public partial class GetBalanceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
@@ -4374,14 +4374,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceRequest", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceRequest : IsnetEFatura.BaseRequest
+    public partial class SendInvoiceRequest : IsNet.EFatura.BaseRequest
     {
         
         private string CompanyTaxCodeField;
         
         private string CompanyVendorNumberField;
         
-        private IsnetEFatura.Invoice[] InvoicesField;
+        private IsNet.EFatura.Invoice[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyTaxCode
@@ -4410,7 +4410,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Invoice[] Invoices
+        public IsNet.EFatura.Invoice[] Invoices
         {
             get
             {
@@ -4433,13 +4433,13 @@ namespace IsnetEFatura
         
         private System.Nullable<System.DateTime> ActualExportDateField;
         
-        private IsnetEFatura.DocumentReference[] AdditionalDocumentReferencesField;
+        private IsNet.EFatura.DocumentReference[] AdditionalDocumentReferencesField;
         
         private string AliciBayiNoField;
         
         private string ApplicationResponseDescriptionField;
         
-        private System.Nullable<IsnetEFatura.InvoiceStatus> ApplicationResponseStatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceStatus> ApplicationResponseStatusField;
         
         private System.Nullable<System.DateTime> ApprovalDateField;
         
@@ -4447,7 +4447,7 @@ namespace IsnetEFatura
         
         private decimal[] BankAccountListField;
         
-        private IsnetEFatura.Address CompanyBranchAddressField;
+        private IsNet.EFatura.Address CompanyBranchAddressField;
         
         private string CompanyVendorNumberField;
         
@@ -4457,39 +4457,39 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.Delivery DeliveryField;
+        private IsNet.EFatura.Delivery DeliveryField;
         
-        private System.Nullable<IsnetEFatura.InvoiceDetailStatus> DetailStatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceDetailStatus> DetailStatusField;
         
         private System.Nullable<System.DateTime> DirectionDateField;
         
-        private IsnetEFatura.Dispatch[] DispatchListField;
+        private IsNet.EFatura.Dispatch[] DispatchListField;
         
         private string ETTNField;
         
         private string EnvelopeIdField;
         
-        private IsnetEFatura.ExportAddressBookEntry ExportReceiverField;
+        private IsNet.EFatura.ExportAddressBookEntry ExportReceiverField;
         
         private string ExportRegisteredReasonCodeField;
         
         private string ExternalInvoiceCodeField;
         
-        private IsnetEFatura.FinancialAccount[] FinancialAccountField;
+        private IsNet.EFatura.FinancialAccount[] FinancialAccountField;
         
         private string GcbRegistrationNumberField;
         
         private string GtbReferenceNumberField;
         
-        private IsnetEFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfoField;
+        private IsNet.EFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfoField;
         
-        private IsnetEFatura.InvoiceAttachment[] InvoiceAttachmentsField;
+        private IsNet.EFatura.InvoiceAttachment[] InvoiceAttachmentsField;
         
         private System.Nullable<System.DateTime> InvoiceCreationDateField;
         
         private System.DateTime InvoiceDateField;
         
-        private IsnetEFatura.InvoiceDetail[] InvoiceDetailsField;
+        private IsNet.EFatura.InvoiceDetail[] InvoiceDetailsField;
         
         private string InvoiceExternalUrlField;
         
@@ -4503,11 +4503,11 @@ namespace IsnetEFatura
         
         private System.Nullable<System.DateTime> InvoicePeriodStartDateField;
         
-        private IsnetEFatura.InvoiceAdditionalIdentityInfo InvoiceSenderAdditionalIdentityInfoField;
+        private IsNet.EFatura.InvoiceAdditionalIdentityInfo InvoiceSenderAdditionalIdentityInfoField;
         
-        private IsnetEFatura.Tax[] InvoiceTotalTaxListField;
+        private IsNet.EFatura.Tax[] InvoiceTotalTaxListField;
         
-        private IsnetEFatura.InvoiceType InvoiceTypeField;
+        private IsNet.EFatura.InvoiceType InvoiceTypeField;
         
         private byte[] InvoiceXmlField;
         
@@ -4523,11 +4523,11 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.Payment PaymentField;
+        private IsNet.EFatura.Payment PaymentField;
         
-        private IsnetEFatura.AddressBookEntry ReceiverField;
+        private IsNet.EFatura.AddressBookEntry ReceiverField;
         
-        private IsnetEFatura.Address ReceiverBranchAddressField;
+        private IsNet.EFatura.Address ReceiverBranchAddressField;
         
         private string ReceiverInboxTagField;
         
@@ -4535,7 +4535,7 @@ namespace IsnetEFatura
         
         private string RejectReasonField;
         
-        private IsnetEFatura.RepresentativeParty RepresentativePartyField;
+        private IsNet.EFatura.RepresentativeParty RepresentativePartyField;
         
         private System.Nullable<System.DateTime> ReturnInvoiceDateField;
         
@@ -4547,9 +4547,9 @@ namespace IsnetEFatura
         
         private string ScacCodeField;
         
-        private IsnetEFatura.ScenarioType ScenarioTypeField;
+        private IsNet.EFatura.ScenarioType ScenarioTypeField;
         
-        private System.Nullable<IsnetEFatura.InvoiceStatus> StatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceStatus> StatusField;
         
         private string SystemResponseDescriptionField;
         
@@ -4565,7 +4565,7 @@ namespace IsnetEFatura
         
         private decimal TotalVATAmountField;
         
-        private IsnetEFatura.Tourist TouristField;
+        private IsNet.EFatura.Tourist TouristField;
         
         private byte[] XsltTemplateField;
         
@@ -4596,7 +4596,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference[] AdditionalDocumentReferences
+        public IsNet.EFatura.DocumentReference[] AdditionalDocumentReferences
         {
             get
             {
@@ -4635,7 +4635,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceStatus> ApplicationResponseStatus
+        public System.Nullable<IsNet.EFatura.InvoiceStatus> ApplicationResponseStatus
         {
             get
             {
@@ -4687,7 +4687,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Address CompanyBranchAddress
+        public IsNet.EFatura.Address CompanyBranchAddress
         {
             get
             {
@@ -4752,7 +4752,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Delivery Delivery
+        public IsNet.EFatura.Delivery Delivery
         {
             get
             {
@@ -4765,7 +4765,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceDetailStatus> DetailStatus
+        public System.Nullable<IsNet.EFatura.InvoiceDetailStatus> DetailStatus
         {
             get
             {
@@ -4791,7 +4791,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dispatch[] DispatchList
+        public IsNet.EFatura.Dispatch[] DispatchList
         {
             get
             {
@@ -4830,7 +4830,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ExportAddressBookEntry ExportReceiver
+        public IsNet.EFatura.ExportAddressBookEntry ExportReceiver
         {
             get
             {
@@ -4869,7 +4869,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.FinancialAccount[] FinancialAccount
+        public IsNet.EFatura.FinancialAccount[] FinancialAccount
         {
             get
             {
@@ -4908,7 +4908,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfo
+        public IsNet.EFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfo
         {
             get
             {
@@ -4921,7 +4921,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAttachment[] InvoiceAttachments
+        public IsNet.EFatura.InvoiceAttachment[] InvoiceAttachments
         {
             get
             {
@@ -4960,7 +4960,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceDetail[] InvoiceDetails
+        public IsNet.EFatura.InvoiceDetail[] InvoiceDetails
         {
             get
             {
@@ -5051,7 +5051,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAdditionalIdentityInfo InvoiceSenderAdditionalIdentityInfo
+        public IsNet.EFatura.InvoiceAdditionalIdentityInfo InvoiceSenderAdditionalIdentityInfo
         {
             get
             {
@@ -5064,7 +5064,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tax[] InvoiceTotalTaxList
+        public IsNet.EFatura.Tax[] InvoiceTotalTaxList
         {
             get
             {
@@ -5077,7 +5077,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceType InvoiceType
+        public IsNet.EFatura.InvoiceType InvoiceType
         {
             get
             {
@@ -5181,7 +5181,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Payment Payment
+        public IsNet.EFatura.Payment Payment
         {
             get
             {
@@ -5194,7 +5194,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry Receiver
+        public IsNet.EFatura.AddressBookEntry Receiver
         {
             get
             {
@@ -5207,7 +5207,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Address ReceiverBranchAddress
+        public IsNet.EFatura.Address ReceiverBranchAddress
         {
             get
             {
@@ -5259,7 +5259,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.RepresentativeParty RepresentativeParty
+        public IsNet.EFatura.RepresentativeParty RepresentativeParty
         {
             get
             {
@@ -5337,7 +5337,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ScenarioType ScenarioType
+        public IsNet.EFatura.ScenarioType ScenarioType
         {
             get
             {
@@ -5350,7 +5350,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceStatus> Status
+        public System.Nullable<IsNet.EFatura.InvoiceStatus> Status
         {
             get
             {
@@ -5454,7 +5454,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tourist Tourist
+        public IsNet.EFatura.Tourist Tourist
         {
             get
             {
@@ -5527,7 +5527,7 @@ namespace IsnetEFatura
         
         private System.Nullable<System.DateTime> ApprovalDateField;
         
-        private System.Nullable<IsnetEFatura.ArchiveInvoiceApprovalStatus> ApprovalStatusField;
+        private System.Nullable<IsNet.EFatura.ArchiveInvoiceApprovalStatus> ApprovalStatusField;
         
         private string ArchiveCancellationReportNumberField;
         
@@ -5537,9 +5537,9 @@ namespace IsnetEFatura
         
         private decimal[] BankAccountListField;
         
-        private System.Nullable<IsnetEFatura.CanceledArchiveInvoiceReportSendingStatus> CancellationReportSendingStatusField;
+        private System.Nullable<IsNet.EFatura.CanceledArchiveInvoiceReportSendingStatus> CancellationReportSendingStatusField;
         
-        private IsnetEFatura.Address CompanyBranchAddressField;
+        private IsNet.EFatura.Address CompanyBranchAddressField;
         
         private decimal CrossRateField;
         
@@ -5547,7 +5547,7 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.Dispatch[] DispatchListField;
+        private IsNet.EFatura.Dispatch[] DispatchListField;
         
         private string ETTNField;
         
@@ -5557,23 +5557,23 @@ namespace IsnetEFatura
         
         private string InstallationNumberField;
         
-        private IsnetEFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfoField;
+        private IsNet.EFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfoField;
         
-        private IsnetEFatura.InvoiceAttachment[] InvoiceAttachmentsField;
+        private IsNet.EFatura.InvoiceAttachment[] InvoiceAttachmentsField;
         
         private System.Nullable<System.DateTime> InvoiceCreationDateField;
         
         private System.DateTime InvoiceDateField;
         
-        private IsnetEFatura.ArchiveInvoiceDetail[] InvoiceDetailsField;
+        private IsNet.EFatura.ArchiveInvoiceDetail[] InvoiceDetailsField;
         
         private string InvoiceNumberField;
         
         private byte[] InvoicePdfField;
         
-        private IsnetEFatura.Tax[] InvoiceTotalTaxListField;
+        private IsNet.EFatura.Tax[] InvoiceTotalTaxListField;
         
-        private IsnetEFatura.InvoiceType InvoiceTypeField;
+        private IsNet.EFatura.InvoiceType InvoiceTypeField;
         
         private byte[] InvoiceXmlField;
         
@@ -5587,13 +5587,13 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.Payment PaymentField;
+        private IsNet.EFatura.Payment PaymentField;
         
-        private IsnetEFatura.AddressBookEntry ReceiverField;
+        private IsNet.EFatura.AddressBookEntry ReceiverField;
         
-        private IsnetEFatura.Address ReceiverBranchAddressField;
+        private IsNet.EFatura.Address ReceiverBranchAddressField;
         
-        private System.Nullable<IsnetEFatura.ArchiveInvoiceReportSendingStatus> ReportSendingStatusField;
+        private System.Nullable<IsNet.EFatura.ArchiveInvoiceReportSendingStatus> ReportSendingStatusField;
         
         private System.Nullable<System.DateTime> ReturnInvoiceDateField;
         
@@ -5603,9 +5603,9 @@ namespace IsnetEFatura
         
         private bool SendMailAutomaticallyField;
         
-        private System.Nullable<IsnetEFatura.ArchiveInvoiceSendingStatus> SendingStatusField;
+        private System.Nullable<IsNet.EFatura.ArchiveInvoiceSendingStatus> SendingStatusField;
         
-        private System.Nullable<IsnetEFatura.ArchiveInvoiceStatus> StatusField;
+        private System.Nullable<IsNet.EFatura.ArchiveInvoiceStatus> StatusField;
         
         private string TaxExemptionReasonField;
         
@@ -5619,7 +5619,7 @@ namespace IsnetEFatura
         
         private decimal TotalVATAmountField;
         
-        private IsnetEFatura.WebSellingInfo WebSellingInfoField;
+        private IsNet.EFatura.WebSellingInfo WebSellingInfoField;
         
         private byte[] XsltTemplateField;
         
@@ -5650,7 +5650,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ArchiveInvoiceApprovalStatus> ApprovalStatus
+        public System.Nullable<IsNet.EFatura.ArchiveInvoiceApprovalStatus> ApprovalStatus
         {
             get
             {
@@ -5715,7 +5715,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.CanceledArchiveInvoiceReportSendingStatus> CancellationReportSendingStatus
+        public System.Nullable<IsNet.EFatura.CanceledArchiveInvoiceReportSendingStatus> CancellationReportSendingStatus
         {
             get
             {
@@ -5728,7 +5728,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Address CompanyBranchAddress
+        public IsNet.EFatura.Address CompanyBranchAddress
         {
             get
             {
@@ -5780,7 +5780,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dispatch[] DispatchList
+        public IsNet.EFatura.Dispatch[] DispatchList
         {
             get
             {
@@ -5845,7 +5845,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfo
+        public IsNet.EFatura.InvoiceAdditionalIdentityInfo InvoiceAdditionalIdentityInfo
         {
             get
             {
@@ -5858,7 +5858,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAttachment[] InvoiceAttachments
+        public IsNet.EFatura.InvoiceAttachment[] InvoiceAttachments
         {
             get
             {
@@ -5897,7 +5897,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceDetail[] InvoiceDetails
+        public IsNet.EFatura.ArchiveInvoiceDetail[] InvoiceDetails
         {
             get
             {
@@ -5936,7 +5936,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tax[] InvoiceTotalTaxList
+        public IsNet.EFatura.Tax[] InvoiceTotalTaxList
         {
             get
             {
@@ -5949,7 +5949,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceType InvoiceType
+        public IsNet.EFatura.InvoiceType InvoiceType
         {
             get
             {
@@ -6040,7 +6040,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Payment Payment
+        public IsNet.EFatura.Payment Payment
         {
             get
             {
@@ -6053,7 +6053,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry Receiver
+        public IsNet.EFatura.AddressBookEntry Receiver
         {
             get
             {
@@ -6066,7 +6066,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Address ReceiverBranchAddress
+        public IsNet.EFatura.Address ReceiverBranchAddress
         {
             get
             {
@@ -6079,7 +6079,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ArchiveInvoiceReportSendingStatus> ReportSendingStatus
+        public System.Nullable<IsNet.EFatura.ArchiveInvoiceReportSendingStatus> ReportSendingStatus
         {
             get
             {
@@ -6144,7 +6144,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ArchiveInvoiceSendingStatus> SendingStatus
+        public System.Nullable<IsNet.EFatura.ArchiveInvoiceSendingStatus> SendingStatus
         {
             get
             {
@@ -6157,7 +6157,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.ArchiveInvoiceStatus> Status
+        public System.Nullable<IsNet.EFatura.ArchiveInvoiceStatus> Status
         {
             get
             {
@@ -6248,7 +6248,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.WebSellingInfo WebSellingInfo
+        public IsNet.EFatura.WebSellingInfo WebSellingInfo
         {
             get
             {
@@ -6851,9 +6851,9 @@ namespace IsnetEFatura
         
         private string InvoiceETTNField;
         
-        private IsnetEFatura.Account PaymentAccountField;
+        private IsNet.EFatura.Account PaymentAccountField;
         
-        private IsnetEFatura.PaymentChannel PaymentChannelField;
+        private IsNet.EFatura.PaymentChannel PaymentChannelField;
         
         private string PaymentChannelCodeField;
         
@@ -6873,7 +6873,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Account PaymentAccount
+        public IsNet.EFatura.Account PaymentAccount
         {
             get
             {
@@ -6886,7 +6886,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaymentChannel PaymentChannel
+        public IsNet.EFatura.PaymentChannel PaymentChannel
         {
             get
             {
@@ -6931,7 +6931,7 @@ namespace IsnetEFatura
     public partial class AddressBookEntry : object
     {
         
-        private IsnetEFatura.Address AddressField;
+        private IsNet.EFatura.Address AddressField;
         
         private string ExternalReceiverCodeField;
         
@@ -6941,14 +6941,14 @@ namespace IsnetEFatura
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.RecipientType RecipientTypeField;
+        private IsNet.EFatura.RecipientType RecipientTypeField;
         
-        private IsnetEFatura.SendingType SendingTypeField;
+        private IsNet.EFatura.SendingType SendingTypeField;
         
         private string VendorNumberField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Address Address
+        public IsNet.EFatura.Address Address
         {
             get
             {
@@ -7013,7 +7013,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.RecipientType RecipientType
+        public IsNet.EFatura.RecipientType RecipientType
         {
             get
             {
@@ -7026,7 +7026,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SendingType SendingType
+        public IsNet.EFatura.SendingType SendingType
         {
             get
             {
@@ -7058,7 +7058,7 @@ namespace IsnetEFatura
     public partial class WebSellingInfo : object
     {
         
-        private IsnetEFatura.Carrier CarrierField;
+        private IsNet.EFatura.Carrier CarrierField;
         
         private string OtherPaymentTypeField;
         
@@ -7066,14 +7066,14 @@ namespace IsnetEFatura
         
         private string PaymentMediatorNameField;
         
-        private IsnetEFatura.PaymentType PaymentTypeField;
+        private IsNet.EFatura.PaymentType PaymentTypeField;
         
         private System.DateTime SendingDateField;
         
         private string WebAddressField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Carrier Carrier
+        public IsNet.EFatura.Carrier Carrier
         {
             get
             {
@@ -7125,7 +7125,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaymentType PaymentType
+        public IsNet.EFatura.PaymentType PaymentType
         {
             get
             {
@@ -7289,7 +7289,7 @@ namespace IsnetEFatura
     public partial class ArchiveInvoiceDetail : object
     {
         
-        private IsnetEFatura.Tax[] AdditionalTaxesField;
+        private IsNet.EFatura.Tax[] AdditionalTaxesField;
         
         private string CurrencyCodeField;
         
@@ -7301,7 +7301,7 @@ namespace IsnetEFatura
         
         private string NoteField;
         
-        private IsnetEFatura.Product ProductField;
+        private IsNet.EFatura.Product ProductField;
         
         private decimal QuantityField;
         
@@ -7323,10 +7323,10 @@ namespace IsnetEFatura
         
         private System.Nullable<decimal> VATRateField;
         
-        private IsnetEFatura.Tax[] WitholdingTaxesField;
+        private IsNet.EFatura.Tax[] WitholdingTaxesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tax[] AdditionalTaxes
+        public IsNet.EFatura.Tax[] AdditionalTaxes
         {
             get
             {
@@ -7404,7 +7404,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Product Product
+        public IsNet.EFatura.Product Product
         {
             get
             {
@@ -7547,7 +7547,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tax[] WitholdingTaxes
+        public IsNet.EFatura.Tax[] WitholdingTaxes
         {
             get
             {
@@ -8014,7 +8014,7 @@ namespace IsnetEFatura
         
         private string InvoiceETTNField;
         
-        private IsnetEFatura.InvoiceResponseType InvoiceResponseField;
+        private IsNet.EFatura.InvoiceResponseType InvoiceResponseField;
         
         private string InvoiceResponseDescriptionField;
         
@@ -8032,7 +8032,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceResponseType InvoiceResponse
+        public IsNet.EFatura.InvoiceResponseType InvoiceResponse
         {
             get
             {
@@ -8076,12 +8076,12 @@ namespace IsnetEFatura
     public partial class BaseInvoiceReply : object
     {
         
-        private IsnetEFatura.BaseInvoiceResponseType BaseInvoiceResponseField;
+        private IsNet.EFatura.BaseInvoiceResponseType BaseInvoiceResponseField;
         
         private string InvoiceETTNField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.BaseInvoiceResponseType BaseInvoiceResponse
+        public IsNet.EFatura.BaseInvoiceResponseType BaseInvoiceResponse
         {
             get
             {
@@ -8530,11 +8530,11 @@ namespace IsnetEFatura
     public partial class DespatchAdvice : object
     {
         
-        private IsnetEFatura.DocumentReference[] AdditionalDocumentReferencesField;
+        private IsNet.EFatura.DocumentReference[] AdditionalDocumentReferencesField;
         
         private System.Nullable<System.DateTime> ArchiveDateField;
         
-        private IsnetEFatura.AddressBookEntry BuyerCustomerPartyField;
+        private IsNet.EFatura.AddressBookEntry BuyerCustomerPartyField;
         
         private string CompanyVendorNumberField;
         
@@ -8544,15 +8544,15 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.AddressBookEntry DeliveryCustomerPartyField;
+        private IsNet.EFatura.AddressBookEntry DeliveryCustomerPartyField;
         
-        private IsnetEFatura.InvoiceAttachment[] DespatchAdviceAttachmentsField;
+        private IsNet.EFatura.InvoiceAttachment[] DespatchAdviceAttachmentsField;
         
         private System.Nullable<System.DateTime> DespatchAdviceCreationDateField;
         
         private System.DateTime DespatchAdviceDateField;
         
-        private IsnetEFatura.DespatchAdviceDetail[] DespatchAdviceDetailsField;
+        private IsNet.EFatura.DespatchAdviceDetail[] DespatchAdviceDetailsField;
         
         private byte[] DespatchAdviceHtmlField;
         
@@ -8560,15 +8560,15 @@ namespace IsnetEFatura
         
         private byte[] DespatchAdvicePdfField;
         
-        private IsnetEFatura.DespatchAdviceScenarioType DespatchAdviceScenarioTypeField;
+        private IsNet.EFatura.DespatchAdviceScenarioType DespatchAdviceScenarioTypeField;
         
-        private IsnetEFatura.DespatchAdviceType DespatchAdviceTypeField;
+        private IsNet.EFatura.DespatchAdviceType DespatchAdviceTypeField;
         
         private byte[] DespatchAdviceXmlField;
         
-        private IsnetEFatura.AddressBookEntry DespatchSupplierPartyField;
+        private IsNet.EFatura.AddressBookEntry DespatchSupplierPartyField;
         
-        private System.Nullable<IsnetEFatura.InvoiceDetailStatus> DetailStatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceDetailStatus> DetailStatusField;
         
         private string ETTNField;
         
@@ -8584,22 +8584,22 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.AddressBookEntry OriginatorCustomerPartyField;
+        private IsNet.EFatura.AddressBookEntry OriginatorCustomerPartyField;
         
         private string ReceiverInboxTagField;
         
-        private IsnetEFatura.AddressBookEntry SellerSupplierPartyField;
+        private IsNet.EFatura.AddressBookEntry SellerSupplierPartyField;
         
-        private IsnetEFatura.DespatchAdviceShipment ShipmentField;
+        private IsNet.EFatura.DespatchAdviceShipment ShipmentField;
         
-        private System.Nullable<IsnetEFatura.InvoiceStatus> StatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceStatus> StatusField;
         
         private string SystemResponseDescriptionField;
         
         private byte[] XsltTemplateField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference[] AdditionalDocumentReferences
+        public IsNet.EFatura.DocumentReference[] AdditionalDocumentReferences
         {
             get
             {
@@ -8625,7 +8625,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry BuyerCustomerParty
+        public IsNet.EFatura.AddressBookEntry BuyerCustomerParty
         {
             get
             {
@@ -8690,7 +8690,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry DeliveryCustomerParty
+        public IsNet.EFatura.AddressBookEntry DeliveryCustomerParty
         {
             get
             {
@@ -8703,7 +8703,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAttachment[] DespatchAdviceAttachments
+        public IsNet.EFatura.InvoiceAttachment[] DespatchAdviceAttachments
         {
             get
             {
@@ -8742,7 +8742,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceDetail[] DespatchAdviceDetails
+        public IsNet.EFatura.DespatchAdviceDetail[] DespatchAdviceDetails
         {
             get
             {
@@ -8794,7 +8794,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceScenarioType DespatchAdviceScenarioType
+        public IsNet.EFatura.DespatchAdviceScenarioType DespatchAdviceScenarioType
         {
             get
             {
@@ -8807,7 +8807,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceType DespatchAdviceType
+        public IsNet.EFatura.DespatchAdviceType DespatchAdviceType
         {
             get
             {
@@ -8833,7 +8833,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry DespatchSupplierParty
+        public IsNet.EFatura.AddressBookEntry DespatchSupplierParty
         {
             get
             {
@@ -8846,7 +8846,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceDetailStatus> DetailStatus
+        public System.Nullable<IsNet.EFatura.InvoiceDetailStatus> DetailStatus
         {
             get
             {
@@ -8950,7 +8950,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry OriginatorCustomerParty
+        public IsNet.EFatura.AddressBookEntry OriginatorCustomerParty
         {
             get
             {
@@ -8976,7 +8976,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry SellerSupplierParty
+        public IsNet.EFatura.AddressBookEntry SellerSupplierParty
         {
             get
             {
@@ -8989,7 +8989,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceShipment Shipment
+        public IsNet.EFatura.DespatchAdviceShipment Shipment
         {
             get
             {
@@ -9002,7 +9002,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceStatus> Status
+        public System.Nullable<IsNet.EFatura.InvoiceStatus> Status
         {
             get
             {
@@ -9047,16 +9047,16 @@ namespace IsnetEFatura
     public partial class DespatchAdviceShipment : object
     {
         
-        private IsnetEFatura.DespatchAdviceDelivery DeliveryField;
+        private IsNet.EFatura.DespatchAdviceDelivery DeliveryField;
         
-        private IsnetEFatura.DespatchAdviceShipmentStage[] ShipmentStageListField;
+        private IsNet.EFatura.DespatchAdviceShipmentStage[] ShipmentStageListField;
         
         private decimal TotalValueAmountField;
         
         private string[] TransportEquipmentPlateListField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceDelivery Delivery
+        public IsNet.EFatura.DespatchAdviceDelivery Delivery
         {
             get
             {
@@ -9069,7 +9069,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceShipmentStage[] ShipmentStageList
+        public IsNet.EFatura.DespatchAdviceShipmentStage[] ShipmentStageList
         {
             get
             {
@@ -9213,13 +9213,13 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.Delivery[] DeliveryListField;
+        private IsNet.EFatura.Delivery[] DeliveryListField;
         
         private string NoteField;
         
         private decimal OverSentQuantityField;
         
-        private IsnetEFatura.Product ProductField;
+        private IsNet.EFatura.Product ProductField;
         
         private string RelatedOrderLineNumberField;
         
@@ -9245,7 +9245,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Delivery[] DeliveryList
+        public IsNet.EFatura.Delivery[] DeliveryList
         {
             get
             {
@@ -9284,7 +9284,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Product Product
+        public IsNet.EFatura.Product Product
         {
             get
             {
@@ -9388,21 +9388,21 @@ namespace IsnetEFatura
         
         private System.Nullable<System.DateTime> ActualDeliveryDateField;
         
-        private IsnetEFatura.DeliveryAddress DeliveryAddressField;
+        private IsNet.EFatura.DeliveryAddress DeliveryAddressField;
         
-        private IsnetEFatura.Party DeliveryPartyField;
+        private IsNet.EFatura.Party DeliveryPartyField;
         
         private string DeliveryTermCodeField;
         
-        private IsnetEFatura.DeliveryTerms DeliveryTermsField;
+        private IsNet.EFatura.DeliveryTerms DeliveryTermsField;
         
-        private IsnetEFatura.Despatch DespatchField;
+        private IsNet.EFatura.Despatch DespatchField;
         
         private System.Nullable<System.DateTime> LatestDeliveryDateField;
         
         private string ProductTraceIdField;
         
-        private IsnetEFatura.Shipment ShipmentField;
+        private IsNet.EFatura.Shipment ShipmentField;
         
         private string TrackingIdField;
         
@@ -9420,7 +9420,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DeliveryAddress DeliveryAddress
+        public IsNet.EFatura.DeliveryAddress DeliveryAddress
         {
             get
             {
@@ -9433,7 +9433,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party DeliveryParty
+        public IsNet.EFatura.Party DeliveryParty
         {
             get
             {
@@ -9459,7 +9459,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DeliveryTerms DeliveryTerms
+        public IsNet.EFatura.DeliveryTerms DeliveryTerms
         {
             get
             {
@@ -9472,7 +9472,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Despatch Despatch
+        public IsNet.EFatura.Despatch Despatch
         {
             get
             {
@@ -9511,7 +9511,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Shipment Shipment
+        public IsNet.EFatura.Shipment Shipment
         {
             get
             {
@@ -9659,7 +9659,7 @@ namespace IsnetEFatura
         
         private string PartyTaxCodeField;
         
-        private IsnetEFatura.PostalAddress PostalAddressField;
+        private IsNet.EFatura.PostalAddress PostalAddressField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string PartyName
@@ -9688,7 +9688,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress PostalAddress
+        public IsNet.EFatura.PostalAddress PostalAddress
         {
             get
             {
@@ -9729,10 +9729,10 @@ namespace IsnetEFatura
     public partial class Despatch : object
     {
         
-        private IsnetEFatura.Party DespatchPartyField;
+        private IsNet.EFatura.Party DespatchPartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party DespatchParty
+        public IsNet.EFatura.Party DespatchParty
         {
             get
             {
@@ -9761,11 +9761,11 @@ namespace IsnetEFatura
         
         private string[] GtipNoListField;
         
-        private IsnetEFatura.ShipmentPackage[] ShipmentPackageListField;
+        private IsNet.EFatura.ShipmentPackage[] ShipmentPackageListField;
         
-        private IsnetEFatura.ShipmentStage[] ShipmentStageListField;
+        private IsNet.EFatura.ShipmentStage[] ShipmentStageListField;
         
-        private IsnetEFatura.ShipmentTransportMeans[] ShipmentTransportMeansListField;
+        private IsNet.EFatura.ShipmentTransportMeans[] ShipmentTransportMeansListField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string GrossVolumeMeasure
@@ -9833,7 +9833,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ShipmentPackage[] ShipmentPackageList
+        public IsNet.EFatura.ShipmentPackage[] ShipmentPackageList
         {
             get
             {
@@ -9846,7 +9846,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ShipmentStage[] ShipmentStageList
+        public IsNet.EFatura.ShipmentStage[] ShipmentStageList
         {
             get
             {
@@ -9859,7 +9859,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ShipmentTransportMeans[] ShipmentTransportMeansList
+        public IsNet.EFatura.ShipmentTransportMeans[] ShipmentTransportMeansList
         {
             get
             {
@@ -10133,7 +10133,7 @@ namespace IsnetEFatura
         
         private System.DateTime ActualDespatchDateField;
         
-        private IsnetEFatura.AddressBookEntry CarrierPartyField;
+        private IsNet.EFatura.AddressBookEntry CarrierPartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public System.DateTime ActualDespatchDate
@@ -10149,7 +10149,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry CarrierParty
+        public IsNet.EFatura.AddressBookEntry CarrierParty
         {
             get
             {
@@ -10309,11 +10309,11 @@ namespace IsnetEFatura
     public partial class ReceiptAdvice : object
     {
         
-        private IsnetEFatura.DocumentReference[] AdditionalDocumentReferencesField;
+        private IsNet.EFatura.DocumentReference[] AdditionalDocumentReferencesField;
         
         private System.Nullable<System.DateTime> ArchiveDateField;
         
-        private IsnetEFatura.AddressBookEntry BuyerCustomerPartyField;
+        private IsNet.EFatura.AddressBookEntry BuyerCustomerPartyField;
         
         private string CompanyVendorNumberField;
         
@@ -10323,11 +10323,11 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.AddressBookEntry DeliveryCustomerPartyField;
+        private IsNet.EFatura.AddressBookEntry DeliveryCustomerPartyField;
         
-        private IsnetEFatura.AddressBookEntry DespatchSupplierPartyField;
+        private IsNet.EFatura.AddressBookEntry DespatchSupplierPartyField;
         
-        private System.Nullable<IsnetEFatura.InvoiceDetailStatus> DetailStatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceDetailStatus> DetailStatusField;
         
         private string ETTNField;
         
@@ -10343,13 +10343,13 @@ namespace IsnetEFatura
         
         private string OrderNumberField;
         
-        private IsnetEFatura.InvoiceAttachment[] ReceiptAdviceAttachmentsField;
+        private IsNet.EFatura.InvoiceAttachment[] ReceiptAdviceAttachmentsField;
         
         private System.Nullable<System.DateTime> ReceiptAdviceCreationDateField;
         
         private System.DateTime ReceiptAdviceDateField;
         
-        private IsnetEFatura.ReceiptAdviceDetail[] ReceiptAdviceDetailsField;
+        private IsNet.EFatura.ReceiptAdviceDetail[] ReceiptAdviceDetailsField;
         
         private byte[] ReceiptAdviceHtmlField;
         
@@ -10357,9 +10357,9 @@ namespace IsnetEFatura
         
         private byte[] ReceiptAdvicePdfField;
         
-        private IsnetEFatura.DespatchAdviceScenarioType ReceiptAdviceScenarioTypeField;
+        private IsNet.EFatura.DespatchAdviceScenarioType ReceiptAdviceScenarioTypeField;
         
-        private IsnetEFatura.ReceiptAdviceType ReceiptAdviceTypeField;
+        private IsNet.EFatura.ReceiptAdviceType ReceiptAdviceTypeField;
         
         private byte[] ReceiptAdviceXmlField;
         
@@ -10367,18 +10367,18 @@ namespace IsnetEFatura
         
         private string RelatedDespatchAdviceEttnField;
         
-        private IsnetEFatura.AddressBookEntry SellerSupplierPartyField;
+        private IsNet.EFatura.AddressBookEntry SellerSupplierPartyField;
         
-        private IsnetEFatura.ReceiptAdviceShipment ShipmentField;
+        private IsNet.EFatura.ReceiptAdviceShipment ShipmentField;
         
-        private System.Nullable<IsnetEFatura.InvoiceStatus> StatusField;
+        private System.Nullable<IsNet.EFatura.InvoiceStatus> StatusField;
         
         private string SystemResponseDescriptionField;
         
         private byte[] XsltTemplateField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference[] AdditionalDocumentReferences
+        public IsNet.EFatura.DocumentReference[] AdditionalDocumentReferences
         {
             get
             {
@@ -10404,7 +10404,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry BuyerCustomerParty
+        public IsNet.EFatura.AddressBookEntry BuyerCustomerParty
         {
             get
             {
@@ -10469,7 +10469,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry DeliveryCustomerParty
+        public IsNet.EFatura.AddressBookEntry DeliveryCustomerParty
         {
             get
             {
@@ -10482,7 +10482,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry DespatchSupplierParty
+        public IsNet.EFatura.AddressBookEntry DespatchSupplierParty
         {
             get
             {
@@ -10495,7 +10495,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceDetailStatus> DetailStatus
+        public System.Nullable<IsNet.EFatura.InvoiceDetailStatus> DetailStatus
         {
             get
             {
@@ -10599,7 +10599,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceAttachment[] ReceiptAdviceAttachments
+        public IsNet.EFatura.InvoiceAttachment[] ReceiptAdviceAttachments
         {
             get
             {
@@ -10638,7 +10638,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceDetail[] ReceiptAdviceDetails
+        public IsNet.EFatura.ReceiptAdviceDetail[] ReceiptAdviceDetails
         {
             get
             {
@@ -10690,7 +10690,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceScenarioType ReceiptAdviceScenarioType
+        public IsNet.EFatura.DespatchAdviceScenarioType ReceiptAdviceScenarioType
         {
             get
             {
@@ -10703,7 +10703,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceType ReceiptAdviceType
+        public IsNet.EFatura.ReceiptAdviceType ReceiptAdviceType
         {
             get
             {
@@ -10755,7 +10755,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry SellerSupplierParty
+        public IsNet.EFatura.AddressBookEntry SellerSupplierParty
         {
             get
             {
@@ -10768,7 +10768,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceShipment Shipment
+        public IsNet.EFatura.ReceiptAdviceShipment Shipment
         {
             get
             {
@@ -10781,7 +10781,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.InvoiceStatus> Status
+        public System.Nullable<IsNet.EFatura.InvoiceStatus> Status
         {
             get
             {
@@ -10826,10 +10826,10 @@ namespace IsnetEFatura
     public partial class ReceiptAdviceShipment : object
     {
         
-        private IsnetEFatura.ReceiptAdviceDelivery DeliveryField;
+        private IsNet.EFatura.ReceiptAdviceDelivery DeliveryField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceDelivery Delivery
+        public IsNet.EFatura.ReceiptAdviceDelivery Delivery
         {
             get
             {
@@ -10850,13 +10850,13 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.Delivery[] DeliveryListField;
+        private IsNet.EFatura.Delivery[] DeliveryListField;
         
         private string[] NotesField;
         
         private decimal OversupplyQuantityField;
         
-        private IsnetEFatura.Product ProductField;
+        private IsNet.EFatura.Product ProductField;
         
         private System.DateTime ReceivedDateField;
         
@@ -10894,7 +10894,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Delivery[] DeliveryList
+        public IsNet.EFatura.Delivery[] DeliveryList
         {
             get
             {
@@ -10933,7 +10933,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Product Product
+        public IsNet.EFatura.Product Product
         {
             get
             {
@@ -11242,18 +11242,18 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ESMM", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model.DataModels")]
-    public partial class ESMM : IsnetEFatura.SimpleBaseData
+    public partial class ESMM : IsNet.EFatura.SimpleBaseData
     {
         
-        private System.Nullable<IsnetEFatura.DocumentApprovalStatus> ApprovalStatusField;
+        private System.Nullable<IsNet.EFatura.DocumentApprovalStatus> ApprovalStatusField;
         
-        private System.Nullable<IsnetEFatura.CanceledDocumentReportSendingStatus> CancelReportStatusField;
+        private System.Nullable<IsNet.EFatura.CanceledDocumentReportSendingStatus> CancelReportStatusField;
         
         private System.Nullable<System.DateTime> CreatedDateField;
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.ESMMDetail[] DetailListField;
+        private IsNet.EFatura.ESMMDetail[] DetailListField;
         
         private System.Nullable<System.DateTime> DocumentDateField;
         
@@ -11271,13 +11271,13 @@ namespace IsnetEFatura
         
         private byte[] PdfFileField;
         
-        private IsnetEFatura.AddressBookEntry ReceiverField;
+        private IsNet.EFatura.AddressBookEntry ReceiverField;
         
-        private System.Nullable<IsnetEFatura.DocumentReportSendingStatus> ReportStatusField;
+        private System.Nullable<IsNet.EFatura.DocumentReportSendingStatus> ReportStatusField;
         
-        private System.Nullable<IsnetEFatura.DocumentSendingStatus> SendingStatusField;
+        private System.Nullable<IsNet.EFatura.DocumentSendingStatus> SendingStatusField;
         
-        private System.Nullable<IsnetEFatura.DocumentStatus> StatusField;
+        private System.Nullable<IsNet.EFatura.DocumentStatus> StatusField;
         
         private System.Nullable<decimal> TotalAmountField;
         
@@ -11296,7 +11296,7 @@ namespace IsnetEFatura
         private byte[] XsltFileField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DocumentApprovalStatus> ApprovalStatus
+        public System.Nullable<IsNet.EFatura.DocumentApprovalStatus> ApprovalStatus
         {
             get
             {
@@ -11309,7 +11309,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.CanceledDocumentReportSendingStatus> CancelReportStatus
+        public System.Nullable<IsNet.EFatura.CanceledDocumentReportSendingStatus> CancelReportStatus
         {
             get
             {
@@ -11348,7 +11348,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ESMMDetail[] DetailList
+        public IsNet.EFatura.ESMMDetail[] DetailList
         {
             get
             {
@@ -11465,7 +11465,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AddressBookEntry Receiver
+        public IsNet.EFatura.AddressBookEntry Receiver
         {
             get
             {
@@ -11478,7 +11478,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DocumentReportSendingStatus> ReportStatus
+        public System.Nullable<IsNet.EFatura.DocumentReportSendingStatus> ReportStatus
         {
             get
             {
@@ -11491,7 +11491,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DocumentSendingStatus> SendingStatus
+        public System.Nullable<IsNet.EFatura.DocumentSendingStatus> SendingStatus
         {
             get
             {
@@ -11504,7 +11504,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<IsnetEFatura.DocumentStatus> Status
+        public System.Nullable<IsNet.EFatura.DocumentStatus> Status
         {
             get
             {
@@ -11624,8 +11624,8 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SimpleBaseData", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model.DataModels")]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.ESMMDetail))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.ESMM))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.ESMMDetail))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.ESMM))]
     public partial class SimpleBaseData : object
     {
     }
@@ -11633,7 +11633,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ESMMDetail", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model.DataModels")]
-    public partial class ESMMDetail : IsnetEFatura.SimpleBaseData
+    public partial class ESMMDetail : IsNet.EFatura.SimpleBaseData
     {
         
         private System.Nullable<decimal> GrossAmountField;
@@ -12086,7 +12086,7 @@ namespace IsnetEFatura
         
         private string ReceiverTaxCodeField;
         
-        private IsnetEFatura.ReceiverType ReceiverTypeField;
+        private IsNet.EFatura.ReceiverType ReceiverTypeField;
         
         private string TownNameField;
         
@@ -12208,7 +12208,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiverType ReceiverType
+        public IsNet.EFatura.ReceiverType ReceiverType
         {
             get
             {
@@ -12501,13 +12501,13 @@ namespace IsnetEFatura
     public partial class InvoiceDetail : object
     {
         
-        private IsnetEFatura.Tax[] AdditionalTaxesField;
+        private IsNet.EFatura.Tax[] AdditionalTaxesField;
         
         private string CurrencyCodeField;
         
         private string[] CustomsTrackingNumberListField;
         
-        private IsnetEFatura.Delivery[] DeliveryListField;
+        private IsNet.EFatura.Delivery[] DeliveryListField;
         
         private System.Nullable<decimal> DiscountAmountField;
         
@@ -12527,7 +12527,7 @@ namespace IsnetEFatura
         
         private string PackageBrandField;
         
-        private IsnetEFatura.Product ProductField;
+        private IsNet.EFatura.Product ProductField;
         
         private decimal QuantityField;
         
@@ -12555,10 +12555,10 @@ namespace IsnetEFatura
         
         private System.Nullable<decimal> VATRateField;
         
-        private IsnetEFatura.Tax[] WitholdingTaxesField;
+        private IsNet.EFatura.Tax[] WitholdingTaxesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tax[] AdditionalTaxes
+        public IsNet.EFatura.Tax[] AdditionalTaxes
         {
             get
             {
@@ -12597,7 +12597,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Delivery[] DeliveryList
+        public IsNet.EFatura.Delivery[] DeliveryList
         {
             get
             {
@@ -12727,7 +12727,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Product Product
+        public IsNet.EFatura.Product Product
         {
             get
             {
@@ -12909,7 +12909,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Tax[] WitholdingTaxes
+        public IsNet.EFatura.Tax[] WitholdingTaxes
         {
             get
             {
@@ -12940,46 +12940,46 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="BaseResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceXmlResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceXmlWithoutInvoiceNumberResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceXmlResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceReplyResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.UpdateInvoiceStateResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.DirectInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchAllInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchExternalInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchArchiveInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.ArchiveInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.DeArchiveInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.CancelArchiveInvoiceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceReportResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchArchiveInvoiceReportResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendArchiveInvoiceMailResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.GetEttnListResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.CreateReturnReceiptResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendDespatchAdviceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendDespatchAdviceXmlResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchDespatchAdviceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendReceiptAdviceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendReceiptAdviceXmlResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchReceiptAdviceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendESMMResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendESMMXmlResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SearchESMMResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.CancelESMMResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.GetBalanceResponse))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsnetEFatura.SendInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceXmlResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceXmlResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceReplyResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.UpdateInvoiceStateResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.DirectInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchAllInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchExternalInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchArchiveInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.ArchiveInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.DeArchiveInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.CancelArchiveInvoiceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceReportResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchArchiveInvoiceReportResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendArchiveInvoiceMailResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.GetEttnListResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.CreateReturnReceiptResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendDespatchAdviceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendDespatchAdviceXmlResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchDespatchAdviceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendReceiptAdviceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendReceiptAdviceXmlResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchReceiptAdviceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendESMMResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendESMMXmlResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SearchESMMResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.CancelESMMResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.GetBalanceResponse))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(IsNet.EFatura.SendInvoiceResponse))]
     public partial class BaseResponse : object
     {
         
         private string ErrorMessageField;
         
-        private IsnetEFatura.ResultType ResultField;
+        private IsNet.EFatura.ResultType ResultField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string ErrorMessage
@@ -12995,7 +12995,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ResultType Result
+        public IsNet.EFatura.ResultType Result
         {
             get
             {
@@ -13011,13 +13011,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceXmlResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceXmlResponse : IsnetEFatura.BaseResponse
+    public partial class SendInvoiceXmlResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.InvoiceReturn[] InvoicesField;
+        private IsNet.EFatura.InvoiceReturn[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceReturn[] Invoices
+        public IsNet.EFatura.InvoiceReturn[] Invoices
         {
             get
             {
@@ -13033,13 +13033,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceXmlWithoutInvoiceNumberResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceXmlWithoutInvoiceNumberResponse : IsnetEFatura.BaseResponse
+    public partial class SendInvoiceXmlWithoutInvoiceNumberResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.InvoiceReturn[] InvoicesField;
+        private IsNet.EFatura.InvoiceReturn[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceReturn[] Invoices
+        public IsNet.EFatura.InvoiceReturn[] Invoices
         {
             get
             {
@@ -13055,13 +13055,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class SendArchiveInvoiceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ArchiveInvoiceReturn[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoiceReturn[] ArchiveInvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReturn[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoiceReturn[] ArchiveInvoices
         {
             get
             {
@@ -13077,13 +13077,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceXmlResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceXmlResponse : IsnetEFatura.BaseResponse
+    public partial class SendArchiveInvoiceXmlResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ArchiveInvoiceReturn[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoiceReturn[] ArchiveInvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReturn[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoiceReturn[] ArchiveInvoices
         {
             get
             {
@@ -13099,13 +13099,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceXmlWithoutInvoiceNumberResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceXmlWithoutInvoiceNumberResponse : IsnetEFatura.BaseResponse
+    public partial class SendArchiveInvoiceXmlWithoutInvoiceNumberResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ArchiveInvoiceReturn[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoiceReturn[] ArchiveInvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReturn[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoiceReturn[] ArchiveInvoices
         {
             get
             {
@@ -13121,36 +13121,36 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceReplyResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceReplyResponse : IsnetEFatura.BaseResponse
+    public partial class SendInvoiceReplyResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="UpdateInvoiceStateResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class UpdateInvoiceStateResponse : IsnetEFatura.BaseResponse
+    public partial class UpdateInvoiceStateResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="DirectInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class DirectInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class DirectInvoiceResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class SearchInvoiceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.Invoice[] InvoicesField;
+        private IsNet.EFatura.Invoice[] InvoicesField;
         
-        private IsnetEFatura.PaginationInfoResponse PagingResponseField;
+        private IsNet.EFatura.PaginationInfoResponse PagingResponseField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Invoice[] Invoices
+        public IsNet.EFatura.Invoice[] Invoices
         {
             get
             {
@@ -13163,7 +13163,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoResponse PagingResponse
+        public IsNet.EFatura.PaginationInfoResponse PagingResponse
         {
             get
             {
@@ -13179,15 +13179,15 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchAllInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchAllInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class SearchAllInvoiceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.Invoice[] InvoicesField;
+        private IsNet.EFatura.Invoice[] InvoicesField;
         
-        private IsnetEFatura.PaginationInfoResponse PagingResponseField;
+        private IsNet.EFatura.PaginationInfoResponse PagingResponseField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Invoice[] Invoices
+        public IsNet.EFatura.Invoice[] Invoices
         {
             get
             {
@@ -13200,7 +13200,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoResponse PagingResponse
+        public IsNet.EFatura.PaginationInfoResponse PagingResponse
         {
             get
             {
@@ -13216,13 +13216,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchExternalInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchExternalInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class SearchExternalInvoiceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.InvoiceSchema[] InvoicesField;
+        private IsNet.EFatura.InvoiceSchema[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceSchema[] Invoices
+        public IsNet.EFatura.InvoiceSchema[] Invoices
         {
             get
             {
@@ -13238,15 +13238,15 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchArchiveInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchArchiveInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class SearchArchiveInvoiceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ArchiveInvoice[] ArchiveInvoicesField;
+        private IsNet.EFatura.ArchiveInvoice[] ArchiveInvoicesField;
         
-        private IsnetEFatura.PaginationInfoResponse PagingResponseField;
+        private IsNet.EFatura.PaginationInfoResponse PagingResponseField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoice[] ArchiveInvoices
+        public IsNet.EFatura.ArchiveInvoice[] ArchiveInvoices
         {
             get
             {
@@ -13259,7 +13259,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoResponse PagingResponse
+        public IsNet.EFatura.PaginationInfoResponse PagingResponse
         {
             get
             {
@@ -13275,28 +13275,28 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ArchiveInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class ArchiveInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class ArchiveInvoiceResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="DeArchiveInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class DeArchiveInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class DeArchiveInvoiceResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CancelArchiveInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class CancelArchiveInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class CancelArchiveInvoiceResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceReportResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceReportResponse : IsnetEFatura.BaseResponse
+    public partial class SendArchiveInvoiceReportResponse : IsNet.EFatura.BaseResponse
     {
         
         private string ArchiveInvoiceReportGroupNumberField;
@@ -13318,13 +13318,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchArchiveInvoiceReportResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchArchiveInvoiceReportResponse : IsnetEFatura.BaseResponse
+    public partial class SearchArchiveInvoiceReportResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ArchiveInvoiceReport[] ArchiveInvoiceReportListField;
+        private IsNet.EFatura.ArchiveInvoiceReport[] ArchiveInvoiceReportListField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReport[] ArchiveInvoiceReportList
+        public IsNet.EFatura.ArchiveInvoiceReport[] ArchiveInvoiceReportList
         {
             get
             {
@@ -13340,14 +13340,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendArchiveInvoiceMailResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendArchiveInvoiceMailResponse : IsnetEFatura.BaseResponse
+    public partial class SendArchiveInvoiceMailResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="GetEttnListResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class GetEttnListResponse : IsnetEFatura.BaseResponse
+    public partial class GetEttnListResponse : IsNet.EFatura.BaseResponse
     {
         
         private int CountField;
@@ -13384,7 +13384,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CreateReturnReceiptResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class CreateReturnReceiptResponse : IsnetEFatura.BaseResponse
+    public partial class CreateReturnReceiptResponse : IsNet.EFatura.BaseResponse
     {
         
         private byte[] PdfFileField;
@@ -13436,13 +13436,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendDespatchAdviceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendDespatchAdviceResponse : IsnetEFatura.BaseResponse
+    public partial class SendDespatchAdviceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.DespatchAdviceReturn[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdviceReturn[] DespatchAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceReturn[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdviceReturn[] DespatchAdvices
         {
             get
             {
@@ -13458,13 +13458,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendDespatchAdviceXmlResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendDespatchAdviceXmlResponse : IsnetEFatura.BaseResponse
+    public partial class SendDespatchAdviceXmlResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.DespatchAdviceReturn[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdviceReturn[] DespatchAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceReturn[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdviceReturn[] DespatchAdvices
         {
             get
             {
@@ -13480,13 +13480,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse : IsnetEFatura.BaseResponse
+    public partial class SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.DespatchAdviceReturn[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdviceReturn[] DespatchAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdviceReturn[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdviceReturn[] DespatchAdvices
         {
             get
             {
@@ -13502,15 +13502,15 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchDespatchAdviceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchDespatchAdviceResponse : IsnetEFatura.BaseResponse
+    public partial class SearchDespatchAdviceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.DespatchAdvice[] DespatchAdvicesField;
+        private IsNet.EFatura.DespatchAdvice[] DespatchAdvicesField;
         
-        private IsnetEFatura.PaginationInfoResponse PagingResponseField;
+        private IsNet.EFatura.PaginationInfoResponse PagingResponseField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DespatchAdvice[] DespatchAdvices
+        public IsNet.EFatura.DespatchAdvice[] DespatchAdvices
         {
             get
             {
@@ -13523,7 +13523,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoResponse PagingResponse
+        public IsNet.EFatura.PaginationInfoResponse PagingResponse
         {
             get
             {
@@ -13539,13 +13539,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendReceiptAdviceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendReceiptAdviceResponse : IsnetEFatura.BaseResponse
+    public partial class SendReceiptAdviceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ReceiptAdviceReturn[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdviceReturn[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceReturn[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdviceReturn[] ReceiptAdvices
         {
             get
             {
@@ -13561,13 +13561,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendReceiptAdviceXmlResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendReceiptAdviceXmlResponse : IsnetEFatura.BaseResponse
+    public partial class SendReceiptAdviceXmlResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ReceiptAdviceReturn[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdviceReturn[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceReturn[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdviceReturn[] ReceiptAdvices
         {
             get
             {
@@ -13583,13 +13583,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse : IsnetEFatura.BaseResponse
+    public partial class SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ReceiptAdviceReturn[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdviceReturn[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdviceReturn[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdviceReturn[] ReceiptAdvices
         {
             get
             {
@@ -13605,15 +13605,15 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchReceiptAdviceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchReceiptAdviceResponse : IsnetEFatura.BaseResponse
+    public partial class SearchReceiptAdviceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.PaginationInfoResponse PagingResponseField;
+        private IsNet.EFatura.PaginationInfoResponse PagingResponseField;
         
-        private IsnetEFatura.ReceiptAdvice[] ReceiptAdvicesField;
+        private IsNet.EFatura.ReceiptAdvice[] ReceiptAdvicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoResponse PagingResponse
+        public IsNet.EFatura.PaginationInfoResponse PagingResponse
         {
             get
             {
@@ -13626,7 +13626,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ReceiptAdvice[] ReceiptAdvices
+        public IsNet.EFatura.ReceiptAdvice[] ReceiptAdvices
         {
             get
             {
@@ -13642,7 +13642,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendESMMResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendESMMResponse : IsnetEFatura.BaseResponse
+    public partial class SendESMMResponse : IsNet.EFatura.BaseResponse
     {
         
         private string DocumentNumberField;
@@ -13694,7 +13694,7 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendESMMXmlResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendESMMXmlResponse : IsnetEFatura.BaseResponse
+    public partial class SendESMMXmlResponse : IsNet.EFatura.BaseResponse
     {
         
         private string DocumentNumberField;
@@ -13746,15 +13746,15 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SearchESMMResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SearchESMMResponse : IsnetEFatura.BaseResponse
+    public partial class SearchESMMResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.ESMM[] ESMMField;
+        private IsNet.EFatura.ESMM[] ESMMField;
         
-        private IsnetEFatura.PaginationInfoResponse PagingResponseField;
+        private IsNet.EFatura.PaginationInfoResponse PagingResponseField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ESMM[] ESMM
+        public IsNet.EFatura.ESMM[] ESMM
         {
             get
             {
@@ -13767,7 +13767,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PaginationInfoResponse PagingResponse
+        public IsNet.EFatura.PaginationInfoResponse PagingResponse
         {
             get
             {
@@ -13783,14 +13783,14 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CancelESMMResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class CancelESMMResponse : IsnetEFatura.BaseResponse
+    public partial class CancelESMMResponse : IsNet.EFatura.BaseResponse
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="GetBalanceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class GetBalanceResponse : IsnetEFatura.BaseResponse
+    public partial class GetBalanceResponse : IsNet.EFatura.BaseResponse
     {
         
         private int BalanceField;
@@ -13812,13 +13812,13 @@ namespace IsnetEFatura
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SendInvoiceResponse", Namespace="http://schemas.datacontract.org/2004/07/EInvoice.Service.Model")]
-    public partial class SendInvoiceResponse : IsnetEFatura.BaseResponse
+    public partial class SendInvoiceResponse : IsNet.EFatura.BaseResponse
     {
         
-        private IsnetEFatura.InvoiceReturn[] InvoicesField;
+        private IsNet.EFatura.InvoiceReturn[] InvoicesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceReturn[] Invoices
+        public IsNet.EFatura.InvoiceReturn[] Invoices
         {
             get
             {
@@ -14024,35 +14024,35 @@ namespace IsnetEFatura
         
         private string AccountingCostk__BackingFieldField;
         
-        private IsnetEFatura.AccountingCustomerParty AccountingCustomerPartyk__BackingFieldField;
+        private IsNet.EFatura.AccountingCustomerParty AccountingCustomerPartyk__BackingFieldField;
         
-        private IsnetEFatura.AccountingSupplierParty AccountingSupplierPartyk__BackingFieldField;
+        private IsNet.EFatura.AccountingSupplierParty AccountingSupplierPartyk__BackingFieldField;
         
-        private IsnetEFatura.AdditionalDocumentReference[] AdditionalDocumentReferencek__BackingFieldField;
+        private IsNet.EFatura.AdditionalDocumentReference[] AdditionalDocumentReferencek__BackingFieldField;
         
-        private IsnetEFatura.AllowanceCharge AllowanceChargek__BackingFieldField;
+        private IsNet.EFatura.AllowanceCharge AllowanceChargek__BackingFieldField;
         
-        private IsnetEFatura.BillingReference[] BillingReferencek__BackingFieldField;
+        private IsNet.EFatura.BillingReference[] BillingReferencek__BackingFieldField;
         
-        private IsnetEFatura.BuyerCustomerParty BuyerCustomerPartyk__BackingFieldField;
+        private IsNet.EFatura.BuyerCustomerParty BuyerCustomerPartyk__BackingFieldField;
         
-        private IsnetEFatura.DocumentReference1 ContractDocumentReferencek__BackingFieldField;
+        private IsNet.EFatura.DocumentReference1 ContractDocumentReferencek__BackingFieldField;
         
         private bool CopyIndicatork__BackingFieldField;
         
         private string CustomizationIDk__BackingFieldField;
         
-        private IsnetEFatura.Delivery1 Deliveryk__BackingFieldField;
+        private IsNet.EFatura.Delivery1 Deliveryk__BackingFieldField;
         
-        private IsnetEFatura.DocumentReference1[] DespatchDocumentReferencek__BackingFieldField;
+        private IsNet.EFatura.DocumentReference1[] DespatchDocumentReferencek__BackingFieldField;
         
-        private IsnetEFatura.DocumentCurrencyCode DocumentCurrencyCodek__BackingFieldField;
+        private IsNet.EFatura.DocumentCurrencyCode DocumentCurrencyCodek__BackingFieldField;
         
-        private IsnetEFatura.ID IDk__BackingFieldField;
+        private IsNet.EFatura.ID IDk__BackingFieldField;
         
-        private IsnetEFatura.InvoiceLine[] InvoiceLinek__BackingFieldField;
+        private IsNet.EFatura.InvoiceLine[] InvoiceLinek__BackingFieldField;
         
-        private IsnetEFatura.Period InvoicePeriodk__BackingFieldField;
+        private IsNet.EFatura.Period InvoicePeriodk__BackingFieldField;
         
         private string InvoiceTypeCodek__BackingFieldField;
         
@@ -14060,7 +14060,7 @@ namespace IsnetEFatura
         
         private string IssueTimek__BackingFieldField;
         
-        private IsnetEFatura.LegalMonetaryTotal LegalMonetaryTotalk__BackingFieldField;
+        private IsNet.EFatura.LegalMonetaryTotal LegalMonetaryTotalk__BackingFieldField;
         
         private string LineCountNumerick__BackingFieldField;
         
@@ -14068,49 +14068,49 @@ namespace IsnetEFatura
         
         private string[] Notesk__BackingFieldField;
         
-        private IsnetEFatura.OrderReference OrderReferencek__BackingFieldField;
+        private IsNet.EFatura.OrderReference OrderReferencek__BackingFieldField;
         
-        private IsnetEFatura.DocumentReference1 OriginatorDocumentReferencek__BackingFieldField;
+        private IsNet.EFatura.DocumentReference1 OriginatorDocumentReferencek__BackingFieldField;
         
         private string PaymentAlternativeCurrencyCodek__BackingFieldField;
         
-        private IsnetEFatura.ExchangeRate PaymentAlternativeExchangeRatek__BackingFieldField;
+        private IsNet.EFatura.ExchangeRate PaymentAlternativeExchangeRatek__BackingFieldField;
         
         private string PaymentCurrencyCodek__BackingFieldField;
         
-        private IsnetEFatura.ExchangeRate PaymentExchangeRatek__BackingFieldField;
+        private IsNet.EFatura.ExchangeRate PaymentExchangeRatek__BackingFieldField;
         
-        private IsnetEFatura.PaymentMeans[] PaymentMeansk__BackingFieldField;
+        private IsNet.EFatura.PaymentMeans[] PaymentMeansk__BackingFieldField;
         
-        private IsnetEFatura.PaymentTerms PaymentTermsk__BackingFieldField;
+        private IsNet.EFatura.PaymentTerms PaymentTermsk__BackingFieldField;
         
         private string PricingCurrencyCodek__BackingFieldField;
         
-        private IsnetEFatura.ExchangeRate PricingExchangeRatek__BackingFieldField;
+        private IsNet.EFatura.ExchangeRate PricingExchangeRatek__BackingFieldField;
         
         private string ProfileIDk__BackingFieldField;
         
-        private IsnetEFatura.DocumentReference1[] ReceiptDocumentReferencek__BackingFieldField;
+        private IsNet.EFatura.DocumentReference1[] ReceiptDocumentReferencek__BackingFieldField;
         
-        private IsnetEFatura.SellerSupplierParty SellerSupplierPartyk__BackingFieldField;
+        private IsNet.EFatura.SellerSupplierParty SellerSupplierPartyk__BackingFieldField;
         
-        private IsnetEFatura.Signature Signaturek__BackingFieldField;
+        private IsNet.EFatura.Signature Signaturek__BackingFieldField;
         
         private string TaxCurrencyCodek__BackingFieldField;
         
-        private IsnetEFatura.ExchangeRate TaxExchangeRatek__BackingFieldField;
+        private IsNet.EFatura.ExchangeRate TaxExchangeRatek__BackingFieldField;
         
-        private IsnetEFatura.Party1 TaxRepresentativePartyk__BackingFieldField;
+        private IsNet.EFatura.Party1 TaxRepresentativePartyk__BackingFieldField;
         
-        private IsnetEFatura.TaxTotal[] TaxTotalk__BackingFieldField;
+        private IsNet.EFatura.TaxTotal[] TaxTotalk__BackingFieldField;
         
-        private IsnetEFatura.UBLExtensions UBLExtensionsk__BackingFieldField;
+        private IsNet.EFatura.UBLExtensions UBLExtensionsk__BackingFieldField;
         
         private string UBLVersionIDk__BackingFieldField;
         
         private string UUIDk__BackingFieldField;
         
-        private IsnetEFatura.TaxTotal WithholdingTaxTotalk__BackingFieldField;
+        private IsNet.EFatura.TaxTotal WithholdingTaxTotalk__BackingFieldField;
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
         public string SchemaLocation
@@ -14139,7 +14139,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<AccountingCustomerParty>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.AccountingCustomerParty AccountingCustomerPartyk__BackingField
+        public IsNet.EFatura.AccountingCustomerParty AccountingCustomerPartyk__BackingField
         {
             get
             {
@@ -14152,7 +14152,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<AccountingSupplierParty>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.AccountingSupplierParty AccountingSupplierPartyk__BackingField
+        public IsNet.EFatura.AccountingSupplierParty AccountingSupplierPartyk__BackingField
         {
             get
             {
@@ -14165,7 +14165,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<AdditionalDocumentReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.AdditionalDocumentReference[] AdditionalDocumentReferencek__BackingField
+        public IsNet.EFatura.AdditionalDocumentReference[] AdditionalDocumentReferencek__BackingField
         {
             get
             {
@@ -14178,7 +14178,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<AllowanceCharge>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.AllowanceCharge AllowanceChargek__BackingField
+        public IsNet.EFatura.AllowanceCharge AllowanceChargek__BackingField
         {
             get
             {
@@ -14191,7 +14191,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<BillingReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.BillingReference[] BillingReferencek__BackingField
+        public IsNet.EFatura.BillingReference[] BillingReferencek__BackingField
         {
             get
             {
@@ -14204,7 +14204,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<BuyerCustomerParty>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.BuyerCustomerParty BuyerCustomerPartyk__BackingField
+        public IsNet.EFatura.BuyerCustomerParty BuyerCustomerPartyk__BackingField
         {
             get
             {
@@ -14217,7 +14217,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<ContractDocumentReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.DocumentReference1 ContractDocumentReferencek__BackingField
+        public IsNet.EFatura.DocumentReference1 ContractDocumentReferencek__BackingField
         {
             get
             {
@@ -14256,7 +14256,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<Delivery>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.Delivery1 Deliveryk__BackingField
+        public IsNet.EFatura.Delivery1 Deliveryk__BackingField
         {
             get
             {
@@ -14269,7 +14269,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<DespatchDocumentReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.DocumentReference1[] DespatchDocumentReferencek__BackingField
+        public IsNet.EFatura.DocumentReference1[] DespatchDocumentReferencek__BackingField
         {
             get
             {
@@ -14282,7 +14282,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<DocumentCurrencyCode>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.DocumentCurrencyCode DocumentCurrencyCodek__BackingField
+        public IsNet.EFatura.DocumentCurrencyCode DocumentCurrencyCodek__BackingField
         {
             get
             {
@@ -14295,7 +14295,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<ID>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.ID IDk__BackingField
+        public IsNet.EFatura.ID IDk__BackingField
         {
             get
             {
@@ -14308,7 +14308,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<InvoiceLine>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.InvoiceLine[] InvoiceLinek__BackingField
+        public IsNet.EFatura.InvoiceLine[] InvoiceLinek__BackingField
         {
             get
             {
@@ -14321,7 +14321,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<InvoicePeriod>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.Period InvoicePeriodk__BackingField
+        public IsNet.EFatura.Period InvoicePeriodk__BackingField
         {
             get
             {
@@ -14373,7 +14373,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<LegalMonetaryTotal>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.LegalMonetaryTotal LegalMonetaryTotalk__BackingField
+        public IsNet.EFatura.LegalMonetaryTotal LegalMonetaryTotalk__BackingField
         {
             get
             {
@@ -14425,7 +14425,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<OrderReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.OrderReference OrderReferencek__BackingField
+        public IsNet.EFatura.OrderReference OrderReferencek__BackingField
         {
             get
             {
@@ -14438,7 +14438,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<OriginatorDocumentReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.DocumentReference1 OriginatorDocumentReferencek__BackingField
+        public IsNet.EFatura.DocumentReference1 OriginatorDocumentReferencek__BackingField
         {
             get
             {
@@ -14464,7 +14464,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<PaymentAlternativeExchangeRate>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.ExchangeRate PaymentAlternativeExchangeRatek__BackingField
+        public IsNet.EFatura.ExchangeRate PaymentAlternativeExchangeRatek__BackingField
         {
             get
             {
@@ -14490,7 +14490,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<PaymentExchangeRate>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.ExchangeRate PaymentExchangeRatek__BackingField
+        public IsNet.EFatura.ExchangeRate PaymentExchangeRatek__BackingField
         {
             get
             {
@@ -14503,7 +14503,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<PaymentMeans>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.PaymentMeans[] PaymentMeansk__BackingField
+        public IsNet.EFatura.PaymentMeans[] PaymentMeansk__BackingField
         {
             get
             {
@@ -14516,7 +14516,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<PaymentTerms>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.PaymentTerms PaymentTermsk__BackingField
+        public IsNet.EFatura.PaymentTerms PaymentTermsk__BackingField
         {
             get
             {
@@ -14542,7 +14542,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<PricingExchangeRate>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.ExchangeRate PricingExchangeRatek__BackingField
+        public IsNet.EFatura.ExchangeRate PricingExchangeRatek__BackingField
         {
             get
             {
@@ -14568,7 +14568,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<ReceiptDocumentReference>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.DocumentReference1[] ReceiptDocumentReferencek__BackingField
+        public IsNet.EFatura.DocumentReference1[] ReceiptDocumentReferencek__BackingField
         {
             get
             {
@@ -14581,7 +14581,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<SellerSupplierParty>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.SellerSupplierParty SellerSupplierPartyk__BackingField
+        public IsNet.EFatura.SellerSupplierParty SellerSupplierPartyk__BackingField
         {
             get
             {
@@ -14594,7 +14594,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<Signature>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.Signature Signaturek__BackingField
+        public IsNet.EFatura.Signature Signaturek__BackingField
         {
             get
             {
@@ -14620,7 +14620,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<TaxExchangeRate>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.ExchangeRate TaxExchangeRatek__BackingField
+        public IsNet.EFatura.ExchangeRate TaxExchangeRatek__BackingField
         {
             get
             {
@@ -14633,7 +14633,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<TaxRepresentativeParty>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.Party1 TaxRepresentativePartyk__BackingField
+        public IsNet.EFatura.Party1 TaxRepresentativePartyk__BackingField
         {
             get
             {
@@ -14646,7 +14646,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<TaxTotal>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.TaxTotal[] TaxTotalk__BackingField
+        public IsNet.EFatura.TaxTotal[] TaxTotalk__BackingField
         {
             get
             {
@@ -14659,7 +14659,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<UBLExtensions>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.UBLExtensions UBLExtensionsk__BackingField
+        public IsNet.EFatura.UBLExtensions UBLExtensionsk__BackingField
         {
             get
             {
@@ -14698,7 +14698,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Name="<WithholdingTaxTotal>k__BackingField", IsRequired=true)]
-        public IsnetEFatura.TaxTotal WithholdingTaxTotalk__BackingField
+        public IsNet.EFatura.TaxTotal WithholdingTaxTotalk__BackingField
         {
             get
             {
@@ -14717,10 +14717,10 @@ namespace IsnetEFatura
     public partial class AccountingCustomerParty : object
     {
         
-        private IsnetEFatura.Party1 PartyField;
+        private IsNet.EFatura.Party1 PartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 Party
+        public IsNet.EFatura.Party1 Party
         {
             get
             {
@@ -14739,10 +14739,10 @@ namespace IsnetEFatura
     public partial class AccountingSupplierParty : object
     {
         
-        private IsnetEFatura.Party1 PartyField;
+        private IsNet.EFatura.Party1 PartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 Party
+        public IsNet.EFatura.Party1 Party
         {
             get
             {
@@ -14763,15 +14763,15 @@ namespace IsnetEFatura
         
         private string AllowanceChargeReasonField;
         
-        private IsnetEFatura.Amount AmountField;
+        private IsNet.EFatura.Amount AmountField;
         
-        private IsnetEFatura.Amount BaseAmountField;
+        private IsNet.EFatura.Amount BaseAmountField;
         
         private bool ChargeIndicatorField;
         
         private string MultiplierFactorNumericField;
         
-        private IsnetEFatura.Amount PerUnitAmountField;
+        private IsNet.EFatura.Amount PerUnitAmountField;
         
         private string SequenceNumericField;
         
@@ -14789,7 +14789,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount Amount
+        public IsNet.EFatura.Amount Amount
         {
             get
             {
@@ -14802,7 +14802,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount BaseAmount
+        public IsNet.EFatura.Amount BaseAmount
         {
             get
             {
@@ -14841,7 +14841,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount PerUnitAmount
+        public IsNet.EFatura.Amount PerUnitAmount
         {
             get
             {
@@ -14873,10 +14873,10 @@ namespace IsnetEFatura
     public partial class BuyerCustomerParty : object
     {
         
-        private IsnetEFatura.Party1 PartyField;
+        private IsNet.EFatura.Party1 PartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 Party
+        public IsNet.EFatura.Party1 Party
         {
             get
             {
@@ -14895,7 +14895,7 @@ namespace IsnetEFatura
     public partial class DocumentReference1 : object
     {
         
-        private IsnetEFatura.Attachment AttachmentField;
+        private IsNet.EFatura.Attachment AttachmentField;
         
         private string DocumentDescriptionField;
         
@@ -14903,16 +14903,16 @@ namespace IsnetEFatura
         
         private string DocumentTypeCodeField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string IssueDateField;
         
         private string IssuerPartyField;
         
-        private IsnetEFatura.Attachment ValidityPeriodField;
+        private IsNet.EFatura.Attachment ValidityPeriodField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Attachment Attachment
+        public IsNet.EFatura.Attachment Attachment
         {
             get
             {
@@ -14964,7 +14964,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -15003,7 +15003,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Attachment ValidityPeriod
+        public IsNet.EFatura.Attachment ValidityPeriod
         {
             get
             {
@@ -15026,21 +15026,21 @@ namespace IsnetEFatura
         
         private string ActualDeliveryTimeField;
         
-        private IsnetEFatura.Location AlternativeDeliveryLocationField;
+        private IsNet.EFatura.Location AlternativeDeliveryLocationField;
         
-        private IsnetEFatura.Party1 CarrierPartyField;
+        private IsNet.EFatura.Party1 CarrierPartyField;
         
-        private IsnetEFatura.PostalAddress1 DeliveryAddressField;
+        private IsNet.EFatura.PostalAddress1 DeliveryAddressField;
         
-        private IsnetEFatura.Party1 DeliveryPartyField;
+        private IsNet.EFatura.Party1 DeliveryPartyField;
         
-        private IsnetEFatura.DeliveryTerms1[] DeliveryTermsField;
+        private IsNet.EFatura.DeliveryTerms1[] DeliveryTermsField;
         
-        private IsnetEFatura.Despatch1 DespatchField;
+        private IsNet.EFatura.Despatch1 DespatchField;
         
-        private IsnetEFatura.Period EstimatedDeliveryPeriodField;
+        private IsNet.EFatura.Period EstimatedDeliveryPeriodField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string LatestDeliveryDateField;
         
@@ -15048,7 +15048,7 @@ namespace IsnetEFatura
         
         private string QuantityField;
         
-        private IsnetEFatura.Shipment1 ShipmentField;
+        private IsNet.EFatura.Shipment1 ShipmentField;
         
         private string TrackingIDField;
         
@@ -15079,7 +15079,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Location AlternativeDeliveryLocation
+        public IsNet.EFatura.Location AlternativeDeliveryLocation
         {
             get
             {
@@ -15092,7 +15092,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 CarrierParty
+        public IsNet.EFatura.Party1 CarrierParty
         {
             get
             {
@@ -15105,7 +15105,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 DeliveryAddress
+        public IsNet.EFatura.PostalAddress1 DeliveryAddress
         {
             get
             {
@@ -15118,7 +15118,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 DeliveryParty
+        public IsNet.EFatura.Party1 DeliveryParty
         {
             get
             {
@@ -15131,7 +15131,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DeliveryTerms1[] DeliveryTerms
+        public IsNet.EFatura.DeliveryTerms1[] DeliveryTerms
         {
             get
             {
@@ -15144,7 +15144,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Despatch1 Despatch
+        public IsNet.EFatura.Despatch1 Despatch
         {
             get
             {
@@ -15157,7 +15157,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Period EstimatedDeliveryPeriod
+        public IsNet.EFatura.Period EstimatedDeliveryPeriod
         {
             get
             {
@@ -15170,7 +15170,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -15222,7 +15222,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Shipment1 Shipment
+        public IsNet.EFatura.Shipment1 Shipment
         {
             get
             {
@@ -15410,22 +15410,22 @@ namespace IsnetEFatura
     public partial class LegalMonetaryTotal : object
     {
         
-        private IsnetEFatura.Amount AllowanceTotalAmountField;
+        private IsNet.EFatura.Amount AllowanceTotalAmountField;
         
-        private IsnetEFatura.Amount ChargeTotalAmountField;
+        private IsNet.EFatura.Amount ChargeTotalAmountField;
         
-        private IsnetEFatura.Amount LineExtensionAmountField;
+        private IsNet.EFatura.Amount LineExtensionAmountField;
         
-        private IsnetEFatura.Amount PayableAmountField;
+        private IsNet.EFatura.Amount PayableAmountField;
         
-        private IsnetEFatura.Amount PayableRoundingAmountField;
+        private IsNet.EFatura.Amount PayableRoundingAmountField;
         
-        private IsnetEFatura.Amount TaxExclusiveAmountField;
+        private IsNet.EFatura.Amount TaxExclusiveAmountField;
         
-        private IsnetEFatura.Amount TaxInclusiveAmountField;
+        private IsNet.EFatura.Amount TaxInclusiveAmountField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount AllowanceTotalAmount
+        public IsNet.EFatura.Amount AllowanceTotalAmount
         {
             get
             {
@@ -15438,7 +15438,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount ChargeTotalAmount
+        public IsNet.EFatura.Amount ChargeTotalAmount
         {
             get
             {
@@ -15451,7 +15451,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount LineExtensionAmount
+        public IsNet.EFatura.Amount LineExtensionAmount
         {
             get
             {
@@ -15464,7 +15464,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount PayableAmount
+        public IsNet.EFatura.Amount PayableAmount
         {
             get
             {
@@ -15477,7 +15477,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount PayableRoundingAmount
+        public IsNet.EFatura.Amount PayableRoundingAmount
         {
             get
             {
@@ -15490,7 +15490,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount TaxExclusiveAmount
+        public IsNet.EFatura.Amount TaxExclusiveAmount
         {
             get
             {
@@ -15503,7 +15503,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount TaxInclusiveAmount
+        public IsNet.EFatura.Amount TaxInclusiveAmount
         {
             get
             {
@@ -15522,9 +15522,9 @@ namespace IsnetEFatura
     public partial class OrderReference : object
     {
         
-        private IsnetEFatura.DocumentReference1 DocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 DocumentReferenceField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string IssueDateField;
         
@@ -15533,7 +15533,7 @@ namespace IsnetEFatura
         private string SalesOrderIDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 DocumentReference
+        public IsNet.EFatura.DocumentReference1 DocumentReference
         {
             get
             {
@@ -15546,7 +15546,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -15671,20 +15671,20 @@ namespace IsnetEFatura
     public partial class PaymentTerms : object
     {
         
-        private IsnetEFatura.Amount AmountField;
+        private IsNet.EFatura.Amount AmountField;
         
         private string NoteField;
         
         private string PaymentDueDateField;
         
-        private IsnetEFatura.Amount PenaltyAmountField;
+        private IsNet.EFatura.Amount PenaltyAmountField;
         
         private string PenaltySurChargePercentField;
         
-        private IsnetEFatura.Period SettlementPeriodField;
+        private IsNet.EFatura.Period SettlementPeriodField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount Amount
+        public IsNet.EFatura.Amount Amount
         {
             get
             {
@@ -15723,7 +15723,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount PenaltyAmount
+        public IsNet.EFatura.Amount PenaltyAmount
         {
             get
             {
@@ -15749,7 +15749,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Period SettlementPeriod
+        public IsNet.EFatura.Period SettlementPeriod
         {
             get
             {
@@ -15768,10 +15768,10 @@ namespace IsnetEFatura
     public partial class SellerSupplierParty : object
     {
         
-        private IsnetEFatura.Party1 PartyField;
+        private IsNet.EFatura.Party1 PartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 Party
+        public IsNet.EFatura.Party1 Party
         {
             get
             {
@@ -15790,14 +15790,14 @@ namespace IsnetEFatura
     public partial class Signature : object
     {
         
-        private IsnetEFatura.DigitalSignatureAttachment DigitalSignatureAttachmentField;
+        private IsNet.EFatura.DigitalSignatureAttachment DigitalSignatureAttachmentField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.SignatoryParty SignatoryPartyField;
+        private IsNet.EFatura.SignatoryParty SignatoryPartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DigitalSignatureAttachment DigitalSignatureAttachment
+        public IsNet.EFatura.DigitalSignatureAttachment DigitalSignatureAttachment
         {
             get
             {
@@ -15810,7 +15810,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -15823,7 +15823,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignatoryParty SignatoryParty
+        public IsNet.EFatura.SignatoryParty SignatoryParty
         {
             get
             {
@@ -15842,32 +15842,32 @@ namespace IsnetEFatura
     public partial class Party1 : object
     {
         
-        private IsnetEFatura.Party1 AgentPartyField;
+        private IsNet.EFatura.Party1 AgentPartyField;
         
-        private IsnetEFatura.Contact ContactField;
+        private IsNet.EFatura.Contact ContactField;
         
-        private IsnetEFatura.ID EndpointIDField;
+        private IsNet.EFatura.ID EndpointIDField;
         
         private string IndustryClassificationCodeField;
         
-        private IsnetEFatura.PartyIdentification[] PartyIdentificationField;
+        private IsNet.EFatura.PartyIdentification[] PartyIdentificationField;
         
-        private IsnetEFatura.PartyLegalEntity PartyLegalEntityField;
+        private IsNet.EFatura.PartyLegalEntity PartyLegalEntityField;
         
-        private IsnetEFatura.PartyName PartyNameField;
+        private IsNet.EFatura.PartyName PartyNameField;
         
-        private IsnetEFatura.PartyTaxScheme PartyTaxSchemeField;
+        private IsNet.EFatura.PartyTaxScheme PartyTaxSchemeField;
         
-        private IsnetEFatura.Person PersonField;
+        private IsNet.EFatura.Person PersonField;
         
-        private IsnetEFatura.Location PhysicalLocationField;
+        private IsNet.EFatura.Location PhysicalLocationField;
         
-        private IsnetEFatura.PostalAddress1 PostalAddressField;
+        private IsNet.EFatura.PostalAddress1 PostalAddressField;
         
         private string WebsiteField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 AgentParty
+        public IsNet.EFatura.Party1 AgentParty
         {
             get
             {
@@ -15880,7 +15880,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Contact Contact
+        public IsNet.EFatura.Contact Contact
         {
             get
             {
@@ -15893,7 +15893,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID EndpointID
+        public IsNet.EFatura.ID EndpointID
         {
             get
             {
@@ -15919,7 +15919,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyIdentification[] PartyIdentification
+        public IsNet.EFatura.PartyIdentification[] PartyIdentification
         {
             get
             {
@@ -15932,7 +15932,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyLegalEntity PartyLegalEntity
+        public IsNet.EFatura.PartyLegalEntity PartyLegalEntity
         {
             get
             {
@@ -15945,7 +15945,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyName PartyName
+        public IsNet.EFatura.PartyName PartyName
         {
             get
             {
@@ -15958,7 +15958,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyTaxScheme PartyTaxScheme
+        public IsNet.EFatura.PartyTaxScheme PartyTaxScheme
         {
             get
             {
@@ -15971,7 +15971,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Person Person
+        public IsNet.EFatura.Person Person
         {
             get
             {
@@ -15984,7 +15984,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Location PhysicalLocation
+        public IsNet.EFatura.Location PhysicalLocation
         {
             get
             {
@@ -15997,7 +15997,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 PostalAddress
+        public IsNet.EFatura.PostalAddress1 PostalAddress
         {
             get
             {
@@ -16029,10 +16029,10 @@ namespace IsnetEFatura
     public partial class UBLExtensions : object
     {
         
-        private IsnetEFatura.UBLExtension UBLExtensionField;
+        private IsNet.EFatura.UBLExtension UBLExtensionField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.UBLExtension UBLExtension
+        public IsNet.EFatura.UBLExtension UBLExtension
         {
             get
             {
@@ -16051,12 +16051,12 @@ namespace IsnetEFatura
     public partial class TaxTotal : object
     {
         
-        private IsnetEFatura.Amount TaxAmountField;
+        private IsNet.EFatura.Amount TaxAmountField;
         
-        private IsnetEFatura.TaxSubtotal[] TaxSubtotalField;
+        private IsNet.EFatura.TaxSubtotal[] TaxSubtotalField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount TaxAmount
+        public IsNet.EFatura.Amount TaxAmount
         {
             get
             {
@@ -16069,7 +16069,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TaxSubtotal[] TaxSubtotal
+        public IsNet.EFatura.TaxSubtotal[] TaxSubtotal
         {
             get
             {
@@ -16088,7 +16088,7 @@ namespace IsnetEFatura
     public partial class AdditionalDocumentReference : object
     {
         
-        private IsnetEFatura.Attachment AttachmentField;
+        private IsNet.EFatura.Attachment AttachmentField;
         
         private string DocumentDescriptionField;
         
@@ -16096,16 +16096,16 @@ namespace IsnetEFatura
         
         private string DocumentTypeCodeField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string IssueDateField;
         
-        private IsnetEFatura.Party1 IssuerPartyField;
+        private IsNet.EFatura.Party1 IssuerPartyField;
         
-        private IsnetEFatura.Period ValidityPeriodField;
+        private IsNet.EFatura.Period ValidityPeriodField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Attachment Attachment
+        public IsNet.EFatura.Attachment Attachment
         {
             get
             {
@@ -16157,7 +16157,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -16183,7 +16183,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 IssuerParty
+        public IsNet.EFatura.Party1 IssuerParty
         {
             get
             {
@@ -16196,7 +16196,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Period ValidityPeriod
+        public IsNet.EFatura.Period ValidityPeriod
         {
             get
             {
@@ -16215,20 +16215,20 @@ namespace IsnetEFatura
     public partial class BillingReference : object
     {
         
-        private IsnetEFatura.BillingReferenceLine[] BillingReferenceLineField;
+        private IsNet.EFatura.BillingReferenceLine[] BillingReferenceLineField;
         
-        private IsnetEFatura.DocumentReference1 CreditNoteDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 CreditNoteDocumentReferenceField;
         
-        private IsnetEFatura.DocumentReference1 DebitNoteDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 DebitNoteDocumentReferenceField;
         
-        private IsnetEFatura.DocumentReference1 InvoiceDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 InvoiceDocumentReferenceField;
         
-        private IsnetEFatura.DocumentReference1 ReminderDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 ReminderDocumentReferenceField;
         
-        private IsnetEFatura.DocumentReference1 SelfBilledInvoiceDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 SelfBilledInvoiceDocumentReferenceField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.BillingReferenceLine[] BillingReferenceLine
+        public IsNet.EFatura.BillingReferenceLine[] BillingReferenceLine
         {
             get
             {
@@ -16241,7 +16241,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 CreditNoteDocumentReference
+        public IsNet.EFatura.DocumentReference1 CreditNoteDocumentReference
         {
             get
             {
@@ -16254,7 +16254,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 DebitNoteDocumentReference
+        public IsNet.EFatura.DocumentReference1 DebitNoteDocumentReference
         {
             get
             {
@@ -16267,7 +16267,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 InvoiceDocumentReference
+        public IsNet.EFatura.DocumentReference1 InvoiceDocumentReference
         {
             get
             {
@@ -16280,7 +16280,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 ReminderDocumentReference
+        public IsNet.EFatura.DocumentReference1 ReminderDocumentReference
         {
             get
             {
@@ -16293,7 +16293,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 SelfBilledInvoiceDocumentReference
+        public IsNet.EFatura.DocumentReference1 SelfBilledInvoiceDocumentReference
         {
             get
             {
@@ -16312,36 +16312,36 @@ namespace IsnetEFatura
     public partial class InvoiceLine : object
     {
         
-        private IsnetEFatura.AllowanceCharge AllowanceChargeField;
+        private IsNet.EFatura.AllowanceCharge AllowanceChargeField;
         
-        private IsnetEFatura.Delivery1[] DeliveryField;
+        private IsNet.EFatura.Delivery1[] DeliveryField;
         
-        private IsnetEFatura.LineReference DespatchLineReferenceField;
+        private IsNet.EFatura.LineReference DespatchLineReferenceField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.InvoicedQuantity InvoicedQuantityField;
+        private IsNet.EFatura.InvoicedQuantity InvoicedQuantityField;
         
-        private IsnetEFatura.Item ItemField;
+        private IsNet.EFatura.Item ItemField;
         
-        private IsnetEFatura.Amount LineExtensionAmountField;
+        private IsNet.EFatura.Amount LineExtensionAmountField;
         
         private string NoteField;
         
-        private IsnetEFatura.OrderLineReference OrderLineReferenceField;
+        private IsNet.EFatura.OrderLineReference OrderLineReferenceField;
         
-        private IsnetEFatura.Price PriceField;
+        private IsNet.EFatura.Price PriceField;
         
-        private IsnetEFatura.LineReference ReceiptLineReferenceField;
+        private IsNet.EFatura.LineReference ReceiptLineReferenceField;
         
-        private IsnetEFatura.InvoiceLine[] SubInvoiceLineField;
+        private IsNet.EFatura.InvoiceLine[] SubInvoiceLineField;
         
-        private IsnetEFatura.TaxTotal TaxTotalField;
+        private IsNet.EFatura.TaxTotal TaxTotalField;
         
-        private IsnetEFatura.TaxTotal WithholdingTaxTotalField;
+        private IsNet.EFatura.TaxTotal WithholdingTaxTotalField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AllowanceCharge AllowanceCharge
+        public IsNet.EFatura.AllowanceCharge AllowanceCharge
         {
             get
             {
@@ -16354,7 +16354,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Delivery1[] Delivery
+        public IsNet.EFatura.Delivery1[] Delivery
         {
             get
             {
@@ -16367,7 +16367,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.LineReference DespatchLineReference
+        public IsNet.EFatura.LineReference DespatchLineReference
         {
             get
             {
@@ -16380,7 +16380,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -16393,7 +16393,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoicedQuantity InvoicedQuantity
+        public IsNet.EFatura.InvoicedQuantity InvoicedQuantity
         {
             get
             {
@@ -16406,7 +16406,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Item Item
+        public IsNet.EFatura.Item Item
         {
             get
             {
@@ -16419,7 +16419,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount LineExtensionAmount
+        public IsNet.EFatura.Amount LineExtensionAmount
         {
             get
             {
@@ -16445,7 +16445,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.OrderLineReference OrderLineReference
+        public IsNet.EFatura.OrderLineReference OrderLineReference
         {
             get
             {
@@ -16458,7 +16458,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Price Price
+        public IsNet.EFatura.Price Price
         {
             get
             {
@@ -16471,7 +16471,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.LineReference ReceiptLineReference
+        public IsNet.EFatura.LineReference ReceiptLineReference
         {
             get
             {
@@ -16484,7 +16484,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.InvoiceLine[] SubInvoiceLine
+        public IsNet.EFatura.InvoiceLine[] SubInvoiceLine
         {
             get
             {
@@ -16497,7 +16497,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TaxTotal TaxTotal
+        public IsNet.EFatura.TaxTotal TaxTotal
         {
             get
             {
@@ -16510,7 +16510,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TaxTotal WithholdingTaxTotal
+        public IsNet.EFatura.TaxTotal WithholdingTaxTotal
         {
             get
             {
@@ -16531,9 +16531,9 @@ namespace IsnetEFatura
         
         private string InstructionNoteField;
         
-        private IsnetEFatura.PayeeFinancialAccount PayeeFinancialAccountField;
+        private IsNet.EFatura.PayeeFinancialAccount PayeeFinancialAccountField;
         
-        private IsnetEFatura.PayeeFinancialAccount PayerFinancialAccountField;
+        private IsNet.EFatura.PayeeFinancialAccount PayerFinancialAccountField;
         
         private string PaymentChannelCodeField;
         
@@ -16555,7 +16555,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PayeeFinancialAccount PayeeFinancialAccount
+        public IsNet.EFatura.PayeeFinancialAccount PayeeFinancialAccount
         {
             get
             {
@@ -16568,7 +16568,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PayeeFinancialAccount PayerFinancialAccount
+        public IsNet.EFatura.PayeeFinancialAccount PayerFinancialAccount
         {
             get
             {
@@ -16630,7 +16630,7 @@ namespace IsnetEFatura
         
         private string NoteField;
         
-        private IsnetEFatura.Communication OtherCommunicationField;
+        private IsNet.EFatura.Communication OtherCommunicationField;
         
         private string TelefaxField;
         
@@ -16663,7 +16663,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Communication OtherCommunication
+        public IsNet.EFatura.Communication OtherCommunication
         {
             get
             {
@@ -16710,13 +16710,13 @@ namespace IsnetEFatura
         
         private string CompanyIDField;
         
-        private IsnetEFatura.CorporateRegistrationScheme CorporateRegistrationSchemeField;
+        private IsNet.EFatura.CorporateRegistrationScheme CorporateRegistrationSchemeField;
         
-        private IsnetEFatura.Amount CorporateStockAmountField;
+        private IsNet.EFatura.Amount CorporateStockAmountField;
         
         private string FullyPaidSharesIndicatorField;
         
-        private IsnetEFatura.HeadOfficeParty HeadOfficePartyField;
+        private IsNet.EFatura.HeadOfficeParty HeadOfficePartyField;
         
         private string RegistrationDateField;
         
@@ -16738,7 +16738,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CorporateRegistrationScheme CorporateRegistrationScheme
+        public IsNet.EFatura.CorporateRegistrationScheme CorporateRegistrationScheme
         {
             get
             {
@@ -16751,7 +16751,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount CorporateStockAmount
+        public IsNet.EFatura.Amount CorporateStockAmount
         {
             get
             {
@@ -16777,7 +16777,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.HeadOfficeParty HeadOfficeParty
+        public IsNet.EFatura.HeadOfficeParty HeadOfficeParty
         {
             get
             {
@@ -16861,7 +16861,7 @@ namespace IsnetEFatura
         
         private string RegistrationNameField;
         
-        private IsnetEFatura.TaxScheme TaxSchemeField;
+        private IsNet.EFatura.TaxScheme TaxSchemeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CompanyID
@@ -16890,7 +16890,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TaxScheme TaxScheme
+        public IsNet.EFatura.TaxScheme TaxScheme
         {
             get
             {
@@ -16911,11 +16911,11 @@ namespace IsnetEFatura
         
         private string FamilyNameField;
         
-        private IsnetEFatura.FinancialAccount1 FinancialAccountField;
+        private IsNet.EFatura.FinancialAccount1 FinancialAccountField;
         
         private string FirstNameField;
         
-        private IsnetEFatura.DocumentReference1 IdentityDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 IdentityDocumentReferenceField;
         
         private string MiddleNameField;
         
@@ -16939,7 +16939,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.FinancialAccount1 FinancialAccount
+        public IsNet.EFatura.FinancialAccount1 FinancialAccount
         {
             get
             {
@@ -16965,7 +16965,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 IdentityDocumentReference
+        public IsNet.EFatura.DocumentReference1 IdentityDocumentReference
         {
             get
             {
@@ -17036,12 +17036,12 @@ namespace IsnetEFatura
     public partial class Location : object
     {
         
-        private IsnetEFatura.PostalAddress1 AddressField;
+        private IsNet.EFatura.PostalAddress1 AddressField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 Address
+        public IsNet.EFatura.PostalAddress1 Address
         {
             get
             {
@@ -17054,7 +17054,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17083,11 +17083,11 @@ namespace IsnetEFatura
         
         private string CitySubdivisionNameField;
         
-        private IsnetEFatura.Country CountryField;
+        private IsNet.EFatura.Country CountryField;
         
         private string DistrictField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string PostBoxField;
         
@@ -17165,7 +17165,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Country Country
+        public IsNet.EFatura.Country Country
         {
             get
             {
@@ -17191,7 +17191,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17275,10 +17275,10 @@ namespace IsnetEFatura
     public partial class PartyIdentification : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17349,14 +17349,14 @@ namespace IsnetEFatura
     public partial class CorporateRegistrationScheme : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.JuridictionRegionAddress JuridictionRegionAddressField;
+        private IsNet.EFatura.JuridictionRegionAddress JuridictionRegionAddressField;
         
         private string NameField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17369,7 +17369,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.JuridictionRegionAddress JuridictionRegionAddress
+        public IsNet.EFatura.JuridictionRegionAddress JuridictionRegionAddress
         {
             get
             {
@@ -17440,21 +17440,21 @@ namespace IsnetEFatura
         
         private string AgentPartyField;
         
-        private IsnetEFatura.Contact ContactField;
+        private IsNet.EFatura.Contact ContactField;
         
         private string IndustryClassificationCodeField;
         
-        private IsnetEFatura.PartyIdentification[] PartyIdentificationField;
+        private IsNet.EFatura.PartyIdentification[] PartyIdentificationField;
         
-        private IsnetEFatura.PartyLegalEntity PartyLegalEntityField;
+        private IsNet.EFatura.PartyLegalEntity PartyLegalEntityField;
         
-        private IsnetEFatura.PartyName PartyNameField;
+        private IsNet.EFatura.PartyName PartyNameField;
         
-        private IsnetEFatura.PartyTaxScheme PartyTaxSchemeField;
+        private IsNet.EFatura.PartyTaxScheme PartyTaxSchemeField;
         
-        private IsnetEFatura.Person PersonField;
+        private IsNet.EFatura.Person PersonField;
         
-        private IsnetEFatura.PostalAddress1 PostalAddressField;
+        private IsNet.EFatura.PostalAddress1 PostalAddressField;
         
         private string WebsiteField;
         
@@ -17472,7 +17472,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Contact Contact
+        public IsNet.EFatura.Contact Contact
         {
             get
             {
@@ -17498,7 +17498,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyIdentification[] PartyIdentification
+        public IsNet.EFatura.PartyIdentification[] PartyIdentification
         {
             get
             {
@@ -17511,7 +17511,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyLegalEntity PartyLegalEntity
+        public IsNet.EFatura.PartyLegalEntity PartyLegalEntity
         {
             get
             {
@@ -17524,7 +17524,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyName PartyName
+        public IsNet.EFatura.PartyName PartyName
         {
             get
             {
@@ -17537,7 +17537,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyTaxScheme PartyTaxScheme
+        public IsNet.EFatura.PartyTaxScheme PartyTaxScheme
         {
             get
             {
@@ -17550,7 +17550,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Person Person
+        public IsNet.EFatura.Person Person
         {
             get
             {
@@ -17563,7 +17563,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 PostalAddress
+        public IsNet.EFatura.PostalAddress1 PostalAddress
         {
             get
             {
@@ -17605,11 +17605,11 @@ namespace IsnetEFatura
         
         private string CitySubdivisionNameField;
         
-        private IsnetEFatura.Country CountryField;
+        private IsNet.EFatura.Country CountryField;
         
         private string DistrictField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string PostBoxField;
         
@@ -17687,7 +17687,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Country Country
+        public IsNet.EFatura.Country Country
         {
             get
             {
@@ -17713,7 +17713,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17834,14 +17834,14 @@ namespace IsnetEFatura
     public partial class TaxScheme : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string NameField;
         
         private string TaxTypeCodeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17886,14 +17886,14 @@ namespace IsnetEFatura
     public partial class FinancialAccount1 : object
     {
         
-        private IsnetEFatura.FinancialInstitutionBranch FinancialInstitutionBranchField;
+        private IsNet.EFatura.FinancialInstitutionBranch FinancialInstitutionBranchField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string PaymentNoteField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.FinancialInstitutionBranch FinancialInstitutionBranch
+        public IsNet.EFatura.FinancialInstitutionBranch FinancialInstitutionBranch
         {
             get
             {
@@ -17906,7 +17906,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -17938,12 +17938,12 @@ namespace IsnetEFatura
     public partial class FinancialInstitutionBranch : object
     {
         
-        private IsnetEFatura.FinancialInstitution FinancialInstitutionField;
+        private IsNet.EFatura.FinancialInstitution FinancialInstitutionField;
         
         private string NameField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.FinancialInstitution FinancialInstitution
+        public IsNet.EFatura.FinancialInstitution FinancialInstitution
         {
             get
             {
@@ -17997,12 +17997,12 @@ namespace IsnetEFatura
     public partial class Attachment : object
     {
         
-        private IsnetEFatura.EmbeddedDocumentBinaryObject EmbeddedDocumentBinaryObjectField;
+        private IsNet.EFatura.EmbeddedDocumentBinaryObject EmbeddedDocumentBinaryObjectField;
         
-        private IsnetEFatura.ExternalReference ExternalReferenceField;
+        private IsNet.EFatura.ExternalReference ExternalReferenceField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.EmbeddedDocumentBinaryObject EmbeddedDocumentBinaryObject
+        public IsNet.EFatura.EmbeddedDocumentBinaryObject EmbeddedDocumentBinaryObject
         {
             get
             {
@@ -18015,7 +18015,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ExternalReference ExternalReference
+        public IsNet.EFatura.ExternalReference ExternalReference
         {
             get
             {
@@ -18138,14 +18138,14 @@ namespace IsnetEFatura
     public partial class BillingReferenceLine : object
     {
         
-        private IsnetEFatura.AllowanceCharge AllowanceChargeField;
+        private IsNet.EFatura.AllowanceCharge AllowanceChargeField;
         
-        private IsnetEFatura.Amount AmountField;
+        private IsNet.EFatura.Amount AmountField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AllowanceCharge AllowanceCharge
+        public IsNet.EFatura.AllowanceCharge AllowanceCharge
         {
             get
             {
@@ -18158,7 +18158,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount Amount
+        public IsNet.EFatura.Amount Amount
         {
             get
             {
@@ -18171,7 +18171,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -18194,15 +18194,15 @@ namespace IsnetEFatura
         
         private string ActualDespatchTimeField;
         
-        private IsnetEFatura.Contact ContactField;
+        private IsNet.EFatura.Contact ContactField;
         
-        private IsnetEFatura.PostalAddress1 DespatchAddressField;
+        private IsNet.EFatura.PostalAddress1 DespatchAddressField;
         
-        private IsnetEFatura.Party1 DespatchPartyField;
+        private IsNet.EFatura.Party1 DespatchPartyField;
         
-        private IsnetEFatura.Period EstimatedDespatchPeriodField;
+        private IsNet.EFatura.Period EstimatedDespatchPeriodField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string InstructionsField;
         
@@ -18233,7 +18233,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Contact Contact
+        public IsNet.EFatura.Contact Contact
         {
             get
             {
@@ -18246,7 +18246,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 DespatchAddress
+        public IsNet.EFatura.PostalAddress1 DespatchAddress
         {
             get
             {
@@ -18259,7 +18259,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 DespatchParty
+        public IsNet.EFatura.Party1 DespatchParty
         {
             get
             {
@@ -18272,7 +18272,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Period EstimatedDespatchPeriod
+        public IsNet.EFatura.Period EstimatedDespatchPeriod
         {
             get
             {
@@ -18285,7 +18285,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -18319,41 +18319,41 @@ namespace IsnetEFatura
         
         private string[] ConsignmentField;
         
-        private IsnetEFatura.Amount DeclaredCustomsValueAmountField;
+        private IsNet.EFatura.Amount DeclaredCustomsValueAmountField;
         
-        private IsnetEFatura.Amount DeclaredForCarriageValueAmountField;
+        private IsNet.EFatura.Amount DeclaredForCarriageValueAmountField;
         
-        private IsnetEFatura.Amount DeclaredStatisticsValueAmountField;
+        private IsNet.EFatura.Amount DeclaredStatisticsValueAmountField;
         
-        private IsnetEFatura.Delivery1 DeliveryField;
+        private IsNet.EFatura.Delivery1 DeliveryField;
         
-        private IsnetEFatura.Location FirstArrivalPortLocationField;
+        private IsNet.EFatura.Location FirstArrivalPortLocationField;
         
-        private IsnetEFatura.Amount FreeOnBoardValueAmountField;
+        private IsNet.EFatura.Amount FreeOnBoardValueAmountField;
         
-        private IsnetEFatura.GoodsItem[] GoodsItemField;
+        private IsNet.EFatura.GoodsItem[] GoodsItemField;
         
-        private IsnetEFatura.Measure GrossVolumeMeasureField;
+        private IsNet.EFatura.Measure GrossVolumeMeasureField;
         
-        private IsnetEFatura.Measure GrossWeightMeasureField;
+        private IsNet.EFatura.Measure GrossWeightMeasureField;
         
         private string HandlingCodeField;
         
         private string HandlingInstructionsField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.Amount InsuranceValueAmountField;
+        private IsNet.EFatura.Amount InsuranceValueAmountField;
         
-        private IsnetEFatura.Location LastExitPortLocationField;
+        private IsNet.EFatura.Location LastExitPortLocationField;
         
         private string NetVolumeMeasureField;
         
         private string NetWeightMeasureField;
         
-        private IsnetEFatura.PostalAddress1 ReturnAddressField;
+        private IsNet.EFatura.PostalAddress1 ReturnAddressField;
         
-        private IsnetEFatura.ShipmentStage1[] ShipmentStageField;
+        private IsNet.EFatura.ShipmentStage1[] ShipmentStageField;
         
         private string[] SpecialInstructionsField;
         
@@ -18361,7 +18361,7 @@ namespace IsnetEFatura
         
         private string TotalTransportHandlingUnitQuantityField;
         
-        private IsnetEFatura.TransportHandlingUnit[] TransportHandlingUnitField;
+        private IsNet.EFatura.TransportHandlingUnit[] TransportHandlingUnitField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string[] Consignment
@@ -18377,7 +18377,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount DeclaredCustomsValueAmount
+        public IsNet.EFatura.Amount DeclaredCustomsValueAmount
         {
             get
             {
@@ -18390,7 +18390,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount DeclaredForCarriageValueAmount
+        public IsNet.EFatura.Amount DeclaredForCarriageValueAmount
         {
             get
             {
@@ -18403,7 +18403,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount DeclaredStatisticsValueAmount
+        public IsNet.EFatura.Amount DeclaredStatisticsValueAmount
         {
             get
             {
@@ -18416,7 +18416,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Delivery1 Delivery
+        public IsNet.EFatura.Delivery1 Delivery
         {
             get
             {
@@ -18429,7 +18429,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Location FirstArrivalPortLocation
+        public IsNet.EFatura.Location FirstArrivalPortLocation
         {
             get
             {
@@ -18442,7 +18442,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount FreeOnBoardValueAmount
+        public IsNet.EFatura.Amount FreeOnBoardValueAmount
         {
             get
             {
@@ -18455,7 +18455,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.GoodsItem[] GoodsItem
+        public IsNet.EFatura.GoodsItem[] GoodsItem
         {
             get
             {
@@ -18468,7 +18468,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Measure GrossVolumeMeasure
+        public IsNet.EFatura.Measure GrossVolumeMeasure
         {
             get
             {
@@ -18481,7 +18481,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Measure GrossWeightMeasure
+        public IsNet.EFatura.Measure GrossWeightMeasure
         {
             get
             {
@@ -18520,7 +18520,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -18533,7 +18533,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount InsuranceValueAmount
+        public IsNet.EFatura.Amount InsuranceValueAmount
         {
             get
             {
@@ -18546,7 +18546,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Location LastExitPortLocation
+        public IsNet.EFatura.Location LastExitPortLocation
         {
             get
             {
@@ -18585,7 +18585,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 ReturnAddress
+        public IsNet.EFatura.PostalAddress1 ReturnAddress
         {
             get
             {
@@ -18598,7 +18598,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ShipmentStage1[] ShipmentStage
+        public IsNet.EFatura.ShipmentStage1[] ShipmentStage
         {
             get
             {
@@ -18650,7 +18650,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TransportHandlingUnit[] TransportHandlingUnit
+        public IsNet.EFatura.TransportHandlingUnit[] TransportHandlingUnit
         {
             get
             {
@@ -18669,14 +18669,14 @@ namespace IsnetEFatura
     public partial class DeliveryTerms1 : object
     {
         
-        private IsnetEFatura.Amount AmountField;
+        private IsNet.EFatura.Amount AmountField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string SpecialTermsField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount Amount
+        public IsNet.EFatura.Amount Amount
         {
             get
             {
@@ -18689,7 +18689,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -18768,37 +18768,37 @@ namespace IsnetEFatura
         
         private string CustomsTariffQuantityField;
         
-        private IsnetEFatura.Amount DeclaredCustomsValueAmountField;
+        private IsNet.EFatura.Amount DeclaredCustomsValueAmountField;
         
-        private IsnetEFatura.Amount DeclaredForCarriageValueAmountField;
+        private IsNet.EFatura.Amount DeclaredForCarriageValueAmountField;
         
-        private IsnetEFatura.Amount DeclaredStatisticsValueAmountField;
+        private IsNet.EFatura.Amount DeclaredStatisticsValueAmountField;
         
         private string[] DescriptionField;
         
-        private IsnetEFatura.Amount FreeOnBoardValueAmountField;
+        private IsNet.EFatura.Amount FreeOnBoardValueAmountField;
         
-        private IsnetEFatura.AllowanceCharge[] FreightAllowanceChargeField;
+        private IsNet.EFatura.AllowanceCharge[] FreightAllowanceChargeField;
         
-        private IsnetEFatura.Measure GrossVolumeMeasureField;
+        private IsNet.EFatura.Measure GrossVolumeMeasureField;
         
-        private IsnetEFatura.Measure GrossWeightMeasureField;
+        private IsNet.EFatura.Measure GrossWeightMeasureField;
         
         private string HazardousRiskIndicatorField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.Amount InsuranceValueAmountField;
+        private IsNet.EFatura.Amount InsuranceValueAmountField;
         
-        private IsnetEFatura.Item[] ItemField;
+        private IsNet.EFatura.Item[] ItemField;
         
-        private IsnetEFatura.Dimension[] MeasurementDimensionField;
+        private IsNet.EFatura.Dimension[] MeasurementDimensionField;
         
         private string NetVolumeMeasureField;
         
         private string NetWeightMeasureField;
         
-        private IsnetEFatura.PostalAddress1 OriginAddressField;
+        private IsNet.EFatura.PostalAddress1 OriginAddressField;
         
         private string QuantityField;
         
@@ -18806,11 +18806,11 @@ namespace IsnetEFatura
         
         private string ReturnableQuantityField;
         
-        private IsnetEFatura.Temperature[] TemperatureField;
+        private IsNet.EFatura.Temperature[] TemperatureField;
         
         private string TraceIDField;
         
-        private IsnetEFatura.Amount ValueAmountField;
+        private IsNet.EFatura.Amount ValueAmountField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string ChargableWeightMeasure
@@ -18878,7 +18878,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount DeclaredCustomsValueAmount
+        public IsNet.EFatura.Amount DeclaredCustomsValueAmount
         {
             get
             {
@@ -18891,7 +18891,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount DeclaredForCarriageValueAmount
+        public IsNet.EFatura.Amount DeclaredForCarriageValueAmount
         {
             get
             {
@@ -18904,7 +18904,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount DeclaredStatisticsValueAmount
+        public IsNet.EFatura.Amount DeclaredStatisticsValueAmount
         {
             get
             {
@@ -18930,7 +18930,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount FreeOnBoardValueAmount
+        public IsNet.EFatura.Amount FreeOnBoardValueAmount
         {
             get
             {
@@ -18943,7 +18943,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AllowanceCharge[] FreightAllowanceCharge
+        public IsNet.EFatura.AllowanceCharge[] FreightAllowanceCharge
         {
             get
             {
@@ -18956,7 +18956,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Measure GrossVolumeMeasure
+        public IsNet.EFatura.Measure GrossVolumeMeasure
         {
             get
             {
@@ -18969,7 +18969,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Measure GrossWeightMeasure
+        public IsNet.EFatura.Measure GrossWeightMeasure
         {
             get
             {
@@ -18995,7 +18995,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -19008,7 +19008,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount InsuranceValueAmount
+        public IsNet.EFatura.Amount InsuranceValueAmount
         {
             get
             {
@@ -19021,7 +19021,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Item[] Item
+        public IsNet.EFatura.Item[] Item
         {
             get
             {
@@ -19034,7 +19034,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension[] MeasurementDimension
+        public IsNet.EFatura.Dimension[] MeasurementDimension
         {
             get
             {
@@ -19073,7 +19073,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 OriginAddress
+        public IsNet.EFatura.PostalAddress1 OriginAddress
         {
             get
             {
@@ -19125,7 +19125,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Temperature[] Temperature
+        public IsNet.EFatura.Temperature[] Temperature
         {
             get
             {
@@ -19151,7 +19151,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount ValueAmount
+        public IsNet.EFatura.Amount ValueAmount
         {
             get
             {
@@ -19170,24 +19170,24 @@ namespace IsnetEFatura
     public partial class ShipmentStage1 : object
     {
         
-        private IsnetEFatura.Person[] DriverPersonField;
+        private IsNet.EFatura.Person[] DriverPersonField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string[] InstructionsField;
         
         private string TransitDirectionCodeField;
         
-        private IsnetEFatura.Period TransitPeriodField;
+        private IsNet.EFatura.Period TransitPeriodField;
         
-        private IsnetEFatura.TransportMeans TransportMeansField;
+        private IsNet.EFatura.TransportMeans TransportMeansField;
         
         private string TransportMeansTypeCodeField;
         
         private string TransportModeCodeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Person[] DriverPerson
+        public IsNet.EFatura.Person[] DriverPerson
         {
             get
             {
@@ -19200,7 +19200,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -19239,7 +19239,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Period TransitPeriod
+        public IsNet.EFatura.Period TransitPeriod
         {
             get
             {
@@ -19252,7 +19252,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TransportMeans TransportMeans
+        public IsNet.EFatura.TransportMeans TransportMeans
         {
             get
             {
@@ -19297,33 +19297,33 @@ namespace IsnetEFatura
     public partial class TransportHandlingUnit : object
     {
         
-        private IsnetEFatura.Package[] ActualPackageField;
+        private IsNet.EFatura.Package[] ActualPackageField;
         
-        private IsnetEFatura.CustomsDeclaration[] CustomsDeclarationField;
+        private IsNet.EFatura.CustomsDeclaration[] CustomsDeclarationField;
         
         private string DamageRemarksField;
         
-        private IsnetEFatura.Dimension FloorSpaceMeasurementDimensionField;
+        private IsNet.EFatura.Dimension FloorSpaceMeasurementDimensionField;
         
         private string HandlingCodeField;
         
         private string HandlingInstructionsField;
         
-        private IsnetEFatura.HazardousGoodsTransit HazardousGoodsTransitField;
+        private IsNet.EFatura.HazardousGoodsTransit HazardousGoodsTransitField;
         
         private string HazardousRiskIndicatorField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.Temperature MaximumTemperatureField;
+        private IsNet.EFatura.Temperature MaximumTemperatureField;
         
-        private IsnetEFatura.Dimension MeasurementDimensionField;
+        private IsNet.EFatura.Dimension MeasurementDimensionField;
         
-        private IsnetEFatura.Temperature MinimumTemperatureField;
+        private IsNet.EFatura.Temperature MinimumTemperatureField;
         
-        private IsnetEFatura.Dimension PalletSpaceMeasurementDimensionField;
+        private IsNet.EFatura.Dimension PalletSpaceMeasurementDimensionField;
         
-        private IsnetEFatura.DocumentReference1 ShipmentDocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 ShipmentDocumentReferenceField;
         
         private string TotalGoodsItemQuantityField;
         
@@ -19331,14 +19331,14 @@ namespace IsnetEFatura
         
         private string TraceIDField;
         
-        private IsnetEFatura.TransportEquipment[] TransportEquipmentField;
+        private IsNet.EFatura.TransportEquipment[] TransportEquipmentField;
         
         private string TransportHandlingUnitTypeCodeField;
         
-        private IsnetEFatura.TransportMeans[] TransportMeansField;
+        private IsNet.EFatura.TransportMeans[] TransportMeansField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Package[] ActualPackage
+        public IsNet.EFatura.Package[] ActualPackage
         {
             get
             {
@@ -19351,7 +19351,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CustomsDeclaration[] CustomsDeclaration
+        public IsNet.EFatura.CustomsDeclaration[] CustomsDeclaration
         {
             get
             {
@@ -19377,7 +19377,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension FloorSpaceMeasurementDimension
+        public IsNet.EFatura.Dimension FloorSpaceMeasurementDimension
         {
             get
             {
@@ -19416,7 +19416,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.HazardousGoodsTransit HazardousGoodsTransit
+        public IsNet.EFatura.HazardousGoodsTransit HazardousGoodsTransit
         {
             get
             {
@@ -19442,7 +19442,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -19455,7 +19455,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Temperature MaximumTemperature
+        public IsNet.EFatura.Temperature MaximumTemperature
         {
             get
             {
@@ -19468,7 +19468,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension MeasurementDimension
+        public IsNet.EFatura.Dimension MeasurementDimension
         {
             get
             {
@@ -19481,7 +19481,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Temperature MinimumTemperature
+        public IsNet.EFatura.Temperature MinimumTemperature
         {
             get
             {
@@ -19494,7 +19494,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension PalletSpaceMeasurementDimension
+        public IsNet.EFatura.Dimension PalletSpaceMeasurementDimension
         {
             get
             {
@@ -19507,7 +19507,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 ShipmentDocumentReference
+        public IsNet.EFatura.DocumentReference1 ShipmentDocumentReference
         {
             get
             {
@@ -19559,7 +19559,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TransportEquipment[] TransportEquipment
+        public IsNet.EFatura.TransportEquipment[] TransportEquipment
         {
             get
             {
@@ -19585,7 +19585,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TransportMeans[] TransportMeans
+        public IsNet.EFatura.TransportMeans[] TransportMeans
         {
             get
             {
@@ -19604,32 +19604,32 @@ namespace IsnetEFatura
     public partial class Item : object
     {
         
-        private IsnetEFatura.ItemIdentification[] AdditionalItemIdentificationField;
+        private IsNet.EFatura.ItemIdentification[] AdditionalItemIdentificationField;
         
         private string BrandNameField;
         
-        private IsnetEFatura.ItemIdentification BuyersItemIdentificationField;
+        private IsNet.EFatura.ItemIdentification BuyersItemIdentificationField;
         
-        private IsnetEFatura.CommodityClassification[] CommodityClassificationField;
+        private IsNet.EFatura.CommodityClassification[] CommodityClassificationField;
         
         private string DescriptionField;
         
-        private IsnetEFatura.ItemInstance[] ItemInstanceField;
+        private IsNet.EFatura.ItemInstance[] ItemInstanceField;
         
         private string KeywordField;
         
-        private IsnetEFatura.ItemIdentification ManufacturersItemIdentificationField;
+        private IsNet.EFatura.ItemIdentification ManufacturersItemIdentificationField;
         
         private string ModelNameField;
         
         private string NameField;
         
-        private IsnetEFatura.OriginCountry[] OriginCountryField;
+        private IsNet.EFatura.OriginCountry[] OriginCountryField;
         
-        private IsnetEFatura.ItemIdentification SellersItemIdentificationField;
+        private IsNet.EFatura.ItemIdentification SellersItemIdentificationField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemIdentification[] AdditionalItemIdentification
+        public IsNet.EFatura.ItemIdentification[] AdditionalItemIdentification
         {
             get
             {
@@ -19655,7 +19655,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemIdentification BuyersItemIdentification
+        public IsNet.EFatura.ItemIdentification BuyersItemIdentification
         {
             get
             {
@@ -19668,7 +19668,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CommodityClassification[] CommodityClassification
+        public IsNet.EFatura.CommodityClassification[] CommodityClassification
         {
             get
             {
@@ -19694,7 +19694,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemInstance[] ItemInstance
+        public IsNet.EFatura.ItemInstance[] ItemInstance
         {
             get
             {
@@ -19720,7 +19720,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemIdentification ManufacturersItemIdentification
+        public IsNet.EFatura.ItemIdentification ManufacturersItemIdentification
         {
             get
             {
@@ -19759,7 +19759,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.OriginCountry[] OriginCountry
+        public IsNet.EFatura.OriginCountry[] OriginCountry
         {
             get
             {
@@ -19772,7 +19772,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemIdentification SellersItemIdentification
+        public IsNet.EFatura.ItemIdentification SellersItemIdentification
         {
             get
             {
@@ -19791,7 +19791,7 @@ namespace IsnetEFatura
     public partial class Dimension : object
     {
         
-        private IsnetEFatura.ID AttributeIDField;
+        private IsNet.EFatura.ID AttributeIDField;
         
         private string[] DescriptionField;
         
@@ -19802,7 +19802,7 @@ namespace IsnetEFatura
         private string MinimumMeasureField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID AttributeID
+        public IsNet.EFatura.ID AttributeID
         {
             get
             {
@@ -19873,14 +19873,14 @@ namespace IsnetEFatura
     public partial class Temperature : object
     {
         
-        private IsnetEFatura.ID AttributeIDField;
+        private IsNet.EFatura.ID AttributeIDField;
         
         private string[] DescriptionField;
         
         private string MeasureField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID AttributeID
+        public IsNet.EFatura.ID AttributeID
         {
             get
             {
@@ -19925,10 +19925,10 @@ namespace IsnetEFatura
     public partial class ItemIdentification : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -19947,10 +19947,10 @@ namespace IsnetEFatura
     public partial class CommodityClassification : object
     {
         
-        private IsnetEFatura.ItemClassificationCode ItemClassificationCodeField;
+        private IsNet.EFatura.ItemClassificationCode ItemClassificationCodeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemClassificationCode ItemClassificationCode
+        public IsNet.EFatura.ItemClassificationCode ItemClassificationCode
         {
             get
             {
@@ -19969,24 +19969,24 @@ namespace IsnetEFatura
     public partial class ItemInstance : object
     {
         
-        private IsnetEFatura.ItemProperty[] AdditionalItemPropertyField;
+        private IsNet.EFatura.ItemProperty[] AdditionalItemPropertyField;
         
         private string BestBeforeDateField;
         
-        private IsnetEFatura.ID LotIdentificationField;
+        private IsNet.EFatura.ID LotIdentificationField;
         
         private string ManufacturedDateField;
         
         private string ManufacturedTimeField;
         
-        private IsnetEFatura.ID ProductTraceIDField;
+        private IsNet.EFatura.ID ProductTraceIDField;
         
-        private IsnetEFatura.ID RegistrationIDField;
+        private IsNet.EFatura.ID RegistrationIDField;
         
-        private IsnetEFatura.ID SerialIDField;
+        private IsNet.EFatura.ID SerialIDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemProperty[] AdditionalItemProperty
+        public IsNet.EFatura.ItemProperty[] AdditionalItemProperty
         {
             get
             {
@@ -20012,7 +20012,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID LotIdentification
+        public IsNet.EFatura.ID LotIdentification
         {
             get
             {
@@ -20051,7 +20051,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ProductTraceID
+        public IsNet.EFatura.ID ProductTraceID
         {
             get
             {
@@ -20064,7 +20064,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID RegistrationID
+        public IsNet.EFatura.ID RegistrationID
         {
             get
             {
@@ -20077,7 +20077,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID SerialID
+        public IsNet.EFatura.ID SerialID
         {
             get
             {
@@ -20185,13 +20185,13 @@ namespace IsnetEFatura
     public partial class ItemProperty : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string ImportanceCodeField;
         
-        private IsnetEFatura.ItemPropertyGroup ItemPropertyGroupField;
+        private IsNet.EFatura.ItemPropertyGroup ItemPropertyGroupField;
         
-        private IsnetEFatura.ItemPropertyRange ItemPropertyRangeField;
+        private IsNet.EFatura.ItemPropertyRange ItemPropertyRangeField;
         
         private string ListValueField;
         
@@ -20199,11 +20199,11 @@ namespace IsnetEFatura
         
         private string NameCodeField;
         
-        private IsnetEFatura.Dimension RangeDimensionField;
+        private IsNet.EFatura.Dimension RangeDimensionField;
         
         private string TestMethodField;
         
-        private IsnetEFatura.Period UsabilityPeriodField;
+        private IsNet.EFatura.Period UsabilityPeriodField;
         
         private string ValueField;
         
@@ -20212,7 +20212,7 @@ namespace IsnetEFatura
         private string ValueQuantityField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -20238,7 +20238,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemPropertyGroup ItemPropertyGroup
+        public IsNet.EFatura.ItemPropertyGroup ItemPropertyGroup
         {
             get
             {
@@ -20251,7 +20251,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ItemPropertyRange ItemPropertyRange
+        public IsNet.EFatura.ItemPropertyRange ItemPropertyRange
         {
             get
             {
@@ -20303,7 +20303,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension RangeDimension
+        public IsNet.EFatura.Dimension RangeDimension
         {
             get
             {
@@ -20329,7 +20329,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Period UsabilityPeriod
+        public IsNet.EFatura.Period UsabilityPeriod
         {
             get
             {
@@ -20387,14 +20387,14 @@ namespace IsnetEFatura
     public partial class ItemPropertyGroup : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string ImportanceCodeField;
         
         private string NameField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -20476,40 +20476,40 @@ namespace IsnetEFatura
     public partial class TransportMeans : object
     {
         
-        private IsnetEFatura.AirTransport AirTransportField;
+        private IsNet.EFatura.AirTransport AirTransportField;
         
         private string DirectionCodeField;
         
-        private IsnetEFatura.Party1 DriverPartyField;
+        private IsNet.EFatura.Party1 DriverPartyField;
         
-        private IsnetEFatura.ID JourneyIDField;
+        private IsNet.EFatura.ID JourneyIDField;
         
-        private IsnetEFatura.MaritimeTransport MaritimeTransportField;
+        private IsNet.EFatura.MaritimeTransport MaritimeTransportField;
         
-        private IsnetEFatura.Dimension MeasurementDimensionField;
+        private IsNet.EFatura.Dimension MeasurementDimensionField;
         
-        private IsnetEFatura.Party1 OwnerPartyField;
+        private IsNet.EFatura.Party1 OwnerPartyField;
         
-        private IsnetEFatura.Party1 PassengerPartyField;
+        private IsNet.EFatura.Party1 PassengerPartyField;
         
-        private IsnetEFatura.RailTransport RailTransportField;
+        private IsNet.EFatura.RailTransport RailTransportField;
         
         private string[] RegistrationNationalityField;
         
-        private IsnetEFatura.ID RegistrationNationalityIDField;
+        private IsNet.EFatura.ID RegistrationNationalityIDField;
         
-        private IsnetEFatura.Party1 ReportingPartyField;
+        private IsNet.EFatura.Party1 ReportingPartyField;
         
-        private IsnetEFatura.RoadTransport RoadTransportField;
+        private IsNet.EFatura.RoadTransport RoadTransportField;
         
-        private IsnetEFatura.Stowage StowageField;
+        private IsNet.EFatura.Stowage StowageField;
         
         private string TradeServiceCodeField;
         
         private string TransportMeansTypeCodeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.AirTransport AirTransport
+        public IsNet.EFatura.AirTransport AirTransport
         {
             get
             {
@@ -20535,7 +20535,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 DriverParty
+        public IsNet.EFatura.Party1 DriverParty
         {
             get
             {
@@ -20548,7 +20548,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID JourneyID
+        public IsNet.EFatura.ID JourneyID
         {
             get
             {
@@ -20561,7 +20561,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.MaritimeTransport MaritimeTransport
+        public IsNet.EFatura.MaritimeTransport MaritimeTransport
         {
             get
             {
@@ -20574,7 +20574,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension MeasurementDimension
+        public IsNet.EFatura.Dimension MeasurementDimension
         {
             get
             {
@@ -20587,7 +20587,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 OwnerParty
+        public IsNet.EFatura.Party1 OwnerParty
         {
             get
             {
@@ -20600,7 +20600,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 PassengerParty
+        public IsNet.EFatura.Party1 PassengerParty
         {
             get
             {
@@ -20613,7 +20613,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.RailTransport RailTransport
+        public IsNet.EFatura.RailTransport RailTransport
         {
             get
             {
@@ -20639,7 +20639,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID RegistrationNationalityID
+        public IsNet.EFatura.ID RegistrationNationalityID
         {
             get
             {
@@ -20652,7 +20652,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 ReportingParty
+        public IsNet.EFatura.Party1 ReportingParty
         {
             get
             {
@@ -20665,7 +20665,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.RoadTransport RoadTransport
+        public IsNet.EFatura.RoadTransport RoadTransport
         {
             get
             {
@@ -20678,7 +20678,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Stowage Stowage
+        public IsNet.EFatura.Stowage Stowage
         {
             get
             {
@@ -20723,10 +20723,10 @@ namespace IsnetEFatura
     public partial class AirTransport : object
     {
         
-        private IsnetEFatura.ID AircraftIDField;
+        private IsNet.EFatura.ID AircraftIDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID AircraftID
+        public IsNet.EFatura.ID AircraftID
         {
             get
             {
@@ -20747,7 +20747,7 @@ namespace IsnetEFatura
         
         private string RadioCallSignIDField;
         
-        private IsnetEFatura.ID VesselIDField;
+        private IsNet.EFatura.ID VesselIDField;
         
         private string VesselNameField;
         
@@ -20765,7 +20765,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID VesselID
+        public IsNet.EFatura.ID VesselID
         {
             get
             {
@@ -20799,7 +20799,7 @@ namespace IsnetEFatura
         
         private string RailCarIDField;
         
-        private IsnetEFatura.ID TrainIDField;
+        private IsNet.EFatura.ID TrainIDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string RailCarID
@@ -20815,7 +20815,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID TrainID
+        public IsNet.EFatura.ID TrainID
         {
             get
             {
@@ -20834,10 +20834,10 @@ namespace IsnetEFatura
     public partial class RoadTransport : object
     {
         
-        private IsnetEFatura.ID LicensePlateIDField;
+        private IsNet.EFatura.ID LicensePlateIDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID LicensePlateID
+        public IsNet.EFatura.ID LicensePlateID
         {
             get
             {
@@ -20858,9 +20858,9 @@ namespace IsnetEFatura
         
         private string LocationField;
         
-        private IsnetEFatura.ID LocationIDField;
+        private IsNet.EFatura.ID LocationIDField;
         
-        private IsnetEFatura.Dimension MeasurementDimensionField;
+        private IsNet.EFatura.Dimension MeasurementDimensionField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Location
@@ -20876,7 +20876,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID LocationID
+        public IsNet.EFatura.ID LocationID
         {
             get
             {
@@ -20889,7 +20889,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension MeasurementDimension
+        public IsNet.EFatura.Dimension MeasurementDimension
         {
             get
             {
@@ -20912,9 +20912,9 @@ namespace IsnetEFatura
         
         private string InhalationToxicityZoneCodeField;
         
-        private IsnetEFatura.Temperature MaximumTemperatureField;
+        private IsNet.EFatura.Temperature MaximumTemperatureField;
         
-        private IsnetEFatura.Temperature MinimumTemperatureField;
+        private IsNet.EFatura.Temperature MinimumTemperatureField;
         
         private string PackagingCriteriaCodeField;
         
@@ -20949,7 +20949,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Temperature MaximumTemperature
+        public IsNet.EFatura.Temperature MaximumTemperature
         {
             get
             {
@@ -20962,7 +20962,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Temperature MinimumTemperature
+        public IsNet.EFatura.Temperature MinimumTemperature
         {
             get
             {
@@ -21020,13 +21020,13 @@ namespace IsnetEFatura
     public partial class Package : object
     {
         
-        private IsnetEFatura.Package[] ContainedPackageField;
+        private IsNet.EFatura.Package[] ContainedPackageField;
         
-        private IsnetEFatura.GoodsItem[] GoodsItemField;
+        private IsNet.EFatura.GoodsItem[] GoodsItemField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.Dimension[] MeasurementDimensionField;
+        private IsNet.EFatura.Dimension[] MeasurementDimensionField;
         
         private string PackageLevelCodeField;
         
@@ -21039,7 +21039,7 @@ namespace IsnetEFatura
         private string ReturnableMaterialIndicatorField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Package[] ContainedPackage
+        public IsNet.EFatura.Package[] ContainedPackage
         {
             get
             {
@@ -21052,7 +21052,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.GoodsItem[] GoodsItem
+        public IsNet.EFatura.GoodsItem[] GoodsItem
         {
             get
             {
@@ -21065,7 +21065,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -21078,7 +21078,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Dimension[] MeasurementDimension
+        public IsNet.EFatura.Dimension[] MeasurementDimension
         {
             get
             {
@@ -21162,12 +21162,12 @@ namespace IsnetEFatura
     public partial class CustomsDeclaration : object
     {
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
-        private IsnetEFatura.Party1 IssuerPartyField;
+        private IsNet.EFatura.Party1 IssuerPartyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -21180,7 +21180,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Party1 IssuerParty
+        public IsNet.EFatura.Party1 IssuerParty
         {
             get
             {
@@ -21201,7 +21201,7 @@ namespace IsnetEFatura
         
         private string DescriptionField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string TransportEquipmentTypeCodeField;
         
@@ -21219,7 +21219,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -21251,14 +21251,14 @@ namespace IsnetEFatura
     public partial class LineReference : object
     {
         
-        private IsnetEFatura.DocumentReference1 DocumentReferenceField;
+        private IsNet.EFatura.DocumentReference1 DocumentReferenceField;
         
-        private IsnetEFatura.ID LineIDField;
+        private IsNet.EFatura.ID LineIDField;
         
         private string LineStatusCodeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DocumentReference1 DocumentReference
+        public IsNet.EFatura.DocumentReference1 DocumentReference
         {
             get
             {
@@ -21271,7 +21271,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID LineID
+        public IsNet.EFatura.ID LineID
         {
             get
             {
@@ -21340,18 +21340,18 @@ namespace IsnetEFatura
     public partial class OrderLineReference : object
     {
         
-        private IsnetEFatura.ID LineIDField;
+        private IsNet.EFatura.ID LineIDField;
         
         private string LineStatusCodeField;
         
-        private IsnetEFatura.OrderReference OrderReferenceField;
+        private IsNet.EFatura.OrderReference OrderReferenceField;
         
-        private IsnetEFatura.ID SalesOrderLineIDField;
+        private IsNet.EFatura.ID SalesOrderLineIDField;
         
         private string UUIDField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID LineID
+        public IsNet.EFatura.ID LineID
         {
             get
             {
@@ -21377,7 +21377,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.OrderReference OrderReference
+        public IsNet.EFatura.OrderReference OrderReference
         {
             get
             {
@@ -21390,7 +21390,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID SalesOrderLineID
+        public IsNet.EFatura.ID SalesOrderLineID
         {
             get
             {
@@ -21422,10 +21422,10 @@ namespace IsnetEFatura
     public partial class Price : object
     {
         
-        private IsnetEFatura.Amount PriceAmountField;
+        private IsNet.EFatura.Amount PriceAmountField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount PriceAmount
+        public IsNet.EFatura.Amount PriceAmount
         {
             get
             {
@@ -21448,17 +21448,17 @@ namespace IsnetEFatura
         
         private string CalculationSequenceNumericField;
         
-        private IsnetEFatura.Amount PerUnitAmountField;
+        private IsNet.EFatura.Amount PerUnitAmountField;
         
         private string PercentField;
         
-        private IsnetEFatura.Amount TaxAmountField;
+        private IsNet.EFatura.Amount TaxAmountField;
         
-        private IsnetEFatura.TaxCategory TaxCategoryField;
+        private IsNet.EFatura.TaxCategory TaxCategoryField;
         
-        private IsnetEFatura.Amount TaxableAmountField;
+        private IsNet.EFatura.Amount TaxableAmountField;
         
-        private IsnetEFatura.Amount TransactionCurrencyTaxAmountField;
+        private IsNet.EFatura.Amount TransactionCurrencyTaxAmountField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string BaseUnitMeasure
@@ -21487,7 +21487,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount PerUnitAmount
+        public IsNet.EFatura.Amount PerUnitAmount
         {
             get
             {
@@ -21513,7 +21513,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount TaxAmount
+        public IsNet.EFatura.Amount TaxAmount
         {
             get
             {
@@ -21526,7 +21526,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TaxCategory TaxCategory
+        public IsNet.EFatura.TaxCategory TaxCategory
         {
             get
             {
@@ -21539,7 +21539,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount TaxableAmount
+        public IsNet.EFatura.Amount TaxableAmount
         {
             get
             {
@@ -21552,7 +21552,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Amount TransactionCurrencyTaxAmount
+        public IsNet.EFatura.Amount TransactionCurrencyTaxAmount
         {
             get
             {
@@ -21575,7 +21575,7 @@ namespace IsnetEFatura
         
         private string TaxExemptionReasonCodeField;
         
-        private IsnetEFatura.TaxScheme TaxSchemeField;
+        private IsNet.EFatura.TaxScheme TaxSchemeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string TaxExemptionReason
@@ -21604,7 +21604,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.TaxScheme TaxScheme
+        public IsNet.EFatura.TaxScheme TaxScheme
         {
             get
             {
@@ -21625,7 +21625,7 @@ namespace IsnetEFatura
         
         private string CurrencyCodeField;
         
-        private IsnetEFatura.ID IDField;
+        private IsNet.EFatura.ID IDField;
         
         private string PaymentNoteField;
         
@@ -21643,7 +21643,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ID ID
+        public IsNet.EFatura.ID ID
         {
             get
             {
@@ -21675,10 +21675,10 @@ namespace IsnetEFatura
     public partial class DigitalSignatureAttachment : object
     {
         
-        private IsnetEFatura.ExternalReference ExternalReferenceField;
+        private IsNet.EFatura.ExternalReference ExternalReferenceField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ExternalReference ExternalReference
+        public IsNet.EFatura.ExternalReference ExternalReference
         {
             get
             {
@@ -21697,12 +21697,12 @@ namespace IsnetEFatura
     public partial class SignatoryParty : object
     {
         
-        private IsnetEFatura.PartyIdentification PartyIdentificationField;
+        private IsNet.EFatura.PartyIdentification PartyIdentificationField;
         
-        private IsnetEFatura.PostalAddress1 PostalAddressField;
+        private IsNet.EFatura.PostalAddress1 PostalAddressField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PartyIdentification PartyIdentification
+        public IsNet.EFatura.PartyIdentification PartyIdentification
         {
             get
             {
@@ -21715,7 +21715,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.PostalAddress1 PostalAddress
+        public IsNet.EFatura.PostalAddress1 PostalAddress
         {
             get
             {
@@ -21734,10 +21734,10 @@ namespace IsnetEFatura
     public partial class UBLExtension : object
     {
         
-        private IsnetEFatura.ExtensionContent ExtensionContentField;
+        private IsNet.EFatura.ExtensionContent ExtensionContentField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ExtensionContent ExtensionContent
+        public IsNet.EFatura.ExtensionContent ExtensionContent
         {
             get
             {
@@ -21756,10 +21756,10 @@ namespace IsnetEFatura
     public partial class ExtensionContent : object
     {
         
-        private IsnetEFatura.ExtensionsSignature SignatureField;
+        private IsNet.EFatura.ExtensionsSignature SignatureField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ExtensionsSignature Signature
+        public IsNet.EFatura.ExtensionsSignature Signature
         {
             get
             {
@@ -21780,13 +21780,13 @@ namespace IsnetEFatura
         
         private string IdField;
         
-        private IsnetEFatura.KeyInfo KeyInfoField;
+        private IsNet.EFatura.KeyInfo KeyInfoField;
         
-        private IsnetEFatura.Object ObjectField;
+        private IsNet.EFatura.Object ObjectField;
         
-        private IsnetEFatura.SignatureValue SignatureValueField;
+        private IsNet.EFatura.SignatureValue SignatureValueField;
         
-        private IsnetEFatura.SignedInfo SignedInfoField;
+        private IsNet.EFatura.SignedInfo SignedInfoField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Id
@@ -21802,7 +21802,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.KeyInfo KeyInfo
+        public IsNet.EFatura.KeyInfo KeyInfo
         {
             get
             {
@@ -21815,7 +21815,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Object Object
+        public IsNet.EFatura.Object Object
         {
             get
             {
@@ -21828,7 +21828,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignatureValue SignatureValue
+        public IsNet.EFatura.SignatureValue SignatureValue
         {
             get
             {
@@ -21841,7 +21841,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignedInfo SignedInfo
+        public IsNet.EFatura.SignedInfo SignedInfo
         {
             get
             {
@@ -21860,12 +21860,12 @@ namespace IsnetEFatura
     public partial class KeyInfo : object
     {
         
-        private IsnetEFatura.KeyValue KeyValueField;
+        private IsNet.EFatura.KeyValue KeyValueField;
         
-        private IsnetEFatura.X509Data X509DataField;
+        private IsNet.EFatura.X509Data X509DataField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.KeyValue KeyValue
+        public IsNet.EFatura.KeyValue KeyValue
         {
             get
             {
@@ -21878,7 +21878,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.X509Data X509Data
+        public IsNet.EFatura.X509Data X509Data
         {
             get
             {
@@ -21899,7 +21899,7 @@ namespace IsnetEFatura
         
         private string IdField;
         
-        private IsnetEFatura.QualifyingProperties QualifyingPropertiesField;
+        private IsNet.EFatura.QualifyingProperties QualifyingPropertiesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Id
@@ -21915,7 +21915,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.QualifyingProperties QualifyingProperties
+        public IsNet.EFatura.QualifyingProperties QualifyingProperties
         {
             get
             {
@@ -21971,16 +21971,16 @@ namespace IsnetEFatura
     public partial class SignedInfo : object
     {
         
-        private IsnetEFatura.Method CanonicalizationMethodField;
+        private IsNet.EFatura.Method CanonicalizationMethodField;
         
         private string IdField;
         
-        private IsnetEFatura.Reference[] ReferenceField;
+        private IsNet.EFatura.Reference[] ReferenceField;
         
-        private IsnetEFatura.Method SignatureMethodField;
+        private IsNet.EFatura.Method SignatureMethodField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Method CanonicalizationMethod
+        public IsNet.EFatura.Method CanonicalizationMethod
         {
             get
             {
@@ -22006,7 +22006,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Reference[] Reference
+        public IsNet.EFatura.Reference[] Reference
         {
             get
             {
@@ -22019,7 +22019,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Method SignatureMethod
+        public IsNet.EFatura.Method SignatureMethod
         {
             get
             {
@@ -22038,10 +22038,10 @@ namespace IsnetEFatura
     public partial class KeyValue : object
     {
         
-        private IsnetEFatura.RSAKeyValue RSAKeyValueField;
+        private IsNet.EFatura.RSAKeyValue RSAKeyValueField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.RSAKeyValue RSAKeyValue
+        public IsNet.EFatura.RSAKeyValue RSAKeyValue
         {
             get
             {
@@ -22134,12 +22134,12 @@ namespace IsnetEFatura
     public partial class QualifyingProperties : object
     {
         
-        private IsnetEFatura.SignedProperties SignedPropertiesField;
+        private IsNet.EFatura.SignedProperties SignedPropertiesField;
         
         private string TargetField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignedProperties SignedProperties
+        public IsNet.EFatura.SignedProperties SignedProperties
         {
             get
             {
@@ -22173,9 +22173,9 @@ namespace IsnetEFatura
         
         private string IdField;
         
-        private IsnetEFatura.SignedDataObjectProperties SignedDataObjectPropertiesField;
+        private IsNet.EFatura.SignedDataObjectProperties SignedDataObjectPropertiesField;
         
-        private IsnetEFatura.SignedSignatureProperties SignedSignaturePropertiesField;
+        private IsNet.EFatura.SignedSignatureProperties SignedSignaturePropertiesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Id
@@ -22191,7 +22191,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignedDataObjectProperties SignedDataObjectProperties
+        public IsNet.EFatura.SignedDataObjectProperties SignedDataObjectProperties
         {
             get
             {
@@ -22204,7 +22204,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignedSignatureProperties SignedSignatureProperties
+        public IsNet.EFatura.SignedSignatureProperties SignedSignatureProperties
         {
             get
             {
@@ -22223,10 +22223,10 @@ namespace IsnetEFatura
     public partial class SignedDataObjectProperties : object
     {
         
-        private IsnetEFatura.DataObjectFormat DataObjectFormatField;
+        private IsNet.EFatura.DataObjectFormat DataObjectFormatField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.DataObjectFormat DataObjectFormat
+        public IsNet.EFatura.DataObjectFormat DataObjectFormat
         {
             get
             {
@@ -22245,14 +22245,14 @@ namespace IsnetEFatura
     public partial class SignedSignatureProperties : object
     {
         
-        private IsnetEFatura.SignerRole SignerRoleField;
+        private IsNet.EFatura.SignerRole SignerRoleField;
         
-        private IsnetEFatura.SigningCertificate SigningCertificateField;
+        private IsNet.EFatura.SigningCertificate SigningCertificateField;
         
         private string SigningTimeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SignerRole SignerRole
+        public IsNet.EFatura.SignerRole SignerRole
         {
             get
             {
@@ -22265,7 +22265,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.SigningCertificate SigningCertificate
+        public IsNet.EFatura.SigningCertificate SigningCertificate
         {
             get
             {
@@ -22334,10 +22334,10 @@ namespace IsnetEFatura
     public partial class SignerRole : object
     {
         
-        private IsnetEFatura.ClaimedRoles ClaimedRolesField;
+        private IsNet.EFatura.ClaimedRoles ClaimedRolesField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ClaimedRoles ClaimedRoles
+        public IsNet.EFatura.ClaimedRoles ClaimedRoles
         {
             get
             {
@@ -22356,10 +22356,10 @@ namespace IsnetEFatura
     public partial class SigningCertificate : object
     {
         
-        private IsnetEFatura.Cert CertField;
+        private IsNet.EFatura.Cert CertField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Cert Cert
+        public IsNet.EFatura.Cert Cert
         {
             get
             {
@@ -22378,10 +22378,10 @@ namespace IsnetEFatura
     public partial class ClaimedRoles : object
     {
         
-        private IsnetEFatura.ClaimedRole[] ClaimedRoleField;
+        private IsNet.EFatura.ClaimedRole[] ClaimedRoleField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ClaimedRole[] ClaimedRole
+        public IsNet.EFatura.ClaimedRole[] ClaimedRole
         {
             get
             {
@@ -22422,12 +22422,12 @@ namespace IsnetEFatura
     public partial class Cert : object
     {
         
-        private IsnetEFatura.CertDigest CertDigestField;
+        private IsNet.EFatura.CertDigest CertDigestField;
         
-        private IsnetEFatura.IssuerSerial IssuerSerialField;
+        private IsNet.EFatura.IssuerSerial IssuerSerialField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.CertDigest CertDigest
+        public IsNet.EFatura.CertDigest CertDigest
         {
             get
             {
@@ -22440,7 +22440,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.IssuerSerial IssuerSerial
+        public IsNet.EFatura.IssuerSerial IssuerSerial
         {
             get
             {
@@ -22459,12 +22459,12 @@ namespace IsnetEFatura
     public partial class CertDigest : object
     {
         
-        private IsnetEFatura.Method DigestMethodField;
+        private IsNet.EFatura.Method DigestMethodField;
         
         private string DigestValueField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Method DigestMethod
+        public IsNet.EFatura.Method DigestMethod
         {
             get
             {
@@ -22557,13 +22557,13 @@ namespace IsnetEFatura
         
         private string AddressField;
         
-        private IsnetEFatura.Method DigestMethodField;
+        private IsNet.EFatura.Method DigestMethodField;
         
         private string DigestValueField;
         
         private string IdField;
         
-        private IsnetEFatura.Transforms TransformsField;
+        private IsNet.EFatura.Transforms TransformsField;
         
         private string TypeField;
         
@@ -22581,7 +22581,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Method DigestMethod
+        public IsNet.EFatura.Method DigestMethod
         {
             get
             {
@@ -22620,7 +22620,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Transforms Transforms
+        public IsNet.EFatura.Transforms Transforms
         {
             get
             {
@@ -22652,10 +22652,10 @@ namespace IsnetEFatura
     public partial class Transforms : object
     {
         
-        private IsnetEFatura.Method TransformField;
+        private IsNet.EFatura.Method TransformField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.Method Transform
+        public IsNet.EFatura.Method Transform
         {
             get
             {
@@ -22680,7 +22680,7 @@ namespace IsnetEFatura
         
         private string[] InvoiceEttnListField;
         
-        private IsnetEFatura.ArchiveInvoiceReportStatus StatusField;
+        private IsNet.EFatura.ArchiveInvoiceReportStatus StatusField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string ArchiveInvoiceReportGroupNumber
@@ -22722,7 +22722,7 @@ namespace IsnetEFatura
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public IsnetEFatura.ArchiveInvoiceReportStatus Status
+        public IsNet.EFatura.ArchiveInvoiceReportStatus Status
         {
             get
             {
@@ -22867,132 +22867,245 @@ namespace IsnetEFatura
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="IsnetEFatura.IInvoiceService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="IsNet.EFatura.IInvoiceService")]
     public interface IInvoiceService
     {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceResponse> SendInvoiceAsync(IsnetEFatura.SendInvoiceRequest request);
+        IsNet.EFatura.SendInvoiceResponse SendInvoice(IsNet.EFatura.SendInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceResponse> SendInvoiceAsync(IsNet.EFatura.SendInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceApi", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceApiResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceResponse> SendInvoiceApiAsync(IsnetEFatura.SendInvoiceRequest request);
+        IsNet.EFatura.SendInvoiceResponse SendInvoiceApi(IsNet.EFatura.SendInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceApi", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceApiResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceResponse> SendInvoiceApiAsync(IsNet.EFatura.SendInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceXmlResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceXmlResponse> SendInvoiceXmlAsync(IsnetEFatura.SendInvoiceXmlRequest request);
+        IsNet.EFatura.SendInvoiceXmlResponse SendInvoiceXml(IsNet.EFatura.SendInvoiceXmlRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceXmlResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceXmlResponse> SendInvoiceXmlAsync(IsNet.EFatura.SendInvoiceXmlRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceXmlWithoutInvoiceNumber", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceXmlWithoutInvoiceNumberResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceXmlWithoutInvoiceNumberResponse> SendInvoiceXmlWithoutInvoiceNumberAsync(IsnetEFatura.SendInvoiceXmlWithoutInvoiceNumberRequest request);
+        IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberResponse SendInvoiceXmlWithoutInvoiceNumber(IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceXmlWithoutInvoiceNumber", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceXmlWithoutInvoiceNumberResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberResponse> SendInvoiceXmlWithoutInvoiceNumberAsync(IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceAsync(IsnetEFatura.SendArchiveInvoiceRequest request);
+        IsNet.EFatura.SendArchiveInvoiceResponse SendArchiveInvoice(IsNet.EFatura.SendArchiveInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceAsync(IsNet.EFatura.SendArchiveInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceApi", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceApiResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceApiAsync(IsnetEFatura.SendArchiveInvoiceRequest request);
+        IsNet.EFatura.SendArchiveInvoiceResponse SendArchiveInvoiceApi(IsNet.EFatura.SendArchiveInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceApi", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceApiResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceApiAsync(IsNet.EFatura.SendArchiveInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXmlResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceXmlResponse> SendArchiveInvoiceXmlAsync(IsnetEFatura.SendArchiveInvoiceXmlRequest request);
+        IsNet.EFatura.SendArchiveInvoiceXmlResponse SendArchiveInvoiceXml(IsNet.EFatura.SendArchiveInvoiceXmlRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXmlResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceXmlResponse> SendArchiveInvoiceXmlAsync(IsNet.EFatura.SendArchiveInvoiceXmlRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXmlWithoutInvoiceNumber", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXmlWithoutInvoiceNumberRespo" +
             "nse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse> SendArchiveInvoiceXmlWithoutInvoiceNumberAsync(IsnetEFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest request);
+        IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse SendArchiveInvoiceXmlWithoutInvoiceNumber(IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXmlWithoutInvoiceNumber", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceXmlWithoutInvoiceNumberRespo" +
+            "nse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse> SendArchiveInvoiceXmlWithoutInvoiceNumberAsync(IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceReply", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceReplyResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceReplyResponse> SendInvoiceReplyAsync(IsnetEFatura.SendInvoiceReplyRequest request);
+        IsNet.EFatura.SendInvoiceReplyResponse SendInvoiceReply(IsNet.EFatura.SendInvoiceReplyRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendInvoiceReply", ReplyAction="http://tempuri.org/IInvoiceService/SendInvoiceReplyResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceReplyResponse> SendInvoiceReplyAsync(IsNet.EFatura.SendInvoiceReplyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/UpdateInvoiceState", ReplyAction="http://tempuri.org/IInvoiceService/UpdateInvoiceStateResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.UpdateInvoiceStateResponse> UpdateInvoiceStateAsync(IsnetEFatura.UpdateInvoiceStateRequest request);
+        IsNet.EFatura.UpdateInvoiceStateResponse UpdateInvoiceState(IsNet.EFatura.UpdateInvoiceStateRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/UpdateInvoiceState", ReplyAction="http://tempuri.org/IInvoiceService/UpdateInvoiceStateResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.UpdateInvoiceStateResponse> UpdateInvoiceStateAsync(IsNet.EFatura.UpdateInvoiceStateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/DirectInvoice", ReplyAction="http://tempuri.org/IInvoiceService/DirectInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.DirectInvoiceResponse> DirectInvoiceAsync(IsnetEFatura.DirectInvoiceRequest request);
+        IsNet.EFatura.DirectInvoiceResponse DirectInvoice(IsNet.EFatura.DirectInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/DirectInvoice", ReplyAction="http://tempuri.org/IInvoiceService/DirectInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.DirectInvoiceResponse> DirectInvoiceAsync(IsNet.EFatura.DirectInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchInvoiceResponse> SearchInvoiceAsync(IsnetEFatura.SearchInvoiceRequest request);
+        IsNet.EFatura.SearchInvoiceResponse SearchInvoice(IsNet.EFatura.SearchInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchInvoiceResponse> SearchInvoiceAsync(IsNet.EFatura.SearchInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchAllInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchAllInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchAllInvoiceResponse> SearchAllInvoiceAsync(IsnetEFatura.SearchAllInvoiceRequest request);
+        IsNet.EFatura.SearchAllInvoiceResponse SearchAllInvoice(IsNet.EFatura.SearchAllInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchAllInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchAllInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchAllInvoiceResponse> SearchAllInvoiceAsync(IsNet.EFatura.SearchAllInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchExternalInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchExternalInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchExternalInvoiceResponse> SearchExternalInvoiceAsync(IsnetEFatura.SearchExternalInvoiceRequest request);
+        IsNet.EFatura.SearchExternalInvoiceResponse SearchExternalInvoice(IsNet.EFatura.SearchExternalInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchExternalInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchExternalInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchExternalInvoiceResponse> SearchExternalInvoiceAsync(IsNet.EFatura.SearchExternalInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchArchiveInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchArchiveInvoiceResponse> SearchArchiveInvoiceAsync(IsnetEFatura.SearchArchiveInvoiceRequest request);
+        IsNet.EFatura.SearchArchiveInvoiceResponse SearchArchiveInvoice(IsNet.EFatura.SearchArchiveInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/SearchArchiveInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchArchiveInvoiceResponse> SearchArchiveInvoiceAsync(IsNet.EFatura.SearchArchiveInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/ArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/ArchiveInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.ArchiveInvoiceResponse> ArchiveInvoiceAsync(IsnetEFatura.ArchiveInvoiceRequest request);
+        IsNet.EFatura.ArchiveInvoiceResponse ArchiveInvoice(IsNet.EFatura.ArchiveInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/ArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/ArchiveInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.ArchiveInvoiceResponse> ArchiveInvoiceAsync(IsNet.EFatura.ArchiveInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/DeArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/DeArchiveInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.DeArchiveInvoiceResponse> DeArchiveInvoiceAsync(IsnetEFatura.DeArchiveInvoiceRequest request);
+        IsNet.EFatura.DeArchiveInvoiceResponse DeArchiveInvoice(IsNet.EFatura.DeArchiveInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/DeArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/DeArchiveInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.DeArchiveInvoiceResponse> DeArchiveInvoiceAsync(IsNet.EFatura.DeArchiveInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/CancelArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/CancelArchiveInvoiceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.CancelArchiveInvoiceResponse> CancelArchiveInvoiceAsync(IsnetEFatura.CancelArchiveInvoiceRequest request);
+        IsNet.EFatura.CancelArchiveInvoiceResponse CancelArchiveInvoice(IsNet.EFatura.CancelArchiveInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/CancelArchiveInvoice", ReplyAction="http://tempuri.org/IInvoiceService/CancelArchiveInvoiceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.CancelArchiveInvoiceResponse> CancelArchiveInvoiceAsync(IsNet.EFatura.CancelArchiveInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceReport", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceReportResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceReportResponse> SendArchiveInvoiceReportAsync(IsnetEFatura.SendArchiveInvoiceReportRequest request);
+        IsNet.EFatura.SendArchiveInvoiceReportResponse SendArchiveInvoiceReport(IsNet.EFatura.SendArchiveInvoiceReportRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceReport", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceReportResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceReportResponse> SendArchiveInvoiceReportAsync(IsNet.EFatura.SendArchiveInvoiceReportRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchArchiveInvoiceReport", ReplyAction="http://tempuri.org/IInvoiceService/SearchArchiveInvoiceReportResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchArchiveInvoiceReportResponse> SearchArchiveInvoiceReportAsync(IsnetEFatura.SearchArchiveInvoiceReportRequest request);
+        IsNet.EFatura.SearchArchiveInvoiceReportResponse SearchArchiveInvoiceReport(IsNet.EFatura.SearchArchiveInvoiceReportRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchArchiveInvoiceReport", ReplyAction="http://tempuri.org/IInvoiceService/SearchArchiveInvoiceReportResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchArchiveInvoiceReportResponse> SearchArchiveInvoiceReportAsync(IsNet.EFatura.SearchArchiveInvoiceReportRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceMail", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceMailResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceMailResponse> SendArchiveInvoiceMailAsync(IsnetEFatura.SendArchiveInvoiceMailRequest request);
+        IsNet.EFatura.SendArchiveInvoiceMailResponse SendArchiveInvoiceMail(IsNet.EFatura.SendArchiveInvoiceMailRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendArchiveInvoiceMail", ReplyAction="http://tempuri.org/IInvoiceService/SendArchiveInvoiceMailResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceMailResponse> SendArchiveInvoiceMailAsync(IsNet.EFatura.SendArchiveInvoiceMailRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/GetEttnList", ReplyAction="http://tempuri.org/IInvoiceService/GetEttnListResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.GetEttnListResponse> GetEttnListAsync(IsnetEFatura.SearchAllInvoiceRequest request);
+        IsNet.EFatura.GetEttnListResponse GetEttnList(IsNet.EFatura.SearchAllInvoiceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/GetEttnList", ReplyAction="http://tempuri.org/IInvoiceService/GetEttnListResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.GetEttnListResponse> GetEttnListAsync(IsNet.EFatura.SearchAllInvoiceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/CreateReturnReceipt", ReplyAction="http://tempuri.org/IInvoiceService/CreateReturnReceiptResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.CreateReturnReceiptResponse> CreateReturnReceiptAsync(IsnetEFatura.CreateReturnReceiptRequest request);
+        IsNet.EFatura.CreateReturnReceiptResponse CreateReturnReceipt(IsNet.EFatura.CreateReturnReceiptRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/CreateReturnReceipt", ReplyAction="http://tempuri.org/IInvoiceService/CreateReturnReceiptResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.CreateReturnReceiptResponse> CreateReturnReceiptAsync(IsNet.EFatura.CreateReturnReceiptRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendDespatchAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SendDespatchAdviceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendDespatchAdviceResponse> SendDespatchAdviceAsync(IsnetEFatura.SendDespatchAdviceRequest request);
+        IsNet.EFatura.SendDespatchAdviceResponse SendDespatchAdvice(IsNet.EFatura.SendDespatchAdviceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendDespatchAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SendDespatchAdviceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendDespatchAdviceResponse> SendDespatchAdviceAsync(IsNet.EFatura.SendDespatchAdviceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendDespatchAdviceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendDespatchAdviceXmlResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendDespatchAdviceXmlResponse> SendDespatchAdviceXmlAsync(IsnetEFatura.SendDespatchAdviceXmlRequest request);
+        IsNet.EFatura.SendDespatchAdviceXmlResponse SendDespatchAdviceXml(IsNet.EFatura.SendDespatchAdviceXmlRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendDespatchAdviceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendDespatchAdviceXmlResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendDespatchAdviceXmlResponse> SendDespatchAdviceXmlAsync(IsNet.EFatura.SendDespatchAdviceXmlRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendDespatchAdviceXmlWithoutDespatchAdviceNumb" +
             "er", ReplyAction="http://tempuri.org/IInvoiceService/SendDespatchAdviceXmlWithoutDespatchAdviceNumb" +
             "erResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse> SendDespatchAdviceXmlWithoutDespatchAdviceNumberAsync(IsnetEFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest request);
+        IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse SendDespatchAdviceXmlWithoutDespatchAdviceNumber(IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendDespatchAdviceXmlWithoutDespatchAdviceNumb" +
+            "er", ReplyAction="http://tempuri.org/IInvoiceService/SendDespatchAdviceXmlWithoutDespatchAdviceNumb" +
+            "erResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse> SendDespatchAdviceXmlWithoutDespatchAdviceNumberAsync(IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchDespatchAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SearchDespatchAdviceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchDespatchAdviceResponse> SearchDespatchAdviceAsync(IsnetEFatura.SearchDespatchAdviceRequest request);
+        IsNet.EFatura.SearchDespatchAdviceResponse SearchDespatchAdvice(IsNet.EFatura.SearchDespatchAdviceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchDespatchAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SearchDespatchAdviceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchDespatchAdviceResponse> SearchDespatchAdviceAsync(IsNet.EFatura.SearchDespatchAdviceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendReceiptAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SendReceiptAdviceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendReceiptAdviceResponse> SendReceiptAdviceAsync(IsnetEFatura.SendReceiptAdviceRequest request);
+        IsNet.EFatura.SendReceiptAdviceResponse SendReceiptAdvice(IsNet.EFatura.SendReceiptAdviceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendReceiptAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SendReceiptAdviceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendReceiptAdviceResponse> SendReceiptAdviceAsync(IsNet.EFatura.SendReceiptAdviceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendReceiptAdviceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendReceiptAdviceXmlResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendReceiptAdviceXmlResponse> SendReceiptAdviceXmlAsync(IsnetEFatura.SendReceiptAdviceXmlRequest request);
+        IsNet.EFatura.SendReceiptAdviceXmlResponse SendReceiptAdviceXml(IsNet.EFatura.SendReceiptAdviceXmlRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendReceiptAdviceXml", ReplyAction="http://tempuri.org/IInvoiceService/SendReceiptAdviceXmlResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendReceiptAdviceXmlResponse> SendReceiptAdviceXmlAsync(IsNet.EFatura.SendReceiptAdviceXmlRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendReceiptAdviceXmlWithoutReceiptAdviceNumber" +
             "", ReplyAction="http://tempuri.org/IInvoiceService/SendReceiptAdviceXmlWithoutReceiptAdviceNumber" +
             "Response")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse> SendReceiptAdviceXmlWithoutReceiptAdviceNumberAsync(IsnetEFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest request);
+        IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse SendReceiptAdviceXmlWithoutReceiptAdviceNumber(IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendReceiptAdviceXmlWithoutReceiptAdviceNumber" +
+            "", ReplyAction="http://tempuri.org/IInvoiceService/SendReceiptAdviceXmlWithoutReceiptAdviceNumber" +
+            "Response")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse> SendReceiptAdviceXmlWithoutReceiptAdviceNumberAsync(IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchReceiptAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SearchReceiptAdviceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchReceiptAdviceResponse> SearchReceiptAdviceAsync(IsnetEFatura.SearchReceiptAdviceRequest request);
+        IsNet.EFatura.SearchReceiptAdviceResponse SearchReceiptAdvice(IsNet.EFatura.SearchReceiptAdviceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchReceiptAdvice", ReplyAction="http://tempuri.org/IInvoiceService/SearchReceiptAdviceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchReceiptAdviceResponse> SearchReceiptAdviceAsync(IsNet.EFatura.SearchReceiptAdviceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendESMM", ReplyAction="http://tempuri.org/IInvoiceService/SendESMMResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendESMMResponse> SendESMMAsync(IsnetEFatura.SendESMMRequest request);
+        IsNet.EFatura.SendESMMResponse SendESMM(IsNet.EFatura.SendESMMRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendESMM", ReplyAction="http://tempuri.org/IInvoiceService/SendESMMResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendESMMResponse> SendESMMAsync(IsNet.EFatura.SendESMMRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendESMMXml", ReplyAction="http://tempuri.org/IInvoiceService/SendESMMXmlResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SendESMMXmlResponse> SendESMMXmlAsync(IsnetEFatura.SendESMMXmlRequest request);
+        IsNet.EFatura.SendESMMXmlResponse SendESMMXml(IsNet.EFatura.SendESMMXmlRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SendESMMXml", ReplyAction="http://tempuri.org/IInvoiceService/SendESMMXmlResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SendESMMXmlResponse> SendESMMXmlAsync(IsNet.EFatura.SendESMMXmlRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchESMM", ReplyAction="http://tempuri.org/IInvoiceService/SearchESMMResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.SearchESMMResponse> SearchESMMAsync(IsnetEFatura.SearchESMMRequest request);
+        IsNet.EFatura.SearchESMMResponse SearchESMM(IsNet.EFatura.SearchESMMRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/SearchESMM", ReplyAction="http://tempuri.org/IInvoiceService/SearchESMMResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.SearchESMMResponse> SearchESMMAsync(IsNet.EFatura.SearchESMMRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/CancelESMM", ReplyAction="http://tempuri.org/IInvoiceService/CancelESMMResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.CancelESMMResponse> CancelESMMAsync(IsnetEFatura.CancelESMMRequest request);
+        IsNet.EFatura.CancelESMMResponse CancelESMM(IsNet.EFatura.CancelESMMRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/CancelESMM", ReplyAction="http://tempuri.org/IInvoiceService/CancelESMMResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.CancelESMMResponse> CancelESMMAsync(IsNet.EFatura.CancelESMMRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/GetCompanyBalance", ReplyAction="http://tempuri.org/IInvoiceService/GetCompanyBalanceResponse")]
-        System.Threading.Tasks.Task<IsnetEFatura.GetBalanceResponse> GetCompanyBalanceAsync(IsnetEFatura.GetBalanceRequest request);
+        IsNet.EFatura.GetBalanceResponse GetCompanyBalance(IsNet.EFatura.GetBalanceRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInvoiceService/GetCompanyBalance", ReplyAction="http://tempuri.org/IInvoiceService/GetCompanyBalanceResponse")]
+        System.Threading.Tasks.Task<IsNet.EFatura.GetBalanceResponse> GetCompanyBalanceAsync(IsNet.EFatura.GetBalanceRequest request);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    public interface IInvoiceServiceChannel : IsnetEFatura.IInvoiceService, System.ServiceModel.IClientChannel
+    public interface IInvoiceServiceChannel : IsNet.EFatura.IInvoiceService, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    public partial class InvoiceServiceClient : System.ServiceModel.ClientBase<IsnetEFatura.IInvoiceService>, IsnetEFatura.IInvoiceService
+    public partial class InvoiceServiceClient : System.ServiceModel.ClientBase<IsNet.EFatura.IInvoiceService>, IsNet.EFatura.IInvoiceService
     {
         
         /// <summary>
@@ -23035,182 +23148,362 @@ namespace IsnetEFatura
         {
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceResponse> SendInvoiceAsync(IsnetEFatura.SendInvoiceRequest request)
+        public IsNet.EFatura.SendInvoiceResponse SendInvoice(IsNet.EFatura.SendInvoiceRequest request)
+        {
+            return base.Channel.SendInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceResponse> SendInvoiceAsync(IsNet.EFatura.SendInvoiceRequest request)
         {
             return base.Channel.SendInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceResponse> SendInvoiceApiAsync(IsnetEFatura.SendInvoiceRequest request)
+        public IsNet.EFatura.SendInvoiceResponse SendInvoiceApi(IsNet.EFatura.SendInvoiceRequest request)
+        {
+            return base.Channel.SendInvoiceApi(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceResponse> SendInvoiceApiAsync(IsNet.EFatura.SendInvoiceRequest request)
         {
             return base.Channel.SendInvoiceApiAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceXmlResponse> SendInvoiceXmlAsync(IsnetEFatura.SendInvoiceXmlRequest request)
+        public IsNet.EFatura.SendInvoiceXmlResponse SendInvoiceXml(IsNet.EFatura.SendInvoiceXmlRequest request)
+        {
+            return base.Channel.SendInvoiceXml(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceXmlResponse> SendInvoiceXmlAsync(IsNet.EFatura.SendInvoiceXmlRequest request)
         {
             return base.Channel.SendInvoiceXmlAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceXmlWithoutInvoiceNumberResponse> SendInvoiceXmlWithoutInvoiceNumberAsync(IsnetEFatura.SendInvoiceXmlWithoutInvoiceNumberRequest request)
+        public IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberResponse SendInvoiceXmlWithoutInvoiceNumber(IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberRequest request)
+        {
+            return base.Channel.SendInvoiceXmlWithoutInvoiceNumber(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberResponse> SendInvoiceXmlWithoutInvoiceNumberAsync(IsNet.EFatura.SendInvoiceXmlWithoutInvoiceNumberRequest request)
         {
             return base.Channel.SendInvoiceXmlWithoutInvoiceNumberAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceAsync(IsnetEFatura.SendArchiveInvoiceRequest request)
+        public IsNet.EFatura.SendArchiveInvoiceResponse SendArchiveInvoice(IsNet.EFatura.SendArchiveInvoiceRequest request)
+        {
+            return base.Channel.SendArchiveInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceAsync(IsNet.EFatura.SendArchiveInvoiceRequest request)
         {
             return base.Channel.SendArchiveInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceApiAsync(IsnetEFatura.SendArchiveInvoiceRequest request)
+        public IsNet.EFatura.SendArchiveInvoiceResponse SendArchiveInvoiceApi(IsNet.EFatura.SendArchiveInvoiceRequest request)
+        {
+            return base.Channel.SendArchiveInvoiceApi(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceResponse> SendArchiveInvoiceApiAsync(IsNet.EFatura.SendArchiveInvoiceRequest request)
         {
             return base.Channel.SendArchiveInvoiceApiAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceXmlResponse> SendArchiveInvoiceXmlAsync(IsnetEFatura.SendArchiveInvoiceXmlRequest request)
+        public IsNet.EFatura.SendArchiveInvoiceXmlResponse SendArchiveInvoiceXml(IsNet.EFatura.SendArchiveInvoiceXmlRequest request)
+        {
+            return base.Channel.SendArchiveInvoiceXml(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceXmlResponse> SendArchiveInvoiceXmlAsync(IsNet.EFatura.SendArchiveInvoiceXmlRequest request)
         {
             return base.Channel.SendArchiveInvoiceXmlAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse> SendArchiveInvoiceXmlWithoutInvoiceNumberAsync(IsnetEFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest request)
+        public IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse SendArchiveInvoiceXmlWithoutInvoiceNumber(IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest request)
+        {
+            return base.Channel.SendArchiveInvoiceXmlWithoutInvoiceNumber(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberResponse> SendArchiveInvoiceXmlWithoutInvoiceNumberAsync(IsNet.EFatura.SendArchiveInvoiceXmlWithoutInvoiceNumberRequest request)
         {
             return base.Channel.SendArchiveInvoiceXmlWithoutInvoiceNumberAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendInvoiceReplyResponse> SendInvoiceReplyAsync(IsnetEFatura.SendInvoiceReplyRequest request)
+        public IsNet.EFatura.SendInvoiceReplyResponse SendInvoiceReply(IsNet.EFatura.SendInvoiceReplyRequest request)
+        {
+            return base.Channel.SendInvoiceReply(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendInvoiceReplyResponse> SendInvoiceReplyAsync(IsNet.EFatura.SendInvoiceReplyRequest request)
         {
             return base.Channel.SendInvoiceReplyAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.UpdateInvoiceStateResponse> UpdateInvoiceStateAsync(IsnetEFatura.UpdateInvoiceStateRequest request)
+        public IsNet.EFatura.UpdateInvoiceStateResponse UpdateInvoiceState(IsNet.EFatura.UpdateInvoiceStateRequest request)
+        {
+            return base.Channel.UpdateInvoiceState(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.UpdateInvoiceStateResponse> UpdateInvoiceStateAsync(IsNet.EFatura.UpdateInvoiceStateRequest request)
         {
             return base.Channel.UpdateInvoiceStateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.DirectInvoiceResponse> DirectInvoiceAsync(IsnetEFatura.DirectInvoiceRequest request)
+        public IsNet.EFatura.DirectInvoiceResponse DirectInvoice(IsNet.EFatura.DirectInvoiceRequest request)
+        {
+            return base.Channel.DirectInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.DirectInvoiceResponse> DirectInvoiceAsync(IsNet.EFatura.DirectInvoiceRequest request)
         {
             return base.Channel.DirectInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchInvoiceResponse> SearchInvoiceAsync(IsnetEFatura.SearchInvoiceRequest request)
+        public IsNet.EFatura.SearchInvoiceResponse SearchInvoice(IsNet.EFatura.SearchInvoiceRequest request)
+        {
+            return base.Channel.SearchInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchInvoiceResponse> SearchInvoiceAsync(IsNet.EFatura.SearchInvoiceRequest request)
         {
             return base.Channel.SearchInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchAllInvoiceResponse> SearchAllInvoiceAsync(IsnetEFatura.SearchAllInvoiceRequest request)
+        public IsNet.EFatura.SearchAllInvoiceResponse SearchAllInvoice(IsNet.EFatura.SearchAllInvoiceRequest request)
+        {
+            return base.Channel.SearchAllInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchAllInvoiceResponse> SearchAllInvoiceAsync(IsNet.EFatura.SearchAllInvoiceRequest request)
         {
             return base.Channel.SearchAllInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchExternalInvoiceResponse> SearchExternalInvoiceAsync(IsnetEFatura.SearchExternalInvoiceRequest request)
+        public IsNet.EFatura.SearchExternalInvoiceResponse SearchExternalInvoice(IsNet.EFatura.SearchExternalInvoiceRequest request)
+        {
+            return base.Channel.SearchExternalInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchExternalInvoiceResponse> SearchExternalInvoiceAsync(IsNet.EFatura.SearchExternalInvoiceRequest request)
         {
             return base.Channel.SearchExternalInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchArchiveInvoiceResponse> SearchArchiveInvoiceAsync(IsnetEFatura.SearchArchiveInvoiceRequest request)
+        public IsNet.EFatura.SearchArchiveInvoiceResponse SearchArchiveInvoice(IsNet.EFatura.SearchArchiveInvoiceRequest request)
+        {
+            return base.Channel.SearchArchiveInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchArchiveInvoiceResponse> SearchArchiveInvoiceAsync(IsNet.EFatura.SearchArchiveInvoiceRequest request)
         {
             return base.Channel.SearchArchiveInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.ArchiveInvoiceResponse> ArchiveInvoiceAsync(IsnetEFatura.ArchiveInvoiceRequest request)
+        public IsNet.EFatura.ArchiveInvoiceResponse ArchiveInvoice(IsNet.EFatura.ArchiveInvoiceRequest request)
+        {
+            return base.Channel.ArchiveInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.ArchiveInvoiceResponse> ArchiveInvoiceAsync(IsNet.EFatura.ArchiveInvoiceRequest request)
         {
             return base.Channel.ArchiveInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.DeArchiveInvoiceResponse> DeArchiveInvoiceAsync(IsnetEFatura.DeArchiveInvoiceRequest request)
+        public IsNet.EFatura.DeArchiveInvoiceResponse DeArchiveInvoice(IsNet.EFatura.DeArchiveInvoiceRequest request)
+        {
+            return base.Channel.DeArchiveInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.DeArchiveInvoiceResponse> DeArchiveInvoiceAsync(IsNet.EFatura.DeArchiveInvoiceRequest request)
         {
             return base.Channel.DeArchiveInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.CancelArchiveInvoiceResponse> CancelArchiveInvoiceAsync(IsnetEFatura.CancelArchiveInvoiceRequest request)
+        public IsNet.EFatura.CancelArchiveInvoiceResponse CancelArchiveInvoice(IsNet.EFatura.CancelArchiveInvoiceRequest request)
+        {
+            return base.Channel.CancelArchiveInvoice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.CancelArchiveInvoiceResponse> CancelArchiveInvoiceAsync(IsNet.EFatura.CancelArchiveInvoiceRequest request)
         {
             return base.Channel.CancelArchiveInvoiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceReportResponse> SendArchiveInvoiceReportAsync(IsnetEFatura.SendArchiveInvoiceReportRequest request)
+        public IsNet.EFatura.SendArchiveInvoiceReportResponse SendArchiveInvoiceReport(IsNet.EFatura.SendArchiveInvoiceReportRequest request)
+        {
+            return base.Channel.SendArchiveInvoiceReport(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceReportResponse> SendArchiveInvoiceReportAsync(IsNet.EFatura.SendArchiveInvoiceReportRequest request)
         {
             return base.Channel.SendArchiveInvoiceReportAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchArchiveInvoiceReportResponse> SearchArchiveInvoiceReportAsync(IsnetEFatura.SearchArchiveInvoiceReportRequest request)
+        public IsNet.EFatura.SearchArchiveInvoiceReportResponse SearchArchiveInvoiceReport(IsNet.EFatura.SearchArchiveInvoiceReportRequest request)
+        {
+            return base.Channel.SearchArchiveInvoiceReport(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchArchiveInvoiceReportResponse> SearchArchiveInvoiceReportAsync(IsNet.EFatura.SearchArchiveInvoiceReportRequest request)
         {
             return base.Channel.SearchArchiveInvoiceReportAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendArchiveInvoiceMailResponse> SendArchiveInvoiceMailAsync(IsnetEFatura.SendArchiveInvoiceMailRequest request)
+        public IsNet.EFatura.SendArchiveInvoiceMailResponse SendArchiveInvoiceMail(IsNet.EFatura.SendArchiveInvoiceMailRequest request)
+        {
+            return base.Channel.SendArchiveInvoiceMail(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendArchiveInvoiceMailResponse> SendArchiveInvoiceMailAsync(IsNet.EFatura.SendArchiveInvoiceMailRequest request)
         {
             return base.Channel.SendArchiveInvoiceMailAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.GetEttnListResponse> GetEttnListAsync(IsnetEFatura.SearchAllInvoiceRequest request)
+        public IsNet.EFatura.GetEttnListResponse GetEttnList(IsNet.EFatura.SearchAllInvoiceRequest request)
+        {
+            return base.Channel.GetEttnList(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.GetEttnListResponse> GetEttnListAsync(IsNet.EFatura.SearchAllInvoiceRequest request)
         {
             return base.Channel.GetEttnListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.CreateReturnReceiptResponse> CreateReturnReceiptAsync(IsnetEFatura.CreateReturnReceiptRequest request)
+        public IsNet.EFatura.CreateReturnReceiptResponse CreateReturnReceipt(IsNet.EFatura.CreateReturnReceiptRequest request)
+        {
+            return base.Channel.CreateReturnReceipt(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.CreateReturnReceiptResponse> CreateReturnReceiptAsync(IsNet.EFatura.CreateReturnReceiptRequest request)
         {
             return base.Channel.CreateReturnReceiptAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendDespatchAdviceResponse> SendDespatchAdviceAsync(IsnetEFatura.SendDespatchAdviceRequest request)
+        public IsNet.EFatura.SendDespatchAdviceResponse SendDespatchAdvice(IsNet.EFatura.SendDespatchAdviceRequest request)
+        {
+            return base.Channel.SendDespatchAdvice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendDespatchAdviceResponse> SendDespatchAdviceAsync(IsNet.EFatura.SendDespatchAdviceRequest request)
         {
             return base.Channel.SendDespatchAdviceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendDespatchAdviceXmlResponse> SendDespatchAdviceXmlAsync(IsnetEFatura.SendDespatchAdviceXmlRequest request)
+        public IsNet.EFatura.SendDespatchAdviceXmlResponse SendDespatchAdviceXml(IsNet.EFatura.SendDespatchAdviceXmlRequest request)
+        {
+            return base.Channel.SendDespatchAdviceXml(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendDespatchAdviceXmlResponse> SendDespatchAdviceXmlAsync(IsNet.EFatura.SendDespatchAdviceXmlRequest request)
         {
             return base.Channel.SendDespatchAdviceXmlAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse> SendDespatchAdviceXmlWithoutDespatchAdviceNumberAsync(IsnetEFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest request)
+        public IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse SendDespatchAdviceXmlWithoutDespatchAdviceNumber(IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest request)
+        {
+            return base.Channel.SendDespatchAdviceXmlWithoutDespatchAdviceNumber(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberResponse> SendDespatchAdviceXmlWithoutDespatchAdviceNumberAsync(IsNet.EFatura.SendDespatchAdviceXmlWithoutDespatchAdviceNumberRequest request)
         {
             return base.Channel.SendDespatchAdviceXmlWithoutDespatchAdviceNumberAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchDespatchAdviceResponse> SearchDespatchAdviceAsync(IsnetEFatura.SearchDespatchAdviceRequest request)
+        public IsNet.EFatura.SearchDespatchAdviceResponse SearchDespatchAdvice(IsNet.EFatura.SearchDespatchAdviceRequest request)
+        {
+            return base.Channel.SearchDespatchAdvice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchDespatchAdviceResponse> SearchDespatchAdviceAsync(IsNet.EFatura.SearchDespatchAdviceRequest request)
         {
             return base.Channel.SearchDespatchAdviceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendReceiptAdviceResponse> SendReceiptAdviceAsync(IsnetEFatura.SendReceiptAdviceRequest request)
+        public IsNet.EFatura.SendReceiptAdviceResponse SendReceiptAdvice(IsNet.EFatura.SendReceiptAdviceRequest request)
+        {
+            return base.Channel.SendReceiptAdvice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendReceiptAdviceResponse> SendReceiptAdviceAsync(IsNet.EFatura.SendReceiptAdviceRequest request)
         {
             return base.Channel.SendReceiptAdviceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendReceiptAdviceXmlResponse> SendReceiptAdviceXmlAsync(IsnetEFatura.SendReceiptAdviceXmlRequest request)
+        public IsNet.EFatura.SendReceiptAdviceXmlResponse SendReceiptAdviceXml(IsNet.EFatura.SendReceiptAdviceXmlRequest request)
+        {
+            return base.Channel.SendReceiptAdviceXml(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendReceiptAdviceXmlResponse> SendReceiptAdviceXmlAsync(IsNet.EFatura.SendReceiptAdviceXmlRequest request)
         {
             return base.Channel.SendReceiptAdviceXmlAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse> SendReceiptAdviceXmlWithoutReceiptAdviceNumberAsync(IsnetEFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest request)
+        public IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse SendReceiptAdviceXmlWithoutReceiptAdviceNumber(IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest request)
+        {
+            return base.Channel.SendReceiptAdviceXmlWithoutReceiptAdviceNumber(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberResponse> SendReceiptAdviceXmlWithoutReceiptAdviceNumberAsync(IsNet.EFatura.SendReceiptAdviceXmlWithoutReceiptAdviceNumberRequest request)
         {
             return base.Channel.SendReceiptAdviceXmlWithoutReceiptAdviceNumberAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchReceiptAdviceResponse> SearchReceiptAdviceAsync(IsnetEFatura.SearchReceiptAdviceRequest request)
+        public IsNet.EFatura.SearchReceiptAdviceResponse SearchReceiptAdvice(IsNet.EFatura.SearchReceiptAdviceRequest request)
+        {
+            return base.Channel.SearchReceiptAdvice(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchReceiptAdviceResponse> SearchReceiptAdviceAsync(IsNet.EFatura.SearchReceiptAdviceRequest request)
         {
             return base.Channel.SearchReceiptAdviceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendESMMResponse> SendESMMAsync(IsnetEFatura.SendESMMRequest request)
+        public IsNet.EFatura.SendESMMResponse SendESMM(IsNet.EFatura.SendESMMRequest request)
+        {
+            return base.Channel.SendESMM(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendESMMResponse> SendESMMAsync(IsNet.EFatura.SendESMMRequest request)
         {
             return base.Channel.SendESMMAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SendESMMXmlResponse> SendESMMXmlAsync(IsnetEFatura.SendESMMXmlRequest request)
+        public IsNet.EFatura.SendESMMXmlResponse SendESMMXml(IsNet.EFatura.SendESMMXmlRequest request)
+        {
+            return base.Channel.SendESMMXml(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SendESMMXmlResponse> SendESMMXmlAsync(IsNet.EFatura.SendESMMXmlRequest request)
         {
             return base.Channel.SendESMMXmlAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.SearchESMMResponse> SearchESMMAsync(IsnetEFatura.SearchESMMRequest request)
+        public IsNet.EFatura.SearchESMMResponse SearchESMM(IsNet.EFatura.SearchESMMRequest request)
+        {
+            return base.Channel.SearchESMM(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.SearchESMMResponse> SearchESMMAsync(IsNet.EFatura.SearchESMMRequest request)
         {
             return base.Channel.SearchESMMAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.CancelESMMResponse> CancelESMMAsync(IsnetEFatura.CancelESMMRequest request)
+        public IsNet.EFatura.CancelESMMResponse CancelESMM(IsNet.EFatura.CancelESMMRequest request)
+        {
+            return base.Channel.CancelESMM(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.CancelESMMResponse> CancelESMMAsync(IsNet.EFatura.CancelESMMRequest request)
         {
             return base.Channel.CancelESMMAsync(request);
         }
         
-        public System.Threading.Tasks.Task<IsnetEFatura.GetBalanceResponse> GetCompanyBalanceAsync(IsnetEFatura.GetBalanceRequest request)
+        public IsNet.EFatura.GetBalanceResponse GetCompanyBalance(IsNet.EFatura.GetBalanceRequest request)
+        {
+            return base.Channel.GetCompanyBalance(request);
+        }
+        
+        public System.Threading.Tasks.Task<IsNet.EFatura.GetBalanceResponse> GetCompanyBalanceAsync(IsNet.EFatura.GetBalanceRequest request)
         {
             return base.Channel.GetCompanyBalanceAsync(request);
         }

@@ -1,36 +1,23 @@
-﻿using System;
-using System.IO;
-using System.Security.Cryptography;
-using System.ServiceModel;
-using System.Text;
+﻿using System.ServiceModel;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
-using AutoMapper;
 using DijitalPlanet.EFaturaEArsiv;
 using petronet.efatura.api.core.Helper;
 using petronet.efatura.api.core.Integration.Command.Interfaces;
-using petronet.efatura.api.core.Model;
 using petronet.efatura.api.core.ViewModel;
-
 using InvoiceType = petronet.efatura.api.core.Model.UBL.InvoiceType;
 
-namespace petronet.efatura.api.core.Integration.Command.SendInvoice {
-    public class DijitalPlanetSendEInvoice : ICommandSendEInvoice {
+namespace petronet.efatura.api.core.Integration.Command {
+    public class DijitalPlanetSendEInvoice : ICommandSendUBL {
 
-        private Task<ServiceResponse> _result;
         private IntegrationServiceSoapClient _serviceProxy;
         public InvoiceType Invoice { get; set; }
-        public IMapper IMapper { get; set; }
         public ServiceInfo ServiceInfo { get; set; }
 
-        public DijitalPlanetSendEInvoice(
-            InvoiceType invoiceType = null,
-            IMapper mapper = null) {
-            this.IMapper = mapper;
+        public DijitalPlanetSendEInvoice(InvoiceType invoiceType) {
             this.Invoice = invoiceType;
         }
 
-        public Task<ServiceResponse> TaskResult() => this._result;
+        public Task<ServiceResponse> Result { get; set; }
 
         public async Task Execute() {
 
@@ -38,7 +25,10 @@ namespace petronet.efatura.api.core.Integration.Command.SendInvoice {
                 Hatali = false,
             };
 
-            this._serviceProxy = CreateServiceProxy(ServiceInfo.ServiceUrl, ServiceInfo.UserName, ServiceInfo.Password);
+            this._serviceProxy = DijitalPlanetHelper.CreateServiceProxy(
+                ServiceInfo.ServiceUrl,
+                ServiceInfo.UserName,
+                ServiceInfo.Password);
 
             var ticket = _serviceProxy.GetFormsAuthenticationTicket(
                     this.ServiceInfo.CorporateCode,
@@ -53,21 +43,12 @@ namespace petronet.efatura.api.core.Integration.Command.SendInvoice {
             result.Sonuc = stateResult.ErrorCode == 0 ? "İşlem başarıyla tamamlandı" : "İşlem tamamlandı!";
             result.Data = stateResult;
 
-            _result = Task.FromResult(result);
+            this.Result = Task.FromResult(result);
         }
 
-        private IntegrationServiceSoapClient CreateServiceProxy(string serviceUrl, string userName, string password) {
-            var basicHttpBinding = new BasicHttpsBinding(BasicHttpsSecurityMode.Transport);
-            var endPoint = new EndpointAddress(serviceUrl);
-
-            var proxy = new IntegrationServiceSoapClient(basicHttpBinding, endPoint);
-            proxy.ClientCredentials.UserName.UserName = userName;
-            proxy.ClientCredentials.UserName.Password = password;
-            return proxy;
-        }
 
         public void Dispose() {
-            _result?.Dispose();
+            this.Result?.Dispose();
             (this._serviceProxy as ICommunicationObject)?.Close();
         }
     }

@@ -1,60 +1,50 @@
 ﻿using System;
-using System.IO;
-using System.Security.Cryptography;
 using System.ServiceModel;
-using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 using AutoMapper;
-using DijitalPlanet.EFaturaEArsiv;
-using IsnetEFatura;
 using petronet.efatura.api.core.Helper;
 using petronet.efatura.api.core.Integration.Command.Interfaces;
-using petronet.efatura.api.core.Model;
 using petronet.efatura.api.core.ViewModel;
-
+using uyumsoft= Uyumsoft.EFatura;
 using InvoiceType = petronet.efatura.api.core.Model.UBL.InvoiceType;
 
-namespace petronet.efatura.api.core.Integration.Command.SendInvoice {
-    public class IsnetSendEInvoice<TService> : ICommandSendEInvoice {
+namespace petronet.efatura.api.core.Integration.Command {
+    public class UyumsoftSendEInvoice : ICommandSendUBL {
 
-        private TService _serviceProxy;
-        private Task<ServiceResponse> _result;
+        #region Props & Fields
+
+        private uyumsoft.IntegrationClient _serviceProxy;
 
         public InvoiceType Invoice { get; set; }
-        public IMapper IMapper { get; set; }
         public ServiceInfo ServiceInfo { get; set; }
+        public Task<ServiceResponse> Result { get; set; }
 
-        public IsnetSendEInvoice(
-            TService serviceProxy,
-            InvoiceType invoiceType = null,
-            IMapper mapper = null) {
+        IMapper _mapper { get; set; }
 
-            this.IMapper = mapper;
-            this._serviceProxy = serviceProxy;
+        #endregion
+
+        public UyumsoftSendEInvoice(InvoiceType invoiceType, IMapper mapper) {
             this.Invoice = invoiceType;
+            this._mapper = mapper;
         }
-
-        public Task<ServiceResponse> TaskResult() => this._result;
-
+        
         public async Task Execute() {
             if (Invoice == null) { throw new ArgumentNullException("Invoice boş olamaz!"); }
 
+            this._serviceProxy = UyumsoftHelper.CreateServiceProxy(ServiceInfo.ServiceUrl, ServiceInfo.UserName, ServiceInfo.Password);
 
-            var serviceProxy = (_serviceProxy as IInvoiceService);
+            var uyumsoftInvoiceType = this._mapper.Map<uyumsoft.InvoiceType>(Invoice);
 
-            var request = new SendInvoiceXmlRequest() {
-                Invoices = new[]
+            uyumsoft.InvoiceInfo[] invoices = new[]
+            {
+                new uyumsoft.InvoiceInfo()
                 {
-                    new InvoiceXml()
-                    {
-                        InvoiceContent = Serialization.SerializeToBytes(this.Invoice),
-                        ReceiverTag = this.ServiceInfo.ReceiverPostboxName
-                    }
+                    Invoice = uyumsoftInvoiceType,
+                    LocalDocumentId = "localBelgeAydisi",
                 }
             };
 
-            await serviceProxy.SendInvoiceXmlAsync(request)
+            this.Result = _serviceProxy?.SaveAsDraftAsync(invoices)
                 .ContinueWith(d => {
                     var result = new ServiceResponse() {
                         Hatali = false,
@@ -72,10 +62,10 @@ namespace petronet.efatura.api.core.Integration.Command.SendInvoice {
 
                     return result;
                 });
+
         }
 
         public void Dispose() {
-            _result?.Dispose();
             (this._serviceProxy as ICommunicationObject)?.Close();
         }
     }

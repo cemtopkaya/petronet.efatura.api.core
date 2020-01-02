@@ -4,7 +4,7 @@
         <name>petronet.efatura.api.core</name>
     </assembly>
     <members>
-        <member name="M:petronet.efatura.api.core.Integration.Command.SendInvoice.EFinansSendEInvoice.Execute">
+        <member name="M:petronet.efatura.api.core.Integration.Command.EFinansSendEInvoice.Execute">
             <summary>
             UserServiceClient ve ConnectorServiceClient sınıflarından nesneler oluşturulur.
             Önce wsLogin ile kullanıcı girişi yapılır ve dönen cookie bilgisi connectorService nesnesine her talebi için atanır.
